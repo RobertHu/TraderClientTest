@@ -1,0 +1,171 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="BinarySerialization" priority="0" />
+      <Item value="BinarySerializationProtocol`0" priority="0" />
+      <Item value="override" priority="1" />
+      <Item value="if" priority="2" />
+      <Item value="message" priority="1" />
+      <Item value="is" priority="0" />
+      <Item value="ScsTextMessage`0" priority="3" />
+      <Item value="return" priority="3" />
+      <Item value="new" priority="4" />
+      <Item value="byte" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="Encoding`0" priority="1" />
+      <Item value="bytes" priority="0" />
+      <Item value="IScsWireProtocolFactory`0" priority="0" />
+      <Item value="NullReferenceException`0" priority="0" />
+      <Item value="MyWireProtocol`0" priority="1" />
+      <Item value="for" priority="1" />
+      <Item value="Console`0" priority="1" />
+      <Item value="e" priority="1" />
+      <Item value="public" priority="1" />
+      <Item value="const" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="static" priority="3" />
+      <Item value="void" priority="0" />
+      <Item value="_messageCount" priority="1" />
+      <Item value="else" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="Stopwatch`0" priority="0" />
+      <Item value="Consts`0" priority="2" />
+      <Item value="_stopwatch" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="sender" priority="0" />
+      <Item value="IScsServerClient`0" priority="0" />
+      <Item value="client" priority="2" />
+      <Item value="OneWayClient`0" priority="0" />
+      <Item value="DuplexServer`0" priority="0" />
+      <Item value="DuplexClient`0" priority="0" />
+      <Item value="OneWayClientDefaultProtocol`0" priority="0" />
+      <Item value="OneWayServerDefaultProtocol`0" priority="0" />
+      <Item value="DuplexServerDefaultProtocol`0" priority="0" />
+      <Item value="DuplexClientDefaultProtocol`0" priority="0" />
+      <Item value="ushort" priority="0" />
+      <Item value="IScsClient`0" priority="0" />
+      <Item value="synchronizedMessenger" priority="0" />
+      <Item value="OneWayClientCustomProtocol`0" priority="0" />
+      <Item value="OneWayServerCustomProtocol`0" priority="0" />
+      <Item value="DuplexServerCustomProtocol`0" priority="0" />
+      <Item value="DuplexClientCustomProtocolSynchronized`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hik.Communication.Scs.Communication.Messages.ScsTextMessage">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetBytes`0" priority="0" />
+      <Item value="GetString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hik.Communication.Scs.Communication.Messages.MessageEventArgs">
+      <Item value="Message" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CommonLib.Consts">
+      <Item value="MessageCount" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Stopwatch">
+      <Item value="StartNew`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Stop`0" priority="0" />
+      <Item value="Elapsed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ServerApp.OneWayServer">
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hik.Communication.Scs.Server.IScsServerClient">
+      <Item value="SendMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ClientApp.OneWayClient">
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hik.Communication.Scs.Client.IScsClient">
+      <Item value="MessageReceived" priority="1" />
+      <Item value="WireProtocol" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hik.Communication.Scs.Communication.Messengers.SynchronizedMessenger`1">
+      <Item value="Start`0" priority="0" />
+      <Item value="ReceiveMessage`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7F7D3248-4432-4E7B-9CFD-25982668AD5B/f:MyWireProtocol.cs" caret="147" fromTop="3" />
+      <File id="7F7D3248-4432-4E7B-9CFD-25982668AD5B/f:MyWireProtocolFactory.cs" caret="0" fromTop="0" />
+      <File id="7F7D3248-4432-4E7B-9CFD-25982668AD5B/f:Consts.cs" caret="127" fromTop="7" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:OneWayServerCustomProtocol.cs" caret="0" fromTop="0" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:OneWayServerDefaultProtocol.cs" caret="0" fromTop="0" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:DuplexServerDefaultProtocol.cs" caret="505" fromTop="16" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:OneWayClientCustomProtocol.cs" caret="0" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:OneWayClientDefaultProtocol.cs" caret="0" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocolSynchronized.cs" caret="0" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocol.cs" caret="0" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="0" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:Program.cs" caret="112" fromTop="6" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocolSynchronized.cs" caret="272" fromTop="9" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:Program.cs" caret="129" fromTop="6" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:DuplexServerCustomProtocol.cs" caret="251" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:OneWayClientCustomProtocol.cs" caret="625" fromTop="24" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="1724" fromTop="50" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:OneWayClientCustomProtocol.cs" caret="13" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="368" fromTop="17" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="13" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="815" fromTop="23" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="1327" fromTop="26" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="206" fromTop="5" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocol.cs" caret="270" fromTop="9" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:OneWayClientCustomProtocol.cs" caret="229" fromTop="8" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:DuplexServerCustomProtocol.cs" caret="277" fromTop="5" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:OneWayServerDefaultProtocol.cs" caret="40" fromTop="1" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:OneWayServerDefaultProtocol.cs" caret="270" fromTop="9" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:OneWayClientDefaultProtocol.cs" caret="236" fromTop="8" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:OneWayServerDefaultProtocol.cs" caret="505" fromTop="16" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:OneWayClientDefaultProtocol.cs" caret="567" fromTop="17" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocol.cs" caret="263" fromTop="9" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocol.cs" caret="685" fromTop="21" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:DuplexServerDefaultProtocol.cs" caret="270" fromTop="9" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:DuplexServerDefaultProtocol.cs" caret="505" fromTop="16" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocolSynchronized.cs" caret="1312" fromTop="31" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocolSynchronized.cs" caret="1169" fromTop="23" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocolSynchronized.cs" caret="802" fromTop="24" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocolSynchronized.cs" caret="1067" fromTop="30" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocolSynchronized.cs" caret="318" fromTop="11" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientDefaultProtocolSynchronized.cs" caret="13" fromTop="0" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocolSynchronized.cs" caret="310" fromTop="9" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:DuplexClientCustomProtocolSynchronized.cs" caret="692" fromTop="18" />
+      <File id="F515CE95-6A3F-4E5E-867A-899FFFC90D43/f:Program.cs" caret="134" fromTop="6" />
+      <File id="8D1CD669-49E3-4F7E-98B1-6E4405BEBAD6/f:Program.cs" caret="139" fromTop="6" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

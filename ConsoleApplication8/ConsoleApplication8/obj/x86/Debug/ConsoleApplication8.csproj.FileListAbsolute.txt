@@ -1,0 +1,4 @@
+D:\VsProjects\ConsoleApplication8\ConsoleApplication8\bin\Debug\ConsoleApplication8.exe
+D:\VsProjects\ConsoleApplication8\ConsoleApplication8\bin\Debug\ConsoleApplication8.pdb
+D:\VsProjects\ConsoleApplication8\ConsoleApplication8\obj\x86\Debug\ConsoleApplication8.exe
+D:\VsProjects\ConsoleApplication8\ConsoleApplication8\obj\x86\Debug\ConsoleApplication8.pdb

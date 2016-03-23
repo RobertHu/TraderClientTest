@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPFDispatcherSynchonizationContext.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel LastChildFill="True">
+        <Button Content="Do It" x:Name="btnDoIt" Margin="2" 
+                DockPanel.Dock="Top" Click="btnDoIt_Click"/>
+        <ListBox x:Name="lstBox" HorizontalAlignment="Stretch" 
+                 VerticalAlignment="Stretch"/>
+        
+    </DockPanel>
+</Window>

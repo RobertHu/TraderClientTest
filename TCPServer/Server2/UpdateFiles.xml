@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Files>
+  <File>Clock.exe</File>
+  <File>FaxAndEmailManager.exe</File>
+  <File>new.docx</File>
+  <File>send.txt</File>
+  <File>AccountService.cs</File>
+  <File>TCPClient.exe</File>
+</Files>

@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.omnicare.com/StateServer/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s2="iExchange.Common.News" xmlns:s3="iExchange.Common.BestLimit" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.omnicare.com/StateServer/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.omnicare.com/StateServer/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:import namespace="iExchange.Common.News" />
+      <s:import namespace="iExchange.Common.BestLimit" />
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateInstrument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="instrumentCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="priceEnable" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="sourceName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateInstrumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateInstrumentResult" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="errorMsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="update">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Token">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="UserID" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="UserType" type="tns:UserType" />
+          <s:element minOccurs="1" maxOccurs="1" name="AppType" type="tns:AppType" />
+          <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ExchangeSystem" type="tns:ExchangeSystem" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="UserType">
+        <s:restriction base="s:string">
+          <s:enumeration value="System" />
+          <s:enumeration value="Dealer" />
+          <s:enumeration value="Customer" />
+          <s:enumeration value="TradingProxy" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="AppType">
+        <s:restriction base="s:string">
+          <s:enumeration value="StateServer" />
+          <s:enumeration value="QuotationServer" />
+          <s:enumeration value="TransactionServer" />
+          <s:enumeration value="DealingConsoleServer" />
+          <s:enumeration value="QuotationCollector" />
+          <s:enumeration value="BackOffice" />
+          <s:enumeration value="DealingConsole" />
+          <s:enumeration value="TradingConsole" />
+          <s:enumeration value="RiskMonitor" />
+          <s:enumeration value="TradingMonitor" />
+          <s:enumeration value="Mobile" />
+          <s:enumeration value="TradingConsoleSilverLight" />
+          <s:enumeration value="PhysicalTerminal" />
+          <s:enumeration value="Manager" />
+          <s:enumeration value="SourceManager" />
+          <s:enumeration value="ReportCenter" />
+          <s:enumeration value="ReportCenter2" />
+          <s:enumeration value="PerformanceMonitor" />
+          <s:enumeration value="CppTrader" />
+          <s:enumeration value="ResetPassword" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="ExchangeSystem">
+        <s:restriction base="s:string">
+          <s:enumeration value="Local" />
+          <s:enumeration value="Bursa" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="UpdateResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BroadcastQuotation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="originQs" type="tns:ArrayOfOriginQuotation" />
+            <s:element minOccurs="0" maxOccurs="1" name="overridedQs" type="tns:ArrayOfOverridedQuotation" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfOriginQuotation">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OriginQuotation" nillable="true" type="tns:OriginQuotation" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OriginQuotation">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="HasWatchOnlyQuotePolicies" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="Timestamp" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ask" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Bid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="High" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Low" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Origin" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsProblematic" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Volume" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalVolume" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DealereID" type="s1:guid" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfOverridedQuotation">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OverridedQuotation" nillable="true" type="tns:OverridedQuotation" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OverridedQuotation">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="QuotePolicyID" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="Timestamp" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Ask" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Bid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="High" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Low" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Volume" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalVolume" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Origin" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DealerID" type="s1:guid" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="BroadcastQuotationResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Reset">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="resetNode">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="overridedQs" type="tns:ArrayOfOverridedQuotation" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="FlushQuotations">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="quotation" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FlushQuotationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FlushQuotationsResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Alert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="alertNode">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AlertResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Cut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="cutNode">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CutResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BroadcastExecuteResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="1" maxOccurs="1" name="tranId" type="s1:guid" />
+            <s:element minOccurs="1" maxOccurs="1" name="error" type="tns:TransactionError" />
+            <s:element minOccurs="0" maxOccurs="1" name="xmlTran">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlAccount">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="TransactionError">
+        <s:restriction base="s:string">
+          <s:enumeration value="NoLinkedServer" />
+          <s:enumeration value="OK" />
+          <s:enumeration value="RuntimeError" />
+          <s:enumeration value="DbOperationFailed" />
+          <s:enumeration value="TransactionAlreadyExists" />
+          <s:enumeration value="HasNoOrders" />
+          <s:enumeration value="InvalidRelation" />
+          <s:enumeration value="InvalidLotBalance" />
+          <s:enumeration value="ExceedOpenLotBalance" />
+          <s:enumeration value="InvalidPrice" />
+          <s:enumeration value="AccountIsNotTrading" />
+          <s:enumeration value="AccountResetFailed" />
+          <s:enumeration value="InstrumentIsNotAccepting" />
+          <s:enumeration value="TimingIsNotAcceptable" />
+          <s:enumeration value="OrderTypeIsNotAcceptable" />
+          <s:enumeration value="HasUnassignedOvernightOrders" />
+          <s:enumeration value="HasNoAccountsLocked" />
+          <s:enumeration value="IsLockedByAgent" />
+          <s:enumeration value="IsNotLockedByAgent" />
+          <s:enumeration value="ExceedAssigningLotBalance" />
+          <s:enumeration value="LossExecutedOrderInOco" />
+          <s:enumeration value="OrderLotExceedMaxLot" />
+          <s:enumeration value="OpenOrderNotExists" />
+          <s:enumeration value="AssigningOrderNotExists" />
+          <s:enumeration value="TransactionNotExists" />
+          <s:enumeration value="TransactionCannotBeCanceled" />
+          <s:enumeration value="TransactionCannotBeExecuted" />
+          <s:enumeration value="OrderCannotBeDeleted" />
+          <s:enumeration value="NecessaryIsNotWithinThreshold" />
+          <s:enumeration value="MarginIsNotEnough" />
+          <s:enumeration value="IsNotAccountOwner" />
+          <s:enumeration value="InvalidOrderRelation" />
+          <s:enumeration value="TradePolicyIsNotActive" />
+          <s:enumeration value="SetPriceTooCloseToMarket" />
+          <s:enumeration value="HasNoQuotationExists" />
+          <s:enumeration value="AccountIsInAlerting" />
+          <s:enumeration value="DailyQuotationIsNotIntegrated" />
+          <s:enumeration value="LimitStopAddPositionNotAllowed" />
+          <s:enumeration value="MooMocNewPositionNotAllowed" />
+          <s:enumeration value="TransactionCannotBeBooked" />
+          <s:enumeration value="OnlySptMktIsAllowedForPreCheck" />
+          <s:enumeration value="InvalidTransactionPhase" />
+          <s:enumeration value="ExecuteTimeMustBeInTradingTime" />
+          <s:enumeration value="DatabaseDataIntegralityViolated" />
+          <s:enumeration value="PriceIsOutOfDate" />
+          <s:enumeration value="ShortSellNotAllowed" />
+          <s:enumeration value="InvalidInstalmentTrade" />
+          <s:enumeration value="PrepaymentIsNotAllowed" />
+          <s:enumeration value="HitIsReseted" />
+          <s:enumeration value="ExistPendingLimitCloseOrder" />
+          <s:enumeration value="BuySellCoExistNotAllow" />
+          <s:enumeration value="TransactionExpired" />
+          <s:enumeration value="FillOnMarketCloseNotAllowed" />
+          <s:enumeration value="InstrumentNotInTradePolicy" />
+          <s:enumeration value="AmendedOrderNotFound" />
+          <s:enumeration value="InitialOrderCanNotBeAmended" />
+          <s:enumeration value="InvalidResetStatusWhenAssign" />
+          <s:enumeration value="AlreadyValued" />
+          <s:enumeration value="OutOfAcceptDQVariation" />
+          <s:enumeration value="PriceIsDisabled" />
+          <s:enumeration value="TransactionStateViolated" />
+          <s:enumeration value="PriceChangedSincePlace" />
+          <s:enumeration value="ExceedMaxOpenLot" />
+          <s:enumeration value="ReplacedWithMaxLot" />
+          <s:enumeration value="ExceedMaxPhysicalValue" />
+          <s:enumeration value="BalanceOrEquityIsShort" />
+          <s:enumeration value="SplittedForHasShortSell" />
+          <s:enumeration value="AdjustedToFullPaidOrderForHasShortSell" />
+          <s:enumeration value="MultipleCloseOrderNotFound" />
+          <s:enumeration value="MultipleCloseOnlyExecutedOrderAllowed" />
+          <s:enumeration value="MultipleCloseOnlyOpenOrderAllowed" />
+          <s:enumeration value="MultipleCloseHasNoLotBalance" />
+          <s:enumeration value="MultipleCloseOnlySameContractSizeAllowed" />
+          <s:enumeration value="MultipleCloseOnlySameAccountAllowed" />
+          <s:enumeration value="MultipleCloseOnlySameInstrumentAllowed" />
+          <s:enumeration value="MultipleCloseOppositeNotFound" />
+          <s:enumeration value="MultipleCloseNotSortByCode" />
+          <s:enumeration value="MultipleCloseNotAllowed" />
+          <s:enumeration value="IsCuttingByRemoteSystem" />
+          <s:enumeration value="Action_ShouldAutoFill" />
+          <s:enumeration value="Action_NeedDealerConfirmCanceling" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="BroadcastExecuteResultResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BroadcastCommand">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="commands" type="tns:ArrayOfCommand" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCommand">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Command" nillable="true" type="tns:Command" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Command" abstract="true">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Sequence" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Content">
+            <s:complexType mixed="true">
+              <s:sequence>
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="1" maxOccurs="1" name="DebugId" type="tns:DebugId" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="DebugId">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="VerifyTransaction" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="CancelQuote2Command">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="CustomerID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="BuyQuoteLot" type="s:double" />
+              <s:element minOccurs="1" maxOccurs="1" name="SellQuoteLot" type="s:double" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Quote2Command">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="CustomerID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="BuyQuoteLot" type="s:double" />
+              <s:element minOccurs="1" maxOccurs="1" name="SellQuoteLot" type="s:double" />
+              <s:element minOccurs="1" maxOccurs="1" name="Tick" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="QuoteCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="CustomerID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="QuoteLot" type="s:double" />
+              <s:element minOccurs="1" maxOccurs="1" name="BSStatus" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="SetPriceMaxMovePips" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="UpdateAccountLockCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="QuotationCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="OriginQs" type="tns:ArrayOfOriginQuotation" />
+              <s:element minOccurs="0" maxOccurs="1" name="OverridedQs" type="tns:ArrayOfOverridedQuotation" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="NewsCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="NewsCollection" type="tns:ArrayOfNews" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfNews">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="News" nillable="true" type="s2:News" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="InstrumentUpdateCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="PriceAlertCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="userId" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="NotifyScrapDepositCanceledCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="scrapDepositId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="accountId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="cancelTime" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="cancelReason" type="tns:CancelReason" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="CancelReason">
+        <s:restriction base="s:string">
+          <s:enumeration value="CustomerCanceled" />
+          <s:enumeration value="DealerCanceled" />
+          <s:enumeration value="RiskMonitorCanceled" />
+          <s:enumeration value="MooMocNewPositionNotAllowed" />
+          <s:enumeration value="InitialOrderCanNotBeAmended" />
+          <s:enumeration value="OrderExpired" />
+          <s:enumeration value="InvalidPrice" />
+          <s:enumeration value="RiskMonitorDelete" />
+          <s:enumeration value="AccountResetFailed" />
+          <s:enumeration value="NecessaryIsNotWithinThreshold" />
+          <s:enumeration value="MarginIsNotEnough" />
+          <s:enumeration value="AccountIsNotTrading" />
+          <s:enumeration value="InstrumentIsNotAccepting" />
+          <s:enumeration value="TimingIsNotAcceptable" />
+          <s:enumeration value="OrderTypeIsNotAcceptable" />
+          <s:enumeration value="HasNoAccountsLocked" />
+          <s:enumeration value="IsLockedByAgent" />
+          <s:enumeration value="LossExecutedOrderInOco" />
+          <s:enumeration value="ExceedOpenLotBalance" />
+          <s:enumeration value="OneCancelOther" />
+          <s:enumeration value="AccountIsInAlerting" />
+          <s:enumeration value="LimitStopAddPositionNotAllowed" />
+          <s:enumeration value="TransactionCannotBeBooked" />
+          <s:enumeration value="OnlySptMktIsAllowedForPreCheck" />
+          <s:enumeration value="InvalidTransactionPhase" />
+          <s:enumeration value="TransactionExpired" />
+          <s:enumeration value="OtherReason" />
+          <s:enumeration value="PriceChanged" />
+          <s:enumeration value="OpenOrderIsClosed" />
+          <s:enumeration value="ReplacedWithMaxLot" />
+          <s:enumeration value="SplittedForHasShortSell" />
+          <s:enumeration value="AdjustedToFullPaidOrderForHasShortSell" />
+          <s:enumeration value="MarketPausedOrClosed" />
+          <s:enumeration value="PriceMustBeGreaterThanZero" />
+          <s:enumeration value="MarketPriceOrdersNotSupportedByOppositeLimit" />
+          <s:enumeration value="SellOrderStopPriceMustBeBelowLastTradePrice" />
+          <s:enumeration value="BuyOrderStopPriceMustBeAboveLastTradePrice" />
+          <s:enumeration value="OrderTypeNotPermittedInPreOpen" />
+          <s:enumeration value="OrderPriceOutsideTheLimits" />
+          <s:enumeration value="OrderPriceOutsideBands" />
+          <s:enumeration value="OrderTypeNotPermittedForGroup" />
+          <s:enumeration value="OrderCannotBeModifiedInNoCancel" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="NotifyScrapDepositCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="scrapDepositId" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="scrapDepositCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="accountId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="scrapInstrumentId" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="scrapInstrumentCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="quantityDecimalDigits" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="unitCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="tradeInstrumentId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="submitTime" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="rawQuantity" type="s:decimal" />
+              <s:element minOccurs="1" maxOccurs="1" name="adjustedQuantity" nillable="true" type="s:decimal" />
+              <s:element minOccurs="1" maxOccurs="1" name="finalQuantity" nillable="true" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="validatorId" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="status" type="s:unsignedByte" />
+              <s:element minOccurs="1" maxOccurs="1" name="acceptTime" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="NotifyDeliveryCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="deliveryRequestId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="accountId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="deliveryRequestStatus" type="tns:DeliveryRequestStatus" />
+              <s:element minOccurs="1" maxOccurs="1" name="approvedId" nillable="true" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="approvedTime" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="deliveryTime" nillable="true" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="avalibleDeliveryTime" nillable="true" type="s:dateTime" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="DeliveryRequestStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="Accepted" />
+          <s:enumeration value="Approved" />
+          <s:enumeration value="Stocked" />
+          <s:enumeration value="Delivered" />
+          <s:enumeration value="OrderCreated" />
+          <s:enumeration value="Hedge" />
+          <s:enumeration value="Cancelled" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="CancelDeliveryCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="deliveryRequestId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="accountId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="status" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DeliveryCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="deliveryNode">
+                <s:complexType mixed="true">
+                  <s:sequence>
+                    <s:any />
+                  </s:sequence>
+                </s:complexType>
+              </s:element>
+              <s:element minOccurs="1" maxOccurs="1" name="accountId" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="OpenInterestCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="OpenInterestQuantity" type="s:double" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="TradeCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="TradeMessage" type="tns:TradeMessage" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="TradeMessage">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MessageId" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="InstrumentId" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="Timestamp" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Price" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AggressorSide" type="tns:AggressorSide" />
+          <s:element minOccurs="1" maxOccurs="1" name="Volume" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TradeVolume" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalVolume" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Transactions" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="AggressorSide">
+        <s:restriction base="s:string">
+          <s:enumeration value="Buy" />
+          <s:enumeration value="Sell" />
+          <s:enumeration value="Unknown" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="PriceRangeCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="PriceRange" type="tns:PriceRange" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="PriceRange">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InstrumentId" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="HighLimitPrice" nillable="true" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="LowLimitPrice" nillable="true" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MatchInfoCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentId" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="AccountIds" type="tns:ArrayOfGuid" />
+              <s:element minOccurs="0" maxOccurs="1" name="TimeAndSales" type="tns:ArrayOfTimeAndSale" />
+              <s:element minOccurs="0" maxOccurs="1" name="BestBuys" type="tns:ArrayOfPendingItem" />
+              <s:element minOccurs="0" maxOccurs="1" name="BestSells" type="tns:ArrayOfPendingItem" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfGuid">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="guid" type="s1:guid" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTimeAndSale">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TimeAndSale" nillable="true" type="tns:TimeAndSale" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TimeAndSale">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InstrumentId" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountIds" type="tns:ArrayOfGuid" />
+          <s:element minOccurs="1" maxOccurs="1" name="Timestamp" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPendingItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PendingItem" nillable="true" type="tns:PendingItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PendingItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Price" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ApplyOrderModificationCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="modificationId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="result" type="tns:OrderModifyResult" />
+              <s:element minOccurs="1" maxOccurs="1" name="accountId" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="OrderModifyResult">
+        <s:restriction base="s:string">
+          <s:enumeration value="Confirmed" />
+          <s:enumeration value="Canceled" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="OrderModificationRequestCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="id" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="transactionId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="orderId" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="instrumentId" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="newLot" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="newSetPrice" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="newSetPrice2" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="InstrumentStateChangeCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="InstrumentStateChange" type="tns:InstrumentStateChange" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="InstrumentStateChange">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InstrumentId" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="tns:SecurityTradingStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="SecurityTradingStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="TradingHalt" />
+          <s:enumeration value="PriceIndication" />
+          <s:enumeration value="ReadyToTrade" />
+          <s:enumeration value="NotAvailableForTrading" />
+          <s:enumeration value="UnknownOrInvalid" />
+          <s:enumeration value="PreOpen" />
+          <s:enumeration value="OpeningRotation" />
+          <s:enumeration value="PreCross" />
+          <s:enumeration value="Cross" />
+          <s:enumeration value="NoCancel" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="InstrumentGroupStateChangeCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="InstrumentGroupStateChange" type="tns:InstrumentGroupStateChange" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="InstrumentGroupStateChange">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="GroupId" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="State" type="tns:SecurityTradingStatus" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="BestLimitsCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="BestLimits" type="tns:ArrayOfBestLimit" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfBestLimit">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="BestLimit" nillable="true" type="s3:BestLimit" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CompositeCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Commands" type="tns:ArrayOfCommand" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="FixChartCommand2">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="FixChartCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AsyncCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="AsyncResult" type="tns:AsyncResult" />
+              <s:element minOccurs="1" maxOccurs="1" name="Failed" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="InnerException" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AsyncResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="MethodName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="QuotationSourceCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="SourceName" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EmailCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="TransactionID" type="s1:guid" />
+              <s:element minOccurs="0" maxOccurs="1" name="FromEmail" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ToEmails" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TypeDesc" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="IsSent" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="SourceInstrumentCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="UpdateCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="HitCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ChatCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="AccountGroupIDs" type="tns:ArrayOfGuid" />
+              <s:element minOccurs="0" maxOccurs="1" name="CustomerIDs" type="tns:ArrayOfGuid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountId" nillable="true" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="CutCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AlertCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ResetCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ResetAlertLevelCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="AccountIDs" type="tns:ArrayOfGuid" />
+              <s:element minOccurs="0" maxOccurs="1" name="AlterLevels" type="tns:ArrayOfAlertLevel" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfAlertLevel">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AlertLevel" type="tns:AlertLevel" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="AlertLevel">
+        <s:restriction base="s:string">
+          <s:enumeration value="Normal" />
+          <s:enumeration value="Call" />
+          <s:enumeration value="Notify" />
+          <s:enumeration value="Cut" />
+          <s:enumeration value="Unknown" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="AccountUpdateCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Execute2Command">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AssignCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ExecuteCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="tns:TransactionError" />
+              <s:element minOccurs="1" maxOccurs="1" name="TranID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="RejectCancelLmtOrderCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="TransactionID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="tns:TransactionError" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="CancelCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="TransactionID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="tns:TransactionError" />
+              <s:element minOccurs="1" maxOccurs="1" name="CancelReason" type="tns:CancelReason" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AcceptPlaceCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="TransactionID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="tns:TransactionError" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="PlaceCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AnswerCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DeleteCommand">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Command">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+              <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="BroadcastCommandResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="BroadcastTradeCommand">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="tradeCommand" type="tns:TradeCommand" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BroadcastTradeCommandResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BroadcastTradeCommandResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BroadcastOpenInterestCommand">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="token" type="tns:Token" />
+            <s:element minOccurs="0" maxOccurs="1" name="openInterestCommand" type="tns:OpenInterestCommand" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BroadcastOpenInterestCommandResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="BroadcastOpenInterestCommandResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NotifyManagerStarted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="managerAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="exchangeCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NotifyManagerStartedResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="iExchange.Common.News">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="News">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PublishTime" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Contents" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsExpired" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="iExchange.Common.BestLimit">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="BestLimit">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="InstrumentID" type="s1:guid" />
+          <s:element minOccurs="1" maxOccurs="1" name="Sequence" type="s:unsignedByte" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsBuy" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Price" nillable="true" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Quantity" nillable="true" type="s:long" />
+          <s:element minOccurs="1" maxOccurs="1" name="NumberOfOrder" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Timestamp" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInstrumentSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateInstrument" />
+  </wsdl:message>
+  <wsdl:message name="UpdateInstrumentSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateInstrumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:Update" />
+  </wsdl:message>
+  <wsdl:message name="UpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastQuotationSoapIn">
+    <wsdl:part name="parameters" element="tns:BroadcastQuotation" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastQuotationSoapOut">
+    <wsdl:part name="parameters" element="tns:BroadcastQuotationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetSoapIn">
+    <wsdl:part name="parameters" element="tns:Reset" />
+  </wsdl:message>
+  <wsdl:message name="ResetSoapOut">
+    <wsdl:part name="parameters" element="tns:ResetResponse" />
+  </wsdl:message>
+  <wsdl:message name="FlushQuotationsSoapIn">
+    <wsdl:part name="parameters" element="tns:FlushQuotations" />
+  </wsdl:message>
+  <wsdl:message name="FlushQuotationsSoapOut">
+    <wsdl:part name="parameters" element="tns:FlushQuotationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AlertSoapIn">
+    <wsdl:part name="parameters" element="tns:Alert" />
+  </wsdl:message>
+  <wsdl:message name="AlertSoapOut">
+    <wsdl:part name="parameters" element="tns:AlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="CutSoapIn">
+    <wsdl:part name="parameters" element="tns:Cut" />
+  </wsdl:message>
+  <wsdl:message name="CutSoapOut">
+    <wsdl:part name="parameters" element="tns:CutResponse" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastExecuteResultSoapIn">
+    <wsdl:part name="parameters" element="tns:BroadcastExecuteResult" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastExecuteResultSoapOut">
+    <wsdl:part name="parameters" element="tns:BroadcastExecuteResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastCommandSoapIn">
+    <wsdl:part name="parameters" element="tns:BroadcastCommand" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastCommandSoapOut">
+    <wsdl:part name="parameters" element="tns:BroadcastCommandResponse" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastTradeCommandSoapIn">
+    <wsdl:part name="parameters" element="tns:BroadcastTradeCommand" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastTradeCommandSoapOut">
+    <wsdl:part name="parameters" element="tns:BroadcastTradeCommandResponse" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastOpenInterestCommandSoapIn">
+    <wsdl:part name="parameters" element="tns:BroadcastOpenInterestCommand" />
+  </wsdl:message>
+  <wsdl:message name="BroadcastOpenInterestCommandSoapOut">
+    <wsdl:part name="parameters" element="tns:BroadcastOpenInterestCommandResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotifyManagerStartedSoapIn">
+    <wsdl:part name="parameters" element="tns:NotifyManagerStarted" />
+  </wsdl:message>
+  <wsdl:message name="NotifyManagerStartedSoapOut">
+    <wsdl:part name="parameters" element="tns:NotifyManagerStartedResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service2Soap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInstrument">
+      <wsdl:input message="tns:UpdateInstrumentSoapIn" />
+      <wsdl:output message="tns:UpdateInstrumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input message="tns:UpdateSoapIn" />
+      <wsdl:output message="tns:UpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastQuotation">
+      <wsdl:input message="tns:BroadcastQuotationSoapIn" />
+      <wsdl:output message="tns:BroadcastQuotationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Reset">
+      <wsdl:input message="tns:ResetSoapIn" />
+      <wsdl:output message="tns:ResetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FlushQuotations">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Flush all quotations in quotationServer memory to database</wsdl:documentation>
+      <wsdl:input message="tns:FlushQuotationsSoapIn" />
+      <wsdl:output message="tns:FlushQuotationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Alert">
+      <wsdl:input message="tns:AlertSoapIn" />
+      <wsdl:output message="tns:AlertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Cut">
+      <wsdl:input message="tns:CutSoapIn" />
+      <wsdl:output message="tns:CutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastExecuteResult">
+      <wsdl:input message="tns:BroadcastExecuteResultSoapIn" />
+      <wsdl:output message="tns:BroadcastExecuteResultSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastCommand">
+      <wsdl:input message="tns:BroadcastCommandSoapIn" />
+      <wsdl:output message="tns:BroadcastCommandSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastTradeCommand">
+      <wsdl:input message="tns:BroadcastTradeCommandSoapIn" />
+      <wsdl:output message="tns:BroadcastTradeCommandSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastOpenInterestCommand">
+      <wsdl:input message="tns:BroadcastOpenInterestCommandSoapIn" />
+      <wsdl:output message="tns:BroadcastOpenInterestCommandSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NotifyManagerStarted">
+      <wsdl:input message="tns:NotifyManagerStartedSoapIn" />
+      <wsdl:output message="tns:NotifyManagerStartedSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service2Soap" type="tns:Service2Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInstrument">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/UpdateInstrument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastQuotation">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/BroadcastQuotation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reset">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/Reset" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlushQuotations">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/FlushQuotations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alert">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/Alert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cut">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/Cut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastExecuteResult">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/BroadcastExecuteResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastCommand">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/BroadcastCommand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastTradeCommand">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/BroadcastTradeCommand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastOpenInterestCommand">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/BroadcastOpenInterestCommand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyManagerStarted">
+      <soap:operation soapAction="http://www.omnicare.com/StateServer/NotifyManagerStarted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service2Soap12" type="tns:Service2Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateInstrument">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/UpdateInstrument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/Update" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastQuotation">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/BroadcastQuotation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reset">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/Reset" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FlushQuotations">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/FlushQuotations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Alert">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/Alert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cut">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/Cut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastExecuteResult">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/BroadcastExecuteResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastCommand">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/BroadcastCommand" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastTradeCommand">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/BroadcastTradeCommand" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BroadcastOpenInterestCommand">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/BroadcastOpenInterestCommand" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyManagerStarted">
+      <soap12:operation soapAction="http://www.omnicare.com/StateServer/NotifyManagerStarted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service2">
+    <wsdl:port name="Service2Soap" binding="tns:Service2Soap">
+      <soap:address location="http://10.3.1.1/iExchangeCollection/iExchange3%20Team/iExchange3/StateServer/service2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service2Soap12" binding="tns:Service2Soap12">
+      <soap12:address location="http://10.3.1.1/iExchangeCollection/iExchange3%20Team/iExchange3/StateServer/service2.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

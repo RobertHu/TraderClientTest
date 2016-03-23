@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="580a4853-f38c-4ed9-904c-32f9081d572a" name="ExecuteHistoryOrder" linkedPackageId="0f9292c9-6426-45b5-9589-646079090865" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="9d4db07a-a71d-4404-99d7-d371a3a668b9">
+      <elementDefinition Id="22ef3088-88a9-4dd3-9da6-9d383c3be5d0" />
+      <body>开仓单？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="34638d38-6e38-4a9f-9506-fc68bede54e9" LastKnownName="Decision1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="fe9d0ad1-3ecc-4421-93fe-afe5e3be3df6">
+      <elementDefinition Id="cb32c197-0537-48d9-8cc6-29796f125136" />
+      <body>order处理完毕？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="f83dda83-cad9-4819-bebb-89001333712a" LastKnownName="Decision2" />
+      </annotatedElements>
+    </comment>
+    <comment Id="19f72216-c3c9-48d8-bdad-537a2f04f677">
+      <elementDefinition Id="3ad9c779-610e-454d-80c8-a8ddb7bce8e1" />
+      <body>tradeDay处理完毕？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="8de9af71-976d-46bb-8855-2a8d608bbeaa" LastKnownName="Decision21" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="a651efd7-42e1-431e-b430-8a8679907853">
+      <profileInstance Id="594793de-2611-48bf-b83f-fd09708da199" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8fd8e042-7082-457e-acd1-6f0ef0116033">
+      <profileInstance Id="fc5f6b13-6c1a-42f2-9109-59097c9cc52c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="97163534-c259-45f6-9d71-fddd314a12fe" name="ExecuteHistoryOrder" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="8e11cea8-7283-401f-ae0c-b3859c00cc10" />
+        <nodes>
+          <initialNode Id="db19d697-73ba-43cb-8dbb-6e39d6afa307" name="Initial1" isLeaf="false">
+            <elementDefinition Id="99e564aa-2036-40d6-8d47-b7751489fe03" />
+            <flowNodeTargets>
+              <controlFlow Id="40d4c23b-e03a-4506-bc27-309639e4c636" isLeaf="false">
+                <opaqueActionMoniker Id="c2253295-7269-46de-8002-c4ac7d4ab7bf" LastKnownName="下单以及成交" />
+                <elementDefinition Id="817dbfc6-760a-4639-ae36-1213e9c23579" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="c2253295-7269-46de-8002-c4ac7d4ab7bf" name="下单以及成交" isLeaf="false">
+            <elementDefinition Id="032d07f9-5d8b-450c-9335-d6e39acbd122" />
+            <flowNodeTargets>
+              <controlFlow Id="b69bed24-4215-4577-b220-2451e5453bc7" isLeaf="false">
+                <decisionNodeMoniker Id="34638d38-6e38-4a9f-9506-fc68bede54e9" LastKnownName="Decision1" />
+                <elementDefinition Id="f0bf3957-af12-42c9-9c74-1957e860c348" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="350b3b99-57b6-477a-939f-05ed086c4369" name="计算order在tradeDay下的各种PL（NotValuedPl, ValuedPL, FloatPL, DayInterest, DayStorage）" isLeaf="false">
+            <elementDefinition Id="b6b326ba-8343-495f-a9de-28127f6ab3a0" />
+            <flowNodeTargets>
+              <controlFlow Id="59767cc4-248a-485e-ba56-1e500a705bf2" isLeaf="false">
+                <opaqueActionMoniker Id="840db245-359b-4031-a28f-4f0d76cb235c" LastKnownName="产生order在tradeDay下产生的各PL的Bill记录， 形如：&lt;Bill  Value=&quot;&quot;,  Type = &quot;&quot;, ValueDate= &quot;&quot;   TradeDay = &quot;&quot;    /&gt; " />
+                <elementDefinition Id="552fa2e8-a6bc-4038-a527-7e0a16aa7813" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f9530535-c634-4212-8ff2-7e377d457dc2" name="for each order in affectedOrders" isLeaf="false">
+            <elementDefinition Id="464df7b9-bb2d-4929-8f37-dc55bbdf3dd5" />
+            <flowNodeTargets>
+              <controlFlow Id="918a5826-9843-41d5-912d-1208671bb2cf" isLeaf="false">
+                <mergeNodeMoniker Id="27048b7c-df71-45ef-9c43-9614fd006cc8" LastKnownName="Merge11" />
+                <elementDefinition Id="97a4bf59-2792-4228-abdd-a3b99a3c09ba" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="8d4d9c66-dd7b-46fa-b22f-27d15d5d5bed" name="for each tradeDay  between(exectedDate,account.lastTradeDay)" isLeaf="false">
+            <elementDefinition Id="edd3e306-5385-4636-9090-a86a7c819967" />
+            <flowNodeTargets>
+              <controlFlow Id="b2c6d6db-edb0-4194-af0c-8f2ae8f514c4" isLeaf="false">
+                <mergeNodeMoniker Id="803dca00-c46f-4d91-9e38-d8ed1330f1e1" LastKnownName="Merge1" />
+                <elementDefinition Id="e396a4c8-2dc5-4d7c-9d53-a0f464c518cb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="049076f3-4a0a-4150-9dfd-3919d83de2e6" name="affectedOrders 为当前transaction下的所有order以及其所平仓的openOrder" isLeaf="false">
+            <elementDefinition Id="1dd0a745-b644-48d3-b7d9-60d893e11080" />
+            <flowNodeTargets>
+              <controlFlow Id="893b8606-888c-4970-a1a0-36b9ce06fab8" isLeaf="false">
+                <joinNodeMoniker Id="8e5977e8-0169-4b39-a58d-0843ec651a85" LastKnownName="Join1" />
+                <elementDefinition Id="732740e9-f370-4d4c-a908-d52e1cd61f7a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ee4d186e-0862-4726-b29c-7f150a0b3cf3" name="需要重新计算的 affectedOrders为 当前transaction下所有的order" isLeaf="false">
+            <elementDefinition Id="8527e1e6-6684-49e0-96be-0d1f2eec6437" />
+            <flowNodeTargets>
+              <controlFlow Id="5893993e-b039-44c4-9db6-6d61038ca7e7" isLeaf="false">
+                <joinNodeMoniker Id="8e5977e8-0169-4b39-a58d-0843ec651a85" LastKnownName="Join1" />
+                <elementDefinition Id="0a3608d0-b0de-4c56-beb1-9f01d364ba62" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="34638d38-6e38-4a9f-9506-fc68bede54e9" name="Decision1" isLeaf="false">
+            <elementDefinition Id="550bedbc-1e9b-4a16-b133-abec383e0c79" />
+            <flowNodeTargets>
+              <controlFlow Id="d13c578b-a454-4916-9f08-ebddbd5ca936" guard="Yes" isLeaf="false">
+                <opaqueActionMoniker Id="ee4d186e-0862-4726-b29c-7f150a0b3cf3" LastKnownName="需要重新计算的 affectedOrders为 当前transaction下所有的order" />
+                <elementDefinition Id="16620ac8-c718-44bc-a205-3a6ed7d7ce45" />
+              </controlFlow>
+              <controlFlow Id="86bccb18-953d-47b0-a8e4-7fc101d8b258" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="049076f3-4a0a-4150-9dfd-3919d83de2e6" LastKnownName="affectedOrders 为当前transaction下的所有order以及其所平仓的openOrder" />
+                <elementDefinition Id="fcb207ef-f8c8-4123-998a-9c92694a6b5d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <joinNode Id="8e5977e8-0169-4b39-a58d-0843ec651a85" name="Join1" isLeaf="false">
+            <elementDefinition Id="868a7662-9102-474a-8323-50af0eef5102" />
+            <flowNodeTargets>
+              <controlFlow Id="6d4a8df6-b8a8-4417-9021-9b77487be448" isLeaf="false">
+                <opaqueActionMoniker Id="8d4d9c66-dd7b-46fa-b22f-27d15d5d5bed" LastKnownName="for each tradeDay  between(exectedDate,account.lastTradeDay)" />
+                <elementDefinition Id="e5898bff-c5d5-403f-ba3f-c1ff4e7063b2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <mergeNode Id="803dca00-c46f-4d91-9e38-d8ed1330f1e1" name="Merge1" isLeaf="false">
+            <elementDefinition Id="2a9a5b49-d56b-4915-8edb-c4407704d3bd" />
+            <flowNodeTargets>
+              <controlFlow Id="acfb00d9-0562-4218-9d31-435ae8bbc752" isLeaf="false">
+                <opaqueActionMoniker Id="f9530535-c634-4212-8ff2-7e377d457dc2" LastKnownName="for each order in affectedOrders" />
+                <elementDefinition Id="a89b1722-c116-414b-97c4-93333f4d6da9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="3885558e-cea9-48e8-8555-be883b997992" name="调用存储过程，并传入上述产生的Bill记录" isLeaf="false">
+            <elementDefinition Id="fc86ca15-bfa4-4fb0-b3d8-212ac3ecab01" />
+            <flowNodeTargets>
+              <controlFlow Id="49b78d4a-3069-439b-9515-d884b8075179" isLeaf="false">
+                <activityFinalNodeMoniker Id="2e833fc3-be8e-4409-b9d7-589daa6c244b" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="ced5cb64-a203-482a-a2e9-31c86df6946c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="840db245-359b-4031-a28f-4f0d76cb235c" name="产生order在tradeDay下产生的各PL的Bill记录， 形如：&lt;Bill  Value=&quot;&quot;,  Type = &quot;&quot;, ValueDate= &quot;&quot;   TradeDay = &quot;&quot;    /&gt; " isLeaf="false">
+            <elementDefinition Id="5e381917-2794-4005-a924-27ddcc68b9d9" />
+            <flowNodeTargets>
+              <controlFlow Id="4ee7b8f6-b3ac-495f-be35-4b37184f29ab" isLeaf="false">
+                <decisionNodeMoniker Id="f83dda83-cad9-4819-bebb-89001333712a" LastKnownName="Decision2" />
+                <elementDefinition Id="9c12a6bd-1d9b-49c4-9fda-2522464db8a2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e929eab0-fef2-48c0-9ffc-1ddb4ca0e8e7" name="汇总affectedOrders的ValuedPL以及各种费用， 并加到account的balance上" isLeaf="false">
+            <elementDefinition Id="f7f73e59-6d32-4a20-b61c-4ce1045e500d" />
+            <flowNodeTargets>
+              <controlFlow Id="fb46c2ca-ed58-4f79-b1e2-9c5caac21f29" isLeaf="false">
+                <opaqueActionMoniker Id="39937524-316e-4efc-bdd4-772b34fbac17" LastKnownName="保存account的变化到文件，并广播" />
+                <elementDefinition Id="a366f8ef-fa11-49fe-a1eb-d3b38bccabf7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="39937524-316e-4efc-bdd4-772b34fbac17" name="保存account的变化到文件，并广播" isLeaf="false">
+            <elementDefinition Id="3a94d386-1111-4938-b31f-3b3745c4048b" />
+            <flowNodeTargets>
+              <controlFlow Id="41f76b4f-6cfd-48d2-b04e-4c1890c555f1" isLeaf="false">
+                <opaqueActionMoniker Id="3885558e-cea9-48e8-8555-be883b997992" LastKnownName="调用存储过程，并传入上述产生的Bill记录" />
+                <elementDefinition Id="70de8a7f-a2e1-4bbe-b57d-981223c56415" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="f83dda83-cad9-4819-bebb-89001333712a" name="Decision2" isLeaf="false">
+            <elementDefinition Id="1dea80c0-7368-4980-b5db-9332efc3abf6" />
+            <flowNodeTargets>
+              <controlFlow Id="204f4f1e-fa20-4638-9605-29dfa604690e" guard="No" isLeaf="false">
+                <mergeNodeMoniker Id="27048b7c-df71-45ef-9c43-9614fd006cc8" LastKnownName="Merge11" />
+                <elementDefinition Id="0d27b2b9-3da6-44ca-8b18-9a7c17dc321c" />
+              </controlFlow>
+              <controlFlow Id="2369c475-d1f5-4a08-98b8-9a4110ae3355" guard="Yes" isLeaf="false">
+                <decisionNodeMoniker Id="8de9af71-976d-46bb-8855-2a8d608bbeaa" LastKnownName="Decision21" />
+                <elementDefinition Id="d757e939-2007-4afb-8d35-731157797570" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <mergeNode Id="27048b7c-df71-45ef-9c43-9614fd006cc8" name="Merge11" isLeaf="false">
+            <elementDefinition Id="ad7799ec-0adf-4d73-8967-f716a5f6a92a" />
+            <flowNodeTargets>
+              <controlFlow Id="124629dd-e00b-4533-92b7-258503d02b9b" isLeaf="false">
+                <opaqueActionMoniker Id="350b3b99-57b6-477a-939f-05ed086c4369" LastKnownName="计算order在tradeDay下的各种PL（NotValuedPl, ValuedPL, FloatPL, DayInterest, DayStorage）" />
+                <elementDefinition Id="1acfc40a-a4be-4f9b-a261-5177cc6c48ed" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <decisionNode Id="8de9af71-976d-46bb-8855-2a8d608bbeaa" name="Decision21" isLeaf="false">
+            <elementDefinition Id="bafa562b-cb3f-4fe5-9beb-0038cfd8fd1b" />
+            <flowNodeTargets>
+              <controlFlow Id="e49edb10-9fb1-4857-8eb1-5ce6a3043bb1" guard="No" isLeaf="false">
+                <mergeNodeMoniker Id="803dca00-c46f-4d91-9e38-d8ed1330f1e1" LastKnownName="Merge1" />
+                <elementDefinition Id="ec876316-0f26-4963-87fb-5441b9dba46f" />
+              </controlFlow>
+              <controlFlow Id="7af966f5-51d9-4446-ac79-0b9dee811edc" isLeaf="false">
+                <opaqueActionMoniker Id="e929eab0-fef2-48c0-9ffc-1ddb4ca0e8e7" LastKnownName="汇总affectedOrders的ValuedPL以及各种费用， 并加到account的balance上" />
+                <elementDefinition Id="90086ce4-b564-4f81-ad2a-882cad2248ee" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode Id="2e833fc3-be8e-4409-b9d7-589daa6c244b" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="d73b6112-abdd-4de0-b471-c07b47a5ff6c" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="0f9292c9-6426-45b5-9589-646079090865" name="ResetFlow">
+    <elementDefinition Id="e0e73936-4c74-407e-8755-6d4db97d9401" />
+  </package>
+</activityRootModel>

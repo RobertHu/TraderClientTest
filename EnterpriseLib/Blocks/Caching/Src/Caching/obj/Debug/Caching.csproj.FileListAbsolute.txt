@@ -1,0 +1,10 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Caching\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Caching\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Caching\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Caching\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Caching\obj\Debug\Caching.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Caching\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Caching\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.pdb

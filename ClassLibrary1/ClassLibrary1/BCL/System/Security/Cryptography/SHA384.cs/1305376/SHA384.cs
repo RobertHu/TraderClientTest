@@ -1,0 +1,88 @@
+// ==++== 
+//
+//   Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+// ==--== 
+// <OWNER>[....]</OWNER>
+// 
+ 
+//
+// SHA384.cs 
+//
+// This abstract class represents the SHA-384 hash algorithm.
+//
+ 
+namespace System.Security.Cryptography {
+[System.Runtime.InteropServices.ComVisible(true)] 
+    public abstract class SHA384 : HashAlgorithm 
+    {
+        // 
+        // protected constructors
+        //
+
+        protected SHA384() { 
+            HashSizeValue = 384;
+        } 
+ 
+        //
+        // public methods 
+        //
+
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        new static public SHA384 Create() { 
+            return Create("System.Security.Cryptography.SHA384");
+        } 
+ 
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        new static public SHA384 Create(String hashName) { 
+            return (SHA384) CryptoConfig.CreateFromName(hashName);
+        }
+    }
+} 
+
+
+// File provided for Reference Use Only by Microsoft Corporation (c) 2007.
+// ==++== 
+//
+//   Copyright (c) Microsoft Corporation.  All rights reserved.
+//
+// ==--== 
+// <OWNER>[....]</OWNER>
+// 
+ 
+//
+// SHA384.cs 
+//
+// This abstract class represents the SHA-384 hash algorithm.
+//
+ 
+namespace System.Security.Cryptography {
+[System.Runtime.InteropServices.ComVisible(true)] 
+    public abstract class SHA384 : HashAlgorithm 
+    {
+        // 
+        // protected constructors
+        //
+
+        protected SHA384() { 
+            HashSizeValue = 384;
+        } 
+ 
+        //
+        // public methods 
+        //
+
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        new static public SHA384 Create() { 
+            return Create("System.Security.Cryptography.SHA384");
+        } 
+ 
+        [System.Security.SecuritySafeCritical]  // auto-generated
+        new static public SHA384 Create(String hashName) { 
+            return (SHA384) CryptoConfig.CreateFromName(hashName);
+        }
+    }
+} 
+
+
+// File provided for Reference Use Only by Microsoft Corporation (c) 2007.

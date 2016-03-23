@@ -1,0 +1,18 @@
+﻿<p>尊贵的客戶:</p>
+
+<p>阁下的{BalanceType}，详情如下:</p>
+
+<p>帐户名称 : {AccountName}</p>
+
+<p>帐户号码 : {AccountCode}</p>
+
+<p>{BalanceType}金额 :	{CurrencyCode} {Amount}</p>
+
+<p>日期及时间: {ExecuteTime}</p>
+
+<p>如客戶对以上资料有任何疑问，请与本公司结算部联络。 香港电话 : (852) 2303 8756, 免费中国热线 400 120 1097 或 電郵 cso@wfgold.com</p>
+
+<p>敬希垂注</p>
+
+<p>{Organization}</p>
+

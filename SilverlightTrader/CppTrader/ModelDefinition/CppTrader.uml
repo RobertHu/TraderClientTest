@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="45f303be-60dd-461e-b2ad-29b831ab933b"
+  name="CppTrader" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="52ca0569-5a9f-4e35-bdd0-c6b565cc3b34">
+      <body>View Model通过该接口来获取界面所
+
+需要的各种数据，以及当各种费用
+
+，订单状态，policy等发生变化时，
+
+接受到各种通知。
+
+
+应用层，通过该接口，提供ViewModel层所需要的各种数据和设置
+
+
+</body>
+      <annotatedElements>
+        <packageMoniker
+          Id="dd655558-434c-4f18-ae9b-bc8a7bc385d5"
+          LastKnownName="交互接口1"
+          LastKnownLocation="Package_1604.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="24139798-83f8-4cd7-9a8a-fa440eea323c">
+      <body>
+应用层： 通过该接口获取数据和接受通知
+
+
+
+
+
+业务层和策略层，通过该接口提供数据</body>
+      <annotatedElements>
+        <packageMoniker
+          Id="fd3c4803-1b1c-4dd2-9b22-30dec88fa15f"
+          LastKnownName="交互接口2"
+          LastKnownLocation="Package_1612.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="d8f1724a-5331-4db8-965c-3438fb0aa90e" />
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="03daf5c5-7f4b-4c0f-ada1-ddf8cd8cde38"
+        LastKnownName="业务层"
+        LastKnownLocation="Package_1648.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d6e9defe-0f25-4861-8215-de0f6a591996"
+        LastKnownName="策略"
+        LastKnownLocation="Package_1645.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="349f1250-2687-48eb-8e3b-c5c6b12691c7"
+        LastKnownName="应用层"
+        LastKnownLocation="Package_1647.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cb8ba69d-7834-406d-86a8-f3b4e58f3f0f"
+        LastKnownName="View Model"
+        LastKnownLocation="Package_0818.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f3f895cf-2c19-4f1b-a0fe-0fbf42a1b74e"
+        LastKnownName="界面"
+        LastKnownLocation="Package_1603.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="dd655558-434c-4f18-ae9b-bc8a7bc385d5"
+        LastKnownName="交互接口1"
+        LastKnownLocation="Package_1604.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fd3c4803-1b1c-4dd2-9b22-30dec88fa15f"
+        LastKnownName="交互接口2"
+        LastKnownLocation="Package_1612.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

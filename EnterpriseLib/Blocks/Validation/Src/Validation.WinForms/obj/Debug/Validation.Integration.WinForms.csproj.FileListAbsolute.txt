@@ -1,0 +1,8 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WinForms\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Validation.Integration.WinForms.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.dll
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WinForms\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WinForms.pdb

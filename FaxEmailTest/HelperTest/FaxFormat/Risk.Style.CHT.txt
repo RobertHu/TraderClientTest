@@ -1,0 +1,13 @@
+﻿<p>尊貴的客戶:</p>
+
+<p>{Title}</p>
+
+<p>帳戶名稱 ：{AccountName}</p>
+
+<p>帳戶號碼： {AccountCode}</p>
+
+{Content}
+
+<p>敬希垂注</p>
+
+<p>{Organization}</p>

@@ -1,0 +1,36 @@
+﻿Build started 10/31/2013 1:50:00 PM.
+     1>Project "D:\VsProjects\dddddddd\dddddddd\dddddddd.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\VsProjects\dddddddd\Win32\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\dddddddd.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing dddddddd.h...
+         Uic'ing dddddddd.ui...
+         Rcc'ing dddddddd.qrc...
+     1>RCC : warning : No resources in 'D:\VsProjects\dddddddd\dddddddd\dddddddd.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Software\qt510\5.1.0\msvc2010_opengl\include /I.\GeneratedFiles\Debug /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtCore /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtGui /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dddddddd.cpp GeneratedFiles\Debug\moc_dddddddd.cpp main.cpp
+         dddddddd.cpp
+         moc_dddddddd.cpp
+         main.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Software\qt510\5.1.0\msvc2010_opengl\include /I.\GeneratedFiles\Debug /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtCore /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtGui /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_dddddddd.cpp
+         qrc_dddddddd.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VsProjects\dddddddd\Win32\Debug\\dddddddd.exe" /NOLOGO /LIBPATH:D:\Software\qt510\5.1.0\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\dddddddd.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VsProjects\dddddddd\Win32\Debug\dddddddd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VsProjects\dddddddd\Win32\Debug\dddddddd.lib" /MACHINE:X86 Debug\dddddddd.obj
+         Debug\moc_dddddddd.obj
+         Debug\qrc_dddddddd.obj
+         Debug\main.obj
+         dddddddd.vcxproj -> D:\VsProjects\dddddddd\Win32\Debug\dddddddd.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VsProjects\dddddddd\Win32\Debug\\dddddddd.exe;#1" /manifest Debug\dddddddd.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\dddddddd.unsuccessfulbuild".
+         Touching "Debug\dddddddd.lastbuildstate".
+     1>Done Building Project "D:\VsProjects\dddddddd\dddddddd\dddddddd.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.09

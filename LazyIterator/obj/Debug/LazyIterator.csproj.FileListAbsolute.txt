@@ -1,0 +1,5 @@
+D:\VsProjects\LazyIterator\obj\Debug\LazyIterator.csprojResolveAssemblyReference.cache
+D:\VsProjects\LazyIterator\bin\Debug\LazyIterator.exe
+D:\VsProjects\LazyIterator\bin\Debug\LazyIterator.pdb
+D:\VsProjects\LazyIterator\obj\Debug\LazyIterator.exe
+D:\VsProjects\LazyIterator\obj\Debug\LazyIterator.pdb

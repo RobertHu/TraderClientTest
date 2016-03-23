@@ -1,0 +1,9 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\Logging\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\Logging\obj\Debug\ExceptionHandling.Logging.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb

@@ -1,0 +1,10 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Common\Src\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Common\Src\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\VsProjects\EnterpriseLib\Blocks\Common\Src\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb

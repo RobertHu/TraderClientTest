@@ -1,0 +1,7 @@
+D:\VsProjects\DJServer\DJServer\bin\Debug\DJServer.exe
+D:\VsProjects\DJServer\DJServer\bin\Debug\DJServer.pdb
+D:\VsProjects\DJServer\DJServer\obj\x86\Debug\DJServer.exe
+D:\VsProjects\DJServer\DJServer\obj\x86\Debug\DJServer.pdb
+D:\VsProjects\DJServer\DJServer\bin\Debug\DJServer.exe.config
+D:\VsProjects\DJServer\DJServer\bin\Debug\log.txt
+D:\VsProjects\DJServer\DJServer\bin\Debug\log2.txt

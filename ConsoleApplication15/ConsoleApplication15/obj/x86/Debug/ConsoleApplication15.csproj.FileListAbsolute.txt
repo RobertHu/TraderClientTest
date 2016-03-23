@@ -1,0 +1,6 @@
+D:\VsProjects\ConsoleApplication15\ConsoleApplication15\bin\Debug\ConsoleApplication15.exe.config
+D:\VsProjects\ConsoleApplication15\ConsoleApplication15\bin\Debug\ConsoleApplication15.exe
+D:\VsProjects\ConsoleApplication15\ConsoleApplication15\bin\Debug\ConsoleApplication15.pdb
+D:\VsProjects\ConsoleApplication15\ConsoleApplication15\obj\x86\Debug\ConsoleApplication15.exe
+D:\VsProjects\ConsoleApplication15\ConsoleApplication15\obj\x86\Debug\ConsoleApplication15.pdb
+D:\VsProjects\ConsoleApplication15\ConsoleApplication15\obj\x86\Debug\ConsoleApplication15.csprojResolveAssemblyReference.cache

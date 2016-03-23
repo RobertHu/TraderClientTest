@@ -1,0 +1,4 @@
+D:\VsProjects\StringSecurte\StringSecurte\bin\Debug\StringSecurte.exe
+D:\VsProjects\StringSecurte\StringSecurte\bin\Debug\StringSecurte.pdb
+D:\VsProjects\StringSecurte\StringSecurte\obj\x86\Debug\StringSecurte.exe
+D:\VsProjects\StringSecurte\StringSecurte\obj\x86\Debug\StringSecurte.pdb

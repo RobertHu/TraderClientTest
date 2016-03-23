@@ -1,0 +1,6 @@
+﻿閣下的{BalanceType}，詳情如下: 
+帳戶名稱 : {AccountName}
+帳戶號碼 : {AccountCode}
+{BalanceType}金額：{CurrencyCode} {Amount}
+日期及時間: {ExecuteTime}
+{Organization}

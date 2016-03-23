@@ -1,0 +1,10 @@
+function main()
+    local yield = coroutine.yield
+    print("fragment 1")
+    yield()
+    print("fragment 2")
+    yield()
+    print("fragment 3")
+end
+
+return coroutine.create(main)

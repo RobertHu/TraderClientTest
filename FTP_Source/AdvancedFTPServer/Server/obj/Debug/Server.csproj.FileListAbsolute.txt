@@ -1,0 +1,14 @@
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Build\FTPServer.exe
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Build\FTPServer.pdb
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.About.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmCommonSettings.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmErrorLogs.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmMain.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmOnlineUsers.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmUser.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmUserAccount.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.frmViewService.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\AdvancedFTPServer.Properties.Resources.resources
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\FTPServer.exe
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Server\obj\Debug\FTPServer.pdb

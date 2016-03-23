@@ -1,0 +1,22 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="WpfApplication5.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+		<TabPanel HorizontalAlignment="Left">
+		<TabItem Header="TabItem1">
+			
+		</TabItem>
+		<TabItem Header="TabItem1">
+			
+		</TabItem>
+		<TabItem Header="TabItem1">
+			
+		</TabItem>
+		</TabPanel>
+	</Grid>
+</Window>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BasicTradingService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:9070/TradingService/meta?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:9070/TradingService/meta?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITradingService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_GetInitData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInitData" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_GetInitData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInitDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_GetComand_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetComand" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_GetComand_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetComandResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_LoginOut_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginOut" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_LoginOut_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_Test_InputMessage">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="ITradingService_Test_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITradingService">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/Login" message="tns:ITradingService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/LoginResponse" message="tns:ITradingService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInitData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/GetInitData" message="tns:ITradingService_GetInitData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/GetInitDataResponse" message="tns:ITradingService_GetInitData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetComand">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/GetComand" message="tns:ITradingService_GetComand_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/GetComandResponse" message="tns:ITradingService_GetComand_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginOut">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/LoginOut" message="tns:ITradingService_LoginOut_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/LoginOutResponse" message="tns:ITradingService_LoginOut_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingService/Test" message="tns:ITradingService_Test_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingService/TestResponse" message="tns:ITradingService_Test_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITradingService" type="tns:ITradingService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/ITradingService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInitData">
+      <soap:operation soapAction="http://tempuri.org/ITradingService/GetInitData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetComand">
+      <soap:operation soapAction="http://tempuri.org/ITradingService/GetComand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginOut">
+      <soap:operation soapAction="http://tempuri.org/ITradingService/LoginOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/ITradingService/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BasicTradingService">
+    <wsdl:port name="BasicHttpBinding_ITradingService" binding="tns:BasicHttpBinding_ITradingService">
+      <soap:address location="http://localhost:9070/TradingService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

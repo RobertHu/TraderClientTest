@@ -1,0 +1,28 @@
+﻿<Window x:Class="JobLazyLoad.LazyJob"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Loaded="OnLoaded"
+		Unloaded="OnUnloaded"
+		Title="Job"
+		Height="300"
+		Width="300">
+	<Window.Resources>
+		<DataTemplate x:Key="JobItemTemplate">
+			<CheckBox IsChecked="{Binding Path=IsSelected}">
+				<TextBlock Text="{Binding Path=Name}" />
+			</CheckBox>
+		</DataTemplate>
+		<DataTemplate x:Key="JobTemplate">
+
+			<CheckBox IsChecked="{Binding Path=IsSelected}">
+				<TextBlock Text="{Binding Path=Name}" />
+			</CheckBox>
+
+		</DataTemplate>
+
+	</Window.Resources>
+
+	<Grid>
+		<TreeView x:Name="JobTree" />
+	</Grid>
+</Window>

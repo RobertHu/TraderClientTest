@@ -1,0 +1,4 @@
+D:\VsProjects\NHibernateTest\NHibernateTest\bin\Debug\NHibernateTest.exe
+D:\VsProjects\NHibernateTest\NHibernateTest\bin\Debug\NHibernateTest.pdb
+D:\VsProjects\NHibernateTest\NHibernateTest\obj\x86\Debug\NHibernateTest.exe
+D:\VsProjects\NHibernateTest\NHibernateTest\obj\x86\Debug\NHibernateTest.pdb

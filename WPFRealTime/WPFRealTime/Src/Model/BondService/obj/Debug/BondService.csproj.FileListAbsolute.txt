@@ -1,0 +1,5 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Services\BondService.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Services\BondService.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Model\BondService\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Model\BondService\obj\Debug\BondService.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Model\BondService\obj\Debug\BondService.pdb

@@ -1,0 +1,6 @@
+D:\VsProjects\CsharptLTest\CsharptLTest\bin\Debug\CsharptLTest.exe.config
+D:\VsProjects\CsharptLTest\CsharptLTest\bin\Debug\CsharptLTest.exe
+D:\VsProjects\CsharptLTest\CsharptLTest\bin\Debug\CsharptLTest.pdb
+D:\VsProjects\CsharptLTest\CsharptLTest\obj\Debug\CsharptLTest.csprojResolveAssemblyReference.cache
+D:\VsProjects\CsharptLTest\CsharptLTest\obj\Debug\CsharptLTest.exe
+D:\VsProjects\CsharptLTest\CsharptLTest\obj\Debug\CsharptLTest.pdb

@@ -1,0 +1,7 @@
+D:\VsProjects\WinFormLayout\WinFormLayout\bin\Debug\WinFormLayout.exe
+D:\VsProjects\WinFormLayout\WinFormLayout\bin\Debug\WinFormLayout.pdb
+D:\VsProjects\WinFormLayout\WinFormLayout\obj\x86\Debug\WinFormLayout.Form1.resources
+D:\VsProjects\WinFormLayout\WinFormLayout\obj\x86\Debug\WinFormLayout.Properties.Resources.resources
+D:\VsProjects\WinFormLayout\WinFormLayout\obj\x86\Debug\WinFormLayout.csproj.GenerateResource.Cache
+D:\VsProjects\WinFormLayout\WinFormLayout\obj\x86\Debug\WinFormLayout.exe
+D:\VsProjects\WinFormLayout\WinFormLayout\obj\x86\Debug\WinFormLayout.pdb

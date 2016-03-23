@@ -1,0 +1,10 @@
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CreatingTasks\bin\Debug\CreatingTasks.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CreatingTasks\bin\Debug\CreatingTasks.pdb
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CreatingTasks\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CreatingTasks\obj\x86\Debug\CreatingTasks.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CreatingTasks\obj\x86\Debug\CreatingTasks.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\CreatingTasks\bin\Debug\CreatingTasks.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\CreatingTasks\bin\Debug\CreatingTasks.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\CreatingTasks\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TasksArticle1\TasksArticle1\CreatingTasks\obj\x86\Debug\CreatingTasks.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\CreatingTasks\obj\x86\Debug\CreatingTasks.pdb

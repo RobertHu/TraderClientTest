@@ -1,0 +1,7 @@
+D:\VsProjects\NHibernateTest\NHibernateTest.Unit\bin\Debug\NHibernateTest.Unit.dll
+D:\VsProjects\NHibernateTest\NHibernateTest.Unit\bin\Debug\NHibernateTest.Unit.pdb
+D:\VsProjects\NHibernateTest\NHibernateTest.Unit\bin\Debug\nunit.framework.dll
+D:\VsProjects\NHibernateTest\NHibernateTest.Unit\bin\Debug\nunit.framework.xml
+D:\VsProjects\NHibernateTest\NHibernateTest.Unit\obj\Debug\NHibernateTest.Unit.dll
+D:\VsProjects\NHibernateTest\NHibernateTest.Unit\obj\Debug\NHibernateTest.Unit.pdb
+D:\VsProjects\NHibernateTest\NHibernateTest.Unit\obj\Debug\NHibernateTest.Unit.csprojResolveAssemblyReference.cache

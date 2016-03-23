@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingTasks", "CreatingTasks\CreatingTasks.csproj", "{EA104E55-50B5-4FBD-8A9A-05D1FCB73C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingOperations", "BlockingOperations\BlockingOperations.csproj", "{51224BE8-AAF1-4D25-B01D-7741BB1F54AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HandlingExceptions", "HandlingExceptions", "{5929ECB4-9E6A-4630-A854-A183F8E024AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptionsUsingTryCatch", "HandlingExceptionsUsingTryCatch\HandlingExceptionsUsingTryCatch.csproj", "{6876FA90-BE43-4CAD-ADC6-B027EADD69C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleUsingExHandle", "HandleUsingExHandle\HandleUsingExHandle.csproj", "{9226A8B0-54D4-4AF0-908D-C6E2C4D9DF5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UncaughtExceptionInWinFormsDemoApp", "UncaughtExceptionInWinFormsDemoApp\UncaughtExceptionInWinFormsDemoApp.csproj", "{B6A26D15-7246-4DE4-8962-09B6DC3F04D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingByReadingTaskValues", "HandlingByReadingTaskValues\HandlingByReadingTaskValues.csproj", "{71217801-5945-46CC-AAC0-9C97EEFBC551}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CancellingTasks", "CancellingTasks", "{1AE691B0-9ADE-4006-8E54-23727B1995E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingSingleTask", "CancellingSingleTask\CancellingSingleTask.csproj", "{95FC9491-4A86-4840-9724-77B6A55D5439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingOneOfSeveralTasks", "CancellingOneOfSeveralTasks\CancellingOneOfSeveralTasks.csproj", "{D051CDF0-2D6C-4A2B-BE02-9299E0A9B316}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SynchronizationContext", "SynchronizationContext", "{B5E0014A-7909-49AD-B3FB-CE85F23D2ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsSynchonizationContext", "WinformsSynchonizationContext\WinformsSynchonizationContext.csproj", "{9E972F4F-A762-4C3E-9610-F2A915F45DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDispatcherSynchonizationContext", "WPFDispatcherSynchonizationContext\WPFDispatcherSynchonizationContext.csproj", "{B24641BF-FCA2-4880-86E4-AE1FF9809049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsVersusTasks", "ThreadsVersusTasks\ThreadsVersusTasks.csproj", "{3B6D6942-DD7E-4878-AB8F-730489F0F48B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA104E55-50B5-4FBD-8A9A-05D1FCB73C1D}.Debug|x86.ActiveCfg = Debug|x86
+		{EA104E55-50B5-4FBD-8A9A-05D1FCB73C1D}.Debug|x86.Build.0 = Debug|x86
+		{EA104E55-50B5-4FBD-8A9A-05D1FCB73C1D}.Release|x86.ActiveCfg = Release|x86
+		{EA104E55-50B5-4FBD-8A9A-05D1FCB73C1D}.Release|x86.Build.0 = Release|x86
+		{51224BE8-AAF1-4D25-B01D-7741BB1F54AF}.Debug|x86.ActiveCfg = Debug|x86
+		{51224BE8-AAF1-4D25-B01D-7741BB1F54AF}.Debug|x86.Build.0 = Debug|x86
+		{51224BE8-AAF1-4D25-B01D-7741BB1F54AF}.Release|x86.ActiveCfg = Release|x86
+		{51224BE8-AAF1-4D25-B01D-7741BB1F54AF}.Release|x86.Build.0 = Release|x86
+		{6876FA90-BE43-4CAD-ADC6-B027EADD69C4}.Debug|x86.ActiveCfg = Debug|x86
+		{6876FA90-BE43-4CAD-ADC6-B027EADD69C4}.Debug|x86.Build.0 = Debug|x86
+		{6876FA90-BE43-4CAD-ADC6-B027EADD69C4}.Release|x86.ActiveCfg = Release|x86
+		{6876FA90-BE43-4CAD-ADC6-B027EADD69C4}.Release|x86.Build.0 = Release|x86
+		{9226A8B0-54D4-4AF0-908D-C6E2C4D9DF5D}.Debug|x86.ActiveCfg = Debug|x86
+		{9226A8B0-54D4-4AF0-908D-C6E2C4D9DF5D}.Debug|x86.Build.0 = Debug|x86
+		{9226A8B0-54D4-4AF0-908D-C6E2C4D9DF5D}.Release|x86.ActiveCfg = Release|x86
+		{9226A8B0-54D4-4AF0-908D-C6E2C4D9DF5D}.Release|x86.Build.0 = Release|x86
+		{B6A26D15-7246-4DE4-8962-09B6DC3F04D5}.Debug|x86.ActiveCfg = Debug|x86
+		{B6A26D15-7246-4DE4-8962-09B6DC3F04D5}.Debug|x86.Build.0 = Debug|x86
+		{B6A26D15-7246-4DE4-8962-09B6DC3F04D5}.Release|x86.ActiveCfg = Release|x86
+		{B6A26D15-7246-4DE4-8962-09B6DC3F04D5}.Release|x86.Build.0 = Release|x86
+		{71217801-5945-46CC-AAC0-9C97EEFBC551}.Debug|x86.ActiveCfg = Debug|x86
+		{71217801-5945-46CC-AAC0-9C97EEFBC551}.Debug|x86.Build.0 = Debug|x86
+		{71217801-5945-46CC-AAC0-9C97EEFBC551}.Release|x86.ActiveCfg = Release|x86
+		{71217801-5945-46CC-AAC0-9C97EEFBC551}.Release|x86.Build.0 = Release|x86
+		{95FC9491-4A86-4840-9724-77B6A55D5439}.Debug|x86.ActiveCfg = Debug|x86
+		{95FC9491-4A86-4840-9724-77B6A55D5439}.Debug|x86.Build.0 = Debug|x86
+		{95FC9491-4A86-4840-9724-77B6A55D5439}.Release|x86.ActiveCfg = Release|x86
+		{95FC9491-4A86-4840-9724-77B6A55D5439}.Release|x86.Build.0 = Release|x86
+		{D051CDF0-2D6C-4A2B-BE02-9299E0A9B316}.Debug|x86.ActiveCfg = Debug|x86
+		{D051CDF0-2D6C-4A2B-BE02-9299E0A9B316}.Debug|x86.Build.0 = Debug|x86
+		{D051CDF0-2D6C-4A2B-BE02-9299E0A9B316}.Release|x86.ActiveCfg = Release|x86
+		{D051CDF0-2D6C-4A2B-BE02-9299E0A9B316}.Release|x86.Build.0 = Release|x86
+		{9E972F4F-A762-4C3E-9610-F2A915F45DF1}.Debug|x86.ActiveCfg = Debug|x86
+		{9E972F4F-A762-4C3E-9610-F2A915F45DF1}.Debug|x86.Build.0 = Debug|x86
+		{9E972F4F-A762-4C3E-9610-F2A915F45DF1}.Release|x86.ActiveCfg = Release|x86
+		{9E972F4F-A762-4C3E-9610-F2A915F45DF1}.Release|x86.Build.0 = Release|x86
+		{B24641BF-FCA2-4880-86E4-AE1FF9809049}.Debug|x86.ActiveCfg = Debug|x86
+		{B24641BF-FCA2-4880-86E4-AE1FF9809049}.Debug|x86.Build.0 = Debug|x86
+		{B24641BF-FCA2-4880-86E4-AE1FF9809049}.Release|x86.ActiveCfg = Release|x86
+		{B24641BF-FCA2-4880-86E4-AE1FF9809049}.Release|x86.Build.0 = Release|x86
+		{3B6D6942-DD7E-4878-AB8F-730489F0F48B}.Debug|x86.ActiveCfg = Debug|x86
+		{3B6D6942-DD7E-4878-AB8F-730489F0F48B}.Debug|x86.Build.0 = Debug|x86
+		{3B6D6942-DD7E-4878-AB8F-730489F0F48B}.Release|x86.ActiveCfg = Release|x86
+		{3B6D6942-DD7E-4878-AB8F-730489F0F48B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6876FA90-BE43-4CAD-ADC6-B027EADD69C4} = {5929ECB4-9E6A-4630-A854-A183F8E024AB}
+		{9226A8B0-54D4-4AF0-908D-C6E2C4D9DF5D} = {5929ECB4-9E6A-4630-A854-A183F8E024AB}
+		{B6A26D15-7246-4DE4-8962-09B6DC3F04D5} = {5929ECB4-9E6A-4630-A854-A183F8E024AB}
+		{71217801-5945-46CC-AAC0-9C97EEFBC551} = {5929ECB4-9E6A-4630-A854-A183F8E024AB}
+		{95FC9491-4A86-4840-9724-77B6A55D5439} = {1AE691B0-9ADE-4006-8E54-23727B1995E8}
+		{D051CDF0-2D6C-4A2B-BE02-9299E0A9B316} = {1AE691B0-9ADE-4006-8E54-23727B1995E8}
+		{9E972F4F-A762-4C3E-9610-F2A915F45DF1} = {B5E0014A-7909-49AD-B3FB-CE85F23D2ECF}
+		{B24641BF-FCA2-4880-86E4-AE1FF9809049} = {B5E0014A-7909-49AD-B3FB-CE85F23D2ECF}
+	EndGlobalSection
+EndGlobal

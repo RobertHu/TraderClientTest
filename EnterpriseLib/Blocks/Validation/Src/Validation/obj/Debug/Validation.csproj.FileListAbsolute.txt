@@ -1,0 +1,9 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation\obj\Debug\Validation.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb

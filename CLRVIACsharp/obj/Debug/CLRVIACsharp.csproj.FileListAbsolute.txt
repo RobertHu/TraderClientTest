@@ -1,0 +1,5 @@
+D:\VsProjects\CLRVIACsharp\bin\Debug\CLRVIACsharp.exe
+D:\VsProjects\CLRVIACsharp\bin\Debug\CLRVIACsharp.pdb
+D:\VsProjects\CLRVIACsharp\obj\Debug\CLRVIACsharp.csprojResolveAssemblyReference.cache
+D:\VsProjects\CLRVIACsharp\obj\Debug\CLRVIACsharp.exe
+D:\VsProjects\CLRVIACsharp\obj\Debug\CLRVIACsharp.pdb

@@ -1,0 +1,39 @@
+﻿  lzio.c
+  lvm.c
+  lundump.c
+  luac.c
+  lua.c
+  ltm.c
+  ltablib.c
+  ltable.c
+  lstrlib.c
+  lstring.c
+  lstate.c
+  lparser.c
+  loslib.c
+  lopcodes.c
+  lobject.c
+  loadlib.c
+  lmem.c
+  lmathlib.c
+  llex.c
+  liolib.c
+  Generating Code...
+  Compiling...
+  linit.c
+  lgc.c
+  lfunc.c
+  ldump.c
+  ldo.c
+  ldebug.c
+  ldblib.c
+  lctype.c
+  lcorolib.c
+  lcode.c
+  lbitlib.c
+  lbaselib.c
+  lauxlib.c
+  lapi.c
+  Generating Code...
+lua.obj : warning LNK4006: _main already defined in luac.obj; second definition ignored
+  luaLib523.vcxproj -> D:\VsProjects\luaLib523\Debug\luaLib523.lib

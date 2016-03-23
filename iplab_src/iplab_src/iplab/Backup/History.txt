@@ -1,0 +1,59 @@
+[08.03.2007] - Version 2.4.0
+
++ [08.03.2007] - Application converted to use AForge.NET framework
++ [08.03.2007] - Application converted to .NET 2.0
+
+[13.06.2006] - Version 2.3.0
+
++ [31.05.2006] - Effects based on perlin noise were added
++ [18.03.2006] - Image statistics bar
++ [16.11.2005] - YCbCr linear correction
++ [16.11.2005] - YCbCr filtering
++ [11.11.2005] - YCbCr pixel info on status bar
++ [11.11.2005] - YCbCr channel replacement
++ [11.11.2005] - YCbCr channel extraction
+
+[20.09.2005] - Version 2.2.0
+
++ [xx.09.2005] - More filters (SISThreshold, Canny edge detector, Conservative smoothing,
+	SharpenEx, Oil painting)
+
+[20.08.2005] - Version 2.1.0
+
++ [xx.08.2005] - More filters (Sobel edge detector, Gaussian blur,
+	Adaptive smoothing, Blob counter, Connected Components Labeling)
+
+[12.07.2005] - Version 2.0.0
+
++ [11.07.2005] - Printing
++ [10.07.2005] - Save dialog
++ [10.07.2005] - Copy and Paste from clipboard
++ [07.07.2005] - Some edge detector filters
++ [04.07.2005] - Fourier transformation, lowpass and hipass filtering
+
+[20.06.2005] - Version 1.4.0
+
++ [19.06.2005] HSL filtering
++ [18.06.2005] hue modifier
++ [14.06.2005] brightness, contrast, saturation corection using HSL color space
++ [13.06.2005] HSL values in status bar
++ [13.06.2005] hit & miss, thickening, thinning support
++ [12.06.2005] gamma correctio filter support
+
+[29.03.2005] - Version 1.3.0
+
++ Jitter, Shrinking, more dithering filters
++ [29.03.2005] Rotating
++ [27.03.2005] Resizing
+
+[20.03.2005] - Version 1.2.0
+
++ More filters support
++ [17.03.2005] Support for filters with two sources
++ [17.03.2005] Color panel at status bar shows pixel color under mouse pointer
++ [13.03.2005] Colorization of grid for Morphological and Convolution filters
++ [12.03.2005] Preview window
++ [12.03.2005] Threshold filter settings
++ [12.03.2005] ColorSlider updgrade
+
+[03.03.2005] - Version 1.0.0

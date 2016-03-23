@@ -1,0 +1,17 @@
+D:\VsProjects\BasicUnitTest\obj\Debug\BasicUnitTest.csprojResolveAssemblyReference.cache
+D:\VsProjects\BasicUnitTest\bin\Debug\BasicUnitTest.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\BasicUnitTest.pdb
+D:\VsProjects\BasicUnitTest\bin\Debug\Core.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\nunit.framework.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\Protocal.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\iExchange.Common.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\log4net.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\Dapper.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\Framework.dll
+D:\VsProjects\BasicUnitTest\bin\Debug\Core.pdb
+D:\VsProjects\BasicUnitTest\bin\Debug\nunit.framework.xml
+D:\VsProjects\BasicUnitTest\bin\Debug\Protocal.pdb
+D:\VsProjects\BasicUnitTest\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\BasicUnitTest\bin\Debug\Framework.pdb
+D:\VsProjects\BasicUnitTest\obj\Debug\BasicUnitTest.dll
+D:\VsProjects\BasicUnitTest\obj\Debug\BasicUnitTest.pdb

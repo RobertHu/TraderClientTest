@@ -1,0 +1,8 @@
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\bin\Debug\TransactionTestHelper.XML
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\bin\Debug\TransactionTestHelper.dll
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\bin\Debug\TransactionTestHelper.pdb
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\bin\Debug\FSharp.Core.dll
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\bin\Debug\FSharp.Core.xml
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\obj\Debug\TransactionTestHelper.dll
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\obj\Debug\TransactionTestHelper.pdb
+D:\VsProjects\ConsoleApplication46\TransactionTestHelper\obj\Debug\TransactionTestHelper.fsprojResolveAssemblyReference.cache

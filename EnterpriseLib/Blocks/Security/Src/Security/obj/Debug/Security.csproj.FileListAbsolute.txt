@@ -1,0 +1,10 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\Security\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\Security\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\Security\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\Security\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\Security\obj\Debug\Security.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\Security\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\Security\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb

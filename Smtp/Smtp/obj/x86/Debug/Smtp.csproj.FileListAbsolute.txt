@@ -1,0 +1,13 @@
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\MainWindow.baml
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\MainWindow.g.cs
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\App.g.cs
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\Smtp_MarkupCompile.cache
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\Smtp.g.resources
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\Smtp.Properties.Resources.resources
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\VsProjects\Smtp\Smtp\bin\Debug\Smtp.exe
+D:\VsProjects\Smtp\Smtp\bin\Debug\Smtp.pdb
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\Smtp.exe
+D:\VsProjects\Smtp\Smtp\obj\x86\Debug\Smtp.pdb

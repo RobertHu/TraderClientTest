@@ -1,0 +1,6 @@
+﻿Your {BalanceType}, details as below:
+Client Name : {AccountName}
+Account No :{AccountCode}
+{BalanceType} Amount :{CurrencyCode} {Amount}
+Date & Time:{ExecuteTime}
+{Organization}

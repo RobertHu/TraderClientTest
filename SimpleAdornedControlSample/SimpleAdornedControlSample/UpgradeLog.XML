@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SimpleAdornedControlSample">
+</Property><Property Name="Solution File" Value="D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\SimpleAdornedControlSample.sln">
+</Property><Property Name="User Options File" Value="D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\SimpleAdornedControlSample.suo">
+</Property><Property Name="Date" Value="Friday, March 09, 2012">
+</Property><Property Name="Time" Value="8:21 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SimpleAdornedControlSample.sln" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\SimpleAdornedControlSample.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SimpleAdornedControlSample.suo" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\SimpleAdornedControlSample.suo">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="SimpleAdornedControlSample.csproj" Description="Project file successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\SimpleAdornedControlSample.csproj">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="App.xaml.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="Window1.xaml.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="LoadingWait.xaml.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\LoadingWait.xaml.cs">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="Properties\Settings.settings" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="Properties\Resources.resx" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="App.xaml" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\App.xaml">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="LoadingWait.xaml" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\LoadingWait.xaml">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="Window1.xaml" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\Window1.xaml">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="SimpleAdornedControlSample.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SimpleAdornedControlSample" Source="SimpleAdornedControlSample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AdornedControl" Source="AdornedControl\AdornedControl.csproj" Description="Project file successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\AdornedControl\AdornedControl.csproj">
+</Event><Event ErrorLevel="0" Project="AdornedControl" Source="AdornedControl\AdornedControl.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\AdornedControl\AdornedControl.cs">
+</Event><Event ErrorLevel="0" Project="AdornedControl" Source="AdornedControl\AdornerPlacement.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\AdornedControl\AdornerPlacement.cs">
+</Event><Event ErrorLevel="0" Project="AdornedControl" Source="AdornedControl\FrameworkElementAdorner.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\AdornedControl\FrameworkElementAdorner.cs">
+</Event><Event ErrorLevel="0" Project="AdornedControl" Source="AdornedControl\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\Backup\AdornedControl\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="AdornedControl" Source="AdornedControl\AdornedControl.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="AdornedControl" Source="AdornedControl\AdornedControl.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SimpleAdornedControlSample.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SimpleAdornedControlSample.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SimpleAdornedControlSample" Source="SimpleAdornedControlSample.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="AdornedControl" Source="AdornedControl\AdornedControl.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

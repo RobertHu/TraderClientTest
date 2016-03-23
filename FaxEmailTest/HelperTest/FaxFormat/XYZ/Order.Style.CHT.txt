@@ -1,0 +1,22 @@
+﻿<p>尊貴的客戶: 日期及時間: {ExecuteTime}</p>
+
+<p>閣下之戶口已成功進行交易，詳情如下:</p>
+
+<p>戶口名稱 : {AccountName}</p>
+
+<p>戶口號碼 : {AccountCode}</p>
+
+<p>掛單編號 : {OrderCode}</p>
+
+<p>掛單資料</p>
+<div>
+<table>
+<tr><th>產品</th> <th>買入</th> <th>沽出</th> <th>交易價</th> <th>類型</th> <th>手續費</th></tr>
+<tr><td>{InstrumentDesc}</td>  <td>{Buy}</td>  <td>{Sell}</td>  <td>{ExecutePrice}</td>  <td>{Type}</td>  <td>{Commission}</td></tr>
+</table>
+</div>
+<p>如客戶對以上交易有任何疑問，可致電交易室 (852) 3761 2850 或 中國免費專線 400 120 1077 查詢。</p>
+
+<p>敬希垂注</p>
+
+<p>{Organization}</p>

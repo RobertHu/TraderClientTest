@@ -1,0 +1,18 @@
+﻿Build started 11/12/2013 6:09:32 PM.
+     1>Project "D:\VsProjects\QtSslDemo\QtSslDemo.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing qtssldemo.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\include\QtWidgets /I..\..\..\include\QtNetwork /I..\..\..\include\QtGui /I..\..\..\include\QtCore /Idebug /I. /I"..\..\..\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_qtssldemo.cpp main.cpp qtssldemo.cpp
+         moc_qtssldemo.cpp
+     1>d:\vsprojects\qtssldemo\generatedfiles\debug\../../qtssldemo.h(4): fatal error C1083: Cannot open include file: 'QtWidgets/QMainWindow': No such file or directory
+         main.cpp
+     1>d:\vsprojects\qtssldemo\qtssldemo.h(4): fatal error C1083: Cannot open include file: 'QtWidgets/QMainWindow': No such file or directory
+         qtssldemo.cpp
+     1>d:\vsprojects\qtssldemo\qtssldemo.h(4): fatal error C1083: Cannot open include file: 'QtWidgets/QMainWindow': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\VsProjects\QtSslDemo\QtSslDemo.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51

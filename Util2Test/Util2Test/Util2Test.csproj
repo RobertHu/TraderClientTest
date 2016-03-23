@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A5BF8D1-C1BD-44D5-B4E5-5DEFAEB0546E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Util2Test</RootNamespace>
+    <AssemblyName>Util2Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FaxAndEmail.Repository, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Teams\iExchangeCollection\iExchange3 Team\iExchange3\FaxAndEmail.Repository\bin\Debug\FaxAndEmail.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="FaxAndEmail.V3Model">
+      <HintPath>..\..\..\Teams\iExchangeCollection\iExchange3 Team\iExchange3\FaxAndEmailService\bin\FaxAndEmail.V3Model.dll</HintPath>
+    </Reference>
+    <Reference Include="FaxAndEmaill.Helper, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Teams\iExchangeCollection\iExchange3 Team\iExchange3\FaxAndEmial.Helper\bin\Debug\FaxAndEmaill.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="FaxAndEmailService">
+      <HintPath>..\..\..\Teams\iExchangeCollection\iExchange3 Team\iExchange3\FaxAndEmailService\bin\FaxAndEmailService.dll</HintPath>
+    </Reference>
+    <Reference Include="FaxAndEmailService.Common">
+      <HintPath>..\..\..\Teams\iExchangeCollection\iExchange3 Team\iExchange3\FaxAndEmailService\bin\FaxAndEmailService.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=1.3.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Ref\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Ref\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="iExchange.Common, Version=1.0.4602.31711, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Teams\iExchangeCollection\iExchange3 Team\iExchange3\Common\bin\Debug\iExchange.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Ref\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Util2">
+      <HintPath>..\..\..\GitDataSource\ConfigurationManager\Util2\bin\Util2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplyConfigTest.cs" />
+    <Compile Include="ConstantString.cs" />
+    <Compile Include="DefaultKeyWordsTest.cs" />
+    <Compile Include="DJNewsTest.cs" />
+    <Compile Include="DynamicTest.cs" />
+    <Compile Include="FileUtilTest.cs" />
+    <Compile Include="GetContentTest.cs" />
+    <Compile Include="GetMapTest.cs" />
+    <Compile Include="NhibernateProcedureTest.cs" />
+    <Compile Include="PasswordResetServiceTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegularTest.cs" />
+    <Compile Include="StringTest.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Ref\nhibernate-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AccountInfo.hbm.xml" />
+    <Content Include="Ref\FluentNHibernate.dll" />
+    <Content Include="Ref\Iesi.Collections.dll" />
+    <Content Include="Ref\NHibernate.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

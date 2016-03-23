@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://microsoft.com/wsdl/types/" />
+      <s:element name="NotifyOrderExecuted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="orderId" type="s1:guid" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NotifyOrderExecutedResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="NotifyResetStatement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="tradeDay" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="NotifyResetStatementResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="NotifyRiskLevelChanged">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:RiskLevelChangedInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="RiskLevelChangedInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClientName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Equity" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="InitialMargin" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TradeDay" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="RiskLevel" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TransactionCodes" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="NotifyRiskLevelChangedResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="NotifyBalanceChanged">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:BalanceInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BalanceInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="AccountID" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="ClientName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CurrencyCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Amount" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="TradeDay" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ChangeSubject" type="tns:BalanceChangeSubject" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="BalanceChangeSubject">
+        <s:restriction base="s:string">
+          <s:enumeration value="Deposit" />
+          <s:enumeration value="Withdrawal" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="NotifyBalanceChangedResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="NotifyPasswordReset">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:PasswordResetInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PasswordResetInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CustomerID" type="s1:guid" />
+          <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="NotifyPasswordResetResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/wsdl/types/">
+      <s:simpleType name="guid">
+        <s:restriction base="s:string">
+          <s:pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" />
+        </s:restriction>
+      </s:simpleType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="NotifyOrderExecutedSoapIn">
+    <wsdl:part name="parameters" element="tns:NotifyOrderExecuted" />
+  </wsdl:message>
+  <wsdl:message name="NotifyOrderExecutedSoapOut">
+    <wsdl:part name="parameters" element="tns:NotifyOrderExecutedResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotifyResetStatementSoapIn">
+    <wsdl:part name="parameters" element="tns:NotifyResetStatement" />
+  </wsdl:message>
+  <wsdl:message name="NotifyResetStatementSoapOut">
+    <wsdl:part name="parameters" element="tns:NotifyResetStatementResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotifyRiskLevelChangedSoapIn">
+    <wsdl:part name="parameters" element="tns:NotifyRiskLevelChanged" />
+  </wsdl:message>
+  <wsdl:message name="NotifyRiskLevelChangedSoapOut">
+    <wsdl:part name="parameters" element="tns:NotifyRiskLevelChangedResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotifyBalanceChangedSoapIn">
+    <wsdl:part name="parameters" element="tns:NotifyBalanceChanged" />
+  </wsdl:message>
+  <wsdl:message name="NotifyBalanceChangedSoapOut">
+    <wsdl:part name="parameters" element="tns:NotifyBalanceChangedResponse" />
+  </wsdl:message>
+  <wsdl:message name="NotifyPasswordResetSoapIn">
+    <wsdl:part name="parameters" element="tns:NotifyPasswordReset" />
+  </wsdl:message>
+  <wsdl:message name="NotifyPasswordResetSoapOut">
+    <wsdl:part name="parameters" element="tns:NotifyPasswordResetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FaxEmailServiceSoap">
+    <wsdl:operation name="NotifyOrderExecuted">
+      <wsdl:input message="tns:NotifyOrderExecutedSoapIn" />
+      <wsdl:output message="tns:NotifyOrderExecutedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NotifyResetStatement">
+      <wsdl:input message="tns:NotifyResetStatementSoapIn" />
+      <wsdl:output message="tns:NotifyResetStatementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NotifyRiskLevelChanged">
+      <wsdl:input message="tns:NotifyRiskLevelChangedSoapIn" />
+      <wsdl:output message="tns:NotifyRiskLevelChangedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NotifyBalanceChanged">
+      <wsdl:input message="tns:NotifyBalanceChangedSoapIn" />
+      <wsdl:output message="tns:NotifyBalanceChangedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="NotifyPasswordReset">
+      <wsdl:input message="tns:NotifyPasswordResetSoapIn" />
+      <wsdl:output message="tns:NotifyPasswordResetSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FaxEmailServiceSoap" type="tns:FaxEmailServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NotifyOrderExecuted">
+      <soap:operation soapAction="http://tempuri.org/NotifyOrderExecuted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyResetStatement">
+      <soap:operation soapAction="http://tempuri.org/NotifyResetStatement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyRiskLevelChanged">
+      <soap:operation soapAction="http://tempuri.org/NotifyRiskLevelChanged" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyBalanceChanged">
+      <soap:operation soapAction="http://tempuri.org/NotifyBalanceChanged" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyPasswordReset">
+      <soap:operation soapAction="http://tempuri.org/NotifyPasswordReset" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FaxEmailServiceSoap12" type="tns:FaxEmailServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NotifyOrderExecuted">
+      <soap12:operation soapAction="http://tempuri.org/NotifyOrderExecuted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyResetStatement">
+      <soap12:operation soapAction="http://tempuri.org/NotifyResetStatement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyRiskLevelChanged">
+      <soap12:operation soapAction="http://tempuri.org/NotifyRiskLevelChanged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyBalanceChanged">
+      <soap12:operation soapAction="http://tempuri.org/NotifyBalanceChanged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NotifyPasswordReset">
+      <soap12:operation soapAction="http://tempuri.org/NotifyPasswordReset" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FaxEmailService">
+    <wsdl:port name="FaxEmailServiceSoap" binding="tns:FaxEmailServiceSoap">
+      <soap:address location="http://ws0210/FaxAndEmailService/FaxEmailService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FaxEmailServiceSoap12" binding="tns:FaxEmailServiceSoap12">
+      <soap12:address location="http://ws0210/FaxAndEmailService/FaxEmailService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

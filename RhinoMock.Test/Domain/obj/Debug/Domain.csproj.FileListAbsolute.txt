@@ -1,0 +1,4 @@
+D:\VsProjects\RhinoMock.Test\Domain\bin\Debug\Domain.dll
+D:\VsProjects\RhinoMock.Test\Domain\bin\Debug\Domain.pdb
+D:\VsProjects\RhinoMock.Test\Domain\obj\Debug\Domain.dll
+D:\VsProjects\RhinoMock.Test\Domain\obj\Debug\Domain.pdb

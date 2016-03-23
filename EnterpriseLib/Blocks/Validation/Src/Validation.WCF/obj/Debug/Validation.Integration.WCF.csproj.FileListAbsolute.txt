@@ -1,0 +1,8 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WCF\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WCF\obj\Debug\Validation.Integration.WCF.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.dll
+D:\VsProjects\EnterpriseLib\Blocks\Validation\Src\Validation.WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.WCF.pdb

@@ -1,0 +1,9 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\CachingStore\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\CachingStore\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\CachingStore\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\CachingStore\obj\Debug\Security.Cache.CachingStore.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\CachingStore\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll
+D:\VsProjects\EnterpriseLib\Blocks\Security\Src\CachingStore\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.pdb

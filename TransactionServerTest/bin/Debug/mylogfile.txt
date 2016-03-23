@@ -1,0 +1,65 @@
+2015-03-09 17:20:39,057 [10] INFO TransactionServerTest.Program - Started
+2015-03-09 17:20:41,197 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:20:53,899 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:21:06,569 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:21:18,769 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:21:31,347 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:21:43,781 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:21:56,482 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:22:08,725 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:22:21,334 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:22:34,060 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:22:46,485 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:22:58,684 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:23:10,918 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:23:23,638 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:23:36,158 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:23:48,934 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:24:01,314 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:24:13,810 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:24:26,587 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:24:39,302 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:24:51,584 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:25:03,771 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:25:16,454 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:25:29,130 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:25:41,613 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:25:54,328 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:26:06,563 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:26:19,184 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:26:31,852 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:26:44,460 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:26:56,753 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:27:09,316 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:27:21,734 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:27:34,074 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:27:46,368 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:27:58,574 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:28:10,775 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:28:23,212 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:28:35,740 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:28:48,272 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:29:00,612 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:29:12,862 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:29:25,217 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:29:37,515 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:29:50,292 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:30:02,626 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:30:15,091 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:30:27,573 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:30:39,804 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:30:52,459 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:31:05,237 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:31:17,989 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:31:30,659 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:31:43,108 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:31:55,824 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:32:08,248 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-09 17:32:20,463 [12] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-10 09:02:03,491 [10] INFO TransactionServerTest.Program - Started
+2015-03-10 09:11:21,947 [10] INFO TransactionServerTest.Program - Started
+2015-03-10 09:20:06,028 [10] INFO TransactionServerTest.Program - Started
+2015-03-10 09:20:54,492 [9] INFO TransactionServerTest.Program - Started
+2015-03-10 09:20:56,488 [11] INFO Protocal.Communication.ProxyBase`1[[Protocal.IGatewayService, Protocal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] - Discovery gateway service
+2015-03-10 09:21:54,741 [10] INFO TransactionServerTest.Program - Started
+2015-03-10 09:59:37,650 [10] INFO TransactionServerTest.Program - Started

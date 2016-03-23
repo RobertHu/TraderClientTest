@@ -1,0 +1,17 @@
+D:\VsProjects\Demo\bin\Debug\Demo.dll
+D:\VsProjects\Demo\bin\Debug\Demo.pdb
+D:\VsProjects\Demo\bin\Debug\nunit.framework.dll
+D:\VsProjects\Demo\bin\Debug\nunit.framework.xml
+D:\VsProjects\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+D:\VsProjects\Demo\obj\Debug\Demo.dll
+D:\VsProjects\Demo\obj\Debug\Demo.pdb
+D:\VsProjects\Demo\bin\Debug\iExchange.Common.dll
+D:\VsProjects\Demo\bin\Debug\Framework.dll
+D:\VsProjects\Demo\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\Demo\bin\Debug\Framework.pdb
+D:\VsProjects\Demo\bin\Debug\Newtonsoft.Json.dll
+D:\VsProjects\Demo\bin\Debug\Protocal.dll
+D:\VsProjects\Demo\bin\Debug\log4net.dll
+D:\VsProjects\Demo\bin\Debug\Protocal.pdb
+D:\VsProjects\Demo\bin\Debug\Core.dll
+D:\VsProjects\Demo\bin\Debug\Core.pdb

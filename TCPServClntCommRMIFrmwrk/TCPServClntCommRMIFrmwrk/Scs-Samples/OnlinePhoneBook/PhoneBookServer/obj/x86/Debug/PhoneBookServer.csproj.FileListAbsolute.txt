@@ -1,0 +1,9 @@
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\bin\Debug\PhoneBookServer.exe
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\bin\Debug\PhoneBookServer.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\bin\Debug\PhoneBookCommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\bin\Debug\Scs.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\bin\Debug\PhoneBookCommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\bin\Debug\Scs.xml
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\obj\x86\Debug\PhoneBookServer.exe
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\OnlinePhoneBook\PhoneBookServer\obj\x86\Debug\PhoneBookServer.pdb

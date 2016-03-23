@@ -1,0 +1,4 @@
+﻿帳戶名稱 : {AccountName}
+登入用戶 : {LoginName}
+密碼: {Password}
+{Organization}

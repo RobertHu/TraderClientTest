@@ -1,0 +1,14 @@
+D:\VsProjects\DJServer\DjUI\bin\Debug\DjUI.exe
+D:\VsProjects\DJServer\DjUI\bin\Debug\DjUI.pdb
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\MainWindow.baml
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\MainWindow.g.cs
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\App.g.cs
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\DjUI_Content.g.cs
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\DjUI_MarkupCompile.cache
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\DjUI.g.resources
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\DjUI.Properties.Resources.resources
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\DjUI.csproj.GenerateResource.Cache
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\DjUI.exe
+D:\VsProjects\DJServer\DjUI\obj\x86\Debug\DjUI.pdb
+D:\VsProjects\DJServer\DjUI\bin\Debug\DjUI.exe.config
+D:\VsProjects\DJServer\DjUI\bin\Debug\news.xml

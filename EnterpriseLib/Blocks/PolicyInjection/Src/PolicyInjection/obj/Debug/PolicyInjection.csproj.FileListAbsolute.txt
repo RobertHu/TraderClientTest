@@ -1,0 +1,9 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.pdb
+D:\VsProjects\EnterpriseLib\Blocks\PolicyInjection\Src\PolicyInjection\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\PolicyInjection\Src\PolicyInjection\obj\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\PolicyInjection\Src\PolicyInjection\obj\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\PolicyInjection\Src\PolicyInjection\obj\Debug\PolicyInjection.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\PolicyInjection\Src\PolicyInjection\obj\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+D:\VsProjects\EnterpriseLib\Blocks\PolicyInjection\Src\PolicyInjection\obj\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.pdb

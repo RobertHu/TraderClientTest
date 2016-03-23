@@ -1,0 +1,5 @@
+﻿  ConsoleApplication31.cpp
+ConsoleApplication31.cpp(13): warning C4101: 'myString' : unreferenced local variable
+  Generating code
+  Finished generating code
+  ConsoleApplication31.vcxproj -> D:\VsProjects\ConsoleApplication31\Release\ConsoleApplication31.exe

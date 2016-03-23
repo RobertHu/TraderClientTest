@@ -1,0 +1,6 @@
+D:\VsProjects\DiscoveryServer\bin\Debug\DiscoveryServer.exe.config
+D:\VsProjects\DiscoveryServer\bin\Debug\DiscoveryServer.exe
+D:\VsProjects\DiscoveryServer\bin\Debug\DiscoveryServer.pdb
+D:\VsProjects\DiscoveryServer\obj\Debug\DiscoveryServer.csprojResolveAssemblyReference.cache
+D:\VsProjects\DiscoveryServer\obj\Debug\DiscoveryServer.exe
+D:\VsProjects\DiscoveryServer\obj\Debug\DiscoveryServer.pdb

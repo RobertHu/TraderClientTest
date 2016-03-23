@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="14b66b45-1362-41de-ac68-3397f4946a54" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="d77b8dcc-27ba-4211-b2f2-2bcc28b6e086" name="Comment1">
+      <body>客户端
+</body>
+    </comment>
+    <comment Id="9c1d10d8-ce36-4a67-ba0f-22bc0d6819fe" name="Comment2">
+      <body>服务端</body>
+    </comment>
+    <comment Id="b8796ff8-b4d7-4753-85a8-d0bb613c06d1" name="Comment3">
+      <body>服务端提供给客户端的操作接口</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="1ff3dc8b-97fd-4d47-9966-1568a800b6df" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="ae8d96aa-1698-44c9-8f93-219e2ee70572" name="Comment4">
+      <body>客户端提供给服务端的操作接口</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="06a2f825-b31b-44af-b444-1d210939414f" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+  </comments>
+  <layers>
+    <layer Id="28587f05-e860-4bd1-a56e-146a68a3e0f5" name="UI&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1744521e-ce0a-4db3-9430-9fac43a6894c" direction="Forward">
+          <layerMoniker Id="f5cac58c-4149-4162-a52f-990c85d9346b" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="cd3e6bd7-416e-4e61-b9b4-8cd2702df16e" name="各种策略  ">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="98e4e4d7-c482-4ed9-bd0e-945bead58ca5" direction="Forward">
+          <layerMoniker Id="75dbfc8b-817c-4cd5-95a6-b696aeb54472" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="594fa2c5-3b0f-4e3e-b960-b76301c0ff0a" name="通讯">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="b831c76a-0dba-41a6-b80d-1b37742cd7f1" direction="Forward">
+          <layerMoniker Id="1ff3dc8b-97fd-4d47-9966-1568a800b6df" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6a1d3b1b-483e-42ef-b57a-c02491c91b5f" direction="Forward">
+          <layerMoniker Id="06a2f825-b31b-44af-b444-1d210939414f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="5f44ecdd-88af-49ed-906b-31d714048c3f" name="业务层 ">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="cfde09fd-3e4d-4e4f-bf3d-fb551b125bcc" direction="Forward">
+          <layerMoniker Id="75dbfc8b-817c-4cd5-95a6-b696aeb54472" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="f5cac58c-4149-4162-a52f-990c85d9346b" name="View Model&#xD;&#xA;">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="5b0f14b9-733d-4c9c-9925-c29516ef2682" direction="Forward">
+          <layerMoniker Id="ee06e07e-135c-482b-8269-5448eef73220" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="b83405c4-d749-4f3d-9bb5-78f6f7e70f5b" name="应用层&#xD;&#xA;（主要是抽象出一些业务规则和ViewModel所需的业务模型）">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1c9a2f4e-6448-491b-a992-20689ed35815" direction="Forward">
+          <layerMoniker Id="ee06e07e-135c-482b-8269-5448eef73220" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="0ec3445c-c356-47d7-9c1a-dabfe7bbfa1f" direction="Forward">
+          <layerMoniker Id="75dbfc8b-817c-4cd5-95a6-b696aeb54472" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="4d311a8b-9aaf-4ec2-8ba4-d9368e4ca47b" direction="Forward">
+          <layerMoniker Id="1ff3dc8b-97fd-4d47-9966-1568a800b6df" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="ee06e07e-135c-482b-8269-5448eef73220" name="交互接口1&#xD;&#xA;" />
+    <layer Id="75dbfc8b-817c-4cd5-95a6-b696aeb54472" name="交互接口2" />
+    <layer Id="1ff3dc8b-97fd-4d47-9966-1568a800b6df" name="通讯交互接口2&#xD;&#xA;" />
+    <layer Id="dc914122-363d-4b03-a3c0-3c564fc78ca1" name="应用层">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="6062aea4-0ae0-4413-9c2d-0a01866ee4e1" direction="Forward">
+          <layerMoniker Id="06a2f825-b31b-44af-b444-1d210939414f" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="03d6d212-5a38-492a-9a51-c5750a1600d5" direction="Forward">
+          <layerMoniker Id="0329341b-0caa-435b-b731-e3a1722f568e" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="70ab27b8-cfae-41a2-88a4-9fe0bf66f68c" name="业务层">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="792e4d8e-2e7a-481b-b6bc-bc764bc0c102" direction="Forward">
+          <layerMoniker Id="0329341b-0caa-435b-b731-e3a1722f568e" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="fa9d48d6-67c2-4cdd-9e0a-28fa15688279" direction="Forward">
+          <layerMoniker Id="2ef02a08-9d13-4887-b11e-a07733375009" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="798f4955-f182-4c00-973f-15df75b5bdb3" name="各种策略">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="34d1fc85-e7aa-4ba7-b1c1-b266bf501d31" direction="Forward">
+          <layerMoniker Id="0329341b-0caa-435b-b731-e3a1722f568e" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="cdd099af-8355-4567-924c-8f59a96ac88b" direction="Forward">
+          <layerMoniker Id="2ef02a08-9d13-4887-b11e-a07733375009" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="0329341b-0caa-435b-b731-e3a1722f568e" name="交互接口 3&#xD;&#xA;" />
+    <layer Id="06a2f825-b31b-44af-b444-1d210939414f" name="通讯交互接口1" />
+    <layer Id="2ef02a08-9d13-4887-b11e-a07733375009" name="数据映射(Adapter)" />
+    <layer Id="10692797-27d3-440b-a7db-e59b6246303c" name="第三方数据提供源&#xD;&#xA;(比如：StateServer, TransactionServer等)">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="ab843eb0-d308-48c2-8b71-2051a2450119" direction="Forward">
+          <layerMoniker Id="2ef02a08-9d13-4887-b11e-a07733375009" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="09beebf4-2cf2-410b-8444-44237b8c67c9" name="数据库">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="66390e0c-f7b9-4bea-ba99-32b3fd83e98f" direction="Forward">
+          <layerMoniker Id="2ef02a08-9d13-4887-b11e-a07733375009" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+  </layers>
+</layerModel>

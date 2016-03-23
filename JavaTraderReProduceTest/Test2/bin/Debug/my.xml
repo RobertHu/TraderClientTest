@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="yes"?>
+<data>
+  <xs:schema id="data" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="data" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Account">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Instrument">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" />
+                <xs:element name="Code" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Account" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+      <xs:unique name="Instrument_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//Instrument" />
+        <xs:field xpath="ID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Account>
+    <ID>544b007c-22c4-4ca7-9bca-f62a0a284ee1</ID>
+    <Code>account0</Code>
+  </Account>
+  <Account>
+    <ID>8d61a022-918b-40e3-95de-e76ef709481d</ID>
+    <Code>account1</Code>
+  </Account>
+  <Account>
+    <ID>2481f506-c0f4-4a06-9a12-4ad6734264cd</ID>
+    <Code>account2</Code>
+  </Account>
+  <Account>
+    <ID>87b4f06a-b2cc-4596-a652-243692426f5f</ID>
+    <Code>account3</Code>
+  </Account>
+  <Account>
+    <ID>035a6cd1-7251-44f1-8b32-17b84e59b7d3</ID>
+    <Code>account4</Code>
+  </Account>
+  <Account>
+    <ID>081a0c36-f8b5-4efe-a0e3-d1517f001f53</ID>
+    <Code>account5</Code>
+  </Account>
+  <Account>
+    <ID>356238c0-1c00-4bcf-bb88-7f4942657149</ID>
+    <Code>account6</Code>
+  </Account>
+  <Account>
+    <ID>e9a275c6-34cc-4268-a1ac-46a1ac9c3b49</ID>
+    <Code>account7</Code>
+  </Account>
+  <Account>
+    <ID>b0cac2a0-0a41-45ac-8879-d8382422bc0f</ID>
+    <Code>account8</Code>
+  </Account>
+  <Account>
+    <ID>9df3fa80-113f-45d9-8021-2ca21569b4f0</ID>
+    <Code>account9</Code>
+  </Account>
+  <Instrument>
+    <ID>28baf4c7-8068-4e95-86a4-e243bda6fa9f</ID>
+    <Code>instrument0</Code>
+  </Instrument>
+  <Instrument>
+    <ID>3d2a5598-1c19-45b7-9ee3-c1fc4652e0fc</ID>
+    <Code>instrument1</Code>
+  </Instrument>
+  <Instrument>
+    <ID>f34403ea-ca5b-4e9d-a6d3-0159e3ec7eb0</ID>
+    <Code>instrument2</Code>
+  </Instrument>
+  <Instrument>
+    <ID>56c8c60c-0cf5-44e2-8395-33e8970c8d77</ID>
+    <Code>instrument3</Code>
+  </Instrument>
+  <Instrument>
+    <ID>cefb1274-ffd2-47d3-b046-05fec7e67b67</ID>
+    <Code>instrument4</Code>
+  </Instrument>
+  <Instrument>
+    <ID>3ebdf15d-ced4-43f7-b81f-a08063763796</ID>
+    <Code>instrument5</Code>
+  </Instrument>
+  <Instrument>
+    <ID>a07af767-b7e0-41e6-b12b-a414471f8d92</ID>
+    <Code>instrument6</Code>
+  </Instrument>
+  <Instrument>
+    <ID>5d8c8976-e540-45b0-afdf-7209f52b5efa</ID>
+    <Code>instrument7</Code>
+  </Instrument>
+  <Instrument>
+    <ID>b59d1ea1-2bba-4829-8c13-dacdd4a49a5b</ID>
+    <Code>instrument8</Code>
+  </Instrument>
+  <Instrument>
+    <ID>1c057dba-a37e-470d-8745-72441ab1ae36</ID>
+    <Code>instrument9</Code>
+  </Instrument>
+</data>

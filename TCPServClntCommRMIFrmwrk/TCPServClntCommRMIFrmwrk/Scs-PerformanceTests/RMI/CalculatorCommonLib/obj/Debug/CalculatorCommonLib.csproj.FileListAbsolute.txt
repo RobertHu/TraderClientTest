@@ -1,0 +1,7 @@
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorCommonLib\bin\Debug\CalculatorCommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorCommonLib\bin\Debug\CalculatorCommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorCommonLib\bin\Debug\Scs.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorCommonLib\bin\Debug\Scs.xml
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorCommonLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorCommonLib\obj\Debug\CalculatorCommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorCommonLib\obj\Debug\CalculatorCommonLib.pdb

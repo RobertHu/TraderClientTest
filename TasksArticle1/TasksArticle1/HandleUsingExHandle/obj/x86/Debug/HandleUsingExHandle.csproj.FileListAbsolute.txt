@@ -1,0 +1,10 @@
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandleUsingExHandle\bin\Debug\HandleUsingExHandle.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandleUsingExHandle\bin\Debug\HandleUsingExHandle.pdb
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandleUsingExHandle\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandleUsingExHandle\obj\x86\Debug\HandleUsingExHandle.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandleUsingExHandle\obj\x86\Debug\HandleUsingExHandle.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\HandleUsingExHandle\bin\Debug\HandleUsingExHandle.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\HandleUsingExHandle\bin\Debug\HandleUsingExHandle.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\HandleUsingExHandle\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TasksArticle1\TasksArticle1\HandleUsingExHandle\obj\x86\Debug\HandleUsingExHandle.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\HandleUsingExHandle\obj\x86\Debug\HandleUsingExHandle.pdb

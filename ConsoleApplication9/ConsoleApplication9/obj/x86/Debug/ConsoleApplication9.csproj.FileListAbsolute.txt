@@ -1,0 +1,9 @@
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\obj\x86\Debug\ConsoleApplication9.csprojResolveAssemblyReference.cache
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.exe
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.pdb
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\bin\Debug\Library1.dll
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\bin\Debug\Library1.pdb
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\bin\Debug\Library1.xml
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\obj\x86\Debug\ConsoleApplication9.exe
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\obj\x86\Debug\ConsoleApplication9.pdb
+D:\VsProjects\ConsoleApplication9\ConsoleApplication9\bin\Debug\ConsoleApplication9.exe.config

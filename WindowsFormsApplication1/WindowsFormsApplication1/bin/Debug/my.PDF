@@ -1,0 +1,230 @@
+%PDF-1.4
+%”ÙÃ·
+% PDFsharp Version 1.31.1789.0 (verbose mode)
+% Creation date: 2/11/2012 11:28:39 AM           
+% Creation time: 1.099 seconds                   
+% File size: 5686 bytes                          
+% Pages: 3                                       
+% Objects: 12                                    
+%--------------------------------------------------------------------------------------------------
+1 0 obj   % PdfSharp.Pdf.PdfDocumentInformation
+<<
+  /CreationDate (D:20120211112839+08'00')
+  /Creator (PDFsharp 1.31.1789-g \(www.pdfsharp.com\))
+  /Producer (PDFsharp 1.31.1789-g \(www.pdfsharp.com\))
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+2 0 obj   % PdfSharp.Pdf.Advanced.PdfCatalog
+<<
+  /Pages 3 0 R
+  /Type /Catalog
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+3 0 obj   % PdfSharp.Pdf.PdfPages
+<<
+  /Count 3
+  /Kids [4 0 R 9 0 R 11 0 R]
+  /Type /Pages
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+4 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 5 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 612 792]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+5 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 94
+>>
+stream
+q
+1 0 0 -1 0 792 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -20 Tf
+257.8896 403.5403 Td (Omnicare) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+6 0 obj   % PdfSharp.Pdf.Advanced.PdfExtGState
+<<
+  /ca 1
+  /Type /ExtGState
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+7 0 obj   % PdfSharp.Pdf.Advanced.PdfFontDescriptor
+<<
+  /Ascent 1005
+  /CapHeight 727
+  /Descent -210
+  /Flags 32
+  /FontBBox [-560 -303 1447 1051]
+  /FontName /Verdana
+  /ItalicAngle 0
+  /StemV 0
+  /Type /FontDescriptor
+  /XHeight 545
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+8 0 obj   % PdfSharp.Pdf.Advanced.PdfTrueTypeFont
+<<
+  /BaseFont /Verdana
+  /Encoding /WinAnsiEncoding
+  /FirstChar 0
+  /FontDescriptor 7 0 R
+  /LastChar 255
+  /Subtype /TrueType
+  /Type /Font
+  /Widths [1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 351 393 458 818 635 1076 726 268 454 454 635 818 363 454 363 454 635 635 635 635 635 635 635 635 635 635 454 454 818 818 818 545 1000 683 685 698 770 632 574 775 751 420 454 692 556 842 748 787 603 787 695 683 616 731 683 988 685 615 685 454 454 454 818 635 635 600 623 520 623 595 351 623 632 274 344 591 274 972 632 606 623 623 426 520 394 632 591 818 591 591 525 634 454 634 818 1000 635 1000 268 635 458 818 635 635 635 1521 683 454 1069 1000 685 1000 1000 268 268 458 458 545 635 1000 635 976 520 454 981 1000 525 615 351 393 635 635 635 635 454 635 635 1000 545 644 818 454 1000 635 541 818 541 541 635 641 635 363 635 541 545 644 1000 1000 1000 545 683 683 683 683 683 683 984 698 632 632 632 632 420 420 420 420 775 748 787 787 787 787 787 818 787 731 731 731 731 615 605 620 600 600 600 600 600 600 955 520 595 595 595 595 274 274 274 274 611 632 606 606 606 606 606 818 606 632 632 632 632 591 623 591]
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+9 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 10 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 612 792]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+10 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 91
+>>
+stream
+q
+1 0 0 -1 0 792 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -20 Tf
+272.582 403.5403 Td (Robert) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+11 0 obj   % PdfSharp.Pdf.PdfPage
+<<
+  /Contents 12 0 R
+  /Group
+  <<
+    /CS /DeviceRGB
+    /I false
+    /K false
+    /S /Transparency
+  >>
+  /MediaBox [0 0 612 792]
+  /Parent 3 0 R
+  /Resources
+  <<
+    /ExtGState
+    <<
+      /GS0 6 0 R
+    >>
+    /Font
+    <<
+      /F0 8 0 R
+    >>
+    /ProcSet [/PDF/Text/ImageB/ImageC/ImageI]
+  >>
+  /Type /Page
+>>
+endobj
+%--------------------------------------------------------------------------------------------------
+12 0 obj   % PdfSharp.Pdf.Advanced.PdfContent
+<<
+  /Length 93
+>>
+stream
+q
+1 0 0 -1 0 792 cm -100 Tz
+q
+BT
+/GS0 gs
+/F0 -20 Tf
+261.1953 403.5403 Td (Huhuabo) Tj
+ET
+Q
+Q
+endstream
+endobj
+%--------------------------------------------------------------------------------------------------
+xref
+0 13
+0000000000 65535 f 
+0000000411 00000 n 
+0000000725 00000 n 
+0000000915 00000 n 
+0000001117 00000 n 
+0000001577 00000 n 
+0000001859 00000 n 
+0000002046 00000 n 
+0000002393 00000 n 
+0000003780 00000 n 
+0000004241 00000 n 
+0000004521 00000 n 
+0000004983 00000 n 
+trailer
+<<
+  /ID [<C7D68E7050E27E40899BD98DBC37BCE8><C7D68E7050E27E40899BD98DBC37BCE8>]
+  /Info 1 0 R
+  /Root 2 0 R
+  /Size 13
+>>
+startxref
+5265
+%%EOF

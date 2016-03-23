@@ -1,0 +1,16 @@
+D:\VsProjects\QuotationSender\obj\Debug\QuotationSender.fsprojResolveAssemblyReference.cache
+D:\VsProjects\QuotationSender\bin\Debug\QuotationSender.exe.config
+D:\VsProjects\QuotationSender\bin\Debug\QuotationSender.XML
+D:\VsProjects\QuotationSender\bin\Debug\QuotationSender.exe
+D:\VsProjects\QuotationSender\bin\Debug\QuotationSender.pdb
+D:\VsProjects\QuotationSender\bin\Debug\FSharp.Core.dll
+D:\VsProjects\QuotationSender\bin\Debug\FSharp.Core.xml
+D:\VsProjects\QuotationSender\obj\Debug\QuotationSender.exe
+D:\VsProjects\QuotationSender\obj\Debug\QuotationSender.pdb
+D:\VsProjects\QuotationSender\bin\Debug\iExchange.Common.dll
+D:\VsProjects\QuotationSender\bin\Debug\Protocal.dll
+D:\VsProjects\QuotationSender\bin\Debug\Framework.dll
+D:\VsProjects\QuotationSender\bin\Debug\log4net.dll
+D:\VsProjects\QuotationSender\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\QuotationSender\bin\Debug\Protocal.pdb
+D:\VsProjects\QuotationSender\bin\Debug\Framework.pdb

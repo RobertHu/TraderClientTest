@@ -1,0 +1,106 @@
+﻿Installing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service My Windows Service...
+Creating EventLog source My Windows Service in log Application...
+Rolling back assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Restoring event log to previous state for source My Windows Service.
+Installing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service My Windows Service...
+Creating EventLog source My Windows Service in log Application...
+Rolling back assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Restoring event log to previous state for source My Windows Service.
+Installing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service My Windows Service...
+Creating EventLog source My Windows Service in log Application...
+Rolling back assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Restoring event log to previous state for source My Windows Service.
+Uninstalling assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Installing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Uninstalling assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Installing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Installing service My Windows Service...
+Creating EventLog source My Windows Service in log Application...
+Rolling back assembly 'D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   i = 
+   logfile = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.InstallLog
+   assemblypath = D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+Restoring event log to previous state for source My Windows Service.

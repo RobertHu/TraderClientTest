@@ -1,0 +1,381 @@
+<!--------------------------------------------------------------------------->  
+<!--                           INTRODUCTION                                
+
+ The Code Project article submission template (HTML version)
+
+Using this template will help us post your article sooner. To use, just 
+follow the 3 easy steps below:
+ 
+     1. Fill in the article description details
+     2. Add links to your images and downloads
+     3. Include the main article text
+
+That's all there is to it! All formatting will be done by our submission
+scripts and style sheets. 
+
+-->  
+<!--------------------------------------------------------------------------->  
+<!--                        IGNORE THIS SECTION                            -->
+<html>
+<head>
+<title>The Code Project</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<Style>
+BODY, P, TD { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+H2,H3,H4,H5 { color: #ff9900; font-weight: bold; }
+H2 { font-size: 13pt; }
+H3 { font-size: 12pt; }
+H4 { font-size: 10pt; color: black; }
+PRE { BACKGROUND-COLOR: #FBEDBB; FONT-FAMILY: "Courier New", Courier, mono; 
+      WHITE-SPACE: pre; }
+CODE { COLOR: #990000; FONT-FAMILY: "Courier New", Courier, mono; }
+</style>
+</head>
+<body bgcolor="#FFFFFF" color=#000000>
+<!--------------------------------------------------------------------------->  
+
+
+<!-------------------------------     STEP 1      --------------------------->
+<!--  Fill in the details (CodeProject will reformat this section for you) -->
+
+<pre lang=c++>
+Title:       Resizable dialogs, form views and property sheets for WTL
+Author:      Serge Weinstock
+Email:       sweinst@ukonline.co.uk
+Environment: VC++ 6.0, NT 4.0/ Win 2000, Win95/98/Me
+Keywords:    Control, Dialog, Property Sheet, WTL
+Level:       Intermediate"
+Description: Implementation of  resizable dialogs, form views and property sheets for WTL
+Section      WTL
+SubSection   General
+</pre>
+
+<hr width=100% noshade>
+
+<!-------------------------------     STEP 2      --------------------------->
+<!--  Include download and sample image information.                       --> 
+
+<ul class=download>
+<li><a href="Layout_Mgr/LayoutMgr_demo.zip">Download demo project - 10 Kb </a></li>
+<li><a href="Layout_Mgr/LayoutMgr_src.zip">Download source - 180 Kb</a></li>
+</ul>
+
+<p><img src="Layout_Mgr/Layout_Mgr.jpg" alt="Resizable Form View"></p>
+
+
+<!-------------------------------     STEP 3      --------------------------->
+<!--  Add the article text. Please use simple formatting (<h2>, <p> etc)   --> 
+
+<h2>Introduction</h2>
+
+These classes provides an easy way to implement in WTL, resizable windows with layout management of the children. Support is provided for:
+<ul>
+<li>Form views</li>
+<li>Dialogs</li>
+<li>Property Sheet and property pages</li>
+</ul>
+Furthermore, support is also provided for using property sheet as child windows.
+
+<h2>How to use the classes in your WTL application</h2>
+<h3>Resizeable form views</h3>
+<ul>
+<li>Include the file <code>LayoutMgr.h</code> in the header file of your dialog class and add the file <code>LayoutMgr.cpp</code> to your project.</li>
+<li>Derive your form view class from <code>CResizableFormViewImpl</code> instead of <code>CDialogImpl</code>.</li>
+<li>Add the message map of <code>CResizableFormViewImpl</code> before your own message handlers.</li>
+<li>Override the <code>DefineLayout</code> method in order to <a href="#layout">set the layout constraints</a>.</li>
+<li>Define the array <code>_controlsToClip</code> which defines <a href="#clipping">the controls which should be clipped when painting the dialog</a>.</li>
+</ul>
+Your class should look like:
+<pre  lang=c++>
+class MyFormView : public CResizableFormViewImpl&lt;MyFormView&gt;
+{
+public:
+	typedef CResizableFormViewImpl&lt;MyFormView&gt; dlgBase;
+	...
+	BEGIN_MSG_MAP(MyFormView)
+		CHAIN_MSG_MAP(dlgBase)
+		...
+	END_MSG_MAP()
+	...
+	virtual void DefineLayout();
+	static const UINT _controlsToClip[];
+};	
+</pre>
+
+<h3>Resizeable dialogs</h3>
+<li>Include the file <code>LayoutMgr.h</code> in the header file of your dialog class and add the file <code>LayoutMgr.cpp</code> to your project.</li>
+<li>Derive your dialog class from <code>CResizableDialogImpl</code> instead of <code>CDialogImpl</code>.</li>
+<li>Add the message map of <code>CResizableDialogImpl</code> before your own message handlers.</li>
+<li>Override the <code>DefineLayout</code> method in order to <a href="#layout">set the layout constraints</a>.</li>
+<li>Define the array <code>_controlsToClip</code> which defines <a href="#clipping">the controls which should be clipped when painting the dialog</a>.</li>
+<li>In the call to <code>CResizableDialogImpl</code> constructor, you can change the value of the flag <code>useHandle</code>. If this flag
+is set to true (default value), a sizing gripper is displayed in the lower right corner of the dialog.</li>
+</ul>
+Your class should look like:
+<pre  lang=c++>
+class MyDialog : public CResizableDialogImpl&lt;MyDialog&gt;
+{
+public:
+	typedef CResizableDialogImpl&lt;MyDialog&gt; dlgBase;
+	...
+	BEGIN_MSG_MAP(MyDialog)
+		CHAIN_MSG_MAP(dlgBase)
+		...
+	END_MSG_MAP()
+	...
+	virtual void DefineLayout();
+	static const UINT _controlsToClip[];
+};	
+</pre>
+
+<h3>Resizeable property sheet</h3>
+<ul>
+<li>Include the file <code>LayoutMgr.h</code> in the header files of your property sheet and property pages classes and add the file <code>LayoutMgr.cpp</code> to your project.</li>
+<li> For the property sheet:
+<ul>
+	<li>If you want to use your property sheet:
+	<ul>
+		<li>as a popup window:
+		<ul>
+			<li>Derive your property sheet class from <code>CPopupResizablePropertySheetImpl</code> instead of <code>CPropertySheetImpl</code>.</li>
+			<li>In the call to <code>CPopupResizablePropertySheetImpl</code> constructor, you can change the value of the flag <code>useHandle</code>. If this flag
+			is set to true (default value), a sizing gripper is displayed in the lower right corner of the property sheet.</li>
+		</ul>
+		</li>
+		<li>as a child window:
+		<ul>
+			<li>Derive your property sheet from <code>CChildResizablePropertySheetImpl</code> instead of <code>CPropertySheetImpl</code>.</li>
+			<li>Pass the ID of the control which will serve as a place holder for the property sheet to the call of the constructor of <code>CChildResizablePropertySheetImpl</code>.</li>
+			<li>Call the method <code>Create</code> in the parent window for creating the property sheet.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Add the message map of <code>CPopupResizablePropertySheetImpl</code> or <code>CChildResizablePropertySheetImpl</code> before your own message handlers.</li>
+</ul>
+</li>
+<li> For the property pages:
+<ul>
+	<li>Derive your property page class from <code>CResizablePropertyPageImpl</code> instead of <code>CPropertyPageImpl</code>.</li>
+	<li>Override the <code>DefineLayout</code> method in order to <a href="#layout">set the layout constraints</a>.</li>
+	<li>Define the array <code>_controlsToClip</code> which defines <a href="#clipping">the controls which should be clipped when painting the dialog</a>.</li>
+</ul>
+</li>
+<li>Property sheets don't receive any <code>WM_INITDIALOG</code> message. If you want to do something just after the initialisation of the property sheet, you can
+override the method <code>OnInitDialog</code>.</li>
+</ul>
+Your property sheet class should look like:
+<pre  lang=c++>
+class MyPropertySheet : public CPopupResizablePropertySheetImpl&lt;MyPropertySheet&gt;
+{
+public:
+	typedef CPopupResizablePropertySheetImpl&lt;MyPropertySheet&gt; dlgBase;
+	...
+	BEGIN_MSG_MAP(MyPropertySheet)
+		CHAIN_MSG_MAP(dlgBase)
+		...
+	END_MSG_MAP()
+	...
+};	
+</pre>
+Your propety page classes should look like:
+<pre lang=c++>
+class MyPropertyPage : public CResizablePropertyPageImpl&lt;MyPropertyPage&gt;
+{
+public:
+	typedef CResizablePropertyPageImpl&lt;MyPropertyPage&gt; dlgBase;
+	...
+	BEGIN_MSG_MAP(MyPropertyPage)
+		CHAIN_MSG_MAP(dlgBase)
+		...
+	END_MSG_MAP()
+	...
+	virtual void DefineLayout();
+	static const UINT _controlsToClip[];
+};	
+</pre>
+
+<h2><a name="layout">Setting the layout constraints</a></h2>
+<p>
+In order to layout the children when the dialog is resized, you must override the <code>DefineLayout</code> method. This method is called during the initialisation
+of the dialog and allow to define the geometrical relationships between the child window which will alow to move and resize them in the desired way.
+</p>
+<p>
+The way of setting layout constraints is inspired by the methods of the <code>XmForm</code> widget of Motif (quite old stuff... <img src="/script/images/smiley_dead.gif" align="absmiddle">).
+It's a little tedious, but very simple and efficient.
+</p>
+<p>
+Constraints are defined by attaching the sides of a child window to the side of another child window or to one of the side of the parent window.
+<ul>
+<li>
+<b>By default all the sides of a child window are without any constraint</b> (method <code>AttachNone</code>). It means that when the dialog is resized, the child window is neither resized nor moved:
+<p><img src="Layout_Mgr/fig1.jpg" alt="No constraints"></p>
+</li>
+<li>
+<b>A side of a child window can be attach to the same side of the parent window </b>(method <code>AttachForm</code>). 
+For example the following code:
+<pre lang=c++>
+	AttachForm(IDC_1, ATTACH_RIGHT);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig2.jpg" alt="AttachForm(ATTACH_RIGHT)"></p>
+And the following code:
+<pre lang=c++>
+	AttachForm(IDC_1, ATTACH_LEFT);
+	AttachForm(IDC_1, ATTACH_RIGHT);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig3.jpg" alt="AttachForm(ATTACH_LEFT & ATTACH_RIGHT)"></p>
+The horizontal or the vertical center of the child window can be attached to the parent window.
+For example the following code:
+<pre lang=c++>
+	AttachForm(IDC_1, ATTACH_HCENTER);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig4.jpg" alt="AttachForm(ATTACH_HCENTER)"></p>
+</li>
+<li>
+<b>A side of a child window can be attach to the opposite side of the parent window </b>(method <code>AttachOppositeForm</code>). 
+For example the following code:
+<pre lang=c++>
+	AttachOppositeForm(IDC_1, ATTACH_LEFT);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig5.jpg" alt="AttachOppositeForm(ATTACH_LEFT)"></p>
+</li>
+<li>
+<b>A side of a child window can be attach to the opposite side of another child window </b>(method <code>AttachWidget</code>). 
+For example the following code:
+<pre lang=c++>
+	AttachForm(IDC_1, ATTACH_HCENTER);
+	AttachWidget(IDC_2, ATTACH_LEFT, IDC_1);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig6.jpg" alt="AttachWidget"></p>
+</li>
+<li>
+<b>A side of a child window can be attach to the same side of another child window </b>(method <code>AttachOppositeWidget</code>). 
+For example the following code:
+<pre lang=c++>
+	AttachForm(IDC_1, ATTACH_LEFT);
+	AttachForm(IDC_1, ATTACH_RIGHT);
+	AttachOppositeWidget(IDC_2, ATTACH_LEFT, IDC_1);
+	AttachOppositeWidget(IDC_2, ATTACH_RIGHT, IDC_1);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig7.jpg" alt="AttachOppositeWidget"></p>
+The horizontal or the vertical center of the child window can be attached to the same side of another child window.
+For example the following code:
+<pre lang=c++>
+	AttachForm(IDC_1, ATTACH_LEFT);
+	AttachForm(IDC_1, ATTACH_RIGHT);
+	AttachOppositeWidget(IDC_2, ATTACH_HCENTER, IDC_1);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig8.jpg" alt="AttachOppositeWidget(ATTACH_HCENTER)"></p>
+</li>
+<b>A side of a child window can be attach to an invisible grid which is resized with the parent window </b>(method <code>AttachPosition</code>). 
+For example the following code:
+<pre lang=c++>
+	SetNPositions(3);
+	AttachPosition(IDC_1, ATTACH_LEFT, 0);
+	AttachPosition(IDC_1, ATTACH_RIGHT, 1);
+	AttachPosition(IDC_2, ATTACH_LEFT, 1);
+	AttachPosition(IDC_2, ATTACH_RIGHT, 2);
+	AttachPosition(IDC_3, ATTACH_LEFT, 2);
+	AttachPosition(IDC_3, ATTACH_RIGHT, 3);
+</pre>
+will have the following effect:
+<p><img src="Layout_Mgr/fig9.jpg" alt="AttachPosition"></p>
+</ul>
+</p>
+<p>
+
+<h2><a name="clipping">Avoiding screen flickering<a></h2>
+<p>
+When a dialog is resized, the whole client are is filled with the background color, before the child window are painted.
+This causes screen flickering.
+</p>
+<p>
+What's need to be done is to clip the children windows before painting the dialog background. 
+Dialogs can have the <code>WS_CLIPCHILDREN</code> window style which ensure that all the dialog children are clipped before painting.
+But in most of the cases, it's not possible to use this style  because controls like static controls don't paint their background themselves.
+</p>
+<p>
+To avoid this, the <code>WM_ERASEBKGND</code> message is handled by all the <code>CResizableXXXImpl</code> classes. The classes excludes
+all the controls which IDs are in the <code>_controlsToClip</code> array, from the DC used for painting the background. So for avoiding screen flickering,
+you just have to "override" the <code>_controlsToClip</code> array.
+</p>
+<p>
+Your classes should look like:
+<pre lang=c++>
+class MyDialog : public CResizableDialogImpl&lt;MyDialog&gt;
+{
+	...
+	static const UINT _controlsToClip[];
+};	
+
+const UINT MyDialog::_controlsToClip[] = 
+{
+	IDC_IMG,
+	IDOK,
+	...
+	0
+};
+</pre>
+</p>
+<h3>NB</h3>
+<p>
+The current code handles incorrectly the clipping of some controls when using Windows XP themes (the problems occur with tab controls and scrolled windows). 
+Therefore, the automatic clipping of children control is disallowed when using Windows XP
+</p>
+
+<h2>Hosting ActiveX controls</h2>
+<p>
+If your dialog hosts ActiveX controls, use:
+	<ul>
+	<li><code>CAxResizableDialogImpl</code> instead of  <code>CResizableDialogImpl</code></li>
+	<li><code>CAxResizableFormViewImpl</code> instead of <code>CResizableFormViewImpl</code></li>
+	<li><code>CAxResizablePropertyPageImpl</code> instead of <code>CResizablePropertyPageImpl</code></li>
+	</ul>
+</p>
+
+<h2>Minimum size of the dialogs</h2>
+<p>
+In order to avoid to deal with dialogs of size 10x10 pixels, a minimum size for the dialogs and FormViews is set.
+<ul>
+<li>For dialogs, the minimum size is the size of the dialog template (the size set in the dialog editor). The user is not able to resize the dialog window under this minimum size.</li>
+<li>For FormViews, the minimum size is the size of the dialog template (the size set in the dialog editor). If the user resizes the view under this minimum size, scrollbars are shown.</li>
+<li>For "popup" property sheet, the minimum size is the size of the property sheet just after creation. This size should be the maximum size of the dialog templates of the property pages.
+</ul>
+
+<h2>Latest Updates<a></h2>
+<ul>
+<li>9th July 2002
+	<ul>
+	<li>Fixed some class name clashes appearing when using WTL7 &amp; ATL7</li>
+	<li>Replaced the SizeGrip window by a standard scrollbar as suggested by Daniel Bowen </li>
+	<li>Added the <code>Unattach</code> methods for removing a control from the list of windows managed by the layout manager</li>
+	<li>Added a maximum size. The maximum size information is only used if _maxWindowSize.cx or _maxWindowSize.cy is greater than 0</li>
+	<li>Implements a workaround an ATL7 bug which prevents ActiveX controls to be initialised in CAxPropertySheetImpl</li>
+	<li>Disabled the clipping code when working with Windows XP</li>
+	</ul>
+</li>
+<li>7th September 2001
+	<ul>
+	<li>Added support for hosting ActiveX controls.</li>
+	<li>Changed the user messages from arbitrary constants to registered messages</li>
+	</ul>
+</li>
+<li>22nd May 2001
+	<ul>
+	 <li>Fixed the way minimum sizes and scrollbars are handled in FormViews</li>
+	</ul>
+</li>
+</ul>
+</p>
+Serge <img src="/script/images/smiley_wink.gif" align="absmiddle">.
+
+<!-------------------------------    That's it!   --------------------------->
+</body>
+</html>

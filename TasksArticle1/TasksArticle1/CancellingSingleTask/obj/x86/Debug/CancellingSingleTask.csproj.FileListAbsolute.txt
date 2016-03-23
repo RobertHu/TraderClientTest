@@ -1,0 +1,10 @@
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CancellingSingleTask\bin\Debug\CancellingSingleTask.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CancellingSingleTask\bin\Debug\CancellingSingleTask.pdb
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CancellingSingleTask\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CancellingSingleTask\obj\x86\Debug\CancellingSingleTask.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\CancellingSingleTask\obj\x86\Debug\CancellingSingleTask.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\CancellingSingleTask\bin\Debug\CancellingSingleTask.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\CancellingSingleTask\bin\Debug\CancellingSingleTask.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\CancellingSingleTask\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TasksArticle1\TasksArticle1\CancellingSingleTask\obj\x86\Debug\CancellingSingleTask.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\CancellingSingleTask\obj\x86\Debug\CancellingSingleTask.pdb

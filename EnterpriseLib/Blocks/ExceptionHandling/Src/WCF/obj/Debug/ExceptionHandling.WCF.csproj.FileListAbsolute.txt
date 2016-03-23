@@ -1,0 +1,10 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.pdb
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\WCF\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\WCF\obj\Debug\ExceptionHandling.WCF.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.dll
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\WCF\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.WCF.pdb

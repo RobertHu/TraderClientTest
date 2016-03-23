@@ -1,0 +1,8 @@
+﻿帐户 : {AccountCode}
+日期 : {ExecuteTime}
+产品：{InstrumentDesc}
+买入：{Buy}
+沽出：{Sell}
+交易价：{ExecutePrice}
+类型：{Type}
+{Organization}

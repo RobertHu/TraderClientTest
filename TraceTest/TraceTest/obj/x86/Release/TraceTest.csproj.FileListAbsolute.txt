@@ -1,0 +1,5 @@
+D:\VsProjects\TraceTest\TraceTest\bin\Release\TraceTest.exe.config
+D:\VsProjects\TraceTest\TraceTest\bin\Release\TraceTest.exe
+D:\VsProjects\TraceTest\TraceTest\bin\Release\TraceTest.pdb
+D:\VsProjects\TraceTest\TraceTest\obj\x86\Release\TraceTest.exe
+D:\VsProjects\TraceTest\TraceTest\obj\x86\Release\TraceTest.pdb

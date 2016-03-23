@@ -1,0 +1,15 @@
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\TradingEngine.XML
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\TradingEngine.dll
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\TradingEngine.pdb
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\FSharp.Core.dll
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\iExchange.Common.dll
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\Protocal.dll
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\Framework.dll
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\log4net.dll
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\FSharp.Core.xml
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\Protocal.pdb
+D:\VsProjects\TransactionServerTest\TradingEngine\bin\Debug\Framework.pdb
+D:\VsProjects\TransactionServerTest\TradingEngine\obj\Debug\TradingEngine.fsprojResolveAssemblyReference.cache
+D:\VsProjects\TransactionServerTest\TradingEngine\obj\Debug\TradingEngine.dll
+D:\VsProjects\TransactionServerTest\TradingEngine\obj\Debug\TradingEngine.pdb

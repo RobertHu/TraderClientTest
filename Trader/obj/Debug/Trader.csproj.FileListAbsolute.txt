@@ -1,0 +1,14 @@
+D:\VsProjects\Trader\bin\Debug\Trader.exe.config
+D:\VsProjects\Trader\bin\Debug\Trader.exe
+D:\VsProjects\Trader\bin\Debug\Trader.pdb
+D:\VsProjects\Trader\bin\Debug\Protocal.dll
+D:\VsProjects\Trader\bin\Debug\iExchange.Common.dll
+D:\VsProjects\Trader\bin\Debug\log4net.dll
+D:\VsProjects\Trader\bin\Debug\Framework.dll
+D:\VsProjects\Trader\bin\Debug\Protocal.pdb
+D:\VsProjects\Trader\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\Trader\bin\Debug\Framework.pdb
+D:\VsProjects\Trader\obj\Debug\Trader.csprojResolveAssemblyReference.cache
+D:\VsProjects\Trader\obj\Debug\Trader.exe
+D:\VsProjects\Trader\obj\Debug\Trader.pdb
+D:\VsProjects\Trader\bin\Debug\log4net.xml

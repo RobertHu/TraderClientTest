@@ -1,0 +1,9 @@
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\bin\Debug\CalculatorClient.exe
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\bin\Debug\CalculatorClient.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\bin\Debug\CalculatorCommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\bin\Debug\Scs.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\bin\Debug\CalculatorCommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\bin\Debug\Scs.xml
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\obj\x86\Debug\CalculatorClient.exe
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorClient\obj\x86\Debug\CalculatorClient.pdb

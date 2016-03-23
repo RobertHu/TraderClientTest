@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/iExchange.Common" />
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Protocal" />
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Protocal.Physical" />
+  <xs:element name="PlaceByXml">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tranXml" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="placeByRiskMonitor" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PlaceByXmlResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="PlaceByXmlResult" type="q1:TransactionError" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Place">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Protocal" minOccurs="0" name="tranData" nillable="true" type="q2:TransactionData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PlaceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="PlaceResult" type="q3:TransactionError" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PlaceByModel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Protocal" minOccurs="0" name="tranData" nillable="true" type="q4:TransactionData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PlaceByModelResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Test">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TestResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInitData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="accountIds" nillable="true" type="q5:ArrayOfguid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetInitDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetInitDataResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderInstalments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="orderId" type="q6:guid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderInstalmentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Protocal.Physical" minOccurs="0" name="GetOrderInstalmentsResult" nillable="true" type="q7:ArrayOfOrderInstalmentData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

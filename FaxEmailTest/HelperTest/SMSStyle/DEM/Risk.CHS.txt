@@ -1,0 +1,4 @@
+﻿帐户名称 ：{AccountName}
+帐户号码： {AccountCode}
+{Content}
+{Organization}

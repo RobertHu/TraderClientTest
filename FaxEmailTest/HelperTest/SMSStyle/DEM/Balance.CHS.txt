@@ -1,0 +1,6 @@
+﻿阁下的{BalanceType}，详情如下:  dem
+帐户名称 : {AccountName}
+帐户号码 : {AccountCode}
+{BalanceType}金额：{CurrencyCode} {Amount}
+日期及时间: {ExecuteTime}
+{Organization}

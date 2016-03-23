@@ -1,0 +1,5 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.Data.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.Data.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.DataContracts\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.DataContracts\obj\Debug\WPF.RealTime.Data.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.DataContracts\obj\Debug\WPF.RealTime.Data.pdb

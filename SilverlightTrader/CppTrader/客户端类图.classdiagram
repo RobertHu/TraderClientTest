@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="586ea7b7-65a0-49af-8c5a-46784d7145e7" name="UMLClassDiagram1" linkedPackageId="44ff3ded-61f2-4ac7-be91-5b0dc8722f08" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="e911f4a2-e6b0-4598-9680-988804f67be1">
+      <elementDefinition Id="52ca0569-5a9f-4e35-bdd0-c6b565cc3b34" />
+      <body>View Model通过该接口来获取界面所
+
+需要的各种数据，以及当各种费用
+
+，订单状态，policy等发生变化时，
+
+接受到各种通知。
+
+
+应用层，通过该接口，提供ViewModel层所需要的各种数据和设置
+
+
+</body>
+      <annotatedElements>
+        <packageMoniker Id="c2d6d3aa-d5fd-4fd1-a613-e395da72def4" LastKnownName="交互接口1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="0e2d7b01-970a-4121-9d50-a65423c49d4d">
+      <elementDefinition Id="24139798-83f8-4cd7-9a8a-fa440eea323c" />
+      <body>
+应用层： 通过该接口获取数据和接受通知
+
+
+
+
+
+业务层和策略层，通过该接口提供数据</body>
+      <annotatedElements>
+        <packageMoniker Id="2d4f9f9b-db44-41bc-85c1-0a13cd63c9a1" LastKnownName="交互接口2" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="e9bdedd6-690c-4016-abe2-cd3bc62d18de" name="业务层">
+        <elementDefinition Id="03daf5c5-7f4b-4c0f-ada1-ddf8cd8cde38" />
+        <suppliersInternal>
+          <dependency Id="6f36f056-2a56-434b-ade1-0db9c29cfad4">
+            <packageMoniker Id="2d4f9f9b-db44-41bc-85c1-0a13cd63c9a1" LastKnownName="交互接口2" />
+            <elementDefinition Id="48de4ac1-0a36-48c4-8842-7b27348b6e31" />
+          </dependency>
+        </suppliersInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="e65bd123-9c38-4aef-9063-bd36f88af187" name="Account" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="63582be4-56ae-4090-8caf-cf4aa30b96aa" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="2d3f8770-ee87-4508-89ba-dd808105e210" name="Instrument" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="211c14ac-1745-4cb2-994f-b9d119109cf3" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="4227f2c0-fd0e-40e9-89ae-4e02e3e9be90" name="Transaction" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d18fea90-3fe3-4179-ac7d-7231f3e02473" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="a0273094-fb22-4ea6-9224-e91a1932eb60" name="Order" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="7738b90c-0849-4db4-8ee4-e6c9b0d72fef" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="9be65065-9a5b-48e4-a27c-d4711fc3dc69" name="Quotation" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="2950753b-a8b6-48d0-a7cf-8131f3f9a074" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="73161e05-1920-4050-88fc-701faaac3c93" name="OrderRelation" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a48f602f-3813-4ef0-92ab-660958f403a6" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="b7948b72-1088-4985-b29f-c31611098178" name="Currency" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="b26cd6bc-ac89-40e3-9333-c15545f6bdfd" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="266c718c-0ea9-4534-b258-08b003bbb2c7" name="CurrencyRate" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="1d4dcd71-467f-4c63-906b-c27b07fdc650" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="983f8a1e-1512-4c89-a110-d05c60981c2c" name="Customer" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="9fa72489-eda8-4c1b-93e8-56fb56a6e6a5" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="dd5eec1b-7135-490b-9873-f42ebd17d965" name="SystemParameter" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c5a689ed-9600-472a-84a5-f5383b793968" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="59084c70-55b5-4392-acbe-cedb43c6c61d" name="News" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="4d8330dc-fcd4-4f11-8a22-55278c4bb2bf" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="6c9fe628-7458-4f6f-96d6-6204df9496fd" name="策略">
+        <elementDefinition Id="d6e9defe-0f25-4861-8215-de0f6a591996" />
+        <suppliersInternal>
+          <dependency Id="41a7a058-d24e-42ed-8520-34accd8d00cf">
+            <packageMoniker Id="2d4f9f9b-db44-41bc-85c1-0a13cd63c9a1" LastKnownName="交互接口2" />
+            <elementDefinition Id="d0d49cea-726c-418d-a20f-024523ad7761" />
+          </dependency>
+        </suppliersInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="78b0dbbe-a667-493f-9e36-41b807848269" name="DealingPolicyDetail" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="71d9f12f-8e2b-4571-be67-1bdae16dfc87" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="5bb76372-7bb7-499b-acd2-cc247e41b4a4" name="TradingPolicy" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c6a29d28-f3fb-4080-9c0c-b74a625a5a89" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="6312681d-3691-411f-99ed-508a4fc24ea3" name="TradingPolicyDetail" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="4c27bc71-0717-4fb2-be89-b15355b7709d" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="47718641-0d57-47de-a5c0-883af17932b9" name="QuotePolicyDetail" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="8fcfeb5a-9f5a-4c18-9ef1-91dd868e70d5" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="331b0ae5-51de-402b-a673-79a643fa29d4" name="应用层">
+        <elementDefinition Id="349f1250-2687-48eb-8e3b-c5c6b12691c7" />
+        <suppliersInternal>
+          <dependency Id="7558fe3c-52d2-4355-82c2-a13dd4f0515e">
+            <packageMoniker Id="c2d6d3aa-d5fd-4fd1-a613-e395da72def4" LastKnownName="交互接口1" />
+            <elementDefinition Id="9ced3f74-4be6-49c2-86a2-27a90b3a7c31" />
+          </dependency>
+          <dependency Id="4fd69909-5453-4179-b60c-547f51fa1acd">
+            <packageMoniker Id="2d4f9f9b-db44-41bc-85c1-0a13cd63c9a1" LastKnownName="交互接口2" />
+            <elementDefinition Id="f00e807c-015e-4015-aa9e-e2f6bb92758e" />
+          </dependency>
+        </suppliersInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="43ddb5c6-c360-45d9-91e9-a4430384f424" name="LotSettings" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="563e4126-2797-479d-8571-d37e81fdcfae" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="53ea8866-2bfd-4bdc-9833-2066abdcd615" name="PriceChecker" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="6e5d8731-6214-450f-b803-e232b274a786" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="7b0c27c5-033d-494b-8ea5-2828be94b540" name="MakeOrderChecker" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c5db4f3c-f717-4a11-91a9-7dcd1f664d5a" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="2630b5ac-a5bf-4789-9e4a-b0c8f144dae3" name="Settings" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="8124d6a7-1831-40ea-ad6e-b81bb8ef4808" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="8e3bc75a-5d65-4fa0-81a0-8c5cf05c1230" name="PlaceSettings" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="75fb62c8-5131-463b-8580-3fd36e44cd91" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="2bf9f415-02de-465c-a679-9fc240531eef" name="View Model">
+        <elementDefinition Id="cb8ba69d-7834-406d-86a8-f3b4e58f3f0f" />
+        <suppliersInternal>
+          <dependency Id="022753da-09e9-49a1-b388-fc3481d5cfc8">
+            <packageMoniker Id="c2d6d3aa-d5fd-4fd1-a613-e395da72def4" LastKnownName="交互接口1" />
+            <elementDefinition Id="7a9ef76d-a2ab-481c-8884-5281676d6ffd" />
+          </dependency>
+        </suppliersInternal>
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="73e864a6-fab4-48e1-ad8d-e6fddcf3463b" name="OpenPosition" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a391b870-5222-43a8-bb26-fa8e6f546195" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="3f50e393-5fa6-4e79-a4c6-eafdcbcea29d" name="WorkingOrder" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="5d22a84e-4ec0-48d9-9eb6-8079bfbf892b" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="7aeaa506-3691-4e0d-8c31-750c1b5b0999" name="TradingSummary" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="b9d799f6-66a3-428f-95b1-4f4d7f226a37" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="84b3e6e8-7238-4563-9a84-d8570810aa04" name="InstrumentSummary" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="30d68336-e278-403e-b8e3-0ec3ddea5501" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="4e453aa3-0686-4952-9aee-93c9033ff7b7" name="InstrumentAccountSummary" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a2e1ef96-956f-4812-a127-51e9b281ef49" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="651221a8-9a48-4dc3-975a-d8170af2fa53" name="AccountCurrency" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="d56d1d7a-7019-481c-8c72-5941c5ab8d3e" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="caeeb03a-eb8c-42a1-96e0-da2ce5397b10" name="Account" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="26c8b48d-07e9-4c76-bea3-5ef3d304005e" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="dd529c55-3073-4641-b648-994f56f3acb1" name="Instrument" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="fc7fea5c-9e5c-4895-99de-6f0f22afcc41" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="98f68831-ad9f-4893-ad23-7e42962881d9" name="Order" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="35deb714-fe52-4fe2-8ea0-1cb8ccf1e53d" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="015c6314-8e23-45c1-b32c-ce846561b4ab" name="Transaction" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="6a8ffd74-c102-4d9a-96cf-c6a0ffe5129f" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="37e65d03-aa1e-4388-9bd9-8bbe5c733201" name="界面">
+        <elementDefinition Id="f3f895cf-2c19-4f1b-a0fe-0fbf42a1b74e" />
+        <suppliersInternal>
+          <dependency Id="fca2b9b0-acc1-44f9-90f7-a40b206b183e">
+            <packageMoniker Id="2bf9f415-02de-465c-a679-9fc240531eef" LastKnownName="View Model" />
+            <elementDefinition Id="938f6070-4ff5-4497-8e94-6580c3ac6d10" />
+          </dependency>
+        </suppliersInternal>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="c2d6d3aa-d5fd-4fd1-a613-e395da72def4" name="交互接口1">
+        <elementDefinition Id="dd655558-434c-4f18-ae9b-bc8a7bc385d5" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <Interface Id="9bfdfecd-349a-4bed-8519-9a9abec38176" name="IOrderProvider" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="d046d057-0a69-4f86-8029-da70084374e2" />
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="415115bc-80f5-4742-afbf-06d621695702" name="ITradingSummaryChanged" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="44f57f71-a7bd-4c48-995f-8e9880019515" />
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="a08fa4ed-fdb9-4abb-8cdc-d29243f39a94" name="ISettingNotifier" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="8863a053-f029-492b-85e1-2027f7d943ce" />
+            </Interface>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="2d4f9f9b-db44-41bc-85c1-0a13cd63c9a1" name="交互接口2">
+        <elementDefinition Id="fd3c4803-1b1c-4dd2-9b22-30dec88fa15f" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <Interface Id="443f127f-377a-4725-a2a1-2bfa4c777633" name="ISettingsProvider" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="c63ddebf-fccc-4365-a164-846d11ca9da4" />
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="3a0f80de-e0f4-47a4-af62-18f947cf9839" name="ITransactionProvider" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="1ecd8f35-2084-4854-aa6d-1d534679ede8" />
+            </Interface>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <Interface Id="56fcc1a9-6da4-479b-991f-baf1e9263707" name="IOderProvider" isAbstract="false" isLeaf="false">
+              <elementDefinition Id="ee592b1f-c555-427b-ae11-da5faab41398" />
+            </Interface>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="44ff3ded-61f2-4ac7-be91-5b0dc8722f08" name="CppTrader">
+    <elementDefinition Id="45f303be-60dd-461e-b2ad-29b831ab933b" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8faea2e7-759c-40c1-9e3d-9cc4e4eebe86">
+        <profileInstance Id="25604374-fe7d-42aa-8942-23cc2b99fa25" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5c56d20d-6871-4094-9907-1d65c6551152">
+        <profileInstance Id="39353f44-5db4-4590-bd08-42ea3c14cdac" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

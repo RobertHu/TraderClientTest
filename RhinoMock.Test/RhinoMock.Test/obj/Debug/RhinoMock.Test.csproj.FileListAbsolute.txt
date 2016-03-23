@@ -1,0 +1,11 @@
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\RhinoMock.Test.dll
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\RhinoMock.Test.pdb
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\Domain.dll
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\nunit.framework.dll
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\Rhino.Mocks.dll
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\Domain.pdb
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\nunit.framework.xml
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\Rhino.Mocks.xml
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\obj\Debug\RhinoMock.Test.csprojResolveAssemblyReference.cache
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\obj\Debug\RhinoMock.Test.dll
+D:\VsProjects\RhinoMock.Test\RhinoMock.Test\obj\Debug\RhinoMock.Test.pdb

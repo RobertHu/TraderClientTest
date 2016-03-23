@@ -1,0 +1,11 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Modules\BondModule.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Modules\BondModule.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\Views\RibbonView.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\Views\View.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\Views\RibbonView.g.cs
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\Views\View.g.cs
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\BondModule_MarkupCompile.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\BondModule.g.resources
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\BondModule.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\BondModule\obj\Debug\BondModule.pdb

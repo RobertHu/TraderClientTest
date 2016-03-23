@@ -1,0 +1,4 @@
+D:\VsProjects\CSharpInDepthAction\CSharpInDepthAction\bin\Debug\CSharpInDepthAction.exe
+D:\VsProjects\CSharpInDepthAction\CSharpInDepthAction\bin\Debug\CSharpInDepthAction.pdb
+D:\VsProjects\CSharpInDepthAction\CSharpInDepthAction\obj\x86\Debug\CSharpInDepthAction.exe
+D:\VsProjects\CSharpInDepthAction\CSharpInDepthAction\obj\x86\Debug\CSharpInDepthAction.pdb

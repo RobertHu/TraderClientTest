@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\VsProjects\Util\Util.Test\bin\Debug\Util.Test.dll" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-04-11" time="11:58:50">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4963" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="D:\Program Files (x86)\Nunit\bin\net-2.0" machine-name="WS0210" user="Robert" user-domain="OMNICARE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\VsProjects\Util\Util.Test\bin\Debug\Util.Test.dll" executed="True" result="Failure" success="False" time="0.266" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Util" executed="True" result="Failure" success="False" time="0.239" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.238" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="Class1" executed="True" result="Failure" success="False" time="0.233" asserts="0">
+                <results>
+                  <test-case name="Util.Test.Class1.CaculateHashTest" executed="True" result="Failure" success="False" time="0.203" asserts="1">
+                    <failure>
+                      <message><![CDATA[  String lengths are both 47. Strings differ at index 0.
+  Expected: "C9-55-5A-8B-48-FB-A1-0F-8F-9C-6E-E4-D3-D4-60-21"
+  But was:  "19-6B-CA-E7-24-A9-0C-40-B2-CA-12-E1-C3-C6-0C-B9"
+  -----------^
+]]></message>
+                      <stack-trace><![CDATA[at Util.Test.Class1.CaculateHashTest() in D:\VsProjects\Util\Util.Test\Class1.cs:line 28
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

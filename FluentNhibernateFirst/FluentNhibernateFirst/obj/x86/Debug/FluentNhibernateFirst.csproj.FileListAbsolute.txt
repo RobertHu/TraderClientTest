@@ -1,0 +1,8 @@
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\bin\Debug\FluentNhibernateFirst.exe
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\bin\Debug\FluentNhibernateFirst.pdb
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\bin\Debug\FluentNHibernate.dll
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\bin\Debug\NHibernate.dll
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\obj\x86\Debug\FluentNhibernateFirst.csprojResolveAssemblyReference.cache
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\obj\x86\Debug\FluentNhibernateFirst.exe
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\obj\x86\Debug\FluentNhibernateFirst.pdb
+D:\VsProjects\FluentNhibernateFirst\FluentNhibernateFirst\bin\Debug\Iesi.Collections.dll

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <sql-query name="SelectiExchange3Accounts">
+    <return alias="AccountInfo" class="FaxAndEmail.V3Model.AccountInfo, FaxAndEmail.V3Model">
+      <return-property name="Code"></return-property>
+      <return-property name="Email"></return-property>
+      <return-property name="Addr1"></return-property>
+      <return-property name="Addr2"></return-property>
+      <return-property name="Addr3"></return-property>
+      <return-property name="Fax"></return-property>
+      <return-property name="MobilePhone"></return-property>
+      <return-property name="Phone"></return-property>
+    </return>
+    exec [dbo].[EmailLog_GetV3Accounts]
+  </sql-query>
+</hibernate-mapping>

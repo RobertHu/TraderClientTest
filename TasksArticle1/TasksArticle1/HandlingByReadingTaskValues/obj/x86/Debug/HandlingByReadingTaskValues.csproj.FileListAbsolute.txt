@@ -1,0 +1,10 @@
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingByReadingTaskValues\bin\Debug\HandlingByReadingTaskValues.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingByReadingTaskValues\bin\Debug\HandlingByReadingTaskValues.pdb
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingByReadingTaskValues\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingByReadingTaskValues\obj\x86\Debug\HandlingByReadingTaskValues.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingByReadingTaskValues\obj\x86\Debug\HandlingByReadingTaskValues.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingByReadingTaskValues\bin\Debug\HandlingByReadingTaskValues.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingByReadingTaskValues\bin\Debug\HandlingByReadingTaskValues.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingByReadingTaskValues\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingByReadingTaskValues\obj\x86\Debug\HandlingByReadingTaskValues.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingByReadingTaskValues\obj\x86\Debug\HandlingByReadingTaskValues.pdb

@@ -1,0 +1,14 @@
+﻿<p>Dear Valued Customer:</p>
+
+<p>{Title}</p>
+
+<p>Client Name: {AccountName}</p>
+
+<p>Account No: 	{AccountCode}</p>
+
+{Content}
+
+<p>Thanks for your attention</p>
+
+<p>{Organization}</p>
+

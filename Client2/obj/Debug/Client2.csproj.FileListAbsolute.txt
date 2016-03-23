@@ -1,0 +1,6 @@
+D:\VsProjects\Client2\bin\Debug\Client2.exe.config
+D:\VsProjects\Client2\bin\Debug\Client2.exe
+D:\VsProjects\Client2\bin\Debug\Client2.pdb
+D:\VsProjects\Client2\obj\Debug\Client2.csprojResolveAssemblyReference.cache
+D:\VsProjects\Client2\obj\Debug\Client2.exe
+D:\VsProjects\Client2\obj\Debug\Client2.pdb

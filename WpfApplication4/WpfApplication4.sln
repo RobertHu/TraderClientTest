@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication4", "WpfApplication4\WpfApplication4.csproj", "{e54766e1-5b42-4bb8-9ef3-2d18189064ec}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E54766E1-5B42-4BB8-9EF3-2D18189064EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54766E1-5B42-4BB8-9EF3-2D18189064EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54766E1-5B42-4BB8-9EF3-2D18189064EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54766E1-5B42-4BB8-9EF3-2D18189064EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

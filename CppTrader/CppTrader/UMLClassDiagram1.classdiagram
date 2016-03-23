@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b9f58bf0-e299-4ae7-b9b7-ba0792c3a0a0" name="UMLClassDiagram1" linkedPackageId="afbdc3dc-a710-45da-9060-93b428c5c107" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="021f176c-952b-4195-b9ee-c964fe5ebf69">
+      <profileInstance Id="337e35e1-739f-4f8e-9b6c-ea7e0dd79e55" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="1484ea81-ef88-4ea2-a0f1-e227e5a5022f">
+      <profileInstance Id="9b7092f9-916f-4259-985f-aefada269f02" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0d0cef1c-e618-478c-9e10-8e47a61536d0" name="Account" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="17aa48af-9a2e-49e9-8bbe-647fffbc5142" />
+        <ownedAttributesInternal>
+          <property Id="c50628d3-2fac-4107-b4e6-dce3df886f3b" name="Id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4fb8d24d-e8a8-4555-aac7-285dfea37583" />
+          </property>
+          <property Id="e3c354b9-409b-466b-b8ff-489e31cd91b4" name="Code" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5a2551b7-40f0-47d8-a254-fe1b70d26735" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="21bfaddb-0d49-4210-9b37-95e534deab2f" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="21bfaddb-0d49-4210-9b37-95e534deab2f" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="afbdc3dc-a710-45da-9060-93b428c5c107" name="CppTrader">
+    <elementDefinition Id="176c456d-d1b4-4173-b11d-6b66ff173946" />
+  </package>
+</logicalClassDesignerModel>

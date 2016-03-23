@@ -1,0 +1,11 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Oracle.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\VsProjects\EnterpriseLib\Blocks\Data\Src\Data\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb

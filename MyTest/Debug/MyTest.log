@@ -1,0 +1,20 @@
+﻿Build started 12/4/2013 9:25:06 AM.
+     1>Project "D:\VsProjects\MyTest\MyTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Software\qt510\5.1.0\msvc2010_opengl\include /I.\GeneratedFiles\Debug /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtCore /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtGui /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtNetwork /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtTest /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtConcurrent /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtWidgets /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtXml /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_TESTLIB_LIB /D QT_CONCURRENT_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>D:\boost_1_55_0\boost/format/alt_sstream_impl.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VsProjects\QtThreadDemo\Win32\Debug\\MyTest.exe" /NOLOGO /LIBPATH:D:\Software\qt510\5.1.0\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Networkd.lib Qt5Testd.lib Qt5Concurrentd.lib Qt5Widgetsd.lib Qt5Xmld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MyTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VsProjects\QtThreadDemo\Win32\Debug\MyTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VsProjects\QtThreadDemo\Win32\Debug\MyTest.lib" /MACHINE:X86 Debug\moc_mytest.obj
+         Debug\qrc_mytest.obj
+         Debug\main.obj
+         Debug\mytest.obj
+         LINK : D:\VsProjects\QtThreadDemo\Win32\Debug\\MyTest.exe not found or not built by the last incremental link; performing full link
+         MyTest.vcxproj -> D:\VsProjects\QtThreadDemo\Win32\Debug\MyTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VsProjects\QtThreadDemo\Win32\Debug\\MyTest.exe;#1" /manifest Debug\MyTest.exe.intermediate.manifest
+     1>Done Building Project "D:\VsProjects\MyTest\MyTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.84

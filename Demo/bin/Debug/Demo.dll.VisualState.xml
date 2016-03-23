@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1019]D:\VsProjects\Demo\bin\Debug\Demo.dll</TopNode>
+  <SelectedNode>[0-1001]Demo.CacheFileTest.AddFileTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1019]D:\VsProjects\Demo\bin\Debug\Demo.dll" Expanded="true" />
+    <Node UniqueName="[0-1020]Demo" Expanded="true" />
+    <Node UniqueName="[0-1000]Demo.CacheFileTest" Expanded="true" />
+    <Node UniqueName="[0-1002]Demo.DateTimeTest" Expanded="true" />
+    <Node UniqueName="[0-1004]Demo.GenerateDeliveryCodeTest" Expanded="true" />
+    <Node UniqueName="[0-1006]Demo.JsonTest" Expanded="true" />
+    <Node UniqueName="[0-1009]Demo.LotTest" Expanded="true" />
+    <Node UniqueName="[0-1011]Demo.OrderCastTest" Expanded="true" />
+    <Node UniqueName="[0-1013]Demo.QuotationMergeTest" Expanded="true" />
+    <Node UniqueName="[0-1015]Demo.UpdateTradingDataTest" Expanded="true" />
+    <Node UniqueName="[0-1017]Demo.WeekDayTest" Expanded="true" />
+  </Nodes>
+</VisualState>

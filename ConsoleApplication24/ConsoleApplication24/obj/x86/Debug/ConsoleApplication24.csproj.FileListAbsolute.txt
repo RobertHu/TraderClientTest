@@ -1,0 +1,4 @@
+D:\VsProjects\ConsoleApplication24\ConsoleApplication24\bin\Debug\ConsoleApplication24.exe
+D:\VsProjects\ConsoleApplication24\ConsoleApplication24\bin\Debug\ConsoleApplication24.pdb
+D:\VsProjects\ConsoleApplication24\ConsoleApplication24\obj\x86\Debug\ConsoleApplication24.exe
+D:\VsProjects\ConsoleApplication24\ConsoleApplication24\obj\x86\Debug\ConsoleApplication24.pdb

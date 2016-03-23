@@ -1,0 +1,10 @@
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\bin\Debug\ConsoleApplication1.XML
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\bin\Debug\FSharp.Core.dll
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\bin\Debug\FSharp.Core.xml
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\bin\Debug\en\FSharp.Core.resources.dll
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\obj\Debug\ConsoleApplication1.fsprojResolveAssemblyReference.cache
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\VsProjects\CsharpInDepth\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

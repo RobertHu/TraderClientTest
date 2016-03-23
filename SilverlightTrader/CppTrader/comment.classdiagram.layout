@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="comment">
+  <logicalClassDesignerModelMoniker Id="1248af63-6a11-46fd-9ee7-b68bddeb558e" />
+  <nestedChildShapes>
+    <commentShape Id="a0f02fe8-b96d-4b58-8133-c0b4534dd520" absoluteBounds="3.375, 1.875, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="d83d23c7-0513-4605-9200-decc6fac32ff" />
+      <relativeChildShapes />
+    </commentShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

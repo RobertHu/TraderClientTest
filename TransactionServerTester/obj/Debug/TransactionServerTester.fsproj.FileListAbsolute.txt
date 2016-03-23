@@ -1,0 +1,9 @@
+D:\VsProjects\TransactionServerTester\bin\Debug\TransactionServerTester.exe.config
+D:\VsProjects\TransactionServerTester\bin\Debug\TransactionServerTester.XML
+D:\VsProjects\TransactionServerTester\bin\Debug\TransactionServerTester.exe
+D:\VsProjects\TransactionServerTester\bin\Debug\TransactionServerTester.pdb
+D:\VsProjects\TransactionServerTester\bin\Debug\FSharp.Core.dll
+D:\VsProjects\TransactionServerTester\bin\Debug\FSharp.Core.xml
+D:\VsProjects\TransactionServerTester\obj\Debug\TransactionServerTester.fsprojResolveAssemblyReference.cache
+D:\VsProjects\TransactionServerTester\obj\Debug\TransactionServerTester.exe
+D:\VsProjects\TransactionServerTester\obj\Debug\TransactionServerTester.pdb

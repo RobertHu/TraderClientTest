@@ -1,0 +1,11 @@
+﻿Client Name : {AccountName}
+Account No: {AccountCode}
+Transaction No: {OrderCode}
+Transaction Date & Time: {ExecuteTime}
+Instrument: {InstrumentDesc}
+Buy: {Buy}
+Sell: {Sell}
+Rate: {ExecutePrice}
+Type: {Type}
+Commission: {Commission}
+{Organization}

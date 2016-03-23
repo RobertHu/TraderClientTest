@@ -1,0 +1,4 @@
+D:\VsProjects\CsharpUnsafe\CsharpUnsafe\bin\Debug\CsharpUnsafe.exe
+D:\VsProjects\CsharpUnsafe\CsharpUnsafe\bin\Debug\CsharpUnsafe.pdb
+D:\VsProjects\CsharpUnsafe\CsharpUnsafe\obj\x86\Debug\CsharpUnsafe.exe
+D:\VsProjects\CsharpUnsafe\CsharpUnsafe\obj\x86\Debug\CsharpUnsafe.pdb

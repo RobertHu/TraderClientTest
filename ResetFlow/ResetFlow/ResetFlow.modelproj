@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ce7e53e7-f500-4363-b17d-36c7abe5faa0}</ProjectGuid>
+    <ArchitectureToolsVersion>1.0.0.0</ArchitectureToolsVersion>
+    <Name>ResetFlow</Name>
+    <RootNamespace>ResetFlow</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
+  <ItemGroup>
+    <Content Include="DeleteHitoryOrder.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DeleteHitoryOrder.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>DeleteHitoryOrder.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="ExecuteHistoryOrder.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ExecuteHistoryOrder.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ExecuteHistoryOrder.activitydiagram</DependentUpon>
+    </Content>
+    <Content Include="Reset.activitydiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Reset.activitydiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Reset.activitydiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ResetFlow.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

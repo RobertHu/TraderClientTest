@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Risk>
+    <Level1>
+      <Subject>
+        <ENG>Wing Fung Bullion Investment – Margin Alert 1</ENG>
+        <CHS>永丰金银投资 - 保证金不足1</CHS>
+        <CHT>永豐金銀投資 – 保證金不足1</CHT>
+      </Subject>
+      <Title>
+        <ENG>Please be reminded that your Account Equity cannot fulfill our margin requirement, details as below:</ENG>
+        <CHS>阁下账户之资产净值不足保证金需要，详情如下:</CHS>
+        <CHT>閣下帳戶之資產淨值不足保證金需要，詳情如下:</CHT>
+      </Title>
+      <Content>
+        <ENG>
+          <p>Equity:	{CurrencyCode} {Equity}</p>
+
+          <p>Initial Margin:	{CurrencyCode} {Margin}</p>
+
+          <p>Date  	&amp; Time:  {ChangeTime}</p>
+          <p>Please kindly arrange fund deposit to keep your Equity above margin requirement. After deposit please fax the deposit notification with A/C name &amp;No. to (852) 2356 8515, China Toll Free Fax 400 120 8689 or email to cso@wfgold.com for verification. Phone call confirmation to our settlement department will help to speed up the process.</p>
+        </ENG>
+        <CHS>
+          <p>资产净值：	{CurrencyCode} {Equity}</p>
+
+          <p>已用保证金：{CurrencyCode} {Margin}</p>
+
+          <p>日期及时间： {ChangeTime}</p>
+          <p>请阁下安排存款事宜, 以维持保证金水平。存款后尽快在银行单据写上姓名及账户号码，传真至 (852) 23568515、中国免费传真 400 120 8689或電郵至cso@wfgold.com 結算部，如客戶致电结算部确认将可加快处理阁下之存款程序。</p>
+        </CHS>
+        <CHT>
+          <p>資產淨值：	{CurrencyCode} {Equity}</p>
+
+          <p>已用保證金：{CurrencyCode} {Margin}</p>
+
+          <p>日期及時間： {ChangeTime}</p>
+          <p>請閣下安排存款事宜, 以維持保證金水平。存款後儘快在銀行單據寫上姓名及帳戶號碼，傳真至 (852) 23568515、中國免費傳真 400 120 8689或電郵至cso@wfgold.com 結算部，如客戶致電結算部確認將可加快處理閣下之存款程序。</p>
+        </CHT>
+      </Content>
+    </Level1>
+    <Level2>
+      <Subject>
+        <ENG>Wing Fung Bullion Investment – Margin Alert 2</ENG>
+        <CHS>永丰金银投资 - 保证金不足2</CHS>
+        <CHT>永豐金銀投資 – 保證金不足2</CHT>
+      </Subject>
+      <Title>
+        <ENG>Please be reminded that your Account Equity cannot fulfill our margin requirement and imminent to automatic stop-loss, details as below:</ENG>
+        <CHS>阁下账户之资产净值不足按金需要，已接近强制性止损水平，详情如下:</CHS>
+        <CHT>閣下帳戶之資產淨值不足按金需要，已接近強制性止損水平，詳情如下:</CHT>
+      </Title>
+      <Content>
+        <ENG>
+          <p>Equity:	{CurrencyCode} {Equity}</p>
+
+          <p>Initial Margin:	{CurrencyCode} {Margin}</p>
+
+          <p>Date  	&amp; Time:  {ChangeTime}</p>
+          <p>Please kindly arrange fund deposit to keep your Equity above margin requirement. After deposit please fax the deposit notification with A/C name &amp;No. to (852) 2356 8515, China Toll Free Fax 400 120 8689 or email to cso@wfgold.com for verification. Phone call confirmation to our settlement department will help to speed up the process.</p>
+        </ENG>
+        <CHS>
+          <p>资产净值：	{CurrencyCode} {Equity}</p>
+
+          <p>已用保证金：{CurrencyCode} {Margin}</p>
+
+          <p>日期及时间： {ChangeTime}</p>
+          <p>请阁下安排存款事宜, 以维持保证金水平。存款后尽快在银行单据写上姓名及账户号码，传真至 (852) 23568515、中国免费传真 400 120 8689或電郵至cso@wfgold.com 結算部，如客戶致电结算部确认将可加快处理阁下之存款程序。</p>
+        </CHS>
+        <CHT>
+          <p>資產淨值：	{CurrencyCode} {Equity}</p>
+
+          <p>已用保證金：{CurrencyCode} {Margin}</p>
+
+          <p>日期及時間： {ChangeTime}</p>
+          <p>請閣下安排存款事宜, 以維持保證金水平。存款後儘快在銀行單據寫上姓名及帳戶號碼，傳真至 (852) 23568515、中國免費傳真 400 120 8689或電郵至cso@wfgold.com 結算部，如客戶致電結算部確認將可加快處理閣下之存款程序。</p>
+        </CHT>
+      </Content>
+    </Level2>
+    <Level3>
+      <Subject>
+        <ENG>Wing Fung Bullion Investment – Auto Cut Loss</ENG>
+        <CHS>永丰金银投资 – 自动强制性止损平仓</CHS>
+        <CHT>永豐金銀投資 – 自動強制性止損平倉</CHT>
+      </Subject>
+      <Title>
+        <ENG>Please be reminded that your Account Equity cannot fulfill our margin requirement, all open position in your Account had been liquidated by automatic stop-loss, details as below:</ENG>
+        <CHS>烦请注意，阁下账户之资产净值不足保证金需要，账户內所有合约已经自动强制性止损平仓，详情如下:</CHS>
+        <CHT>煩請注意，閣下帳戶之資產淨值不足保證金需要，帳戶內所有合約已經自動強制性止損平倉，詳情如下:</CHT>
+      </Title>
+      <Content>
+        <ENG>
+          <p>Transaction No :	{TransactionCode}</p>
+
+          <p>Stop-Loss Date &amp; Time:	{ChangeTime}</p>
+        </ENG>
+        <CHS>
+          <p>交易编号：{TransactionCode}</p>
+
+          <p>止损平仓日期及时间：{ChangeTime}</p>
+        </CHS>
+        <CHT>
+          <p>交易編號：{TransactionCode}</p>
+          <p>止損平倉日期及時間：{ChangeTime}</p>
+        </CHT>
+      </Content>
+    </Level3>
+  </Risk>
+
+  <Order>
+    <Subject>
+      <ENG>Wing Fung Bullion Investment – Trade Confirmation</ENG>
+      <CHS>永丰金银投资 – 成交确认</CHS>
+      <CHT>永豐金銀投資 – 成交確認</CHT>
+    </Subject>
+    <Open>
+      <ENG>Open</ENG>
+      <CHS>开仓</CHS>
+      <CHT>開倉</CHT>
+    </Open>
+    <Close>
+      <ENG>Close</ENG>
+      <CHS>平仓</CHS>
+      <CHT>平倉</CHT>
+    </Close>
+  </Order>
+
+  <Balance>
+    <Subject>
+      <Deposit>
+        <ENG>Wing Fung Bullion Investment – Deposit Confirmation</ENG>
+        <CHS>永丰金银投资 – 存款确认</CHS>
+        <CHT>永豐金銀投資 – 存款確認</CHT>
+      </Deposit>
+      <Withdrawal>
+        <ENG>Wing Fung Bullion Investment – Withdrawal Confirmation</ENG>
+        <CHS>永丰金银投资 – 提款确认</CHS>
+        <CHT>永豐金銀投資 – 提款確認</CHT>
+      </Withdrawal>
+    </Subject>
+
+    <Type>
+      <Depoist>
+        <ENG>Deposit is confirmed</ENG>
+        <CHS>存款已获核实</CHS>
+        <CHT>存款已獲核實</CHT>
+      </Depoist>
+
+      <Withdrawal>
+        <ENG>withdrawal instruction has been settled</ENG>
+        <CHS>提款指示已办理完成</CHS>
+        <CHT>提款指示已辦理完成</CHT>
+      </Withdrawal>
+    </Type>
+    
+  </Balance>
+
+  <Password>
+    <Subject>
+      <ENG>Wing Fung Bullion Investment – Password Reset</ENG>
+      <CHS>永丰金银投资 – 重设密码</CHS>
+      <CHT>永豐金銀投資 – 重設密碼</CHT>
+    </Subject>
+  </Password>
+  
+</Data>

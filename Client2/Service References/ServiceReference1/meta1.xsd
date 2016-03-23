@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Protocal" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Protocal" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/iExchange.Common" />
+  <xs:complexType name="TransactionData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountId" type="ser:guid" />
+      <xs:element minOccurs="0" name="BeginTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndTime" type="xs:dateTime" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="ExpireType" type="q1:ExpireType" />
+      <xs:element minOccurs="0" name="FreeLmtVariationCheck" type="xs:boolean" />
+      <xs:element minOccurs="0" name="FreePlacingPreCheck" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="InstrumentId" type="ser:guid" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="OrderType" type="q2:OrderType" />
+      <xs:element minOccurs="0" name="Orders" nillable="true" type="tns:ArrayOfOrderData" />
+      <xs:element minOccurs="0" name="PlaceByRiskMonitor" type="xs:boolean" />
+      <xs:element minOccurs="0" name="SetPriceTimestamp" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SourceOrderId" nillable="true" type="ser:guid" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="SubType" type="q3:TransactionSubType" />
+      <xs:element minOccurs="0" name="SubmitTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SubmitorId" type="ser:guid" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="Type" type="q4:TransactionType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransactionData" nillable="true" type="tns:TransactionData" />
+  <xs:complexType name="ArrayOfOrderData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrderData" nillable="true" type="tns:OrderData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrderData" nillable="true" type="tns:ArrayOfOrderData" />
+  <xs:complexType name="OrderData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BlotterCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DQMaxMove" type="xs:int" />
+      <xs:element minOccurs="0" name="DisableAcceptLmtVariation" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ExecutePrice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsBuy" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsOpen" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Lot" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LotBalance" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OrderRelations" nillable="true" type="tns:ArrayOfOrderRelaitonData" />
+      <xs:element minOccurs="0" name="OriginCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OriginalLot" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PriceIsQuote" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PriceTimestamp" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SetPrice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SetPrice2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SetPriceMaxMovePips" type="xs:int" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="TradeOption" type="q5:TradeOption" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OrderData" nillable="true" type="tns:OrderData" />
+  <xs:complexType name="ArrayOfOrderRelaitonData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrderRelaitonData" nillable="true" type="tns:OrderRelaitonData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrderRelaitonData" nillable="true" type="tns:ArrayOfOrderRelaitonData" />
+  <xs:complexType name="OrderRelaitonData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CloseOrderId" type="ser:guid" />
+      <xs:element minOccurs="0" name="ClosedLot" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OpenOrderId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OrderRelaitonData" nillable="true" type="tns:OrderRelaitonData" />
+</xs:schema>

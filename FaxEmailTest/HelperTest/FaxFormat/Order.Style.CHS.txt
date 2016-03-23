@@ -1,0 +1,24 @@
+﻿<p>尊贵的客戶:  </p>
+
+<p>阁下之戶口已成功进行交易，详情如下:</p>
+
+<p>帐户名称 : {AccountName}</p>
+
+<p>帐户号码 : {AccountCode}</p>
+
+<p>交易编号 : {OrderCode}</p>
+
+<p>成交日期及时间 : {ExecuteTime}</p>
+
+<p>交易资料</p>
+<div>
+<table>
+<tr><th>产品</th> <th>买入</th> <th>沽出</th> <th>交易价</th> <th>类型</th> <th>手续费</th></tr>
+<tr><td>{InstrumentDesc}</td>  <td>{Buy}</td>  <td>{Sell}</td>  <td>{ExecutePrice}</td>  <td>{Type}</td>  <td>{Commission}</td></tr>
+</table>
+</div>
+<p>如客戶对以上交易有任何疑问，可致电交易室 (852) 3761 2850 或 中国免费专线 400 120 1077 查询。</p>
+
+<p>敬希垂注</p>
+
+<p>{Organization}</p>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TcpProxy">
+</Property><Property Name="Solution File" Value="D:\VsProjects\TcpProxy\TcpProxy\TcpProxy.sln">
+</Property><Property Name="User Options File" Value="D:\VsProjects\TcpProxy\TcpProxy\TcpProxy.suo">
+</Property><Property Name="Date" Value="Thursday, November 29, 2012">
+</Property><Property Name="Time" Value="12:24 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TcpProxy.sln" Description="File successfully backed up as D:\VsProjects\TcpProxy\TcpProxy\Backup1\TcpProxy.sln">
+</Event><Event ErrorLevel="0" Project="" Source="TcpProxy.suo" Description="File successfully backed up as D:\VsProjects\TcpProxy\TcpProxy\Backup1\TcpProxy.suo">
+</Event><Event ErrorLevel="0" Project="TcpProxy" Source="TcpProxy\TcpProxy.csproj" Description="Project file successfully backed up as D:\VsProjects\TcpProxy\TcpProxy\Backup1\TcpProxy\TcpProxy.csproj">
+</Event><Event ErrorLevel="0" Project="TcpProxy" Source="TcpProxy\Program.cs" Description="File successfully backed up as D:\VsProjects\TcpProxy\TcpProxy\Backup1\TcpProxy\Program.cs">
+</Event><Event ErrorLevel="0" Project="TcpProxy" Source="TcpProxy\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\VsProjects\TcpProxy\TcpProxy\Backup1\TcpProxy\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TcpProxy" Source="TcpProxy\Proxy.cs" Description="File successfully backed up as D:\VsProjects\TcpProxy\TcpProxy\Backup1\TcpProxy\Proxy.cs">
+</Event><Event ErrorLevel="1" Project="TcpProxy" Source="TcpProxy\TcpProxy.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="TcpProxy" Source="TcpProxy\TcpProxy.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TcpProxy" Source="TcpProxy\TcpProxy.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TcpProxy.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TcpProxy.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TcpProxy" Source="TcpProxy\TcpProxy.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

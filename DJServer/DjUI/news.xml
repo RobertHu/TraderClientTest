@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes">
+<ElementType name="DJStory" content="mixed" model="closed">
+<element type="version" />
+<element type="uniqueid" />
+<element type="ChainHistory" />
+<element type="title" />
+<element type="StoryDate" />
+<element type="StoryTime" />
+<element type="codes" />
+<element type="Subtext" />
+<element type="fulltext" />
+</ElementType>
+<ElementType name="version" content="textOnly" model="closed" dt:type="number" />
+<ElementType name="uniqueid" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="ChainHistory" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="title" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="StoryDate" content="textOnly" model="closed" dt:type="date" />
+<ElementType name="StoryTime" content="textOnly" model="closed" dt:type="time" />
+<ElementType name="codes" content="mixed" model="closed">
+<AttributeType name="codetype" dt:type="enumeration" dt:values="country subject industry page layout statistics market government product company other" />
+<attribute type="codetype" required="yes" />
+</ElementType>
+<ElementType name="Subtext" content="textOnly" model="closed" dt:type="string" />
+<ElementType name="fulltext" content="textOnly" model="closed" dt:type="string" />
+</Schema>
+<DJStory>
+<version>1.0</version>
+<uniqueid>c-20120725DN002448</uniqueid>
+<ChainHistory>c-20120725DN002448</ChainHistory>
+<title>
+<![CDATA[DJ JGBs Rise Amid Euro Woes; 20-Yr Auction Eyed]]>
+</title>
+<StoryDate>2012-07-25</StoryDate>
+<StoryTime>16:12</StoryTime>
+<codes codetype="country">R/ASI,R/FE,R/JA,R/PRM</codes>
+<codes codetype="subject">L/ENGST,L/STORY,L/EN,J/CFF,J/COS,J/CFW,N/CLSNEW,N/AER,N/BKG,N/CMDI,N/CMR,N/DJAE,N/DJG,N/DJG7,N/DJGP,N/DJGS,N/DJGV,N/DJI,N/DJIV,N/DJMB,N/DJMO,N/DJMS,N/DJSN,N/DN,N/EWR,N/FXW,N/WED,N/WER,N/APIN,N/BON,N/CBK,N/CCS,N/DFF,N/DJWI,N/DRV,N/EMP,N/FXTR,N/MKC,N/MKT,N/NJR,N/SDT,N/TSY,PAG/1037,PAG/4153,M/JPY,M/NND,M/TPX,G/IGV,G/JABJ,G/JAGV,G/JAMF,P/AEQ,P/PS,T/CFW,N/CFW,T/COS,N/CONS,T/CFF,N/CFF</codes>
+<codes codetype="industry"></codes>
+<codes codetype="page">1037,4153</codes>
+<codes codetype="layout"></codes>
+<codes codetype="statistics"></codes>
+<codes codetype="market"></codes>
+<codes codetype="government"></codes>
+<codes codetype="product"></codes>
+<codes codetype="company"></codes>
+<codes codetype="other"></codes>
+<Subtext/>
+<fulltext>
+<![CDATA[<FONT FACE="Arial" class="NormalMinus1">
+<p></p>
+<pre><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At&nbsp;0600&nbsp;GMT&nbsp;&nbsp;&nbsp;Change&nbsp;<BR>&nbsp;&nbsp;&nbsp;TFX&nbsp;Mar&nbsp;3-Mos&nbsp;Euroyen&nbsp;Price:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;99.745&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+0.005&nbsp;<BR>&nbsp;&nbsp;&nbsp;TSE&nbsp;Sep&nbsp;10-Yr&nbsp;JGB&nbsp;Futures&nbsp;Price:&nbsp;&nbsp;&nbsp;144.63&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+0.12&nbsp;<BR>&nbsp;&nbsp;&nbsp;10-Yr&nbsp;0.8%&nbsp;JGB&nbsp;No.&nbsp;324&nbsp;Yield:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.720%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-0.010<BR>&nbsp;&nbsp;&nbsp;By&nbsp;Eleanor&nbsp;Warnock&nbsp;<BR>&nbsp;&nbsp;TOKYO--Japanese&nbsp;government&nbsp;bonds&nbsp;gained&nbsp;on&nbsp;Wednesday&nbsp;as&nbsp;concerns&nbsp;about&nbsp;the&nbsp;global&nbsp;economic&nbsp;slowdown&nbsp;continued&nbsp;to&nbsp;support&nbsp;demand.&nbsp;<BR>&nbsp;&nbsp;The&nbsp;benchmark&nbsp;10-year&nbsp;yield&nbsp;finished&nbsp;down&nbsp;one&nbsp;basis&nbsp;point&nbsp;at&nbsp;0.720%&nbsp;while&nbsp;lead&nbsp;September&nbsp;JGB&nbsp;futures&nbsp;finished&nbsp;up&nbsp;0.12&nbsp;at&nbsp;144.63.&nbsp;The&nbsp;2-year&nbsp;yield&nbsp;also&nbsp;finished&nbsp;down&nbsp;one&nbsp;basis&nbsp;point&nbsp;at&nbsp;0.090%,&nbsp;its&nbsp;lowest&nbsp;since&nbsp;July&nbsp;2005.&nbsp;<BR>&nbsp;&nbsp;The&nbsp;ongoing&nbsp;euro&nbsp;zone&nbsp;crisis&nbsp;and&nbsp;concern&nbsp;about&nbsp;the&nbsp;U.S.&nbsp;economic&nbsp;recovery&nbsp;have&nbsp;pushed&nbsp;JGB&nbsp;yields&nbsp;to&nbsp;multiyear&nbsp;lows&nbsp;recently&nbsp;as&nbsp;investors&nbsp;buy&nbsp;the&nbsp;securities&nbsp;as&nbsp;safe&nbsp;haven&nbsp;assets.&nbsp;<BR>&nbsp;&nbsp;Bank&nbsp;of&nbsp;Japan&nbsp;Gov.&nbsp;Masaaki&nbsp;Shirakawa,&nbsp;however,&nbsp;cautioned&nbsp;that&nbsp;any&nbsp;JGB&nbsp;yield&nbsp;rises&nbsp;due&nbsp;to&nbsp;a&nbsp;loss&nbsp;of&nbsp;confidence&nbsp;in&nbsp;Japan&apos;s&nbsp;fiscal&nbsp;situation&nbsp;could&nbsp;hit&nbsp;banks&nbsp;hard&nbsp;while&nbsp;speaking&nbsp;in&nbsp;Parliament&nbsp;earlier&nbsp;in&nbsp;the&nbsp;day.&nbsp;<BR>&nbsp;&nbsp;&nbsp;Mari&nbsp;Iwashita,&nbsp;bond&nbsp;strategist&nbsp;at&nbsp;SMBC&nbsp;Nikko&nbsp;Securities,&nbsp;said&nbsp;that&nbsp;the&nbsp;BOJ&nbsp;has&nbsp;continued&nbsp;to&nbsp;stress&nbsp;the&nbsp;gravity&nbsp;of&nbsp;yield&nbsp;rises&nbsp;in&nbsp;Japan&apos;s&nbsp;nearly&nbsp;quadrillion&nbsp;yen&nbsp;($12.8&nbsp;trillion)&nbsp;bond&nbsp;market.&nbsp;<BR>&nbsp;&nbsp;&quot;It&nbsp;means&nbsp;there&nbsp;could&nbsp;be&nbsp;a&nbsp;limit&nbsp;to&nbsp;these&nbsp;yield&nbsp;declines&nbsp;and&nbsp;whether&nbsp;that&nbsp;is&nbsp;(dependent&nbsp;on)&nbsp;economic&nbsp;factors&nbsp;or&nbsp;a&nbsp;bettering&nbsp;of&nbsp;the&nbsp;problems&nbsp;in&nbsp;Europe,&nbsp;no&nbsp;one&nbsp;knows&nbsp;yet,&quot;&nbsp;she&nbsp;said.&nbsp;<BR>&nbsp;&nbsp;The&nbsp;Nikkei&nbsp;business&nbsp;daily&nbsp;also&nbsp;reported&nbsp;that&nbsp;U.S.&nbsp;authorities&nbsp;are&nbsp;finalizing&nbsp;plans&nbsp;to&nbsp;exclude&nbsp;Japanese&nbsp;government&nbsp;bonds&nbsp;from&nbsp;the&nbsp;Volcker&nbsp;Rule,&nbsp;a&nbsp;regulation&nbsp;that&nbsp;would&nbsp;limit&nbsp;certain&nbsp;trading&nbsp;by&nbsp;banks.&nbsp;The&nbsp;Bank&nbsp;of&nbsp;Japan&nbsp;and&nbsp;Japan&apos;s&nbsp;Financial&nbsp;Services&nbsp;Agency&nbsp;have&nbsp;expressed&nbsp;concern&nbsp;that&nbsp;without&nbsp;an&nbsp;exemption&nbsp;the&nbsp;costs&nbsp;of&nbsp;trading&nbsp;JGBs&nbsp;could&nbsp;go&nbsp;up&nbsp;and&nbsp;market&nbsp;liquidity&nbsp;might&nbsp;be&nbsp;reduced.&nbsp;<BR>&nbsp;&nbsp;Atsushi&nbsp;Ito,&nbsp;senior&nbsp;rates&nbsp;strategist&nbsp;at&nbsp;UBS&nbsp;Securities,&nbsp;said&nbsp;he&nbsp;believes&nbsp;Japan&nbsp;will&nbsp;secure&nbsp;an&nbsp;exemption.&nbsp;For&nbsp;the&nbsp;time&nbsp;being,&nbsp;with&nbsp;no&nbsp;official&nbsp;announcement,&nbsp;the&nbsp;market&nbsp;is&nbsp;not&nbsp;moving&nbsp;on&nbsp;the&nbsp;news,&nbsp;he&nbsp;said.&nbsp;<BR>&nbsp;&nbsp;In&nbsp;the&nbsp;event&nbsp;that&nbsp;Japan&nbsp;was&nbsp;not&nbsp;exempted,&nbsp;however,&nbsp;&quot;it&nbsp;would&nbsp;be&nbsp;a&nbsp;negative&nbsp;surprise&nbsp;and&nbsp;would&nbsp;lead&nbsp;to&nbsp;yield&nbsp;rises,&quot;&nbsp;he&nbsp;said.&nbsp;<BR>&nbsp;&nbsp;The&nbsp;market&nbsp;is&nbsp;focused&nbsp;on&nbsp;an&nbsp;auction&nbsp;of&nbsp;Y1.2&nbsp;trillion&nbsp;of&nbsp;20-year&nbsp;bonds&nbsp;on&nbsp;Thursday&nbsp;that&nbsp;caused&nbsp;some&nbsp;position&nbsp;adjustment&nbsp;in&nbsp;the&nbsp;superlong&nbsp;end&nbsp;on&nbsp;Wednesday.&nbsp;<BR>&nbsp;&nbsp;Akito&nbsp;Fukunaga,&nbsp;chief&nbsp;bond&nbsp;strategist&nbsp;at&nbsp;RBS&nbsp;Securities&nbsp;said&nbsp;he&nbsp;does&nbsp;not&nbsp;expect&nbsp;to&nbsp;see&nbsp;strong&nbsp;demand.&nbsp;<BR>&nbsp;&nbsp;&quot;Even&nbsp;considering&nbsp;yield&nbsp;declines&nbsp;abroad,&nbsp;I&nbsp;judge&nbsp;the&nbsp;recent&nbsp;flattening&nbsp;in&nbsp;the&nbsp;superlong&nbsp;end&nbsp;to&nbsp;be&nbsp;overheated.&nbsp;Because&nbsp;it&nbsp;has&nbsp;corrected&nbsp;itself&nbsp;in&nbsp;the&nbsp;past&nbsp;few&nbsp;days,&nbsp;I&nbsp;don&apos;t&nbsp;imagine&nbsp;an&nbsp;auction&nbsp;where&nbsp;the&nbsp;market&nbsp;comes&nbsp;in&nbsp;at&nbsp;its&nbsp;peak&nbsp;and&nbsp;triggers&nbsp;a&nbsp;sharp&nbsp;fall&nbsp;after,&nbsp;but&nbsp;I&nbsp;don&apos;t&nbsp;expect&nbsp;a&nbsp;very&nbsp;enthusiastic&nbsp;one&nbsp;either.&quot;&nbsp;<BR>&nbsp;&nbsp;The&nbsp;20-year&nbsp;yield&nbsp;finished&nbsp;flat&nbsp;at&nbsp;1.540%&nbsp;and&nbsp;the&nbsp;30-year&nbsp;yield&nbsp;finished&nbsp;up&nbsp;one&nbsp;basis&nbsp;point&nbsp;at&nbsp;1.770%.&nbsp;<BR>&nbsp;&nbsp;&nbsp;Other&nbsp;Cash&nbsp;Bond&nbsp;Yields&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At&nbsp;0600&nbsp;GMT&nbsp;&nbsp;&nbsp;Change&nbsp;<BR>&nbsp;&nbsp;&nbsp;2-Year&nbsp;0.1%&nbsp;JGB&nbsp;No.&nbsp;318&nbsp;Yield:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.090%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-0.010&nbsp;<BR>&nbsp;&nbsp;&nbsp;5-Year&nbsp;0.2%&nbsp;JGB&nbsp;No.&nbsp;105&nbsp;Yield:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.175%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flat&nbsp;<BR>&nbsp;&nbsp;&nbsp;20-Year&nbsp;1.7%&nbsp;JGB&nbsp;No.&nbsp;137&nbsp;Yield:&nbsp;&nbsp;&nbsp;&nbsp;1.540%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flat&nbsp;<BR>&nbsp;&nbsp;&nbsp;30-Year&nbsp;2.0%&nbsp;JGB&nbsp;No.&nbsp;36&nbsp;Yield:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.770%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+0.010<BR></pre><BR>&nbsp;&nbsp;Write&nbsp;to&nbsp;Eleanor&nbsp;Warnock&nbsp;at&nbsp;eleanor.warnock@dowjones.com&nbsp;<BR>Subscribe&nbsp;to&nbsp;WSJ:&nbsp;http://online.wsj.com?mod=djnwires<BR><BR>-0-<BR><BR>Copyright&nbsp;(c)&nbsp;2012&nbsp;Dow&nbsp;Jones&nbsp;&amp;&nbsp;Company,&nbsp;Inc.
+<p></p>
+</FONT>]]>
+
+</fulltext>
+</DJStory>
+</root>
+
+

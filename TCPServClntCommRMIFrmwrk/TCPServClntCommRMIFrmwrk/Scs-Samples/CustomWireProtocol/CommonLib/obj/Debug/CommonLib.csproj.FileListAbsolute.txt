@@ -1,0 +1,14 @@
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\CommonLib\bin\Debug\CommonLib.dll
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\CommonLib\bin\Debug\CommonLib.pdb
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\CommonLib\bin\Debug\Scs.dll
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\CommonLib\bin\Debug\Scs.xml
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\CommonLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\CommonLib\obj\Debug\CommonLib.dll
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\CommonLib\obj\Debug\CommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\CustomWireProtocol\CommonLib\bin\Debug\CommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\CustomWireProtocol\CommonLib\bin\Debug\CommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\CustomWireProtocol\CommonLib\bin\Debug\Scs.xml
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\CustomWireProtocol\CommonLib\obj\Debug\ResolveAssemblyReference.cache
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\CustomWireProtocol\CommonLib\obj\Debug\CommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\CustomWireProtocol\CommonLib\obj\Debug\CommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\CustomWireProtocol\CommonLib\bin\Debug\Scs.dll

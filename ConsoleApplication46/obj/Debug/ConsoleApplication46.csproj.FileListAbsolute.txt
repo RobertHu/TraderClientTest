@@ -1,0 +1,7 @@
+D:\VsProjects\ConsoleApplication46\obj\Debug\ConsoleApplication46.csprojResolveAssemblyReference.cache
+D:\VsProjects\ConsoleApplication46\bin\Debug\TransactionServerTester.exe.config
+D:\VsProjects\ConsoleApplication46\bin\Debug\TransactionServerTester.exe
+D:\VsProjects\ConsoleApplication46\bin\Debug\TransactionServerTester.pdb
+D:\VsProjects\ConsoleApplication46\obj\Debug\TransactionServerTester.exe
+D:\VsProjects\ConsoleApplication46\obj\Debug\TransactionServerTester.pdb
+D:\VsProjects\ConsoleApplication46\bin\Debug\source.xml

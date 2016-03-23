@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WindowsService">
+</Property><Property Name="Solution File" Value="D:\VsProjects\WindowsService_Src\WindowsService\WindowsService.sln">
+</Property><Property Name="Date" Value="Tuesday, January 08, 2013">
+</Property><Property Name="Time" Value="16:17 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WindowsService.sln" Description="File successfully backed up as D:\VsProjects\WindowsService_Src\WindowsService\Backup\WindowsService.sln">
+</Event><Event ErrorLevel="0" Project="WindowsService" Source="WindowsService\WindowsService.csproj" Description="Project file successfully backed up as D:\VsProjects\WindowsService_Src\WindowsService\Backup\WindowsService\WindowsService.csproj">
+</Event><Event ErrorLevel="0" Project="WindowsService" Source="WindowsService\WindowsService.cs" Description="File successfully backed up as D:\VsProjects\WindowsService_Src\WindowsService\Backup\WindowsService\WindowsService.cs">
+</Event><Event ErrorLevel="0" Project="WindowsService" Source="WindowsService\WindowsServiceInstaller.cs" Description="File successfully backed up as D:\VsProjects\WindowsService_Src\WindowsService\Backup\WindowsService\WindowsServiceInstaller.cs">
+</Event><Event ErrorLevel="1" Project="WindowsService" Source="WindowsService\WindowsService.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="WindowsService" Source="WindowsService\WindowsService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WindowsService" Source="WindowsService\WindowsService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WindowsService.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WindowsService.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WindowsService" Source="WindowsService\WindowsService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

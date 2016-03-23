@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Account ID="a11aabb6-2dc2-42d5-a914-00928cd5fee8">
+  <Transactions>
+    <Transaction PlacedByRiskMonitor="False" FreePlacingPreCheck="False" FreeLmtVariationCheck="False" ID="00d5f92b-691d-4027-b8a9-cc60a3dcf8cf" Code="MHL151130SP00008" Type="0" AccountID="a11aabb6-2dc2-42d5-a914-00928cd5fee8" InstrumentID="670590db-8ce6-4676-ac68-7701ffc5410a" SubType="0" Phase="255" OrderType="0" ContractSize="0" BeginTime="2015-11-30 15:46:57" EndTime="2015-11-30 15:47:07" ExpireType="3" SubmitTime="2015-11-30 15:46:57" SubmitorID="52213886-68b0-4edf-8c75-04acd6e7e474" InstrumentCategory="20" PlacePhase="1" PlaceDetail="">
+      <Orders>
+        <Order ID="ec9406d0-203b-47f7-95df-5adf60679232" IsOpen="True" IsBuy="True" Lot="1" OriginalLot="1" LotBalance="1" Code="MHL2015113000008" SetPrice="0.700" SetPriceMaxMovePips="0" DQMaxMove="0" PlacedByRiskMonitor="False" Phase="255" TradeOption="0" PhysicalTradeSide="1" PhysicalValueMatureDay="0" PhysicalType="2" DeliveryLockLot="0" Period="1" Frequence="-1" InstalmentPolicyId="0817d587-c929-4f77-bcc7-38f2b8acd793" DownPayment="10" PhysicalInstalmentType="2" RecalculateRateType="1" DownPaymentBasis="1" IsInstalmentOverdue="False" InstalmentOverdueDay="0">
+          <Bills />
+          <InstalmentDetails />
+          <OrderRelations />
+        </Order>
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>

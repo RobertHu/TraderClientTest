@@ -1,0 +1,5 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Services\FutureService.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Services\FutureService.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Model\FutureService\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Model\FutureService\obj\Debug\FutureService.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Model\FutureService\obj\Debug\FutureService.pdb

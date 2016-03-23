@@ -1,0 +1,5 @@
+D:\VsProjects\TCPServer\TCPServer\bin\Debug\TCPServer.exe
+D:\VsProjects\TCPServer\TCPServer\bin\Debug\TCPServer.pdb
+D:\VsProjects\TCPServer\TCPServer\obj\x86\Debug\TCPServer.exe
+D:\VsProjects\TCPServer\TCPServer\obj\x86\Debug\TCPServer.pdb
+D:\VsProjects\TCPServer\TCPServer\obj\x86\Debug\TCPServer.csprojResolveAssemblyReference.cache

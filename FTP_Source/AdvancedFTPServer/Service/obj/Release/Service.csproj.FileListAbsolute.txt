@@ -1,0 +1,4 @@
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Build\FTPService.exe
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Build\FTPService.pdb
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Service\obj\Release\FTPService.exe
+D:\VsProjects\FTP_Source\AdvancedFTPServer\Service\obj\Release\FTPService.pdb

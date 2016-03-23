@@ -1,0 +1,9 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Database\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Database\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Database\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Database\obj\Debug\Caching.Database.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Database\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Database\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.pdb

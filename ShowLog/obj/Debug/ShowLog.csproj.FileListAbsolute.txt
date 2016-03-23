@@ -1,0 +1,5 @@
+D:\VsProjects\ShowLog\bin\Debug\ShowLog.exe
+D:\VsProjects\ShowLog\bin\Debug\ShowLog.pdb
+D:\VsProjects\ShowLog\obj\Debug\ShowLog.exe
+D:\VsProjects\ShowLog\obj\Debug\ShowLog.pdb
+D:\VsProjects\ShowLog\obj\Debug\ShowLog.csprojResolveAssemblyReference.cache

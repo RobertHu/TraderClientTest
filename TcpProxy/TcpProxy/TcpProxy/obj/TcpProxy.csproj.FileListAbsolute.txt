@@ -1,0 +1,5 @@
+D:\Demo\TcpProxy\TcpProxy\bin\Debug\TcpProxy.exe
+D:\Demo\TcpProxy\TcpProxy\bin\Debug\TcpProxy.pdb
+D:\Demo\TcpProxy\TcpProxy\obj\Debug\ResolveAssemblyReference.cache
+D:\Demo\TcpProxy\TcpProxy\obj\Debug\TcpProxy.exe
+D:\Demo\TcpProxy\TcpProxy\obj\Debug\TcpProxy.pdb

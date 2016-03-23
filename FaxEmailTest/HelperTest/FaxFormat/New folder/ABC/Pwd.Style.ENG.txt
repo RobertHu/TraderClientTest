@@ -1,0 +1,21 @@
+﻿<p>Dear Valued Customer,</p>
+
+<p>Your online trading password has been reset, please login your Account details as below:</p>
+
+<p>Account Name :{AccountName}</p>
+
+<p>Account No :	{LoginName}</p>
+
+<p> Password :	{Password}</p>
+
+<p>For your security, please kindly change your password immediately after you login.</p>
+
+<p>Client shall be the only authorized user of the Electronic Trading Service under the Account. The Internet Trade Service relies on the Access Codes to authenticate the Client as the authorized user for the Account. Client shall be solely responsible for all instructions entered through the Electronic Trading Service using the Access Code.</p>
+
+<p>Therefore, Client please do not expose your password to any third parties. Neither the Staff of Wing Fung Financial Group and its subsidiaries nor anyone will ask you for your password for any identity verification purposes.</p>
+
+<p>Should you have any query about login, please contact our settlement hotline at 852 233 8756 or China Toll Free 4 12 197 or email cso@wfgold.com </p>
+
+<p>Thanks for your attention</p>
+
+<p>{Organization}</p>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{7317FE88-02EF-43FF-A949-BBF03C5628F9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Server2", "Server2\Server2.fsproj", "{B1F3C573-4A8D-42AF-B329-15587C0667F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD5", "MD5\MD5.csproj", "{0A127620-BE61-4F55-B156-A277B74D827E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7317FE88-02EF-43FF-A949-BBF03C5628F9}.Debug|x86.ActiveCfg = Debug|x86
+		{7317FE88-02EF-43FF-A949-BBF03C5628F9}.Debug|x86.Build.0 = Debug|x86
+		{7317FE88-02EF-43FF-A949-BBF03C5628F9}.Release|x86.ActiveCfg = Release|x86
+		{7317FE88-02EF-43FF-A949-BBF03C5628F9}.Release|x86.Build.0 = Release|x86
+		{B1F3C573-4A8D-42AF-B329-15587C0667F3}.Debug|x86.ActiveCfg = Debug|x86
+		{B1F3C573-4A8D-42AF-B329-15587C0667F3}.Debug|x86.Build.0 = Debug|x86
+		{B1F3C573-4A8D-42AF-B329-15587C0667F3}.Release|x86.ActiveCfg = Release|x86
+		{B1F3C573-4A8D-42AF-B329-15587C0667F3}.Release|x86.Build.0 = Release|x86
+		{0A127620-BE61-4F55-B156-A277B74D827E}.Debug|x86.ActiveCfg = Debug|x86
+		{0A127620-BE61-4F55-B156-A277B74D827E}.Debug|x86.Build.0 = Debug|x86
+		{0A127620-BE61-4F55-B156-A277B74D827E}.Release|x86.ActiveCfg = Release|x86
+		{0A127620-BE61-4F55-B156-A277B74D827E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

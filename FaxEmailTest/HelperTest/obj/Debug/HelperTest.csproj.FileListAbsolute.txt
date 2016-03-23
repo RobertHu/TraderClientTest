@@ -1,0 +1,15 @@
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\HelperTest.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\HelperTest.pdb
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\FaxAndEmaill.Helper.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\nunit.framework.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\FaxAndEmail.V3Model.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\log4net.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\FaxAndEmailService.Common.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\FaxAndEmail.Repository.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\FluentNHibernate.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\NHibernate.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\Iesi.Collections.dll
+D:\VsProjects\FaxEmailTest\HelperTest\bin\Debug\nunit.framework.xml
+D:\VsProjects\FaxEmailTest\HelperTest\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\FaxEmailTest\HelperTest\obj\Debug\HelperTest.dll
+D:\VsProjects\FaxEmailTest\HelperTest\obj\Debug\HelperTest.pdb

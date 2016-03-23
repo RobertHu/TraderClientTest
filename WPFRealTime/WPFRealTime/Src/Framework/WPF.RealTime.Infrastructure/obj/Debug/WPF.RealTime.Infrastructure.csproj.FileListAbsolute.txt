@@ -1,0 +1,5 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.Infrastructure.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.Infrastructure.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.Infrastructure\obj\Debug\WPF.RealTime.Infrastructure.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.Infrastructure\obj\Debug\WPF.RealTime.Infrastructure.pdb

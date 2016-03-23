@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="iplab">
+</Property><Property Name="Solution File" Value="D:\VsProjects\iplab_src\iplab_src\iplab\iplab.sln">
+</Property><Property Name="Date" Value="Friday, December 28, 2012">
+</Property><Property Name="Time" Value="11:32 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="iplab.sln" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\iplab.sln">
+</Event><Event ErrorLevel="0" Project="iplab" Source="iplab.csproj" Description="Project file successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\iplab.csproj">
+</Event><Event ErrorLevel="0" Project="iplab" Source="AboutForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\AboutForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\ColorSlider.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\ColorSlider.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\FilterPreview.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\FilterPreview.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\GridArray.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\GridArray.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\GridArrayInt.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\GridArrayInt.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\Histogram.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\Histogram.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\HuePicker.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\HuePicker.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\AdaptiveSmoothForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\AdaptiveSmoothForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\BrightnessForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\BrightnessForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\CannyDetectorForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\CannyDetectorForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ChannelFilteringForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ChannelFilteringForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ColorFilteringForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ColorFilteringForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ContrastForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ContrastForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ConvolutionForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ConvolutionForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\EuclideanColorFilteringForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\EuclideanColorFilteringForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\FrequencyFilter.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\FrequencyFilter.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\GammaForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\GammaForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\GaussianForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\GaussianForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\HSLFilteringForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\HSLFilteringForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\HSLLinearForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\HSLLinearForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\HueModifierForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\HueModifierForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\LevelsLinearForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\LevelsLinearForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\MathMorphologyForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\MathMorphologyForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\MorphForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\MorphForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\OilPaintingForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\OilPaintingForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\PerlinNoiseForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\PerlinNoiseForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\PixelateForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\PixelateForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ResizeForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ResizeForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\RotateForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\RotateForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\SaturationForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\SaturationForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\SharpenExForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\SharpenExForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ShrinkForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ShrinkForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ThresholdForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ThresholdForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\YCbCrFilteringForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\YCbCrFilteringForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\YCbCrLinearForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\YCbCrLinearForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="FourierDoc.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\FourierDoc.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="HistogramWindow.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\HistogramWindow.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="IDocumentsHost.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\IDocumentsHost.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="ImageDoc.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\ImageDoc.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="ImageStatisticsWindow.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\ImageStatisticsWindow.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="MainForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="SelectImageForm.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\SelectImageForm.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Tools\Configuration.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Tools\Configuration.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Tools\Serialize2DimArray.cs" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Tools\Serialize2DimArray.cs">
+</Event><Event ErrorLevel="0" Project="iplab" Source="banner.gif" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\banner.gif">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Copyright.txt" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Copyright.txt">
+</Event><Event ErrorLevel="0" Project="iplab" Source="History.txt" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\History.txt">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Version.txt" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Version.txt">
+</Event><Event ErrorLevel="0" Project="iplab" Source="App.ico" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="iplab" Source="AboutForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\AboutForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\ColorSlider.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\ColorSlider.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\FilterPreview.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\FilterPreview.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\GridArray.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\GridArray.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\GridArrayInt.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\GridArrayInt.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\Histogram.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\Histogram.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Controls\HuePicker.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Controls\HuePicker.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\AdaptiveSmoothForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\AdaptiveSmoothForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\BrightnessForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\BrightnessForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\CannyDetectorForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\CannyDetectorForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ChannelFilteringForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ChannelFilteringForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ColorFilteringForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ColorFilteringForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ContrastForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ContrastForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ConvolutionForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ConvolutionForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\EuclideanColorFilteringForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\EuclideanColorFilteringForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\FrequencyFilter.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\FrequencyFilter.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\GammaForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\GammaForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\GaussianForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\GaussianForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\HSLFilteringForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\HSLFilteringForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\HSLLinearForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\HSLLinearForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\HueModifierForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\HueModifierForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\LevelsLinearForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\LevelsLinearForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\MathMorphologyForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\MathMorphologyForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\MorphForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\MorphForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\OilPaintingForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\OilPaintingForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\PerlinNoiseForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\PerlinNoiseForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\PixelateForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\PixelateForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ResizeForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ResizeForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\RotateForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\RotateForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\SaturationForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\SaturationForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\SharpenExForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\SharpenExForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ShrinkForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ShrinkForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\ThresholdForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\ThresholdForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\YCbCrFilteringForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\YCbCrFilteringForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Filters Forms\YCbCrLinearForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Filters Forms\YCbCrLinearForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="FourierDoc.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\FourierDoc.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="HistogramWindow.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\HistogramWindow.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="ImageDoc.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\ImageDoc.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="ImageStatisticsWindow.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\ImageStatisticsWindow.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="MainForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Resources\arrow.bmp" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Resources\arrow.bmp">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Resources\harrow.cur" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Resources\harrow.cur">
+</Event><Event ErrorLevel="0" Project="iplab" Source="Resources\hmove.cur" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\Resources\hmove.cur">
+</Event><Event ErrorLevel="0" Project="iplab" Source="SelectImageForm.resx" Description="File successfully backed up as D:\VsProjects\iplab_src\iplab_src\iplab\Backup\SelectImageForm.resx">
+</Event><Event ErrorLevel="1" Project="iplab" Source="iplab.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="iplab" Source="iplab.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="iplab" Source="iplab.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="iplab.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="iplab.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="iplab" Source="iplab.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtThreadDemo", "QtThreadDemo.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtSslDemo2", "..\QtSslDemo2\QtSslDemo2.vcxproj", "{A5E86079-F039-4590-993C-CF347CD00A5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyTest", "..\MyTest\MyTest.vcxproj", "{044E064A-B40C-45B0-AB78-6E2860F67EA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainWindowTest", "..\MainWindowTest\MainWindowTest.vcxproj", "{B0B42A48-FDEE-4015-8064-57883969B8EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.Build.0 = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.ActiveCfg = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.Build.0 = Release|Win32
+		{A5E86079-F039-4590-993C-CF347CD00A5A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5E86079-F039-4590-993C-CF347CD00A5A}.Debug|Win32.Build.0 = Debug|Win32
+		{A5E86079-F039-4590-993C-CF347CD00A5A}.Release|Win32.ActiveCfg = Release|Win32
+		{A5E86079-F039-4590-993C-CF347CD00A5A}.Release|Win32.Build.0 = Release|Win32
+		{044E064A-B40C-45B0-AB78-6E2860F67EA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{044E064A-B40C-45B0-AB78-6E2860F67EA5}.Debug|Win32.Build.0 = Debug|Win32
+		{044E064A-B40C-45B0-AB78-6E2860F67EA5}.Release|Win32.ActiveCfg = Release|Win32
+		{044E064A-B40C-45B0-AB78-6E2860F67EA5}.Release|Win32.Build.0 = Release|Win32
+		{B0B42A48-FDEE-4015-8064-57883969B8EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0B42A48-FDEE-4015-8064-57883969B8EA}.Debug|Win32.Build.0 = Debug|Win32
+		{B0B42A48-FDEE-4015-8064-57883969B8EA}.Release|Win32.ActiveCfg = Release|Win32
+		{B0B42A48-FDEE-4015-8064-57883969B8EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿Account: {AccountCode}
+Date: {ExecuteTime}
+Instrument: {InstrumentDesc}
+Buy: {Buy}
+Sell: {Sell}
+Rate: {ExecutePrice}
+Type: {Type}
+{Organization}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ac8e69f7-b1b1-4037-8e41-cf89b8898723" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://ws0210:8090/TransactionServer/Service/meta" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="meta.xsd" MetadataType="Schema" ID="f3cf324a-d48b-454b-9d60-a8529ad23439" SourceId="1" SourceUrl="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd2" />
+    <MetadataFile FileName="meta1.xsd" MetadataType="Schema" ID="80173208-2600-4679-9b9e-50d7881a4227" SourceId="1" SourceUrl="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd3" />
+    <MetadataFile FileName="meta2.xsd" MetadataType="Schema" ID="41506241-ad54-42ae-99f5-ac13f6640d7e" SourceId="1" SourceUrl="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd4" />
+    <MetadataFile FileName="meta3.xsd" MetadataType="Schema" ID="09fbceea-8e9e-4750-a8c8-3a3d90044f17" SourceId="1" SourceUrl="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd5" />
+    <MetadataFile FileName="ServerService.wsdl" MetadataType="Wsdl" ID="685cdd98-03c3-4b7f-9a76-941ab1f6602d" SourceId="1" SourceUrl="http://ws0210:8090/TransactionServer/Service/meta" />
+    <MetadataFile FileName="meta4.xsd" MetadataType="Schema" ID="4c80b8f1-325a-4ed7-a3be-100192a7b423" SourceId="1" SourceUrl="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd0" />
+    <MetadataFile FileName="meta5.xsd" MetadataType="Schema" ID="30ce69fc-e93b-4190-9a08-31fb444d342b" SourceId="1" SourceUrl="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

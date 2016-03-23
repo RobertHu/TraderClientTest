@@ -1,0 +1,10 @@
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\ThreadsVersusTasks\bin\Debug\ThreadsVersusTasks.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\ThreadsVersusTasks\bin\Debug\ThreadsVersusTasks.pdb
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\ThreadsVersusTasks\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\ThreadsVersusTasks\obj\x86\Debug\ThreadsVersusTasks.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\ThreadsVersusTasks\obj\x86\Debug\ThreadsVersusTasks.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\ThreadsVersusTasks\bin\Debug\ThreadsVersusTasks.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\ThreadsVersusTasks\bin\Debug\ThreadsVersusTasks.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\ThreadsVersusTasks\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TasksArticle1\TasksArticle1\ThreadsVersusTasks\obj\x86\Debug\ThreadsVersusTasks.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\ThreadsVersusTasks\obj\x86\Debug\ThreadsVersusTasks.pdb

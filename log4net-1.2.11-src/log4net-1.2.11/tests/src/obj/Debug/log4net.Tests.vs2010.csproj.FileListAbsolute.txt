@@ -1,0 +1,5 @@
+D:\VsProjects\log4net-1.2.11-src\log4net-1.2.11\tests\bin\Debug\log4net.Tests.dll
+D:\VsProjects\log4net-1.2.11-src\log4net-1.2.11\tests\bin\Debug\log4net.Tests.pdb
+D:\VsProjects\log4net-1.2.11-src\log4net-1.2.11\tests\src\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\log4net-1.2.11-src\log4net-1.2.11\tests\src\obj\Debug\log4net.Tests.dll
+D:\VsProjects\log4net-1.2.11-src\log4net-1.2.11\tests\src\obj\Debug\log4net.Tests.pdb

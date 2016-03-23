@@ -1,0 +1,6 @@
+D:\VsProjects\JavaTraderReProduceTest\Test2\bin\Debug\Test2.exe.config
+D:\VsProjects\JavaTraderReProduceTest\Test2\bin\Debug\Test2.exe
+D:\VsProjects\JavaTraderReProduceTest\Test2\bin\Debug\Test2.pdb
+D:\VsProjects\JavaTraderReProduceTest\Test2\obj\Debug\Test2.csprojResolveAssemblyReference.cache
+D:\VsProjects\JavaTraderReProduceTest\Test2\obj\Debug\Test2.exe
+D:\VsProjects\JavaTraderReProduceTest\Test2\obj\Debug\Test2.pdb

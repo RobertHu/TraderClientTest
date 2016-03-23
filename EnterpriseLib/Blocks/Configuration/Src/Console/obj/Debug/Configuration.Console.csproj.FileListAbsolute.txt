@@ -1,0 +1,13 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\EntLibConfig.exe.config
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\EntLibConfig.exe
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\EntLibConfig.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\Shell.baml
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\Shell.g.cs
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\App.g.cs
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\EntLibConfig_MarkupCompile.cache
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\EntLibConfig.g.resources
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Console.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\Configuration.Console.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\EntLibConfig.exe
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\Console\obj\Debug\EntLibConfig.pdb

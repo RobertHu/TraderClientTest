@@ -1,0 +1,6 @@
+D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe
+D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.pdb
+D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\obj\Debug\WindowsService.exe
+D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\obj\Debug\WindowsService.pdb
+D:\VsProjects\WindowsService_Src\WindowsService\WindowsService\bin\Debug\WindowsService.exe.config

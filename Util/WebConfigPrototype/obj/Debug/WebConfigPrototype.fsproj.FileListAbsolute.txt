@@ -1,0 +1,6 @@
+D:\VsProjects\Util\WebConfigPrototype\bin\Debug\WebConfigPrototype.XML
+D:\VsProjects\Util\WebConfigPrototype\bin\Debug\WebConfigPrototype.dll
+D:\VsProjects\Util\WebConfigPrototype\bin\Debug\WebConfigPrototype.pdb
+D:\VsProjects\Util\WebConfigPrototype\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\Util\WebConfigPrototype\obj\Debug\WebConfigPrototype.dll
+D:\VsProjects\Util\WebConfigPrototype\obj\Debug\WebConfigPrototype.pdb

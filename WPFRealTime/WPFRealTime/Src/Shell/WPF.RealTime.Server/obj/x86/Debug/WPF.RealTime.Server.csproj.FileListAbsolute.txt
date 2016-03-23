@@ -1,0 +1,8 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\bin\Debug\WPF.RealTime.Server.exe.config
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\bin\Debug\WPF.RealTime.Server.exe
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\bin\Debug\WPF.RealTime.Server.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\bin\Debug\WPF.RealTime.Data.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\bin\Debug\WPF.RealTime.Data.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\obj\x86\Debug\WPF.RealTime.Server.exe
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime.Server\obj\x86\Debug\WPF.RealTime.Server.pdb

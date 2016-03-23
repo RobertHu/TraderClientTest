@@ -1,0 +1,8 @@
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\bin\Release\PdfSharp.Charting.XML
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\bin\Release\PdfSharp.Charting.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\bin\Release\PdfSharp.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\bin\Release\PdfSharp.pdb
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\bin\Release\PdfSharp.xml
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\bin\Release\de\PdfSharp.resources.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\obj\Release\ResolveAssemblyReference.cache
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp.Charting\obj\Release\PdfSharp.Charting.dll

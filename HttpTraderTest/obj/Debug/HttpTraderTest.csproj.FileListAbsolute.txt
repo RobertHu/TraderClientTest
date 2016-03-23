@@ -1,0 +1,6 @@
+D:\VsProjects\HttpTraderTest\bin\Debug\HttpTraderTest.exe.config
+D:\VsProjects\HttpTraderTest\bin\Debug\HttpTraderTest.exe
+D:\VsProjects\HttpTraderTest\bin\Debug\HttpTraderTest.pdb
+D:\VsProjects\HttpTraderTest\obj\Debug\HttpTraderTest.exe
+D:\VsProjects\HttpTraderTest\obj\Debug\HttpTraderTest.pdb
+D:\VsProjects\HttpTraderTest\obj\Debug\HttpTraderTest.csprojResolveAssemblyReference.cache

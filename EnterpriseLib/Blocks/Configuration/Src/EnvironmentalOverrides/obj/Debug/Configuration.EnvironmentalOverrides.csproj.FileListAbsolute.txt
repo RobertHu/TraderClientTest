@@ -1,0 +1,9 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides\obj\Debug\Configuration.EnvironmentalOverrides.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb

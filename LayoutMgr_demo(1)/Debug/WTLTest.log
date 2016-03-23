@@ -1,0 +1,62 @@
+﻿Build started 6/20/2012 4:54:44 PM.
+     1>Project "D:\VsProjects\LayoutMgr_demo(1)\WTLTest.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\WTLTest.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\WTLTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./WTL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D STRICT /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/WTLTest.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./WTL /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D STRICT /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/WTLTest.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ChildFrm.cpp LayoutMgr.cpp TestPropertySheet.cpp WTLTest.cpp WTLTestview.cpp aboutdlg.cpp mainfrm.cpp
+         ChildFrm.cpp
+     1>d:\vsprojects\layoutmgr_demo(1)\childfrm.h(15): warning C4003: not enough actual parameters for macro 'DECLARE_FRAME_WND_CLASS'
+         LayoutMgr.cpp
+         TestPropertySheet.cpp
+         WTLTest.cpp
+     1>d:\vsprojects\layoutmgr_demo(1)\childfrm.h(15): warning C4003: not enough actual parameters for macro 'DECLARE_FRAME_WND_CLASS'
+         WTLTestview.cpp
+         aboutdlg.cpp
+         mainfrm.cpp
+     1>d:\vsprojects\layoutmgr_demo(1)\childfrm.h(15): warning C4003: not enough actual parameters for macro 'DECLARE_FRAME_WND_CLASS'
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0809" /I./WTL /nologo /fo".\Debug\WTLTest.res" WTLTest.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\WTLTest.exe.embed.manifest.res" .\Debug\WTLTest_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/WTLTest.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\WTLTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/WTLTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\WTLTest.lib" /MACHINE:X86 .\Debug\WTLTest.res
+         .\Debug\WTLTest.exe.embed.manifest.res
+         .\Debug/ChildFrm.obj
+         .\Debug/LayoutMgr.obj
+         .\Debug/TestPropertySheet.obj
+         .\Debug/WTLTest.obj
+         .\Debug/WTLTestview.obj
+         .\Debug/aboutdlg.obj
+         .\Debug/mainfrm.obj
+         .\Debug/stdafx.obj /MACHINE:I386 
+       Manifest:
+         Deleting file ".\Debug\WTLTest.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\WTLTest.exe.embed.manifest" /manifest res\WTLTest.exe.manifest .\Debug\WTLTest.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\WTLTest.exe.embed.manifest.res" .\Debug\WTLTest_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/WTLTest.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\WTLTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/WTLTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\WTLTest.lib" /MACHINE:X86 .\Debug\WTLTest.res
+         .\Debug\WTLTest.exe.embed.manifest.res
+         .\Debug/ChildFrm.obj
+         .\Debug/LayoutMgr.obj
+         .\Debug/TestPropertySheet.obj
+         .\Debug/WTLTest.obj
+         .\Debug/WTLTestview.obj
+         .\Debug/aboutdlg.obj
+         .\Debug/mainfrm.obj
+         .\Debug/stdafx.obj /MACHINE:I386 
+         WTLTest.vcxproj -> D:\VsProjects\LayoutMgr_demo(1)\.\Debug\WTLTest.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\WTLTest.bsc" .\Debug\ChildFrm.sbr .\Debug\LayoutMgr.sbr .\Debug\TestPropertySheet.sbr .\Debug\WTLTest.sbr .\Debug\WTLTestview.sbr .\Debug\aboutdlg.sbr .\Debug\mainfrm.sbr .\Debug\stdafx.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\WTLTest.unsuccessfulbuild".
+         Touching ".\Debug\WTLTest.lastbuildstate".
+     1>Done Building Project "D:\VsProjects\LayoutMgr_demo(1)\WTLTest.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.44

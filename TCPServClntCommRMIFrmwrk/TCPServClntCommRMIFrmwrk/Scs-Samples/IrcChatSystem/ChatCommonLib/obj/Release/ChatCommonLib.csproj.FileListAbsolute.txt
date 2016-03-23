@@ -1,0 +1,8 @@
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\bin\Release\ChatCommonLib.XML
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\bin\Release\ChatCommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\bin\Release\ChatCommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\bin\Release\Scs.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\bin\Release\Scs.xml
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\obj\Release\ResolveAssemblyReference.cache
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\obj\Release\ChatCommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\IrcChatSystem\ChatCommonLib\obj\Release\ChatCommonLib.pdb

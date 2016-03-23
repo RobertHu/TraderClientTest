@@ -1,0 +1,11 @@
+﻿帐户名称 : {AccountName}
+帐户号码 : {AccountCode}
+交易编号 : {OrderCode}
+成交日期及时间 : {ExecuteTime}
+产品：{InstrumentDesc}
+买入：{Buy}
+沽出：{Sell}
+交易价：{ExecutePrice}
+类型：{Type}
+手续费：{Commission}
+{Organization}

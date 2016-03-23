@@ -1,0 +1,4 @@
+﻿帐户名称 : {AccountName}
+登入用戶 : {LoginName}
+密码: {Password}
+{Organization}

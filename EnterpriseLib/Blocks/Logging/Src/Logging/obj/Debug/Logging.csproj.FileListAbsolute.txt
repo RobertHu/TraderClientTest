@@ -1,0 +1,10 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\Logging\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\Logging\obj\Debug\Logging.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\Logging\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb

@@ -1,0 +1,17 @@
+﻿<p>Dear Valued Customer,</p>
+
+<p>Your {BalanceType}, details as below:</p>
+
+<p>Client Name : {AccountName}</p>
+
+<p>Account No :	 {AccountCode}</p>
+
+<p>{BalanceType} Amount :{CurrencyCode} {Amount}</p>
+
+<p>Date & Time:	{ExecuteTime}</p>
+	
+<p>Should you have any query, please contact our settlement hotline at (852) 2303 8756 or China Toll Free 400 120 1097 or email cso@wfgold.com</p>
+
+<p>Thanks for your attention</p>
+
+<p>{Organization}</p>

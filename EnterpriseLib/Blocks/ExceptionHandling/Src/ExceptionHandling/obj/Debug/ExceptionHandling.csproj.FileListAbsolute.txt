@@ -1,0 +1,10 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\ExceptionHandling\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\ExceptionHandling\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\ExceptionHandling\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\ExceptionHandling\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\ExceptionHandling\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\VsProjects\EnterpriseLib\Blocks\ExceptionHandling\Src\ExceptionHandling\obj\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\NhibernateTest.nunit" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-11-29" time="17:10:01">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4984" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="D:\Program Files (x86)\Nunit\bin\net-2.0" machine-name="WS0210" user="Robert" user-domain="OMNICARE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="D:\VsProjects\RhinoMock.Test\RhinoMock.Test\bin\Debug\NhibernateTest.nunit" executed="True" result="Failure" success="False" time="5.703" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate.Test\bin\Debug-2.0\NHibernate.Test.dll" executed="True" result="Failure" success="False" time="5.670" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="NHibernate" executed="True" result="Failure" success="False" time="5.668" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="5.667" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Ado" executed="True" result="Failure" success="False" time="5.660" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="BatcherFixture" executed="True" result="Error" success="False" time="5.652" asserts="0">
+                        <failure>
+                          <message><![CDATA[SetUp : NHibernate.MappingException : Could not compile the mapping document: NHibernate.Test.Ado.VerySimple.hbm.xml
+  ----> System.InvalidOperationException : Could not find the dialect in the configuration]]></message>
+                          <stack-trace><![CDATA[at NHibernate.Cfg.Configuration.LogAndThrow(Exception exception) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 341
+at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 529
+at NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 498
+at NHibernate.Cfg.Configuration.ProcessMappingsQueue() in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 1864
+at NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 1855
+at NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 1848
+at NHibernate.Cfg.Configuration.AddInputStream(Stream xmlInputStream, String name) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 651
+at NHibernate.Cfg.Configuration.AddResource(String path, Assembly assembly) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 689
+at NHibernate.Test.TestCase.AddMappings(Configuration configuration) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate.Test\TestCase.cs:line 249
+at NHibernate.Test.TestCase.Configure() in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate.Test\TestCase.cs:line 236
+at NHibernate.Test.TestCase.TestFixtureSetUp() in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate.Test\TestCase.cs:line 116
+--InvalidOperationException
+at NHibernate.Dialect.Dialect.GetDialect(IDictionary`2 props) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Dialect\Dialect.cs:line 167
+at NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName) in D:\GitDataSource\NHibernate\nhibernate-core\src\NHibernate\Cfg\Configuration.cs:line 517
+]]></stack-trace>
+                        </failure>
+                        <results>
+                          <test-case name="NHibernate.Test.Ado.BatcherFixture.AbstractBatcherLog" description="Activating the AbstractBatcher's log the log stream:&#xD;&#xA;-should not contains batch info &#xD;&#xA;-should contain SQL log info only regarding batcher (SQL log should not be duplicated)&#xD;&#xA;-the batcher should work." executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                            <failure>
+                              <message><![CDATA[TestFixtureSetUp failed in BatcherFixture]]></message>
+                              <stack-trace />
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

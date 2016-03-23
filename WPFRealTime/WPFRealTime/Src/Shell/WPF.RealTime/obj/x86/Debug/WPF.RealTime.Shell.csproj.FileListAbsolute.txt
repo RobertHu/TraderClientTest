@@ -1,0 +1,11 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.Shell.exe.config
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.Shell.exe
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.Shell.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\MainWindow.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\MainWindow.g.cs
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\App.g.cs
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\WPF.RealTime.Shell_MarkupCompile.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\WPF.RealTime.Shell.g.resources
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\WPF.RealTime.Shell.exe
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Shell\WPF.RealTime\obj\x86\Debug\WPF.RealTime.Shell.pdb

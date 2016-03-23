@@ -1,0 +1,4 @@
+﻿Account Name :{AccountName}
+Account No :{LoginName}
+Password :{Password}
+{Organization}

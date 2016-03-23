@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\VsProjects\BasicUnitTest\bin\Debug\BasicUnitTest.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-03-23" time="09:16:27">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.4984" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="D:\Program Files (x86)\NUnit-2.6.2\bin" machine-name="WS0210" user="Robert" user-domain="OMNICARE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\VsProjects\BasicUnitTest\bin\Debug\BasicUnitTest.dll" executed="True" result="Success" success="True" time="0.135" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="BasicUnitTest" executed="True" result="Success" success="True" time="0.111" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="BuySellPairTest" executed="True" result="Success" success="True" time="0.063" asserts="0">
+            <results>
+              <test-case name="BasicUnitTest.BuySellPairTest.AddTest" executed="True" result="Success" success="True" time="0.048" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="XmlTest" executed="True" result="Success" success="True" time="0.042" asserts="0">
+            <results>
+              <test-case name="BasicUnitTest.XmlTest.DeliveryRequestTest" executed="True" result="Success" success="True" time="0.042" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

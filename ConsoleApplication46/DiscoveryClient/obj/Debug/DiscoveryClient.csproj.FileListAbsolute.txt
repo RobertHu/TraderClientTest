@@ -1,0 +1,6 @@
+D:\VsProjects\ConsoleApplication46\DiscoveryClient\bin\Debug\DiscoveryClient.exe.config
+D:\VsProjects\ConsoleApplication46\DiscoveryClient\bin\Debug\DiscoveryClient.exe
+D:\VsProjects\ConsoleApplication46\DiscoveryClient\bin\Debug\DiscoveryClient.pdb
+D:\VsProjects\ConsoleApplication46\DiscoveryClient\obj\Debug\DiscoveryClient.csprojResolveAssemblyReference.cache
+D:\VsProjects\ConsoleApplication46\DiscoveryClient\obj\Debug\DiscoveryClient.exe
+D:\VsProjects\ConsoleApplication46\DiscoveryClient\obj\Debug\DiscoveryClient.pdb

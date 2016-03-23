@@ -1,0 +1,9 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Cryptography\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Cryptography\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.DesignResources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Cryptography\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.Configuration.Manageability.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Cryptography\obj\Debug\Caching.Cryptography.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Cryptography\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.dll
+D:\VsProjects\EnterpriseLib\Blocks\Caching\Src\Cryptography\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Cryptography.pdb

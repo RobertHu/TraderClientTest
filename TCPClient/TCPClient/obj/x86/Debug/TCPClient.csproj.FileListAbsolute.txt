@@ -1,0 +1,4 @@
+D:\VsProjects\TCPClient\TCPClient\bin\Debug\TCPClient.exe
+D:\VsProjects\TCPClient\TCPClient\bin\Debug\TCPClient.pdb
+D:\VsProjects\TCPClient\TCPClient\obj\x86\Debug\TCPClient.exe
+D:\VsProjects\TCPClient\TCPClient\obj\x86\Debug\TCPClient.pdb

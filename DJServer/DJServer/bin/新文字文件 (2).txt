@@ -1,0 +1,4 @@
+Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes"
+
+
+ElementType name="Subtext" content="textOnly" model="closed" dt:type="string"

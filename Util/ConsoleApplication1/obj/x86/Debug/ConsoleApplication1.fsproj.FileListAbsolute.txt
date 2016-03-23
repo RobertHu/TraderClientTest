@@ -1,0 +1,8 @@
+D:\VsProjects\Util\ConsoleApplication1\bin\Debug\ConsoleApplication1.XML
+D:\VsProjects\Util\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\VsProjects\Util\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\VsProjects\Util\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\Util\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\VsProjects\Util\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+D:\VsProjects\Util\ConsoleApplication1\bin\Debug\Util2.dll
+D:\VsProjects\Util\ConsoleApplication1\bin\Debug\Util2.pdb

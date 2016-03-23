@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="1248af63-6a11-46fd-9ee7-b68bddeb558e" name="comment" linkedPackageId="8a5bf965-90a4-4b8c-88b9-a91c61543537" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="d83d23c7-0513-4605-9200-decc6fac32ff">
+      <elementDefinition Id="d8f1724a-5331-4db8-965c-3438fb0aa90e" />
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="8de04e14-09d0-48de-a886-06ded2447839">
+      <profileInstance Id="5f0ca96e-fe0d-4b5b-8f93-e302b161eb28" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="10d2e93b-9cfb-48bc-8fff-482cabdcc2f2">
+      <profileInstance Id="e3b3fe29-3f78-4f00-81ba-a31383b4cb77" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <package Id="8a5bf965-90a4-4b8c-88b9-a91c61543537" name="CppTrader">
+    <elementDefinition Id="45f303be-60dd-461e-b2ad-29b831ab933b" />
+  </package>
+</logicalClassDesignerModel>

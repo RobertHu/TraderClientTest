@@ -1,0 +1,11 @@
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\bin\Debug\CalculatorServer.exe
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\bin\Debug\CalculatorServer.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\bin\Debug\CalculatorCommonLib.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\bin\Debug\Scs.dll
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\bin\Debug\CalculatorCommonLib.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\bin\Debug\Scs.xml
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\obj\x86\Debug\CalculatorServer.exe
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-Samples\SimpleCalculatorSystem\CalculatorServer\obj\x86\Debug\CalculatorServer.pdb
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-PerformanceTests\RMI\CalculatorServer\obj\x86\Debug\CalculatorServer.exe
+E:\Halil\Makalelerim\CodeProject.com\Scs\Projects\Scs-PerformanceTests\RMI\CalculatorServer\obj\x86\Debug\CalculatorServer.pdb

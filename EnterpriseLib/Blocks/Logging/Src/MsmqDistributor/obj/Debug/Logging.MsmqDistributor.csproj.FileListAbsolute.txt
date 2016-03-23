@@ -1,0 +1,12 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\App.config
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\MsmqDistributor.exe.config
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\MsmqDistributor.xml
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\MsmqDistributor.exe
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\MsmqDistributor.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\MsmqDistributor\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\MsmqDistributor\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.MsmqDistributor.DistributorService.resources
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\MsmqDistributor\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.MsmqDistributor.ProjectInstaller.resources
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\MsmqDistributor\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.MsmqDistributor.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\MsmqDistributor\obj\Debug\Logging.MsmqDistributor.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\MsmqDistributor\obj\Debug\MsmqDistributor.exe
+D:\VsProjects\EnterpriseLib\Blocks\Logging\Src\MsmqDistributor\obj\Debug\MsmqDistributor.pdb

@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="a60e393d-0989-4160-a65c-3a205449d6fd" name="NormalReset" linkedPackageId="f4006e51-1690-4a67-8ffe-b0f5f32b4faa" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="0d7ea98f-a9e7-4f4d-a6b2-dc70459dc190">
+      <elementDefinition Id="9d04286d-edf8-404e-b40d-b48db62296da" />
+      <body>还有未处理的Order？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="e915b8df-4970-4daf-a0b6-0fcae78ea7c2" LastKnownName="Decision3" />
+      </annotatedElements>
+    </comment>
+    <comment Id="30b0ca58-cdb0-45ff-9009-bd25faaca026">
+      <elementDefinition Id="a0742c19-b028-43a9-9d7c-0c36a75cefdc" />
+      <body>用历史价格日结</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="8c4a8543-6edc-44ef-bd37-2528828291d3" LastKnownName="Decision1" />
+      </annotatedElements>
+    </comment>
+    <comment Id="fd168b60-355d-4cf6-bb07-1a019ea5c886">
+      <elementDefinition Id="29dbf28a-f1aa-458f-88e1-421beb39d3e4" />
+      <body>
+
+&lt;Account&gt;
+&lt;Orders&gt;
+ &lt;Order&gt;
+ &lt;Bills&gt;
+ &lt;Bill  Value = ""  ValueDate = ""  TradeDay = ""    /&gt;
+&lt;/Bills&gt;
+ &lt;/Order&gt;
+&lt;/Orders&gt;
+</body>
+      <annotatedElements>
+        <opaqueActionMoniker Id="a5993b39-7d46-4310-8667-fc1f920753c5" LastKnownName="将每个Order的PL按右侧格式保存到Account下面的Order节点下" />
+      </annotatedElements>
+    </comment>
+    <comment Id="0619bd28-1a26-4293-9b33-ddfa7c809ca5">
+      <elementDefinition Id="aed7b705-5bb7-4537-a859-c90901780a78" />
+      <body>还有未处理的account？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="fa8136e3-7c36-4e55-87b6-fc3b1e56c0ee" LastKnownName="Decision8" />
+      </annotatedElements>
+    </comment>
+    <comment Id="c29bf71e-37e8-487b-85f7-a7b389d64a15">
+      <elementDefinition Id="013b942e-b190-4e1b-8c5c-c33923203215" />
+      <body>还有未处理的tradeDay？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="08105bba-14a8-43ec-865f-8ae815a2456f" LastKnownName="Decision9" />
+      </annotatedElements>
+    </comment>
+    <comment Id="fe888511-7537-4817-bd62-3be3ea191a7d">
+      <elementDefinition Id="11542e2d-3d0c-43a7-b4d2-6a7a3642c984" />
+      <body>还有未处理的account？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="6e2f4eb1-db49-47ef-8daa-18ce7daf5431" LastKnownName="Decision10" />
+      </annotatedElements>
+    </comment>
+    <comment Id="e6b71a71-c767-4b6f-9dc6-04218abfd3f4">
+      <elementDefinition Id="eb31b188-0a74-4018-ae5d-110013ce46fd" />
+      <body>还有未处理的tradeDay？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="944ae3c7-a97f-4953-9d94-f5ffc78daee7" LastKnownName="Decision2" />
+      </annotatedElements>
+    </comment>
+    <comment Id="6616b180-6998-4373-8c1f-39d93ed72469">
+      <elementDefinition Id="4412a95a-e1ed-422e-a4c2-3e751fcbef55" />
+      <body>还有未处理的account？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="f1bfecc0-363d-4670-9444-0dc989594608" LastKnownName="Decision4" />
+      </annotatedElements>
+    </comment>
+    <comment Id="1aa30866-050f-4dc0-a3a8-1d05247a2f0c">
+      <elementDefinition Id="1273ab73-1d3b-46a5-8e6c-6673f56395c6" />
+      <body>还有未处理的instalmentOrder？</body>
+      <annotatedElements>
+        <mergeNodeMoniker Id="d43c37c7-1e68-449e-8343-3d30794f3da7" LastKnownName="Merge6" />
+      </annotatedElements>
+    </comment>
+    <comment Id="563201f2-6832-4345-a9ad-c79f79550905">
+      <elementDefinition Id="a501acfb-3fe2-446d-b671-d40e47e13b60" />
+      <body>还有未处理的instalmentAccount？</body>
+      <annotatedElements>
+        <decisionNodeMoniker Id="ce2ac206-ebed-42c5-b990-e19f89f99882" LastKnownName="Decision6" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="8dc4a22c-add2-4fc6-813b-f5d9bba6b28d" name="NormalReset" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="635f76f0-5ac0-4ef6-bd26-b8c33a6f41ba" />
+        <nodes>
+          <opaqueAction Id="6abef78e-605b-4090-bcfd-fa7e54ada310" name="得到instrument收市价格，tradeDay以及instrument" isLeaf="false">
+            <elementDefinition Id="40b68539-eeae-4c50-9e53-e6be0c7950b6" />
+            <flowNodeTargets>
+              <controlFlow Id="ce3e859c-3d99-47d5-90c8-02731734607f" isLeaf="false">
+                <decisionNodeMoniker Id="8c4a8543-6edc-44ef-bd37-2528828291d3" LastKnownName="Decision1" />
+                <elementDefinition Id="42e995a1-dbca-4fdf-89ec-b4acecfc40e6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode Id="7bdafb87-716a-4b31-a486-a966382db11e" name="Initial2" isLeaf="false">
+            <elementDefinition Id="4a59d3f6-c4b9-4412-852b-db87d86949e9" />
+            <flowNodeTargets>
+              <controlFlow Id="08a7c25d-4ca5-4d28-a656-87e4490db5de" isLeaf="false">
+                <opaqueActionMoniker Id="6abef78e-605b-4090-bcfd-fa7e54ada310" LastKnownName="得到instrument收市价格，tradeDay以及instrument" />
+                <elementDefinition Id="ab489cf0-f715-4038-8f48-78a6d8c9cba4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <decisionNode Id="8c4a8543-6edc-44ef-bd37-2528828291d3" name="Decision1" isLeaf="false">
+            <elementDefinition Id="cd2040f0-fcd3-4a14-94a0-2c54f184b5ee" />
+            <flowNodeTargets>
+              <controlFlow Id="f3172bc6-f57d-45c4-a463-1a019b351256" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="986512ee-a282-4899-a236-561108d11ebc" LastKnownName="for each account in instrument.accounts" />
+                <elementDefinition Id="04f839b9-2124-4649-9b6b-5c8abd8c60fd" />
+              </controlFlow>
+              <controlFlow Id="637f65f7-cc20-4d3c-bcf6-edabf7bdc8d1" guard="Yes" isLeaf="false">
+                <opaqueActionMoniker Id="51434c5f-5aec-4c71-afa4-dc651185ac88" LastKnownName="for each tradeDay between (tradeDay, lastTradeDay) " />
+                <elementDefinition Id="b4d4acee-1d09-4f68-a943-625bd0594181" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="986512ee-a282-4899-a236-561108d11ebc" name="for each account in instrument.accounts" isLeaf="false">
+            <elementDefinition Id="15f52967-a6da-4a90-a520-93bec527705e" />
+            <flowNodeTargets>
+              <controlFlow Id="8bbf3f6e-e199-4f14-95a3-8a4999cce51e" isLeaf="false">
+                <mergeNodeMoniker Id="fbc9608a-821d-4148-ae29-b789706a4b17" LastKnownName="Merge2" />
+                <elementDefinition Id="278e4e3f-eff4-4919-965b-1c32e2666b66" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="42f2658d-9638-40d9-b398-e717fc9ac686" name="for each tradeDay between  (lastTradeDay, tradeDay]" isLeaf="false">
+            <elementDefinition Id="373ae1dd-f7a4-4036-9ced-06225bb49e35" />
+            <flowNodeTargets>
+              <controlFlow Id="47179432-a674-46e2-9358-12d0eae06ba3" isLeaf="false">
+                <mergeNodeMoniker Id="2c100482-3a5b-43bb-9efc-947d4768e7a6" LastKnownName="Merge3" />
+                <elementDefinition Id="4991adde-6837-4ab8-9185-492eb4e9dfc7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ab1458b7-aeb0-4dbe-9b36-3bf618a8fff4" name="for each order in  executed orders " isLeaf="false">
+            <elementDefinition Id="c408df72-1072-4abe-baa9-3e48a4f8a304" />
+            <flowNodeTargets>
+              <controlFlow Id="466858fc-382f-48a9-883b-0fba1c21e125" isLeaf="false">
+                <mergeNodeMoniker Id="bf8afbde-1759-41c4-a73d-7c0e46d99ff8" LastKnownName="Merge5" />
+                <elementDefinition Id="8df9fbe1-2ab5-4699-b52a-e18114969e81" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="fbc9608a-821d-4148-ae29-b789706a4b17" name="Merge2" isLeaf="false">
+            <elementDefinition Id="3a3b4ee2-d8ab-455d-ab29-90ddd19eefe4" />
+            <flowNodeTargets>
+              <controlFlow Id="77224f32-9fed-4185-9b04-6386994f7184" isLeaf="false">
+                <opaqueActionMoniker Id="42f2658d-9638-40d9-b398-e717fc9ac686" LastKnownName="for each tradeDay between  (lastTradeDay, tradeDay]" />
+                <elementDefinition Id="da5bdd56-65f5-4db7-8ace-2845844b74fb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <mergeNode Id="2c100482-3a5b-43bb-9efc-947d4768e7a6" name="Merge3" isLeaf="false">
+            <elementDefinition Id="f5aa52ae-0b1e-416d-9401-9f44fb2bd9c9" />
+            <flowNodeTargets>
+              <controlFlow Id="d77e0b3f-97e1-4c3e-a86b-356853280769" isLeaf="false">
+                <opaqueActionMoniker Id="ab1458b7-aeb0-4dbe-9b36-3bf618a8fff4" LastKnownName="for each order in  executed orders " />
+                <elementDefinition Id="9110404a-38b5-4561-912e-4c95df376dd6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="486c0071-d787-4de5-b18c-16e4ef6f8134" name="计算order的各种PL和FloatPL以及实货的冻绝资金&#xD;&#xA;" isLeaf="false">
+            <elementDefinition Id="69c7cf78-05ec-4fe2-b319-835fdefa6ac0" />
+            <flowNodeTargets>
+              <controlFlow Id="82fa7c53-2727-4c18-a231-0fa4dbf1cbb9" isLeaf="false">
+                <decisionNodeMoniker Id="e915b8df-4970-4daf-a0b6-0fcae78ea7c2" LastKnownName="Decision3" />
+                <elementDefinition Id="cdc47ab5-6c29-493f-bff5-87ab96066389" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="e915b8df-4970-4daf-a0b6-0fcae78ea7c2" name="Decision3" isLeaf="false">
+            <elementDefinition Id="0508ce0c-ad66-4d8a-b015-71c65e0ef7cf" />
+            <flowNodeTargets>
+              <controlFlow Id="d1d6029a-a389-487c-b223-b1b4ecabfa01" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="bf8afbde-1759-41c4-a73d-7c0e46d99ff8" LastKnownName="Merge5" />
+                <elementDefinition Id="bea88f70-be84-4229-9d33-436ac79c7aeb" />
+              </controlFlow>
+              <controlFlow Id="08cafe9c-34a9-40b9-a0e7-dc07f8230616" guard="No" isLeaf="false">
+                <decisionNodeMoniker Id="944ae3c7-a97f-4953-9d94-f5ffc78daee7" LastKnownName="Decision2" />
+                <elementDefinition Id="ca2ad79d-37e7-48d4-bf00-e15e9c9a4bb7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <mergeNode Id="bf8afbde-1759-41c4-a73d-7c0e46d99ff8" name="Merge5" isLeaf="false">
+            <elementDefinition Id="4b63d117-a005-43fc-8261-103d908b67c6" />
+            <flowNodeTargets>
+              <controlFlow Id="e5e46fc1-f697-4122-bd10-cfcce49440c1" isLeaf="false">
+                <opaqueActionMoniker Id="486c0071-d787-4de5-b18c-16e4ef6f8134" LastKnownName="计算order的各种PL和FloatPL以及实货的冻绝资金&#xD;&#xA;" />
+                <elementDefinition Id="94ded612-6553-40ad-9c61-0d61597adcea" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="51434c5f-5aec-4c71-afa4-dc651185ac88" name="for each tradeDay between (tradeDay, lastTradeDay) " isLeaf="false">
+            <elementDefinition Id="98fc5627-89f4-4349-827d-cd855e765e5b" />
+            <flowNodeTargets>
+              <controlFlow Id="d276cfd0-9009-4ef7-a871-0b00e528f2b6" isLeaf="false">
+                <mergeNodeMoniker Id="ef0353aa-bbf3-45d2-8e1f-90526a343ccf" LastKnownName="Merge1" />
+                <elementDefinition Id="26be2f94-fbb4-4114-8ecd-da0462b9dae1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="ef0353aa-bbf3-45d2-8e1f-90526a343ccf" name="Merge1" isLeaf="false">
+            <elementDefinition Id="8f6c16be-2ea5-4c24-bb3d-39be118b6cf1" />
+            <flowNodeTargets>
+              <controlFlow Id="70e999d3-82e1-4307-9a8c-7ba690ce3af5" isLeaf="false">
+                <opaqueActionMoniker Id="35b42e6b-c25f-4952-a6bc-5b882ee01a3a" LastKnownName="for each account in instrument.Accounts" />
+                <elementDefinition Id="2332bd56-b3b2-4807-8232-195493d9d1aa" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="35b42e6b-c25f-4952-a6bc-5b882ee01a3a" name="for each account in instrument.Accounts" isLeaf="false">
+            <elementDefinition Id="6c9bad17-3fbd-4c56-9fad-8fddc92de202" />
+            <flowNodeTargets>
+              <controlFlow Id="072c3811-c96a-4259-bae6-179f60c8090e" isLeaf="false">
+                <mergeNodeMoniker Id="8b5fae8c-8d2e-4980-abe0-a751546de665" LastKnownName="Merge8" />
+                <elementDefinition Id="cc3562a2-637c-4818-8772-336b73259761" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="8b5fae8c-8d2e-4980-abe0-a751546de665" name="Merge8" isLeaf="false">
+            <elementDefinition Id="cf4e58fb-df88-44a7-8dbf-3507f5d0986a" />
+            <flowNodeTargets>
+              <controlFlow Id="93c0561f-b9ee-4222-b998-4562b64ae8cb" isLeaf="false">
+                <opaqueActionMoniker Id="12d7efa3-2b3f-4bf4-8bd1-7ae4435b7a57" LastKnownName="计算tradeDay这天，所有已成交order的PL" />
+                <elementDefinition Id="62e4f8f9-d7a6-46a6-aed6-cfe62a879bf3" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="12d7efa3-2b3f-4bf4-8bd1-7ae4435b7a57" name="计算tradeDay这天，所有已成交order的PL" isLeaf="false">
+            <elementDefinition Id="bf1872bf-7327-46f5-82a1-5209304d9564" />
+            <flowNodeTargets>
+              <controlFlow Id="990ef081-ccf0-4410-a3a8-99f1033afd3d" isLeaf="false">
+                <opaqueActionMoniker Id="a5993b39-7d46-4310-8667-fc1f920753c5" LastKnownName="将每个Order的PL按右侧格式保存到Account下面的Order节点下" />
+                <elementDefinition Id="9c2a8e29-9947-43ea-9278-490ecc417b2f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a5993b39-7d46-4310-8667-fc1f920753c5" name="将每个Order的PL按右侧格式保存到Account下面的Order节点下" isLeaf="false">
+            <elementDefinition Id="a232198a-35a9-4ee2-a699-696357098994" />
+            <flowNodeTargets>
+              <controlFlow Id="c8f94f28-bc12-4673-be38-faca4f11cf2f" isLeaf="false">
+                <decisionNodeMoniker Id="fa8136e3-7c36-4e55-87b6-fc3b1e56c0ee" LastKnownName="Decision8" />
+                <elementDefinition Id="66f98181-78d1-459c-8afe-7cd2ee3970f2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="fa8136e3-7c36-4e55-87b6-fc3b1e56c0ee" name="Decision8" isLeaf="false">
+            <elementDefinition Id="185b7150-09b8-40d1-af77-407b9ca27f24" />
+            <flowNodeTargets>
+              <controlFlow Id="fac6daff-1442-4a43-99c3-1bbb3c148e87" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="8b5fae8c-8d2e-4980-abe0-a751546de665" LastKnownName="Merge8" />
+                <elementDefinition Id="0036bba8-bf99-4f0b-9f35-4df2af23ad32" />
+              </controlFlow>
+              <controlFlow Id="dc88edbb-35a3-4b55-b473-af4b691f4b3d" guard="No" isLeaf="false">
+                <decisionNodeMoniker Id="08105bba-14a8-43ec-865f-8ae815a2456f" LastKnownName="Decision9" />
+                <elementDefinition Id="a5291205-b4da-4602-bb68-0826dd819a12" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="dda10f6b-0501-484a-a1a5-5073c3cdd043" name="将所有已成交的order的ValuedPL汇总为 deltaAmount，从account的balance上减去deltaAmount" isLeaf="false">
+            <elementDefinition Id="ff7e4859-a71e-4bec-ab4a-b196f64d25ac" />
+            <flowNodeTargets>
+              <controlFlow Id="7de7675b-b633-453d-8702-f93316db31f0" isLeaf="false">
+                <opaqueActionMoniker Id="0993db93-5b44-4aec-9534-dc17cd4dc9c7" LastKnownName="for each account in instrument.Accounts" />
+                <elementDefinition Id="40c91d3c-3564-43bd-a17b-40099e649d35" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="08105bba-14a8-43ec-865f-8ae815a2456f" name="Decision9" isLeaf="false">
+            <elementDefinition Id="cac0f6d5-6358-4128-bf10-4746f00adf82" />
+            <flowNodeTargets>
+              <controlFlow Id="5ddb40cd-bd17-4f74-907b-4158ebd88e50" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="ef0353aa-bbf3-45d2-8e1f-90526a343ccf" LastKnownName="Merge1" />
+                <elementDefinition Id="25a1a1cc-e12e-42e5-a281-2d65a85a997a" />
+              </controlFlow>
+              <controlFlow Id="def8e568-ad68-4547-8408-ffee202a1031" isLeaf="false">
+                <opaqueActionMoniker Id="dda10f6b-0501-484a-a1a5-5073c3cdd043" LastKnownName="将所有已成交的order的ValuedPL汇总为 deltaAmount，从account的balance上减去deltaAmount" />
+                <elementDefinition Id="8d06145f-4cb8-4011-a863-640ac3eebe3b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="0993db93-5b44-4aec-9534-dc17cd4dc9c7" name="for each account in instrument.Accounts" isLeaf="false">
+            <elementDefinition Id="679fd26f-9b5c-4cb8-b8d6-6e121763bd40" />
+            <flowNodeTargets>
+              <controlFlow Id="b1296116-0fdc-40bb-bfc6-8b69ceb5d785" isLeaf="false">
+                <mergeNodeMoniker Id="c8b2a458-df7e-4746-9510-e9a007b5b903" LastKnownName="Merge9" />
+                <elementDefinition Id="46030c75-442a-433a-8c6b-9b425293b8fe" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="c8b2a458-df7e-4746-9510-e9a007b5b903" name="Merge9" isLeaf="false">
+            <elementDefinition Id="05015142-02e1-47e3-bb90-769b19b3912b" />
+            <flowNodeTargets>
+              <controlFlow Id="5172b06d-8d60-42eb-94eb-56f18b6be729" isLeaf="false">
+                <opaqueActionMoniker Id="7b673009-5c6b-4c42-a216-5458b7ae665f" LastKnownName="将account的变化保存到文件，并广播出去，将上述步骤所保存的输出xml， 调用存储过程" />
+                <elementDefinition Id="d42f899a-f9ed-4c21-be33-5117b2f8046e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="7b673009-5c6b-4c42-a216-5458b7ae665f" name="将account的变化保存到文件，并广播出去，将上述步骤所保存的输出xml， 调用存储过程" isLeaf="false">
+            <elementDefinition Id="31c09582-1901-402e-ba15-d7d52c3cd9f0" />
+            <flowNodeTargets>
+              <controlFlow Id="25bad470-8b3f-4872-b9cb-b4b3c4b657c3" isLeaf="false">
+                <decisionNodeMoniker Id="6e2f4eb1-db49-47ef-8daa-18ce7daf5431" LastKnownName="Decision10" />
+                <elementDefinition Id="8a33d164-fb79-4985-816e-a6f8dffd5f14" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="6e2f4eb1-db49-47ef-8daa-18ce7daf5431" name="Decision10" isLeaf="false">
+            <elementDefinition Id="c23358b9-020b-4f8d-9110-cb591f490bc6" />
+            <flowNodeTargets>
+              <controlFlow Id="934e86b1-10b2-4ee8-872e-6e47434e729b" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="c8b2a458-df7e-4746-9510-e9a007b5b903" LastKnownName="Merge9" />
+                <elementDefinition Id="57fcd5be-5b7d-4ea1-9344-c2a03d673ba6" />
+              </controlFlow>
+              <controlFlow Id="4af78ae3-af76-4082-aee3-94a4a34ab348" guard="No" isLeaf="false">
+                <activityFinalNodeMoniker Id="166e385d-dd1e-4d01-a00e-0dc4cfa4e675" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="85864c1f-9efa-4e76-8f85-9813a74c3710" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <activityFinalNode Id="166e385d-dd1e-4d01-a00e-0dc4cfa4e675" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="09c61b18-10a9-4ad4-b7f3-90f6fbed2daf" />
+          </activityFinalNode>
+          <opaqueAction Id="4ba87b51-e25c-4397-b635-162e868395ec" name="将所有已成交order的ValuedP汇总为 deltaAmount， 并加到account的balance上" isLeaf="false">
+            <elementDefinition Id="bc942c0f-7dda-4852-bd05-eb96a1bb2813" />
+            <flowNodeTargets>
+              <controlFlow Id="760bd028-dfc7-4ce9-b06e-b6ce259d31d1" isLeaf="false">
+                <opaqueActionMoniker Id="6789b69a-9716-4fef-a30f-fdfb10415bb1" LastKnownName="将account得变化保存到文件，并广播出去，并将account得reset状态清除" />
+                <elementDefinition Id="1aaf3df6-c035-4a70-856b-b4b8011259a8" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="944ae3c7-a97f-4953-9d94-f5ffc78daee7" name="Decision2" isLeaf="false">
+            <elementDefinition Id="db2fa227-7bea-4804-a40e-38c496a4a758" />
+            <flowNodeTargets>
+              <controlFlow Id="a6c50077-98d2-49c6-8847-11f00b813f22" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="2c100482-3a5b-43bb-9efc-947d4768e7a6" LastKnownName="Merge3" />
+                <elementDefinition Id="6c1cfc98-ada4-4594-8180-4f82bb72a9a7" />
+              </controlFlow>
+              <controlFlow Id="fb75636d-8406-40ef-a7f4-64e0a6dd0c72" isLeaf="false">
+                <opaqueActionMoniker Id="4ba87b51-e25c-4397-b635-162e868395ec" LastKnownName="将所有已成交order的ValuedP汇总为 deltaAmount， 并加到account的balance上" />
+                <elementDefinition Id="ba927fbf-5a2e-44aa-96f0-dddde7145890" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="6789b69a-9716-4fef-a30f-fdfb10415bb1" name="将account得变化保存到文件，并广播出去，并将account得reset状态清除" isLeaf="false">
+            <elementDefinition Id="b17824a0-3a7a-41ac-9e92-b1bbf2ba8447" />
+            <flowNodeTargets>
+              <controlFlow Id="0951165e-baa1-4b05-a466-a8347d2987f3" isLeaf="false">
+                <decisionNodeMoniker Id="f1bfecc0-363d-4670-9444-0dc989594608" LastKnownName="Decision4" />
+                <elementDefinition Id="fc8a2718-a67d-4651-ba8d-24bbae1b6522" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="f1bfecc0-363d-4670-9444-0dc989594608" name="Decision4" isLeaf="false">
+            <elementDefinition Id="08339879-9ce4-4df1-acd4-7cfbe3dfc5ae" />
+            <flowNodeTargets>
+              <controlFlow Id="39f01a64-460c-41c8-a4c4-4696708edfef" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="fbc9608a-821d-4148-ae29-b789706a4b17" LastKnownName="Merge2" />
+                <elementDefinition Id="7e9e3b86-6118-4070-b37a-25ad3be05eaf" />
+              </controlFlow>
+              <controlFlow Id="8d7fe996-8b88-41ca-8361-6a4dfd86ef66" isLeaf="false">
+                <opaqueActionMoniker Id="dd5ccf3a-3ea4-49e3-8a4c-f333635dfaeb" LastKnownName="对于每个有分期付款(instalment)单子的账户(instalmentAccount)" />
+                <elementDefinition Id="bffe8d39-fc7e-428a-8a56-5742c766628b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="dd5ccf3a-3ea4-49e3-8a4c-f333635dfaeb" name="对于每个有分期付款(instalment)单子的账户(instalmentAccount)" isLeaf="false">
+            <elementDefinition Id="4b19adbb-e7e9-4d88-8a58-4cd8be14170f" />
+            <flowNodeTargets>
+              <controlFlow Id="73a4e52b-d1db-458b-a557-7a27214cd961" isLeaf="false">
+                <mergeNodeMoniker Id="655a03b5-4211-446b-8858-c0beece2a12b" LastKnownName="Merge4" />
+                <elementDefinition Id="7ace6029-7e2a-483a-a9f1-e4053b68d451" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="655a03b5-4211-446b-8858-c0beece2a12b" name="Merge4" isLeaf="false">
+            <elementDefinition Id="7c1f4274-3263-4779-98cc-91c744ed6d51" />
+            <flowNodeTargets>
+              <controlFlow Id="e7677fda-9674-435d-ad5b-6e53e3df3786" isLeaf="false">
+                <opaqueActionMoniker Id="de1791ac-2f9d-4264-b930-edbf68cfb2ef" LastKnownName="对于每一个instalmentOrder" />
+                <elementDefinition Id="5e96958c-4349-4cc9-8939-2b7ccafd3db2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="de1791ac-2f9d-4264-b930-edbf68cfb2ef" name="对于每一个instalmentOrder" isLeaf="false">
+            <elementDefinition Id="d72388c8-d1df-4b7c-96aa-3bd4e8cd48ee" />
+            <flowNodeTargets>
+              <controlFlow Id="abe88621-e844-4e53-ac2e-27f50ec1ce4e" isLeaf="false">
+                <mergeNodeMoniker Id="d43c37c7-1e68-449e-8343-3d30794f3da7" LastKnownName="Merge6" />
+                <elementDefinition Id="a418323b-6681-4b00-b80f-9e177d38fc48" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="d43c37c7-1e68-449e-8343-3d30794f3da7" name="Merge6" isLeaf="false">
+            <elementDefinition Id="72396121-1fc3-4bf3-8805-4d681dcd0da6" />
+            <flowNodeTargets>
+              <controlFlow Id="bff1d9bc-45c0-486b-b5fd-c776f403a347" isLeaf="false">
+                <opaqueActionMoniker Id="191e7769-9155-4bae-9faf-f712c8035177" LastKnownName="执行分期付款操作" />
+                <elementDefinition Id="3e2ba546-1057-4753-8027-c464e3108304" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="191e7769-9155-4bae-9faf-f712c8035177" name="执行分期付款操作" isLeaf="false">
+            <elementDefinition Id="5a45bf14-1b73-46a9-8346-ef77823251e0" />
+            <flowNodeTargets>
+              <controlFlow Id="c44c01ab-81ab-46b8-86b3-2ac2d3547f2e" isLeaf="false">
+                <decisionNodeMoniker Id="23ee7f24-24c1-4ea0-98ce-ddca53b6d095" LastKnownName="Decision5" />
+                <elementDefinition Id="a3a48e94-83d6-44f4-8431-f4e1a8acc914" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="23ee7f24-24c1-4ea0-98ce-ddca53b6d095" name="Decision5" isLeaf="false">
+            <elementDefinition Id="c0472cb2-5659-4282-a074-e734e6fb05e4" />
+            <flowNodeTargets>
+              <controlFlow Id="f3199525-b4ea-4972-84ca-dd3cbd02a600" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="d43c37c7-1e68-449e-8343-3d30794f3da7" LastKnownName="Merge6" />
+                <elementDefinition Id="7bb75732-0313-46e7-a5fe-b805e8200db6" />
+              </controlFlow>
+              <controlFlow Id="b87bda38-b3db-4c51-9835-21b5f2807479" guard="No" isLeaf="false">
+                <opaqueActionMoniker Id="dd51c970-3796-4e00-8462-3b590d0371f5" LastKnownName="将instalmentAccount变化的内容保存到文件，并广播出去" />
+                <elementDefinition Id="8faddd93-a94a-4bc3-8140-f68b908204f2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="dd51c970-3796-4e00-8462-3b590d0371f5" name="将instalmentAccount变化的内容保存到文件，并广播出去" isLeaf="false">
+            <elementDefinition Id="286b868d-9926-4a70-b79d-7d3be5ea3cb1" />
+            <flowNodeTargets>
+              <controlFlow Id="178704bb-caba-426e-98a0-bfed2612af64" isLeaf="false">
+                <decisionNodeMoniker Id="ce2ac206-ebed-42c5-b990-e19f89f99882" LastKnownName="Decision6" />
+                <elementDefinition Id="e87ebe57-771c-425c-a181-e7c844e2d85e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="ce2ac206-ebed-42c5-b990-e19f89f99882" name="Decision6" isLeaf="false">
+            <elementDefinition Id="d676f1eb-012a-422e-9c1a-99d5c0bd1841" />
+            <flowNodeTargets>
+              <controlFlow Id="db88fcac-36e0-4d5d-8675-06de4a9115eb" guard="Yes" isLeaf="false">
+                <mergeNodeMoniker Id="655a03b5-4211-446b-8858-c0beece2a12b" LastKnownName="Merge4" />
+                <elementDefinition Id="73c4f449-5a03-4aa5-9069-85067a40892e" />
+              </controlFlow>
+              <controlFlow Id="597e298a-0e68-49a0-ab6c-12d55bbcbb60" guard="No" isLeaf="false">
+                <activityFinalNodeMoniker Id="166e385d-dd1e-4d01-a00e-0dc4cfa4e675" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="e297d197-896d-4ef9-a4de-487824f97d45" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="f4006e51-1690-4a67-8ffe-b0f5f32b4faa" name="ResetFlow">
+    <elementDefinition Id="e0e73936-4c74-407e-8755-6d4db97d9401" />
+    <profileInstances>
+      <packageHasProfileInstances Id="50a74152-3906-4265-9929-77e686cabe22">
+        <profileInstance Id="e16511ac-2d77-4ad0-b68d-c4ea8e90878d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="221875eb-fef1-4f70-99a4-003fee458213">
+        <profileInstance Id="51caca10-468c-448a-87f1-4189f6676757" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

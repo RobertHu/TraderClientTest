@@ -1,0 +1,5 @@
+D:\VsProjects\ConsoleApplication37\obj\Debug\ConsoleApplication37.csprojResolveAssemblyReference.cache
+D:\VsProjects\ConsoleApplication37\bin\Debug\ConsoleApplication37.exe
+D:\VsProjects\ConsoleApplication37\bin\Debug\ConsoleApplication37.pdb
+D:\VsProjects\ConsoleApplication37\obj\Debug\ConsoleApplication37.exe
+D:\VsProjects\ConsoleApplication37\obj\Debug\ConsoleApplication37.pdb

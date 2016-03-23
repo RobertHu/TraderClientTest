@@ -1,0 +1,12 @@
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Resources.Messages.resources
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp.Resources.Messages.de.resources
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\ResGen.read.1.tlog
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\ResGen.write.1.tlog
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp-WPF.XML
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp-WPF.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\bin\Debug\PdfSharp-WPF.pdb
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\bin\Debug\de\PdfSharp-WPF.resources.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\de\PdfSharp-WPF.resources.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp-WPF.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\PDFsharp\code\PdfSharp\obj\Debug\PdfSharp-WPF.pdb

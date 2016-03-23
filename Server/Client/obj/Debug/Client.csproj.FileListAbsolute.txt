@@ -1,0 +1,5 @@
+D:\VsProjects\Server\Client\bin\Debug\Client.exe
+D:\VsProjects\Server\Client\bin\Debug\Client.pdb
+D:\VsProjects\Server\Client\obj\Debug\Client.exe
+D:\VsProjects\Server\Client\obj\Debug\Client.pdb
+D:\VsProjects\Server\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache

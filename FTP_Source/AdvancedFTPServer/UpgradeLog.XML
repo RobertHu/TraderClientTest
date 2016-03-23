@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AdvancedFTPServer">
+</Property><Property Name="Solution File" Value="D:\VsProjects\FTP_Source\AdvancedFTPServer\AdvancedFTPServer.sln">
+</Property><Property Name="User Options File" Value="D:\VsProjects\FTP_Source\AdvancedFTPServer\AdvancedFTPServer.suo">
+</Property><Property Name="Date" Value="Monday, July 09, 2012">
+</Property><Property Name="Time" Value="11:16 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="AdvancedFTPServer.sln" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\AdvancedFTPServer.sln">
+</Event><Event ErrorLevel="0" Project="" Source="AdvancedFTPServer.suo" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\AdvancedFTPServer.suo">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Server.csproj" Description="Project file successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Server.csproj">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Server.csproj.user" Description="Project user file successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Server.csproj.user">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\FTPClient.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\FTPClient.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\FTPServer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\FTPServer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\FTPUser.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\FTPUser.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\HTTPClient.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\HTTPClient.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\HTTPServer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\HTTPServer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\LogWriter.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\LogWriter.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\Session.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\Session.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\Settings.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\Settings.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmAbout.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmAbout.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmAbout.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmAbout.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmCommonSettings.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmCommonSettings.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmCommonSettings.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmCommonSettings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmErrorLogs.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmErrorLogs.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmErrorLogs.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmErrorLogs.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmMain.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmMain.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmOnlineUsers.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmOnlineUsers.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmOnlineUsers.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmOnlineUsers.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmUser.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmUser.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmUser.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmUser.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmUserAccount.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmUserAccount.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmUserAccount.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmUserAccount.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmViewService.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmViewService.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmViewService.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmViewService.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Classes\Program.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Classes\Program.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\OnlineUsers.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\OnlineUsers.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\AnonymousUser.png" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\AnonymousUser.png">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Browser.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Browser.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Config.ico" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Config.ico">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Help.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Help.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\DeleteUser.png" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\DeleteUser.png">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\EditAccount.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\EditAccount.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\EditUser.png" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\EditUser.png">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\FTP Folder.ico" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\FTP Folder.ico">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Login.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Login.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Main.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Main.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\ManageServices.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\ManageServices.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\NewUser.png" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\NewUser.png">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\PreRender.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\PreRender.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Settings.ico" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Settings.ico">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\User.ico" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\User.ico">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\UserAccount.htm" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\UserAccount.htm">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Icon.ico" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Icon.ico">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\Settings.xml" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\Settings.xml">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Files\UserAccount.ico" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Files\UserAccount.ico">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmAbout.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmAbout.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmCommonSettings.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmCommonSettings.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmErrorLogs.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmErrorLogs.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmMain.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmOnlineUsers.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmOnlineUsers.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmUser.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmUser.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmUserAccount.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmUserAccount.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Forms\frmViewService.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Forms\frmViewService.resx">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Properties\Resources.resx" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Server\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="Server" Source="Server\Server.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Server.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Server" Source="Server\Server.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Service.csproj" Description="Project file successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Service\Service.csproj">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Service.csproj.user" Description="Project user file successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Service\Service.csproj.user">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\FTPService.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Service\FTPService.cs">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\InstallerService.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Service\InstallerService.cs">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Service\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Icon.ico" Description="File successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Service\Icon.ico">
+</Event><Event ErrorLevel="1" Project="Service" Source="Service\Service.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Service.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Service" Source="Service\Service.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FTP Setup.vdproj" Source="Setup\FTP Setup.vdproj" Description="Project file successfully backed up as D:\VsProjects\FTP_Source\AdvancedFTPServer\Backup\Setup\FTP Setup.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="AdvancedFTPServer.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="AdvancedFTPServer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Server" Source="Server\Server.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Service.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

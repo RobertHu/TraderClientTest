@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Risk>
+    <Level1>
+      <Content>
+        <ENG>
+          Equity:	{CurrencyCode} {Equity}
+          Initial Margin:	{CurrencyCode} {Margin}
+          Date &amp;Time: {ChangeTime}
+        </ENG>
+        <CHS>
+          资产净值：{CurrencyCode} {Equity}    ABC  SMS
+          已用保证金：{CurrencyCode} {Margin}  
+          日期及时间：{ChangeTime} 
+        </CHS>
+        <CHT>
+          資產淨值：{CurrencyCode} {Equity}
+
+          已用保證金：{CurrencyCode} {Margin}
+
+          日期及時間：{ChangeTime}
+        </CHT>
+      </Content>
+    </Level1>
+    <Level2>
+      
+      <Content>
+        <ENG>
+          Equity:{CurrencyCode} {Equity}
+
+          Initial Margin:{CurrencyCode} {Margin}
+
+          Date &amp;Time: {ChangeTime}
+        </ENG>
+        <CHS>
+          资产净值：{CurrencyCode} {Equity}
+
+          已用保证金：{CurrencyCode} {Margin}
+
+          日期及时间：{ChangeTime}
+        </CHS>
+        <CHT>
+          資產淨值：{CurrencyCode} {Equity}
+
+          已用保證金：{CurrencyCode} {Margin}
+
+          日期及時間：{ChangeTime}
+        </CHT>
+      </Content>
+    </Level2>
+    <Level3>
+     
+      <Content>
+        <ENG>
+          Transaction No :{TransactionCode}
+
+          Stop-Loss Date &amp;Time:{ChangeTime}
+        </ENG>
+        <CHS>
+          交易编号：{TransactionCode}
+
+          止损平仓日期及时间：{ChangeTime}
+        </CHS>
+        <CHT>
+          交易編號：{TransactionCode}
+          止損平倉日期及時間：{ChangeTime}
+        </CHT>
+      </Content>
+    </Level3>
+  </Risk>
+
+  <Order>
+    <Open>
+      <ENG>Open</ENG>
+      <CHS>开仓</CHS>
+      <CHT>開倉</CHT>
+    </Open>
+    <Close>
+      <ENG>Close</ENG>
+      <CHS>平仓</CHS>
+      <CHT>平倉</CHT>
+    </Close>
+  </Order>
+
+  <Balance>
+
+    <Type>
+      <Depoist>
+        <ENG>Deposit</ENG>
+        <CHS>存款</CHS>
+        <CHT>存款</CHT>
+      </Depoist>
+
+      <Withdrawal>
+        <ENG>withdrawal</ENG>
+        <CHS>提款</CHS>
+        <CHT>提款</CHT>
+      </Withdrawal>
+    </Type>
+  </Balance>
+
+  <Password>
+    <Subject>
+      <ENG>Wing Fung Bullion Investment – Password Reset</ENG>
+      <CHS>永丰金银投资 – 重设密码</CHS>
+      <CHT>永豐金銀投資 – 重設密碼</CHT>
+    </Subject>
+  </Password>
+
+
+  <Statement>
+    <Subject>
+      <ENG>Wing Fung Bullion Investment</ENG>
+      <CHS>永丰金银投资 </CHS>
+      <CHT>永豐金銀投資</CHT>
+    </Subject>
+  </Statement>
+  
+  
+</Data>

@@ -1,0 +1,6 @@
+D:\VsProjects\RobertExperiment\TraderServerHelper\bin\Release\TraderServerHelper.XML
+D:\VsProjects\RobertExperiment\TraderServerHelper\bin\Release\TraderServerHelper.dll
+D:\VsProjects\RobertExperiment\TraderServerHelper\bin\Release\TraderServerHelper.pdb
+D:\VsProjects\RobertExperiment\TraderServerHelper\obj\Release\ResolveAssemblyReference.cache
+D:\VsProjects\RobertExperiment\TraderServerHelper\obj\Release\TraderServerHelper.dll
+D:\VsProjects\RobertExperiment\TraderServerHelper\obj\Release\TraderServerHelper.pdb

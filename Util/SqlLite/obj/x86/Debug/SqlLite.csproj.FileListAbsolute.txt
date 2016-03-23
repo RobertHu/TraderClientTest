@@ -1,0 +1,16 @@
+D:\VsProjects\Util\SqlLite\bin\Debug\SqlLite.exe.config
+D:\VsProjects\Util\SqlLite\bin\Debug\SqlLite.exe
+D:\VsProjects\Util\SqlLite\bin\Debug\SqlLite.pdb
+D:\VsProjects\Util\SqlLite\bin\Debug\System.Data.SQLite.dll
+D:\VsProjects\Util\SqlLite\bin\Debug\System.Data.SQLite.Linq.dll
+D:\VsProjects\Util\SqlLite\bin\Debug\System.Data.SQLite.pdb
+D:\VsProjects\Util\SqlLite\bin\Debug\System.Data.SQLite.Linq.pdb
+D:\VsProjects\Util\SqlLite\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\Util\SqlLite\obj\x86\Debug\SqlLite.exe
+D:\VsProjects\Util\SqlLite\obj\x86\Debug\SqlLite.pdb
+D:\VsProjects\Util\SqlLite\bin\Debug\MongoDB.Bson.dll
+D:\VsProjects\Util\SqlLite\bin\Debug\MongoDB.Driver.dll
+D:\VsProjects\Util\SqlLite\bin\Debug\MongoDB.Bson.pdb
+D:\VsProjects\Util\SqlLite\bin\Debug\MongoDB.Bson.xml
+D:\VsProjects\Util\SqlLite\bin\Debug\MongoDB.Driver.pdb
+D:\VsProjects\Util\SqlLite\bin\Debug\MongoDB.Driver.xml

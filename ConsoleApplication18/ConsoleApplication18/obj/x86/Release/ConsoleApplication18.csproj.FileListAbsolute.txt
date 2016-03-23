@@ -1,0 +1,4 @@
+D:\VsProjects\ConsoleApplication18\ConsoleApplication18\bin\Release\ConsoleApplication18.exe
+D:\VsProjects\ConsoleApplication18\ConsoleApplication18\bin\Release\ConsoleApplication18.pdb
+D:\VsProjects\ConsoleApplication18\ConsoleApplication18\obj\x86\Release\ConsoleApplication18.exe
+D:\VsProjects\ConsoleApplication18\ConsoleApplication18\obj\x86\Release\ConsoleApplication18.pdb

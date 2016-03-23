@@ -1,0 +1,14 @@
+D:\VsProjects\ConsoleApplication46\bin\Debug\source.xml
+D:\VsProjects\ConsoleApplication46\bin\Debug\TransactionServerTester.exe.config
+D:\VsProjects\ConsoleApplication46\bin\Debug\TransactionServerTester.exe
+D:\VsProjects\ConsoleApplication46\bin\Debug\TransactionServerTester.pdb
+D:\VsProjects\ConsoleApplication46\obj\Debug\TransactionServerTester.csprojResolveAssemblyReference.cache
+D:\VsProjects\ConsoleApplication46\obj\Debug\TransactionServerTester.exe
+D:\VsProjects\ConsoleApplication46\obj\Debug\TransactionServerTester.pdb
+D:\VsProjects\ConsoleApplication46\bin\Debug\iExchange.Common.dll
+D:\VsProjects\ConsoleApplication46\bin\Debug\Protocal.dll
+D:\VsProjects\ConsoleApplication46\bin\Debug\Framework.dll
+D:\VsProjects\ConsoleApplication46\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\ConsoleApplication46\bin\Debug\Protocal.pdb
+D:\VsProjects\ConsoleApplication46\bin\Debug\Framework.pdb
+D:\VsProjects\ConsoleApplication46\bin\Debug\log4net.dll

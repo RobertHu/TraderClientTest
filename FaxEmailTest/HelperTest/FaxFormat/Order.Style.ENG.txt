@@ -1,0 +1,28 @@
+﻿<p>Dear Valued Customer： </p>
+
+<p>Your transaction is successfully executed, details as below:</p>
+
+<p>Client Name : {AccountName}</p>
+
+<p>Account No : {AccountCode}</p>
+
+<p>Transaction No: {OrderCode}</p>
+
+<p>Transaction Date & Time: {ExecuteTime}</p>
+
+<p>Transaction Details</p>
+
+
+<div>
+<table>
+<tr><th>Instrument</th> <th>Buy</th> <th>Sell</th> <th>Rate</th> <th>Type	</th> <th>Commission</th></tr>
+<tr><td>{InstrumentDesc}</td>  <td>{Buy}</td>  <td>{Sell}</td>  <td>{ExecutePrice}</td>  <td>{Type}</td>  <td>{Commission}</td></tr>
+</table>
+</div>
+<p>Should you have any query, please contact our dealing hotline at (852)3761 2850 or 
+China Toll Free 400 120 1077.</p>
+
+<p>Thanks for your attention</p>
+
+<p>{Organization}</p>
+

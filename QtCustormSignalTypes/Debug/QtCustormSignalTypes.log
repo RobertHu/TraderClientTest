@@ -1,0 +1,24 @@
+﻿Build started 1/14/2014 1:54:54 PM.
+     1>Project "D:\VsProjects\QtCustormSignalTypes\QtCustormSignalTypes.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing qtcustormsignaltypes.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Software\qt510\5.1.0\msvc2010_opengl\include /I.\GeneratedFiles\Debug /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtCore /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtGui /ID:\Software\qt510\5.1.0\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_qtcustormsignaltypes.cpp main.cpp qtcustormsignaltypes.cpp
+         moc_qtcustormsignaltypes.cpp
+         main.cpp
+         qtcustormsignaltypes.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VsProjects\QtCustormSignalTypes\Win32\Debug\\QtCustormSignalTypes.exe" /NOLOGO /LIBPATH:D:\Software\qt510\5.1.0\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\QtCustormSignalTypes.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VsProjects\QtCustormSignalTypes\Win32\Debug\QtCustormSignalTypes.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VsProjects\QtCustormSignalTypes\Win32\Debug\QtCustormSignalTypes.lib" /MACHINE:X86 Debug\moc_qtcustormsignaltypes.obj
+         Debug\qrc_qtcustormsignaltypes.obj
+         Debug\main.obj
+         Debug\qtcustormsignaltypes.obj
+         LINK : D:\VsProjects\QtCustormSignalTypes\Win32\Debug\\QtCustormSignalTypes.exe not found or not built by the last incremental link; performing full link
+         QtCustormSignalTypes.vcxproj -> D:\VsProjects\QtCustormSignalTypes\Win32\Debug\QtCustormSignalTypes.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VsProjects\QtCustormSignalTypes\Win32\Debug\\QtCustormSignalTypes.exe;#1" /manifest Debug\QtCustormSignalTypes.exe.intermediate.manifest
+     1>Done Building Project "D:\VsProjects\QtCustormSignalTypes\QtCustormSignalTypes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.53

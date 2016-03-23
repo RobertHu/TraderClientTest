@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WTLTest", "WTLTest.vcproj", "{649182C9-1A9A-4D52-ABE5-D4E2E02A14D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{649182C9-1A9A-4D52-ABE5-D4E2E02A14D4}.Debug.ActiveCfg = Debug|Win32
+		{649182C9-1A9A-4D52-ABE5-D4E2E02A14D4}.Debug.Build.0 = Debug|Win32
+		{649182C9-1A9A-4D52-ABE5-D4E2E02A14D4}.Release.ActiveCfg = Release|Win32
+		{649182C9-1A9A-4D52-ABE5-D4E2E02A14D4}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

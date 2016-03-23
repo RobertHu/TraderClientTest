@@ -1,0 +1,16 @@
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Interop.FAXCOMLib.dll
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\Interop.FAXCOMLib.dll
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\PdfSharp.dll
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\PdfSharp.pdb
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\PdfSharp.xml
+D:\VsProjects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\de\PdfSharp.resources.dll

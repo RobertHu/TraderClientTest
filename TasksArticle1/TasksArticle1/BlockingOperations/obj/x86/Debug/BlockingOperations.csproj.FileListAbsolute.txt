@@ -1,0 +1,10 @@
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\BlockingOperations\bin\Debug\BlockingOperations.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\BlockingOperations\bin\Debug\BlockingOperations.pdb
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\BlockingOperations\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\BlockingOperations\obj\x86\Debug\BlockingOperations.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\BlockingOperations\obj\x86\Debug\BlockingOperations.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\BlockingOperations\bin\Debug\BlockingOperations.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\BlockingOperations\bin\Debug\BlockingOperations.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\BlockingOperations\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TasksArticle1\TasksArticle1\BlockingOperations\obj\x86\Debug\BlockingOperations.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\BlockingOperations\obj\x86\Debug\BlockingOperations.pdb

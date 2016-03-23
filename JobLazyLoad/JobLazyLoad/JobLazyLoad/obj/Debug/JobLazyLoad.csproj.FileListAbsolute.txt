@@ -1,0 +1,17 @@
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\bin\Debug\JobLazyLoad.exe
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\bin\Debug\JobLazyLoad.pdb
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\LazyJob.baml
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\LazyJob.g.cs
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\Job.g.cs
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\App.g.cs
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\JobLazyLoad_MarkupCompile.cache
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\JobLazyLoad_MarkupCompile.lref
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\Job.baml
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\JobLazyLoad.g.resources
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\JobLazyLoad.Properties.Resources.resources
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\ResGen.read.1.tlog
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\ResGen.write.1.tlog
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\JobLazyLoad.exe
+D:\VsProjects\JobLazyLoad\JobLazyLoad\JobLazyLoad\obj\Debug\JobLazyLoad.pdb

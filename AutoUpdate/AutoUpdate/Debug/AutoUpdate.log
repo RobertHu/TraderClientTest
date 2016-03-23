@@ -1,0 +1,81 @@
+﻿Build started 7/9/2012 3:05:16 PM.
+     1>Project "D:\VsProjects\AutoUpdate\AutoUpdate\AutoUpdate.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\AutoUpdate.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\AutoUpdate.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\AutoUpdate.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\AutoUpdate.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AutoUpdate.cpp myClient.cpp myException.cpp myHostInfo.cpp myLog.cpp mySocket.cpp winServer.cpp
+         winServer.cpp
+         mySocket.cpp
+     1>d:\vsprojects\autoupdate\autoupdate\mysocket.cpp(1166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         myLog.cpp
+     1>d:\vsprojects\autoupdate\autoupdate\mylog.cpp(101): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>d:\vsprojects\autoupdate\autoupdate\mylog.cpp(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\vsprojects\autoupdate\autoupdate\mylog.cpp(116): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\vsprojects\autoupdate\autoupdate\mylog.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\vsprojects\autoupdate\autoupdate\mylog.cpp(122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\vsprojects\autoupdate\autoupdate\mylog.cpp(146): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         myHostInfo.cpp
+         myException.cpp
+         myClient.cpp
+         AutoUpdate.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\AutoUpdate.exe.embed.manifest.res" Debug\AutoUpdate_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VsProjects\AutoUpdate\Debug\AutoUpdate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AutoUpdate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VsProjects\AutoUpdate\Debug\AutoUpdate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VsProjects\AutoUpdate\Debug\AutoUpdate.lib" /MACHINE:X86 Debug\AutoUpdate.exe.embed.manifest.res
+         Debug\AutoUpdate.obj
+         Debug\myClient.obj
+         Debug\myException.obj
+         Debug\myHostInfo.obj
+         Debug\myLog.obj
+         Debug\mySocket.obj
+         Debug\stdafx.obj
+         Debug\winServer.obj
+     1>winServer.obj : error LNK2005: _main already defined in myClient.obj
+     1>winServer.obj : error LNK2005: "class myLog winLog" (?winLog@@3VmyLog@@A) already defined in myClient.obj
+     1>myClient.obj : error LNK2019: unresolved external symbol __imp__WSACleanup@0 referenced in function __catch$_main$0
+     1>winServer.obj : error LNK2001: unresolved external symbol __imp__WSACleanup@0
+     1>myClient.obj : error LNK2019: unresolved external symbol __imp__WSAStartup@8 referenced in function _main
+     1>winServer.obj : error LNK2001: unresolved external symbol __imp__WSAStartup@8
+     1>myClient.obj : error LNK2019: unresolved external symbol __imp__inet_ntoa@4 referenced in function "public: char * __thiscall myHostInfo::getHostIPAddress(void)" (?getHostIPAddress@myHostInfo@@QAEPADXZ)
+     1>mySocket.obj : error LNK2001: unresolved external symbol __imp__inet_ntoa@4
+     1>winServer.obj : error LNK2001: unresolved external symbol __imp__inet_ntoa@4
+     1>myClient.obj : error LNK2019: unresolved external symbol __imp__closesocket@4 referenced in function "public: virtual __thiscall mySocket::~mySocket(void)" (??1mySocket@@UAE@XZ)
+     1>mySocket.obj : error LNK2001: unresolved external symbol __imp__closesocket@4
+     1>winServer.obj : error LNK2001: unresolved external symbol __imp__closesocket@4
+     1>myHostInfo.obj : error LNK2019: unresolved external symbol __imp__gethostbyname@4 referenced in function "public: __thiscall myHostInfo::myHostInfo(void)" (??0myHostInfo@@QAE@XZ)
+     1>myHostInfo.obj : error LNK2019: unresolved external symbol __imp__gethostname@8 referenced in function "public: __thiscall myHostInfo::myHostInfo(void)" (??0myHostInfo@@QAE@XZ)
+     1>myHostInfo.obj : error LNK2019: unresolved external symbol __imp__gethostbyaddr@12 referenced in function "public: __thiscall myHostInfo::myHostInfo(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,enum hostType)" (??0myHostInfo@@QAE@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4hostType@@@Z)
+     1>myHostInfo.obj : error LNK2019: unresolved external symbol __imp__inet_addr@4 referenced in function "public: __thiscall myHostInfo::myHostInfo(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,enum hostType)" (??0myHostInfo@@QAE@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4hostType@@@Z)
+     1>mySocket.obj : error LNK2001: unresolved external symbol __imp__inet_addr@4
+     1>myHostInfo.obj : error LNK2019: unresolved external symbol __imp__WSAGetLastError@0 referenced in function "private: void __thiscall myHostInfo::detectErrorGethostbyname(int *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?detectErrorGethostbyname@myHostInfo@@AAEXPAHAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>mySocket.obj : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__htons@4 referenced in function __catch$??0mySocket@@QAE@H@Z$0
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__htonl@4 referenced in function __catch$??0mySocket@@QAE@H@Z$0
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__socket@12 referenced in function "public: __thiscall mySocket::mySocket(int)" (??0mySocket@@QAE@H@Z)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__setsockopt@20 referenced in function "public: void __thiscall mySocket::setDebug(int)" (?setDebug@mySocket@@QAEXH@Z)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__ioctlsocket@12 referenced in function "public: void __thiscall mySocket::setSocketBlocking(int)" (?setSocketBlocking@mySocket@@QAEXH@Z)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__getsockopt@20 referenced in function "public: int __thiscall mySocket::getDebug(void)" (?getDebug@mySocket@@QAEHXZ)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__bind@12 referenced in function "public: void __thiscall myTcpSocket::bindSocket(void)" (?bindSocket@myTcpSocket@@QAEXXZ)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__connect@12 referenced in function "public: virtual void __thiscall myTcpSocket::connectToServer(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,enum hostType)" (?connectToServer@myTcpSocket@@UAEXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4hostType@@@Z)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__accept@12 referenced in function "public: class myTcpSocket * __thiscall myTcpSocket::acceptClient(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?acceptClient@myTcpSocket@@QAEPAV1@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__listen@8 referenced in function "public: void __thiscall myTcpSocket::listenToClient(int)" (?listenToClient@myTcpSocket@@QAEXH@Z)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__send@16 referenced in function "public: int __thiscall myTcpSocket::sendMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?sendMessage@myTcpSocket@@QAEHAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>mySocket.obj : error LNK2019: unresolved external symbol __imp__recv@16 referenced in function "private: int __thiscall myTcpSocket::XPrecieveMessage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?XPrecieveMessage@myTcpSocket@@AAEHAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>D:\VsProjects\AutoUpdate\Debug\AutoUpdate.exe : fatal error LNK1120: 21 unresolved externals
+     1>Done Building Project "D:\VsProjects\AutoUpdate\AutoUpdate\AutoUpdate.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:10.02

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\FTP Setup.vdproj", "{BDCE3A80-31EA-4BE9-AC85-DD9290F235E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A272B6E-C3A9-42D9-9317-A54286BAB1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58B2EF6-F0A3-44AB-B1EE-69873235F81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCE3A80-31EA-4BE9-AC85-DD9290F235E0}.Debug|Any CPU.ActiveCfg = Release
+		{BDCE3A80-31EA-4BE9-AC85-DD9290F235E0}.Debug|Any CPU.Build.0 = Release
+		{BDCE3A80-31EA-4BE9-AC85-DD9290F235E0}.Release|Any CPU.ActiveCfg = Release
+		{BDCE3A80-31EA-4BE9-AC85-DD9290F235E0}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1029]D:\VsProjects\Util2Test\Util2Test\bin\Debug\Util2Test.dll</TopNode>
+  <SelectedNode>[0-1029]D:\VsProjects\Util2Test\Util2Test\bin\Debug\Util2Test.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1029]D:\VsProjects\Util2Test\Util2Test\bin\Debug\Util2Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1030]Util2Test" Expanded="true" />
+    <Node UniqueName="[0-1011]Util2Test.ApplyConfigTest" Expanded="true" />
+    <Node UniqueName="[0-1017]Util2Test.DefaultKeyWordsTest" Expanded="true" />
+    <Node UniqueName="[0-1013]Util2Test.DJNewsTest" Expanded="true" />
+    <Node UniqueName="[0-1002]Util2Test.DynamicTest" Expanded="true" />
+    <Node UniqueName="[0-1009]Util2Test.FileUtilTest" Expanded="true" />
+    <Node UniqueName="[0-1024]Util2Test.GetContentTest" Expanded="true" />
+    <Node UniqueName="[0-1007]Util2Test.GetMapTest" Expanded="true" />
+    <Node UniqueName="[0-1005]Util2Test.NhibernateProcedureTest" Expanded="true" />
+    <Node UniqueName="[0-1027]Util2Test.PasswordResetServiceTest" Expanded="true" />
+    <Node UniqueName="[0-1000]Util2Test.StringTest" Expanded="true" />
+  </Nodes>
+</VisualState>

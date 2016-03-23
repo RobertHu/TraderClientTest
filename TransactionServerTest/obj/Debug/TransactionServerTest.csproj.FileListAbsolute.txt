@@ -1,0 +1,13 @@
+D:\VsProjects\TransactionServerTest\bin\Debug\TransactionServerTest.exe.config
+D:\VsProjects\TransactionServerTest\bin\Debug\TransactionServerTest.exe
+D:\VsProjects\TransactionServerTest\bin\Debug\TransactionServerTest.pdb
+D:\VsProjects\TransactionServerTest\bin\Debug\iExchange.Common.dll
+D:\VsProjects\TransactionServerTest\bin\Debug\Protocal.dll
+D:\VsProjects\TransactionServerTest\bin\Debug\Framework.dll
+D:\VsProjects\TransactionServerTest\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\TransactionServerTest\bin\Debug\Protocal.pdb
+D:\VsProjects\TransactionServerTest\bin\Debug\Framework.pdb
+D:\VsProjects\TransactionServerTest\obj\Debug\TransactionServerTest.csprojResolveAssemblyReference.cache
+D:\VsProjects\TransactionServerTest\obj\Debug\TransactionServerTest.exe
+D:\VsProjects\TransactionServerTest\obj\Debug\TransactionServerTest.pdb
+D:\VsProjects\TransactionServerTest\bin\Debug\log4net.dll

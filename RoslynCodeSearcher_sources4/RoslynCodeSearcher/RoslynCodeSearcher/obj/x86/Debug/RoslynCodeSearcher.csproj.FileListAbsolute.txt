@@ -1,0 +1,5 @@
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\RoslynCodeSearcher\bin\Debug\RoslynCodeSearcher.exe.config
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\RoslynCodeSearcher\obj\x86\Debug\RoslynCodeSearcher.csprojResolveAssemblyReference.cache
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\RoslynCodeSearcher\obj\x86\Debug\RoslynCodeSearcher.Form1.resources
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\RoslynCodeSearcher\obj\x86\Debug\RoslynCodeSearcher.Properties.Resources.resources
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\RoslynCodeSearcher\obj\x86\Debug\RoslynCodeSearcher.csproj.GenerateResource.Cache

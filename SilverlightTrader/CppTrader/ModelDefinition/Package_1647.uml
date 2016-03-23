@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="349f1250-2687-48eb-8e3b-c5c6b12691c7"
+  name="应用层" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <suppliersInternal>
+    <dependency
+      Id="9ced3f74-4be6-49c2-86a2-27a90b3a7c31">
+      <packageMoniker
+        Id="dd655558-434c-4f18-ae9b-bc8a7bc385d5"
+        LastKnownName="交互接口1"
+        LastKnownLocation="Package_1604.uml" />
+    </dependency>
+    <dependency
+      Id="f00e807c-015e-4015-aa9e-e2f6bb92758e">
+      <packageMoniker
+        Id="fd3c4803-1b1c-4dd2-9b22-30dec88fa15f"
+        LastKnownName="交互接口2"
+        LastKnownLocation="Package_1612.uml" />
+    </dependency>
+  </suppliersInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="563e4126-2797-479d-8571-d37e81fdcfae"
+        name="LotSettings"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6e5d8731-6214-450f-b803-e232b274a786"
+        name="PriceChecker"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c5db4f3c-f717-4a11-91a9-7dcd1f664d5a"
+        name="MakeOrderChecker"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8124d6a7-1831-40ea-ad6e-b81bb8ef4808"
+        name="Settings"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="75fb62c8-5131-463b-8580-3fd36e44cd91"
+        name="PlaceSettings"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

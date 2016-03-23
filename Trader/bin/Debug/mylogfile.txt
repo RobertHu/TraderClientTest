@@ -1,0 +1,174 @@
+2016-03-08 10:53:29,190 [5] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayOpen, instruments = 1dfb99d4-2b76-48b0-9109-0a67265f5b9f,1214720e-01dc-4e68-a271-0afa8b5e72e1,2e42c798-97e7-4702-afba-0e6aba0575d6,36ea5e9d-a12c-45f4-ac5c-0f9d8e12bdf7,0adf8b7d-238d-4f29-8b13-14307fda9701,a1b627fd-f91a-45e9-a877-1a9647413dd2,e2cf0290-32f2-4dc3-8672-203e862a58a3,b2ef248d-4eeb-465c-b178-348411c79c41,f596340c-66c0-4b2f-9286-35131032b2d1,33c4c6e2-e33c-4a21-a01a-35f4ec647890,963163b3-3b23-4050-b33a-372bd4323828,84014274-9067-4a44-a624-38423a8a0b0d,2a346b2a-bd3d-4950-8ce0-384d5c16a73e,12ff1b0b-ce82-463a-bdba-39e3068957de,2c34b5e8-97d8-4c61-8c42-445ab8d94a6b,706fb632-ab1e-4ea9-b146-4633e39c161e,783feff4-f65a-44e4-9e06-48d9fc534394,3c4b1a43-4d50-4ef3-9fad-521413badaf9,fe1c2629-a802-42ce-8b55-55b4295a2086,80de97fc-bbbf-43bf-8f25-5e1fa0bae710,811cd999-fc50-4e5f-ace0-6541af17e53f,1ce7866f-b8aa-4529-9503-6c013daf024e,2eab5b94-1a8e-4604-ac38-6f4453a860a8,2dbf56cc-ac31-451a-877a-73e11d3d7fa5,670590db-8ce6-4676-ac68-7701ffc5410a,a2eb0b26-04b1-4f48-ac00-7bb175d9592c,83e72748-f3eb-48c6-9410-7e22aa3824a7,c2ef11cc-e976-4a68-9d9e-8b7ddafa89f3,281dead3-f609-409b-b9a7-9c815a5c3031,60f66022-6007-4dc3-9468-a1d057d26b69,f2167e4d-2217-46d2-9592-ab7d6b19ccde,68fda5c8-ef50-4a08-aaaf-abc5107025ff,f4b7521a-0069-46dc-a13a-b20d7bc18a4a,7bca68f6-2a7f-4c8f-968f-b589789f3f7a,66adc06c-c5fe-4428-867f-be97650eb3b4,397b253d-9985-4c7d-ad9c-c0a65c3e94e5,bcbe63be-88b8-4ac3-a145-c29dde9f7427,abc59161-5f85-488d-ad1e-ccdc0fd82d76,b12cb1ec-4a98-4116-b727-cf5d492aff28,9ae7e9f9-4250-4ee8-983f-d3e424a21196,6a8fff55-7664-4471-9d1c-d647bf251e05,be4d1cd0-5f1d-44ea-8b69-d74f1540b725,af10d803-f811-45d1-a0e3-ddb5bad79ff1,7b7e1944-4b61-4657-8de6-de623430c387,bc93ccfb-155a-4812-81a5-de96e9e1c794,3d4fa404-c1ed-4b64-9390-e14b6d04610f,c3229c34-5d5d-4b58-ae61-e22a0251e3ce,2603e653-910a-47ea-b2e9-e7ac78721b6a,c604b7db-16c8-4a92-b076-ea0dc38bc84a,b0e30d91-0428-4993-aef6-efa9ab272125
+
+2016-03-08 10:53:29,250 [5] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 68fda5c8-ef50-4a08-aaaf-abc5107025ff
+
+2016-03-08 10:53:29,252 [5] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = f2167e4d-2217-46d2-9592-ab7d6b19ccde
+
+2016-03-08 10:53:29,253 [5] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 84014274-9067-4a44-a624-38423a8a0b0d
+
+2016-03-08 10:53:29,255 [5] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 83e72748-f3eb-48c6-9410-7e22aa3824a7
+
+2016-03-08 10:55:03,348 [9] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayOpen, instruments = 1dfb99d4-2b76-48b0-9109-0a67265f5b9f,1214720e-01dc-4e68-a271-0afa8b5e72e1,2e42c798-97e7-4702-afba-0e6aba0575d6,36ea5e9d-a12c-45f4-ac5c-0f9d8e12bdf7,0adf8b7d-238d-4f29-8b13-14307fda9701,a1b627fd-f91a-45e9-a877-1a9647413dd2,e2cf0290-32f2-4dc3-8672-203e862a58a3,b2ef248d-4eeb-465c-b178-348411c79c41,f596340c-66c0-4b2f-9286-35131032b2d1,33c4c6e2-e33c-4a21-a01a-35f4ec647890,963163b3-3b23-4050-b33a-372bd4323828,84014274-9067-4a44-a624-38423a8a0b0d,2a346b2a-bd3d-4950-8ce0-384d5c16a73e,12ff1b0b-ce82-463a-bdba-39e3068957de,2c34b5e8-97d8-4c61-8c42-445ab8d94a6b,706fb632-ab1e-4ea9-b146-4633e39c161e,783feff4-f65a-44e4-9e06-48d9fc534394,3c4b1a43-4d50-4ef3-9fad-521413badaf9,fe1c2629-a802-42ce-8b55-55b4295a2086,80de97fc-bbbf-43bf-8f25-5e1fa0bae710,811cd999-fc50-4e5f-ace0-6541af17e53f,1ce7866f-b8aa-4529-9503-6c013daf024e,2eab5b94-1a8e-4604-ac38-6f4453a860a8,2dbf56cc-ac31-451a-877a-73e11d3d7fa5,670590db-8ce6-4676-ac68-7701ffc5410a,a2eb0b26-04b1-4f48-ac00-7bb175d9592c,83e72748-f3eb-48c6-9410-7e22aa3824a7,c2ef11cc-e976-4a68-9d9e-8b7ddafa89f3,281dead3-f609-409b-b9a7-9c815a5c3031,60f66022-6007-4dc3-9468-a1d057d26b69,f2167e4d-2217-46d2-9592-ab7d6b19ccde,68fda5c8-ef50-4a08-aaaf-abc5107025ff,f4b7521a-0069-46dc-a13a-b20d7bc18a4a,7bca68f6-2a7f-4c8f-968f-b589789f3f7a,66adc06c-c5fe-4428-867f-be97650eb3b4,397b253d-9985-4c7d-ad9c-c0a65c3e94e5,bcbe63be-88b8-4ac3-a145-c29dde9f7427,abc59161-5f85-488d-ad1e-ccdc0fd82d76,b12cb1ec-4a98-4116-b727-cf5d492aff28,9ae7e9f9-4250-4ee8-983f-d3e424a21196,6a8fff55-7664-4471-9d1c-d647bf251e05,be4d1cd0-5f1d-44ea-8b69-d74f1540b725,af10d803-f811-45d1-a0e3-ddb5bad79ff1,7b7e1944-4b61-4657-8de6-de623430c387,bc93ccfb-155a-4812-81a5-de96e9e1c794,3d4fa404-c1ed-4b64-9390-e14b6d04610f,c3229c34-5d5d-4b58-ae61-e22a0251e3ce,2603e653-910a-47ea-b2e9-e7ac78721b6a,c604b7db-16c8-4a92-b076-ea0dc38bc84a,b0e30d91-0428-4993-aef6-efa9ab272125
+
+2016-03-08 10:55:03,350 [9] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 68fda5c8-ef50-4a08-aaaf-abc5107025ff
+
+2016-03-08 10:55:03,351 [9] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = f2167e4d-2217-46d2-9592-ab7d6b19ccde
+
+2016-03-08 10:55:03,352 [9] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 84014274-9067-4a44-a624-38423a8a0b0d
+
+2016-03-08 10:55:03,353 [9] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 83e72748-f3eb-48c6-9410-7e22aa3824a7
+
+2016-03-08 11:31:03,279 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayOpen, instruments = 1dfb99d4-2b76-48b0-9109-0a67265f5b9f,1214720e-01dc-4e68-a271-0afa8b5e72e1,2e42c798-97e7-4702-afba-0e6aba0575d6,36ea5e9d-a12c-45f4-ac5c-0f9d8e12bdf7,0adf8b7d-238d-4f29-8b13-14307fda9701,a1b627fd-f91a-45e9-a877-1a9647413dd2,e2cf0290-32f2-4dc3-8672-203e862a58a3,b2ef248d-4eeb-465c-b178-348411c79c41,f596340c-66c0-4b2f-9286-35131032b2d1,33c4c6e2-e33c-4a21-a01a-35f4ec647890,963163b3-3b23-4050-b33a-372bd4323828,84014274-9067-4a44-a624-38423a8a0b0d,2a346b2a-bd3d-4950-8ce0-384d5c16a73e,12ff1b0b-ce82-463a-bdba-39e3068957de,2c34b5e8-97d8-4c61-8c42-445ab8d94a6b,706fb632-ab1e-4ea9-b146-4633e39c161e,783feff4-f65a-44e4-9e06-48d9fc534394,3c4b1a43-4d50-4ef3-9fad-521413badaf9,fe1c2629-a802-42ce-8b55-55b4295a2086,80de97fc-bbbf-43bf-8f25-5e1fa0bae710,811cd999-fc50-4e5f-ace0-6541af17e53f,1ce7866f-b8aa-4529-9503-6c013daf024e,2eab5b94-1a8e-4604-ac38-6f4453a860a8,2dbf56cc-ac31-451a-877a-73e11d3d7fa5,670590db-8ce6-4676-ac68-7701ffc5410a,a2eb0b26-04b1-4f48-ac00-7bb175d9592c,83e72748-f3eb-48c6-9410-7e22aa3824a7,c2ef11cc-e976-4a68-9d9e-8b7ddafa89f3,281dead3-f609-409b-b9a7-9c815a5c3031,60f66022-6007-4dc3-9468-a1d057d26b69,f2167e4d-2217-46d2-9592-ab7d6b19ccde,68fda5c8-ef50-4a08-aaaf-abc5107025ff,f4b7521a-0069-46dc-a13a-b20d7bc18a4a,7bca68f6-2a7f-4c8f-968f-b589789f3f7a,66adc06c-c5fe-4428-867f-be97650eb3b4,397b253d-9985-4c7d-ad9c-c0a65c3e94e5,bcbe63be-88b8-4ac3-a145-c29dde9f7427,abc59161-5f85-488d-ad1e-ccdc0fd82d76,b12cb1ec-4a98-4116-b727-cf5d492aff28,9ae7e9f9-4250-4ee8-983f-d3e424a21196,6a8fff55-7664-4471-9d1c-d647bf251e05,be4d1cd0-5f1d-44ea-8b69-d74f1540b725,af10d803-f811-45d1-a0e3-ddb5bad79ff1,7b7e1944-4b61-4657-8de6-de623430c387,bc93ccfb-155a-4812-81a5-de96e9e1c794,3d4fa404-c1ed-4b64-9390-e14b6d04610f,c3229c34-5d5d-4b58-ae61-e22a0251e3ce,2603e653-910a-47ea-b2e9-e7ac78721b6a,c604b7db-16c8-4a92-b076-ea0dc38bc84a,b0e30d91-0428-4993-aef6-efa9ab272125
+
+2016-03-08 11:31:03,280 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 68fda5c8-ef50-4a08-aaaf-abc5107025ff
+
+2016-03-08 11:31:03,281 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = f2167e4d-2217-46d2-9592-ab7d6b19ccde
+
+2016-03-08 11:31:03,282 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 84014274-9067-4a44-a624-38423a8a0b0d
+
+2016-03-08 11:31:03,283 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 83e72748-f3eb-48c6-9410-7e22aa3824a7
+
+2016-03-08 11:31:10,517 [28] INFO Trader.CommandCollectService - Receive TradingCommand:   <Account ID="d9e73682-bdb5-4ba0-90ae-897173e437c5" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a">
+  <Transactions>
+    <Transaction IsDeleted="False" PlacedByRiskMonitor="False" FreePlacingPreCheck="False" FreeLmtVariationCheck="False" ID="2739841d-c8b4-437b-810e-5b78b7b31c2c" Code="MHL160308SP00006" Type="0" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" InstrumentID="36ea5e9d-a12c-45f4-ac5c-0f9d8e12bdf7" SubType="0" Phase="255" OrderType="0" ContractSize="0" BeginTime="2016-03-08 11:31:09" EndTime="2016-03-08 12:31:09" ExpireType="0" SubmitTime="2016-03-08 11:31:09" SubmitorID="d6f266d6-fadf-41fd-8240-9e7dec72c549" InstrumentCategory="10" PlacePhase="1" PlaceDetail="">
+      <Orders>
+        <Order IsDeleted="False" ID="ff7477e0-5572-4caa-a1bc-f08bb6b6d71c" IsOpen="True" IsBuy="True" Lot="2" OriginalLot="0" LotBalance="2" InterestPerLot="0" StoragePerLot="0" Code="MHL2016030800006" SetPrice="1.5" JudgePriceTimestamp="0001-01-01 00:00:00" SetPriceMaxMovePips="0" DQMaxMove="0" PlacedByRiskMonitor="False" Phase="255" TradeOption="2" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a">
+          <Bills />
+          <OrderRelations />
+        </Order>
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>
+2016-03-08 11:31:10,545 [28] INFO Trader.CommandCollectService - Receive TradingCommand:   <Account ID="d9e73682-bdb5-4ba0-90ae-897173e437c5" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a">
+  <Transactions>
+    <Transaction ID="2739841d-c8b4-437b-810e-5b78b7b31c2c" Phase="0">
+      <Orders>
+        <Order ID="ff7477e0-5572-4caa-a1bc-f08bb6b6d71c" Phase="0" />
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>
+2016-03-08 11:31:18,489 [28] INFO Trader.CommandCollectService - Receive TradingCommand:   <Account ID="d9e73682-bdb5-4ba0-90ae-897173e437c5" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a" Balance="4337.16">
+  <Funds>
+    <Fund CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a" Balance="4337.1600" />
+  </Funds>
+  <Transactions>
+    <Transaction ID="2739841d-c8b4-437b-810e-5b78b7b31c2c" Phase="2" ContractSize="10.0000" ExecuteTime="2016-03-08 11:31:18">
+      <Orders>
+        <Order ID="ff7477e0-5572-4caa-a1bc-f08bb6b6d71c" ExecutePrice="1.5" InterestValueDate="2016-03-08 00:00:00" Phase="2">
+          <Bills>
+            <Bill IsDeleted="False" ID="4acc4e0d-0707-46db-970b-f0600403dd4f" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" Value="-20.00" Type="1" OwnerType="1" UpdateTime="2016-03-08 11:31:18" />
+            <Bill IsDeleted="False" ID="e8f41916-78e4-4c74-a7b3-412f4a17b721" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" Value="-20.00" Type="2" OwnerType="1" UpdateTime="2016-03-08 11:31:18" />
+            <Bill IsDeleted="False" ID="8fa22073-fbb8-49de-a9c8-ab50ad2347e6" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" Value="0" Type="40" OwnerType="1" UpdateTime="2016-03-08 11:31:18" />
+          </Bills>
+        </Order>
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>
+2016-03-08 11:59:24,561 [42] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayOpen, instruments = 1dfb99d4-2b76-48b0-9109-0a67265f5b9f,1214720e-01dc-4e68-a271-0afa8b5e72e1,2e42c798-97e7-4702-afba-0e6aba0575d6,36ea5e9d-a12c-45f4-ac5c-0f9d8e12bdf7,0adf8b7d-238d-4f29-8b13-14307fda9701,a1b627fd-f91a-45e9-a877-1a9647413dd2,e2cf0290-32f2-4dc3-8672-203e862a58a3,b2ef248d-4eeb-465c-b178-348411c79c41,f596340c-66c0-4b2f-9286-35131032b2d1,33c4c6e2-e33c-4a21-a01a-35f4ec647890,963163b3-3b23-4050-b33a-372bd4323828,84014274-9067-4a44-a624-38423a8a0b0d,2a346b2a-bd3d-4950-8ce0-384d5c16a73e,12ff1b0b-ce82-463a-bdba-39e3068957de,2c34b5e8-97d8-4c61-8c42-445ab8d94a6b,706fb632-ab1e-4ea9-b146-4633e39c161e,783feff4-f65a-44e4-9e06-48d9fc534394,3c4b1a43-4d50-4ef3-9fad-521413badaf9,fe1c2629-a802-42ce-8b55-55b4295a2086,80de97fc-bbbf-43bf-8f25-5e1fa0bae710,811cd999-fc50-4e5f-ace0-6541af17e53f,1ce7866f-b8aa-4529-9503-6c013daf024e,2eab5b94-1a8e-4604-ac38-6f4453a860a8,2dbf56cc-ac31-451a-877a-73e11d3d7fa5,670590db-8ce6-4676-ac68-7701ffc5410a,a2eb0b26-04b1-4f48-ac00-7bb175d9592c,83e72748-f3eb-48c6-9410-7e22aa3824a7,c2ef11cc-e976-4a68-9d9e-8b7ddafa89f3,281dead3-f609-409b-b9a7-9c815a5c3031,60f66022-6007-4dc3-9468-a1d057d26b69,f2167e4d-2217-46d2-9592-ab7d6b19ccde,68fda5c8-ef50-4a08-aaaf-abc5107025ff,f4b7521a-0069-46dc-a13a-b20d7bc18a4a,7bca68f6-2a7f-4c8f-968f-b589789f3f7a,66adc06c-c5fe-4428-867f-be97650eb3b4,397b253d-9985-4c7d-ad9c-c0a65c3e94e5,bcbe63be-88b8-4ac3-a145-c29dde9f7427,abc59161-5f85-488d-ad1e-ccdc0fd82d76,b12cb1ec-4a98-4116-b727-cf5d492aff28,9ae7e9f9-4250-4ee8-983f-d3e424a21196,6a8fff55-7664-4471-9d1c-d647bf251e05,be4d1cd0-5f1d-44ea-8b69-d74f1540b725,af10d803-f811-45d1-a0e3-ddb5bad79ff1,7b7e1944-4b61-4657-8de6-de623430c387,bc93ccfb-155a-4812-81a5-de96e9e1c794,3d4fa404-c1ed-4b64-9390-e14b6d04610f,c3229c34-5d5d-4b58-ae61-e22a0251e3ce,2603e653-910a-47ea-b2e9-e7ac78721b6a,c604b7db-16c8-4a92-b076-ea0dc38bc84a,b0e30d91-0428-4993-aef6-efa9ab272125
+
+2016-03-08 11:59:24,563 [42] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 68fda5c8-ef50-4a08-aaaf-abc5107025ff
+
+2016-03-08 11:59:24,564 [42] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = f2167e4d-2217-46d2-9592-ab7d6b19ccde
+
+2016-03-08 11:59:24,565 [42] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 84014274-9067-4a44-a624-38423a8a0b0d
+
+2016-03-08 11:59:24,567 [42] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 83e72748-f3eb-48c6-9410-7e22aa3824a7
+
+2016-03-08 11:59:43,803 [42] INFO Trader.CommandCollectService - Receive TradingCommand:   <Account ID="d9e73682-bdb5-4ba0-90ae-897173e437c5" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a">
+  <Transactions>
+    <Transaction IsDeleted="False" PlacedByRiskMonitor="False" FreePlacingPreCheck="False" FreeLmtVariationCheck="False" ID="87cea358-d174-4626-918c-a6621a0d07b6" Code="MHL160308SP00007" Type="0" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" InstrumentID="36ea5e9d-a12c-45f4-ac5c-0f9d8e12bdf7" SubType="0" Phase="255" OrderType="0" ContractSize="0" BeginTime="2016-03-08 11:59:41" EndTime="2016-03-08 12:59:41" ExpireType="0" SubmitTime="2016-03-08 11:59:41" SubmitorID="d6f266d6-fadf-41fd-8240-9e7dec72c549" InstrumentCategory="10" PlacePhase="1" PlaceDetail="">
+      <Orders>
+        <Order IsDeleted="False" ID="2af402b1-866b-4127-92ad-3d1d3712090a" IsOpen="True" IsBuy="True" Lot="2" OriginalLot="0" LotBalance="2" InterestPerLot="0" StoragePerLot="0" Code="MHL2016030800007" SetPrice="1.5" JudgePriceTimestamp="0001-01-01 00:00:00" SetPriceMaxMovePips="0" DQMaxMove="0" PlacedByRiskMonitor="False" Phase="255" TradeOption="2" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a">
+          <Bills />
+          <OrderRelations />
+        </Order>
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>
+2016-03-08 11:59:43,851 [42] INFO Trader.CommandCollectService - Receive TradingCommand:   <Account ID="d9e73682-bdb5-4ba0-90ae-897173e437c5" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a">
+  <Transactions>
+    <Transaction ID="87cea358-d174-4626-918c-a6621a0d07b6" Phase="0">
+      <Orders>
+        <Order ID="2af402b1-866b-4127-92ad-3d1d3712090a" Phase="0" />
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>
+2016-03-08 11:59:51,455 [42] INFO Trader.CommandCollectService - Receive TradingCommand:   <Account ID="d9e73682-bdb5-4ba0-90ae-897173e437c5" CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a" Balance="4297.16">
+  <Funds>
+    <Fund CurrencyID="0da665b5-9aa5-49d7-a301-048f1428ca4a" Balance="4297.1600" />
+  </Funds>
+  <Transactions>
+    <Transaction ID="87cea358-d174-4626-918c-a6621a0d07b6" Phase="2" ContractSize="10.0000" ExecuteTime="2016-03-08 11:59:51">
+      <Orders>
+        <Order ID="2af402b1-866b-4127-92ad-3d1d3712090a" ExecutePrice="1.5" InterestValueDate="2016-03-08 00:00:00" Phase="2">
+          <Bills>
+            <Bill IsDeleted="False" ID="43368062-250a-4d32-8cb4-f3e4f0456e34" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" Value="-20.00" Type="1" OwnerType="1" UpdateTime="2016-03-08 11:59:51" />
+            <Bill IsDeleted="False" ID="e75f82a5-935b-484b-b631-bfc85631eeee" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" Value="-20.00" Type="2" OwnerType="1" UpdateTime="2016-03-08 11:59:51" />
+            <Bill IsDeleted="False" ID="e23716a3-b480-4d75-928e-88d1d6af5330" AccountID="d9e73682-bdb5-4ba0-90ae-897173e437c5" Value="0" Type="40" OwnerType="1" UpdateTime="2016-03-08 11:59:51" />
+          </Bills>
+        </Order>
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>
+2016-03-08 15:50:00,030 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionOpen, instruments = 84014274-9067-4a44-a624-38423a8a0b0d
+
+2016-03-08 15:50:00,030 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionOpen, instruments = f2167e4d-2217-46d2-9592-ab7d6b19ccde
+
+2016-03-08 15:50:00,030 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionOpen, instruments = 68fda5c8-ef50-4a08-aaaf-abc5107025ff
+
+2016-03-08 15:50:00,030 [28] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionOpen, instruments = 83e72748-f3eb-48c6-9410-7e22aa3824a7
+
+2016-03-08 16:20:00,018 [49] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 68fda5c8-ef50-4a08-aaaf-abc5107025ff
+
+2016-03-08 16:20:00,033 [50] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 84014274-9067-4a44-a624-38423a8a0b0d
+
+2016-03-08 16:20:00,626 [50] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayClose, instruments = 83e72748-f3eb-48c6-9410-7e22aa3824a7
+
+2016-03-08 16:20:00,751 [50] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayClose, instruments = 84014274-9067-4a44-a624-38423a8a0b0d
+
+2016-03-08 16:20:00,860 [50] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayClose, instruments = 68fda5c8-ef50-4a08-aaaf-abc5107025ff
+
+2016-03-08 16:20:00,860 [50] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = f2167e4d-2217-46d2-9592-ab7d6b19ccde
+
+2016-03-08 16:20:00,969 [50] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = DayClose, instruments = f2167e4d-2217-46d2-9592-ab7d6b19ccde
+
+2016-03-08 16:20:00,969 [50] INFO Trader.CommandCollectService - Receive update instrument trading status command
+: instrumentStatus = SessionClose, instruments = 83e72748-f3eb-48c6-9410-7e22aa3824a7
+

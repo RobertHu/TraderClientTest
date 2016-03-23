@@ -1,0 +1,11 @@
+D:\VsProjects\WpfApplication10\WpfApplication10\bin\Debug\WpfApplication10.exe
+D:\VsProjects\WpfApplication10\WpfApplication10\bin\Debug\WpfApplication10.pdb
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\MainWindow.baml
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\MainWindow.g.cs
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\App.g.cs
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\WpfApplication10_MarkupCompile.cache
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\WpfApplication10.g.resources
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\WpfApplication10.Properties.Resources.resources
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\WpfApplication10.csproj.GenerateResource.Cache
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\WpfApplication10.exe
+D:\VsProjects\WpfApplication10\WpfApplication10\obj\x86\Debug\WpfApplication10.pdb

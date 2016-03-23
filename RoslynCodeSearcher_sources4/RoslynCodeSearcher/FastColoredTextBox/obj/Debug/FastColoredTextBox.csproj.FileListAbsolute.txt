@@ -1,0 +1,10 @@
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\bin\Debug\FastColoredTextBox.XML
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\bin\Debug\FastColoredTextBox.dll
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\bin\Debug\FastColoredTextBox.pdb
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FastColoredTextBox.resources
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.FindForm.resources
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.GoToForm.resources
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\obj\Debug\FastColoredTextBoxNS.ReplaceForm.resources
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\obj\Debug\FastColoredTextBox.csproj.GenerateResource.Cache
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\obj\Debug\FastColoredTextBox.dll
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\FastColoredTextBox\obj\Debug\FastColoredTextBox.pdb

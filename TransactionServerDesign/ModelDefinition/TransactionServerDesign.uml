@@ -1,0 +1,3097 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="e7e45c39-0dde-49f9-9434-64b4909f6064"
+  name="TransactionServerDesign" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="d7b7310a-c87e-4dd9-85a7-1f1f770cbfc3"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <ownedCommentsInternal>
+          <comment
+            Id="e8d939bc-2608-4b81-a3b2-c27064446133">
+            <body>如果 AutoFill = true，则立即成交， 否则，等待价格撞线</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="af3dc900-26a3-4ae3-a948-e7daf6add832"
+                LastKnownName="BehaviorExecutionSpecification14"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="02d783c7-c070-4b9d-9b60-347808fa9393">
+            <body>如果 autoAccept = false ， 则通知DealingConsole确认，并直接返回至Agent，此时order.Phase = Placing</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="8821e5ce-499f-4c87-a9dc-ec6a4272516f"
+                LastKnownName="BehaviorExecutionSpecification10"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="d2e21ddd-106f-4fe5-a32d-4b62db6020d4">
+            <body> 如果保证金或Balance不足， 则Undo，并Cancel
+如果保证金足够， 则Book至Agent
+</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="f250c106-ccf2-4413-b850-b26a387c6fac"
+                LastKnownName="BehaviorExecutionSpecification27"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="3d2e931e-4d4f-4312-8f2f-3e543fbbca92">
+            <body>检查Order类型，以及对应的各种Policy</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="b64af423-5567-4e40-9b58-d11cfd660fb8"
+                LastKnownName="BehaviorExecutionSpecification7"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="792a60f9-c9e1-46c5-abd5-513d9db08aa0">
+            <body>检查保证金</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="d7e2d82c-74f2-4520-9372-351cae75def4"
+                LastKnownName="BehaviorExecutionSpecification6"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="8b60737c-a0f4-41f9-850e-eb5dc8dafffb">
+            <body>将Order登记，并计算费用</body>
+          </comment>
+          <comment
+            Id="bfdd1664-97da-4de8-99cb-3c94c3f91775">
+            <body>检查价格：如果当前价格滞后于Order下单时的价格，则等待后续价格到来后，再执行后续操作，此时Order.Phase = Placing
+</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="78434162-6361-438f-ae1e-b713e0857f4d"
+                LastKnownName="BehaviorExecutionSpecification13"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="5bd32f32-4558-44c8-a185-7cf73f8c34fe">
+            <body>SetPriceTimestamp  &gt;liveQuotation.Timestamp</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="97e86f1f-4136-4bcb-9827-98d66eed0f56"
+                LastKnownName="BehaviorExecutionSpecification19"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="8ecf2cfb-f913-466d-898f-ab035f8dc040">
+            <body>DealingConsole通知AutoAccept</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="3f7fb563-3b3f-4d5a-a723-521a502c34b2"
+                LastKnownName="BehaviorExecutionSpecification22"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="36a20802-e7a5-4da8-b99f-2bbf54e29929">
+            <body>广播给其他组件</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="2fb38f33-d4af-45d0-97d4-fea6c93c3dee"
+                LastKnownName="BehaviorExecutionSpecification33"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="9b9b1195-1322-4a83-9d2c-473f1fbf0eb4"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="8136f681-909a-48f4-a7df-8777a3d377da"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="06dcb9f7-433b-4f2c-b25d-aa52efcc887e"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="66703cd3-64be-4903-ae9e-fe410ea29b1a"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="31999aa0-3219-448a-bff7-f0d0e2a9d693"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f3a4c892-4f4e-446d-81f5-e966058b3dcd"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="58e276e5-d075-4a90-a139-4c00f8430409"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="67dc1382-9374-4616-a574-6475796e872b"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="e05040fb-462a-409e-876c-ce9ceedc9ddb"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2ade2937-1125-451e-a3a7-67eec7c95338"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a449f550-445f-487c-9fd8-207ba109ac87"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a439190b-e1d5-4433-8930-db683f4da489"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="dcafd019-f92d-44e3-b8ef-599d24d80a95"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="16b0648d-281b-4f9c-b7fe-e6ca34887fc9"
+                LastKnownName="ExecutionOccurrenceSpecification37"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="73889c85-ccaa-489a-8698-4c9123178077"
+                LastKnownName="ExecutionOccurrenceSpecification38"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="779347b4-e9ab-428b-8eff-9d4f77619d73"
+                LastKnownName="ExecutionOccurrenceSpecification41"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3850c9f6-56d9-466d-9bcd-25d781dec68f"
+                LastKnownName="ExecutionOccurrenceSpecification42"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8d90b40b-c329-4e29-80d8-cfb7fae494d3"
+                LastKnownName="ExecutionOccurrenceSpecification51"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="51f0c9ca-6ea3-44a3-83ee-b639dff99e82"
+                LastKnownName="ExecutionOccurrenceSpecification52"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="28d76d82-ce7e-472f-bc1d-731d80f66b01"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="06dcb9f7-433b-4f2c-b25d-aa52efcc887e"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="805f445e-1eba-44b7-914a-5915005bb394"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4ee2033d-bdb0-4351-8af4-a0fc85071d5b"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="3be4eb79-3985-4512-b7f5-613d2f332a09"
+                LastKnownName="Account"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="66703cd3-64be-4903-ae9e-fe410ea29b1a"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="31999aa0-3219-448a-bff7-f0d0e2a9d693"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="b64af423-5567-4e40-9b58-d11cfd660fb8"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="58e276e5-d075-4a90-a139-4c00f8430409"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f3a4c892-4f4e-446d-81f5-e966058b3dcd"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4a3d910d-0fdb-4c22-b1be-70de5e11a9b8"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f3a4c892-4f4e-446d-81f5-e966058b3dcd"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="62c8b87a-d2d9-4ec4-848b-dba6114faa49"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4a3d910d-0fdb-4c22-b1be-70de5e11a9b8"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="58e276e5-d075-4a90-a139-4c00f8430409"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2ed32708-3f2d-4caf-8b35-d7a1009cc7e8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="67dc1382-9374-4616-a574-6475796e872b"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="d7e2d82c-74f2-4520-9372-351cae75def4"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2ade2937-1125-451e-a3a7-67eec7c95338"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e05040fb-462a-409e-876c-ce9ceedc9ddb"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4551aa00-ccce-4eac-9b20-87aba1dae1e5"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e05040fb-462a-409e-876c-ce9ceedc9ddb"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cc97d57a-4a8e-4c83-9c65-a7846a6c8152"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4551aa00-ccce-4eac-9b20-87aba1dae1e5"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2ade2937-1125-451e-a3a7-67eec7c95338"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="62035110-f974-42c1-b8bb-80397a94f125"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="cbab0e14-194c-411c-ba54-43b080560664"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c50bc2f2-d803-4b7f-a97b-2dc3704544cb"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="49901e84-da49-4acc-b3e8-c8ea2621c4ad"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ded6ab7d-7a58-424c-913c-6f0b656509e8"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f740c04f-7924-491f-8a28-bc0071c19af1"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="73b120fc-3080-4aa6-ae17-2d26e47a7dc8"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1d183c0c-6edf-41fb-b6c0-f606c4f9c2aa"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8ea2ed05-bdf2-4050-b99e-e1f9268ee64f"
+                LastKnownName="ExecutionOccurrenceSpecification43"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c0298962-572c-475f-a638-17f8f5743002"
+                LastKnownName="ExecutionOccurrenceSpecification44"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3d2ad1de-ec48-46c4-8ef4-45433b813ac1"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9ff13404-3826-4afb-acc6-a5af06623982"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="26536cdc-492e-4596-9d6d-a042d64a2ea0"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="876f79ec-761b-4219-b60c-bce6f8463b3d"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c1846f56-09b1-4a92-9379-3583b2873559"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0c30bab1-107b-4f73-b1d9-babb8e663462"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9f27f52d-7952-49f4-a9fa-88e83dd1b712"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0814eef0-43fd-4bdb-ae38-9a972524b153"
+                LastKnownName="ExecutionOccurrenceSpecification31"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d63fe865-a8f6-4917-8582-f2572c1664cc"
+                LastKnownName="ExecutionOccurrenceSpecification32"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="38862611-9c2a-4c9a-966f-3dfcf7f773ad"
+                LastKnownName="MessageOccurrenceSpecification63"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5c4c0005-084c-4e83-ad66-4763e6fd489e"
+                LastKnownName="MessageOccurrenceSpecification66"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9ced663b-155f-4116-ac27-46ff69b5816b"
+                LastKnownName="MessageOccurrenceSpecification81"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="88d74857-dce7-4d84-8302-218077a3c7f8"
+                LastKnownName="ExecutionOccurrenceSpecification65"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b1289768-6805-45cf-ae10-ff068fcfbf4b"
+                LastKnownName="ExecutionOccurrenceSpecification66"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="49901e84-da49-4acc-b3e8-c8ea2621c4ad"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2a2b5a86-202e-4d65-93f6-ad1981fefdac"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a449f550-445f-487c-9fd8-207ba109ac87"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ded6ab7d-7a58-424c-913c-6f0b656509e8"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f740c04f-7924-491f-8a28-bc0071c19af1"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="8821e5ce-499f-4c87-a9dc-ec6a4272516f"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1d183c0c-6edf-41fb-b6c0-f606c4f9c2aa"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="73b120fc-3080-4aa6-ae17-2d26e47a7dc8"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="cc46dabe-ec5d-4dd8-9d71-9d226a662202"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0310db5c-7760-4c07-b117-503b2df19195"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4967a748-bb1c-47a0-ba98-c915c12040db"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="73b120fc-3080-4aa6-ae17-2d26e47a7dc8"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f9c66783-09c9-4695-9a8d-10635722b004"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cc46dabe-ec5d-4dd8-9d71-9d226a662202"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="fe6f8126-3ec8-415c-9335-2d83646f35e6"
+            name="BehaviorExecutionSpecification12">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="dcafd019-f92d-44e3-b8ef-599d24d80a95"
+                LastKnownName="ExecutionOccurrenceSpecification24"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a439190b-e1d5-4433-8930-db683f4da489"
+                LastKnownName="ExecutionOccurrenceSpecification23"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a656519b-e4fb-468e-8a66-6c207184d82e"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a439190b-e1d5-4433-8930-db683f4da489"
+            name="ExecutionOccurrenceSpecification23">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8e0ca44f-64ce-4750-8dd8-12d326e4db36"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a656519b-e4fb-468e-8a66-6c207184d82e"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0310db5c-7760-4c07-b117-503b2df19195"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3f6901e8-afad-44af-9b24-3e7c143c06e8"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="81205b3e-5d9f-4f7f-8614-8d9c773ad989"
+                LastKnownName="DealingConsole"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b46f8e8a-d005-4633-b085-97ab5b9f9a68"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e37bad94-7c85-4dfc-b992-6a3d144ef391"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e179ffdc-9276-411d-814b-58e890955895"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f9fbdc88-539f-4923-9499-e0f5200e4ac5"
+                LastKnownName="MessageOccurrenceSpecification53"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e37bad94-7c85-4dfc-b992-6a3d144ef391"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="23382ac0-cd6c-40c6-8f8f-e787212fafbc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="81205b3e-5d9f-4f7f-8614-8d9c773ad989"
+                LastKnownName="DealingConsole"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e179ffdc-9276-411d-814b-58e890955895"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="81205b3e-5d9f-4f7f-8614-8d9c773ad989"
+                LastKnownName="DealingConsole"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4967a748-bb1c-47a0-ba98-c915c12040db"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="dcafd019-f92d-44e3-b8ef-599d24d80a95"
+            name="ExecutionOccurrenceSpecification24">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b5ba726f-e214-4efc-9fa1-7b93bc0da146"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="1d183c0c-6edf-41fb-b6c0-f606c4f9c2aa"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8df4eddd-d28f-41e6-afc0-a7364c5628d7"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="3f7fb563-3b3f-4d5a-a723-521a502c34b2"
+            name="BehaviorExecutionSpecification22">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c0298962-572c-475f-a638-17f8f5743002"
+                LastKnownName="ExecutionOccurrenceSpecification44"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8ea2ed05-bdf2-4050-b99e-e1f9268ee64f"
+                LastKnownName="ExecutionOccurrenceSpecification43"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6bf4f61c-acc5-42f6-8f46-e153ba62c7db"
+                LastKnownName="MessageOccurrenceSpecification54"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8ea2ed05-bdf2-4050-b99e-e1f9268ee64f"
+            name="ExecutionOccurrenceSpecification43">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="45c1188d-2877-4851-9dd9-fc84481ff380"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f9fbdc88-539f-4923-9499-e0f5200e4ac5"
+            name="MessageOccurrenceSpecification53">
+            <covered>
+              <lifelineMoniker
+                Id="81205b3e-5d9f-4f7f-8614-8d9c773ad989"
+                LastKnownName="DealingConsole"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6bf4f61c-acc5-42f6-8f46-e153ba62c7db"
+            name="MessageOccurrenceSpecification54">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b46f8e8a-d005-4633-b085-97ab5b9f9a68"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5ffc1d48-9b44-4398-aaa0-fb8452e58b15"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="81205b3e-5d9f-4f7f-8614-8d9c773ad989"
+                LastKnownName="DealingConsole"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c0298962-572c-475f-a638-17f8f5743002"
+            name="ExecutionOccurrenceSpecification44">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4579f1e7-dac0-4285-8bbe-8c492462c96b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3d2ad1de-ec48-46c4-8ef4-45433b813ac1"
+            name="MessageOccurrenceSpecification31">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="78434162-6361-438f-ae1e-b713e0857f4d"
+            name="BehaviorExecutionSpecification13">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="26536cdc-492e-4596-9d6d-a042d64a2ea0"
+                LastKnownName="ExecutionOccurrenceSpecification26"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9ff13404-3826-4afb-acc6-a5af06623982"
+                LastKnownName="ExecutionOccurrenceSpecification25"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c4f9823a-c602-488e-a437-946aaaa5c93c"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2c0eb873-760e-415d-b06b-f4b1420a896a"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9ff13404-3826-4afb-acc6-a5af06623982"
+            name="ExecutionOccurrenceSpecification25">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f99b7363-9f4b-40ae-950d-702af2082cc6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c4f9823a-c602-488e-a437-946aaaa5c93c"
+            name="MessageOccurrenceSpecification32">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="97e86f1f-4136-4bcb-9827-98d66eed0f56"
+            name="BehaviorExecutionSpecification19">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="73889c85-ccaa-489a-8698-4c9123178077"
+                LastKnownName="ExecutionOccurrenceSpecification38"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="16b0648d-281b-4f9c-b7fe-e6ca34887fc9"
+                LastKnownName="ExecutionOccurrenceSpecification37"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e6d8fa02-6092-471a-9a90-89597ff3ed00"
+                LastKnownName="MessageOccurrenceSpecification45"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="16b0648d-281b-4f9c-b7fe-e6ca34887fc9"
+            name="ExecutionOccurrenceSpecification37">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a506b438-5d4f-4afe-88af-7fe853f7729d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2c0eb873-760e-415d-b06b-f4b1420a896a"
+            name="MessageOccurrenceSpecification44">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e6d8fa02-6092-471a-9a90-89597ff3ed00"
+            name="MessageOccurrenceSpecification45">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="26536cdc-492e-4596-9d6d-a042d64a2ea0"
+            name="ExecutionOccurrenceSpecification26">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b9fb006e-014a-4446-8235-1f5fd00ba5fb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="73889c85-ccaa-489a-8698-4c9123178077"
+            name="ExecutionOccurrenceSpecification38">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e7287a4f-cd95-420e-ba9a-f233f50c2002"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="876f79ec-761b-4219-b60c-bce6f8463b3d"
+            name="MessageOccurrenceSpecification33">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="af3dc900-26a3-4ae3-a948-e7daf6add832"
+            name="BehaviorExecutionSpecification14">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="0c30bab1-107b-4f73-b1d9-babb8e663462"
+                LastKnownName="ExecutionOccurrenceSpecification28"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c1846f56-09b1-4a92-9379-3583b2873559"
+                LastKnownName="ExecutionOccurrenceSpecification27"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ebc44f60-d6c6-4ba0-955c-c6889e826fba"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="90ad348e-daa5-4335-976e-61a683947fe5"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="71a49085-7104-4d30-b1dc-77eafa9fc19c"
+                LastKnownName="MessageOccurrenceSpecification77"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0f4e80db-6de0-41f4-a5fd-6d08090804ee"
+                LastKnownName="ExecutionOccurrenceSpecification61"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ffd466cf-adba-428f-a565-e7e24cacbfec"
+                LastKnownName="ExecutionOccurrenceSpecification62"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c1846f56-09b1-4a92-9379-3583b2873559"
+            name="ExecutionOccurrenceSpecification27">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9e824052-bd25-4dd1-9478-d2d06814603e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ebc44f60-d6c6-4ba0-955c-c6889e826fba"
+            name="MessageOccurrenceSpecification34">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="216687f2-4d02-4928-9abd-768d827fc170"
+            name="BehaviorExecutionSpecification21">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="3850c9f6-56d9-466d-9bcd-25d781dec68f"
+                LastKnownName="ExecutionOccurrenceSpecification42"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="779347b4-e9ab-428b-8eff-9d4f77619d73"
+                LastKnownName="ExecutionOccurrenceSpecification41"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="349fe246-a05e-4285-81df-49c0e4fa39e1"
+                LastKnownName="MessageOccurrenceSpecification51"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="779347b4-e9ab-428b-8eff-9d4f77619d73"
+            name="ExecutionOccurrenceSpecification41">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7808cc4a-740c-4539-a34f-9c1ee895154c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="349fe246-a05e-4285-81df-49c0e4fa39e1"
+            name="MessageOccurrenceSpecification51">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="90ad348e-daa5-4335-976e-61a683947fe5"
+            name="MessageOccurrenceSpecification50">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="71a49085-7104-4d30-b1dc-77eafa9fc19c"
+            name="MessageOccurrenceSpecification77">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="2a47728c-b795-439d-8a61-2a5d5c2c2bd4"
+            name="BehaviorExecutionSpecification31">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="ffd466cf-adba-428f-a565-e7e24cacbfec"
+                LastKnownName="ExecutionOccurrenceSpecification62"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="0f4e80db-6de0-41f4-a5fd-6d08090804ee"
+                LastKnownName="ExecutionOccurrenceSpecification61"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c9b438f-f6c3-43ca-84a5-ef4140e11d45"
+                LastKnownName="MessageOccurrenceSpecification78"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="0f4e80db-6de0-41f4-a5fd-6d08090804ee"
+            name="ExecutionOccurrenceSpecification61">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="00b5675b-2ddc-41f5-8c17-a90bc6ca45d9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="3850c9f6-56d9-466d-9bcd-25d781dec68f"
+            name="ExecutionOccurrenceSpecification42">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cc525699-a803-4484-abfc-b462ab8e1cac"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1c9b438f-f6c3-43ca-84a5-ef4140e11d45"
+            name="MessageOccurrenceSpecification78">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="ffd466cf-adba-428f-a565-e7e24cacbfec"
+            name="ExecutionOccurrenceSpecification62">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f9dfb490-e8d4-4f55-a08a-17ba0dbf67e1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="0c30bab1-107b-4f73-b1d9-babb8e663462"
+            name="ExecutionOccurrenceSpecification28">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d28948f8-ee51-45ef-a92e-714470539e24"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9f27f52d-7952-49f4-a9fa-88e83dd1b712"
+            name="MessageOccurrenceSpecification37">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="5a086c04-461f-42eb-b81d-5da9f7d48080"
+            name="BehaviorExecutionSpecification16">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d63fe865-a8f6-4917-8582-f2572c1664cc"
+                LastKnownName="ExecutionOccurrenceSpecification32"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="0814eef0-43fd-4bdb-ae38-9a972524b153"
+                LastKnownName="ExecutionOccurrenceSpecification31"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="8ccdeaa4-d874-4e65-b13c-c0830814ea0d"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="0814eef0-43fd-4bdb-ae38-9a972524b153"
+            name="ExecutionOccurrenceSpecification31">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ee39f109-83fb-4c84-81da-5d0c48a995b7"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8ccdeaa4-d874-4e65-b13c-c0830814ea0d"
+            name="MessageOccurrenceSpecification38">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d63fe865-a8f6-4917-8582-f2572c1664cc"
+            name="ExecutionOccurrenceSpecification32">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bdf79ed0-af90-4bf5-a08f-aec3c9085f14"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="efff1239-71f1-4753-a041-426cd38f122d"
+            name="BehaviorExecutionSpecification26">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="51f0c9ca-6ea3-44a3-83ee-b639dff99e82"
+                LastKnownName="ExecutionOccurrenceSpecification52"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8d90b40b-c329-4e29-80d8-cfb7fae494d3"
+                LastKnownName="ExecutionOccurrenceSpecification51"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="042df53b-2047-4158-9b5d-edfd7dd5f209"
+                LastKnownName="MessageOccurrenceSpecification64"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9c51d95e-92b8-4d6e-8b33-41e56000e911"
+                LastKnownName="MessageOccurrenceSpecification67"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="68e4622e-93a2-4ae4-8e62-790d5ac3023c"
+                LastKnownName="ExecutionOccurrenceSpecification53"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="39e9bea0-25bc-47dc-87b0-03b9d61fed34"
+                LastKnownName="ExecutionOccurrenceSpecification54"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3d41346a-7cf8-4fbb-b9f9-aecce85508c4"
+                LastKnownName="MessageOccurrenceSpecification65"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8d90b40b-c329-4e29-80d8-cfb7fae494d3"
+            name="ExecutionOccurrenceSpecification51">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1dfab9bc-375a-4b85-82a9-6355c31a420f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="38862611-9c2a-4c9a-966f-3dfcf7f773ad"
+            name="MessageOccurrenceSpecification63">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="042df53b-2047-4158-9b5d-edfd7dd5f209"
+            name="MessageOccurrenceSpecification64">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9c51d95e-92b8-4d6e-8b33-41e56000e911"
+            name="MessageOccurrenceSpecification67">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f250c106-ccf2-4413-b850-b26a387c6fac"
+            name="BehaviorExecutionSpecification27">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="39e9bea0-25bc-47dc-87b0-03b9d61fed34"
+                LastKnownName="ExecutionOccurrenceSpecification54"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="68e4622e-93a2-4ae4-8e62-790d5ac3023c"
+                LastKnownName="ExecutionOccurrenceSpecification53"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="fb81fd98-47f0-4f5b-a21e-234cfd96def6"
+                LastKnownName="MessageOccurrenceSpecification68"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="30539f44-7b45-4934-9bc5-af76891ddb65"
+                LastKnownName="MessageOccurrenceSpecification79"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="096c4ae8-cb85-4271-ac91-96444b76d0e4"
+                LastKnownName="ExecutionOccurrenceSpecification63"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="fd81d668-5ddd-4faf-80f8-92f2426f3013"
+                LastKnownName="ExecutionOccurrenceSpecification64"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="68e4622e-93a2-4ae4-8e62-790d5ac3023c"
+            name="ExecutionOccurrenceSpecification53">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7c5b6155-25f7-44e0-9306-1f86073d3e88"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fb81fd98-47f0-4f5b-a21e-234cfd96def6"
+            name="MessageOccurrenceSpecification68">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="30539f44-7b45-4934-9bc5-af76891ddb65"
+            name="MessageOccurrenceSpecification79">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="8bf129d4-9486-453b-91df-62ab4b3f6c79"
+            name="BehaviorExecutionSpecification32">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="fd81d668-5ddd-4faf-80f8-92f2426f3013"
+                LastKnownName="ExecutionOccurrenceSpecification64"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="096c4ae8-cb85-4271-ac91-96444b76d0e4"
+                LastKnownName="ExecutionOccurrenceSpecification63"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="19135c8c-cc6d-40e3-87b8-4d822ddae983"
+                LastKnownName="MessageOccurrenceSpecification80"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="096c4ae8-cb85-4271-ac91-96444b76d0e4"
+            name="ExecutionOccurrenceSpecification63">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e0bb851b-ba02-4971-b79d-8d986000c5e0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="19135c8c-cc6d-40e3-87b8-4d822ddae983"
+            name="MessageOccurrenceSpecification80">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="fd81d668-5ddd-4faf-80f8-92f2426f3013"
+            name="ExecutionOccurrenceSpecification64">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="583beda4-77b5-4bdc-bf07-da6e2454fb9f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="39e9bea0-25bc-47dc-87b0-03b9d61fed34"
+            name="ExecutionOccurrenceSpecification54">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="dadc05c8-c187-4a58-b28d-02ab405a36ba"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3d41346a-7cf8-4fbb-b9f9-aecce85508c4"
+            name="MessageOccurrenceSpecification65">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5c4c0005-084c-4e83-ad66-4763e6fd489e"
+            name="MessageOccurrenceSpecification66">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="51f0c9ca-6ea3-44a3-83ee-b639dff99e82"
+            name="ExecutionOccurrenceSpecification52">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d513110f-cc19-4e1a-9b3d-2d0870bff2a0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9ced663b-155f-4116-ac27-46ff69b5816b"
+            name="MessageOccurrenceSpecification81">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="2fb38f33-d4af-45d0-97d4-fea6c93c3dee"
+            name="BehaviorExecutionSpecification33">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b1289768-6805-45cf-ae10-ff068fcfbf4b"
+                LastKnownName="ExecutionOccurrenceSpecification66"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="88d74857-dce7-4d84-8302-218077a3c7f8"
+                LastKnownName="ExecutionOccurrenceSpecification65"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="87fc1a21-7be9-40ae-a495-d903700d6a2d"
+                LastKnownName="MessageOccurrenceSpecification82"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="88d74857-dce7-4d84-8302-218077a3c7f8"
+            name="ExecutionOccurrenceSpecification65">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0b36dd65-3265-475b-bf2d-1b16cd8f4529"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="87fc1a21-7be9-40ae-a495-d903700d6a2d"
+            name="MessageOccurrenceSpecification82">
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b1289768-6805-45cf-ae10-ff068fcfbf4b"
+            name="ExecutionOccurrenceSpecification66">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1a2c6f71-47f3-482e-83fb-a9632c83d0a5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="28d76d82-ce7e-472f-bc1d-731d80f66b01"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="10f3e66f-c617-40ec-a749-765f1ea8b61e"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="3be4eb79-3985-4512-b7f5-613d2f332a09"
+                LastKnownName="Account"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="8136f681-909a-48f4-a7df-8777a3d377da"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="aee588a5-385b-44f4-869e-0aeb7cb7e12e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c50bc2f2-d803-4b7f-a97b-2dc3704544cb"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="08323af2-b970-450b-a805-8e9c59c93876"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="3be4eb79-3985-4512-b7f5-613d2f332a09"
+            name="Account"
+            isActor="false"
+            lifelineDisplayName="Account">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4ee2033d-bdb0-4351-8af4-a0fc85071d5b"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="10f3e66f-c617-40ec-a749-765f1ea8b61e"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="ed0e327f-f1d4-4abe-8c49-f069e576a3b0"
+            name="Agent"
+            isActor="false"
+            lifelineDisplayName="Agent">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="06dcb9f7-433b-4f2c-b25d-aa52efcc887e"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8136f681-909a-48f4-a7df-8777a3d377da"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="6a9cc5a2-5272-4685-896c-6951b3f6bc03"
+            name="iExchangeEngine"
+            isActor="false"
+            lifelineDisplayName="iExchangeEngine">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="49901e84-da49-4acc-b3e8-c8ea2621c4ad"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c50bc2f2-d803-4b7f-a97b-2dc3704544cb"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="81205b3e-5d9f-4f7f-8614-8d9c773ad989"
+            name="DealingConsole"
+            isActor="false"
+            lifelineDisplayName="DealingConsole">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="e37bad94-7c85-4dfc-b992-6a3d144ef391"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b46f8e8a-d005-4633-b085-97ab5b9f9a68"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="2dfa039b-8026-4037-bc1d-d92cf7111b31"
+            name="Place Order"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4ee2033d-bdb0-4351-8af4-a0fc85071d5b"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="66703cd3-64be-4903-ae9e-fe410ea29b1a"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c415d8d7-94f1-4ddd-8111-012b0d2e853d"
+            name="Verify"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="31999aa0-3219-448a-bff7-f0d0e2a9d693"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4a3d910d-0fdb-4c22-b1be-70de5e11a9b8"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5562461b-4462-473e-97b5-b202063bb83d"
+            name="PreCheck"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="67dc1382-9374-4616-a574-6475796e872b"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4551aa00-ccce-4eac-9b20-87aba1dae1e5"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="af25b728-6329-4a2e-a931-8f239f49823b"
+            name="Place Order"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a449f550-445f-487c-9fd8-207ba109ac87"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ded6ab7d-7a58-424c-913c-6f0b656509e8"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0d64a261-a9c5-41de-8b53-e2a0dcbd4761"
+            name="IsAutoAccept"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f740c04f-7924-491f-8a28-bc0071c19af1"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cc46dabe-ec5d-4dd8-9d71-9d226a662202"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f4b64b14-6385-47d3-b9b3-f78e366c2c84"
+            name="非自动Accept,  Order.Phase = Placing"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0310db5c-7760-4c07-b117-503b2df19195"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a656519b-e4fb-468e-8a66-6c207184d82e"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="fbeddf61-eb78-436c-883f-d64906362f5b"
+            name="Accept"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4967a748-bb1c-47a0-ba98-c915c12040db"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e179ffdc-9276-411d-814b-58e890955895"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e7c03c8e-b1cf-417d-b83f-7fe0cc7562d6"
+            name="AutoAccpet"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f9fbdc88-539f-4923-9499-e0f5200e4ac5"
+                LastKnownName="MessageOccurrenceSpecification53"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6bf4f61c-acc5-42f6-8f46-e153ba62c7db"
+                LastKnownName="MessageOccurrenceSpecification54"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1db53c4e-13f2-4340-909c-a419854baebd"
+            name="CheckPrice"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3d2ad1de-ec48-46c4-8ef4-45433b813ac1"
+                LastKnownName="MessageOccurrenceSpecification31"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c4f9823a-c602-488e-a437-946aaaa5c93c"
+                LastKnownName="MessageOccurrenceSpecification32"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="570565be-ebd5-4daf-a50f-6954dbab74ba"
+            name="等待价格, Order.Phase = Placing"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2c0eb873-760e-415d-b06b-f4b1420a896a"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e6d8fa02-6092-471a-9a90-89597ff3ed00"
+                LastKnownName="MessageOccurrenceSpecification45"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c072951f-05a5-4795-90be-f059486ca4dd"
+            name="Is Auto Fill"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="876f79ec-761b-4219-b60c-bce6f8463b3d"
+                LastKnownName="MessageOccurrenceSpecification33"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ebc44f60-d6c6-4ba0-955c-c6889e826fba"
+                LastKnownName="MessageOccurrenceSpecification34"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="16823d05-70ad-4ab7-9bdd-8f7523ccb1be"
+            name="等待成交, Order.Phase = Placed"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="90ad348e-daa5-4335-976e-61a683947fe5"
+                LastKnownName="MessageOccurrenceSpecification50"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="349fe246-a05e-4285-81df-49c0e4fa39e1"
+                LastKnownName="MessageOccurrenceSpecification51"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0242d787-0c22-4b8e-8a02-12992251765a"
+            name="等待价格，撞线检查"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="71a49085-7104-4d30-b1dc-77eafa9fc19c"
+                LastKnownName="MessageOccurrenceSpecification77"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c9b438f-f6c3-43ca-84a5-ef4140e11d45"
+                LastKnownName="MessageOccurrenceSpecification78"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b723f0eb-d35a-42a5-8f2b-e386493b13e8"
+            name="Execute"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9f27f52d-7952-49f4-a9fa-88e83dd1b712"
+                LastKnownName="MessageOccurrenceSpecification37"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8ccdeaa4-d874-4e65-b13c-c0830814ea0d"
+                LastKnownName="MessageOccurrenceSpecification38"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e0f66d67-2162-4260-b039-36a895d23ab5"
+            name="Book"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="38862611-9c2a-4c9a-966f-3dfcf7f773ad"
+                LastKnownName="MessageOccurrenceSpecification63"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="042df53b-2047-4158-9b5d-edfd7dd5f209"
+                LastKnownName="MessageOccurrenceSpecification64"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f95725e7-39c5-413e-a4b3-329a89e22c78"
+            name="CheckMargin"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9c51d95e-92b8-4d6e-8b33-41e56000e911"
+                LastKnownName="MessageOccurrenceSpecification67"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fb81fd98-47f0-4f5b-a21e-234cfd96def6"
+                LastKnownName="MessageOccurrenceSpecification68"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c872002e-c5bf-49ae-8138-3b3da980deac"
+            name="Cancel"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="30539f44-7b45-4934-9bc5-af76891ddb65"
+                LastKnownName="MessageOccurrenceSpecification79"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="19135c8c-cc6d-40e3-87b8-4d822ddae983"
+                LastKnownName="MessageOccurrenceSpecification80"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c7370c55-c025-41fb-b7a2-f211fdeb69bd"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3d41346a-7cf8-4fbb-b9f9-aecce85508c4"
+                LastKnownName="MessageOccurrenceSpecification65"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5c4c0005-084c-4e83-ad66-4763e6fd489e"
+                LastKnownName="MessageOccurrenceSpecification66"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ff049f72-9dcd-42a1-8a4f-1eddde1eb579"
+            name="Boardcast"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9ced663b-155f-4116-ac27-46ff69b5816b"
+                LastKnownName="MessageOccurrenceSpecification81"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="87fc1a21-7be9-40ae-a495-d903700d6a2d"
+                LastKnownName="MessageOccurrenceSpecification82"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2207fa80-ca67-4469-bd3e-d65c2d097e5c"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="28d76d82-ce7e-472f-bc1d-731d80f66b01"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="10f3e66f-c617-40ec-a749-765f1ea8b61e"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="805f445e-1eba-44b7-914a-5915005bb394"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="aee588a5-385b-44f4-869e-0aeb7cb7e12e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cc97d57a-4a8e-4c83-9c65-a7846a6c8152"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="62035110-f974-42c1-b8bb-80397a94f125"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="62c8b87a-d2d9-4ec4-848b-dba6114faa49"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2ed32708-3f2d-4caf-8b35-d7a1009cc7e8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2a2b5a86-202e-4d65-93f6-ad1981fefdac"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="08323af2-b970-450b-a805-8e9c59c93876"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f9c66783-09c9-4695-9a8d-10635722b004"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8df4eddd-d28f-41e6-afc0-a7364c5628d7"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="23382ac0-cd6c-40c6-8f8f-e787212fafbc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5ffc1d48-9b44-4398-aaa0-fb8452e58b15"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f99b7363-9f4b-40ae-950d-702af2082cc6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b9fb006e-014a-4446-8235-1f5fd00ba5fb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9e824052-bd25-4dd1-9478-d2d06814603e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d28948f8-ee51-45ef-a92e-714470539e24"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ee39f109-83fb-4c84-81da-5d0c48a995b7"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bdf79ed0-af90-4bf5-a08f-aec3c9085f14"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="3ea33233-2f30-48a6-98c7-13cec462f698"
+        name="Cut"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <ownedCommentsInternal>
+          <comment
+            Id="9951e740-a76b-4057-b125-a7a32117fca7">
+            <body>检查风险， 如果风险达到风险级别3，则执行砍仓操作</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="9971dbaf-5f25-4101-a049-2e006de19ec6"
+                LastKnownName="BehaviorExecutionSpecification3"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="30d381c4-d2c0-411a-a7d1-00fa430c2a96">
+            <body>根据Account的RiskLevelAction设置，执行CutAll或者CutNet操作， 产生相反方向的Order，来平掉对应方向的Order</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="5fe2757c-feca-4c30-9da6-cb23342eb950"
+                LastKnownName="BehaviorExecutionSpecification7"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </annotatedElements>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="75440c53-320b-46ac-9010-9cab09c1a3f5"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="796c2b64-85fc-416e-bdb9-fd045827d114"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d6da02e0-6604-493c-a8cb-74143255c15e"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1cc45ea6-8f3e-4e62-90ba-95250d14e9d6"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7896e115-4ee8-4e8b-9158-a2e50d9261f2"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="91bc131f-1d1d-490d-9fb5-3aa8bf142c47"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="138495f7-054c-46ce-bd8b-7ba4bf15ee43"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d6da02e0-6604-493c-a8cb-74143255c15e"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1241ee33-b4d8-421a-9940-72382f152fcf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b276138d-9c4a-4a5f-a43f-5d971e0224fd"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="02d7be45-bf4a-499c-bd8f-c21102c01321"
+                LastKnownName="QuotationSource"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1cc45ea6-8f3e-4e62-90ba-95250d14e9d6"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7896e115-4ee8-4e8b-9158-a2e50d9261f2"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="9971dbaf-5f25-4101-a049-2e006de19ec6"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="138495f7-054c-46ce-bd8b-7ba4bf15ee43"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="91bc131f-1d1d-490d-9fb5-3aa8bf142c47"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a73d0e45-7043-4bc9-b07e-a962f0ed413c"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fd7f12ee-1cc3-4bed-8835-0e2bc5317005"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="77844aa6-053b-4787-a4b0-ae2a55512009"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="fa42de7c-cb4d-4741-a832-7d213fe12ea6"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="91bc131f-1d1d-490d-9fb5-3aa8bf142c47"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3e9651d7-60ff-4037-a5ed-23b62dd89203"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a73d0e45-7043-4bc9-b07e-a962f0ed413c"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fd7f12ee-1cc3-4bed-8835-0e2bc5317005"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="5fe2757c-feca-4c30-9da6-cb23342eb950"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="fa42de7c-cb4d-4741-a832-7d213fe12ea6"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="77844aa6-053b-4787-a4b0-ae2a55512009"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6550d3ae-cc7d-47c5-bd0f-9bbf4fbc7779"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="27a7c6cd-b82a-4c6c-84e6-b2ff214d5d3c"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="77844aa6-053b-4787-a4b0-ae2a55512009"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="19d9be08-f09e-404f-8504-28f46b1f0177"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6550d3ae-cc7d-47c5-bd0f-9bbf4fbc7779"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="09466923-6e5f-4466-a432-9291bfe40347"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="98362338-1306-4a0b-97ae-74b84b1c0453"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="92017896-d37c-4a09-ae56-7f96a6f73f9e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="57f84a0c-ba11-4b75-a53f-595f07211e73"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="7bde9106-36fd-4b5a-b2df-afc1b3d5ca93"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="57f84a0c-ba11-4b75-a53f-595f07211e73"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2f817616-8201-4a71-836a-5d4dfb2ebaf2"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98362338-1306-4a0b-97ae-74b84b1c0453"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="27a7c6cd-b82a-4c6c-84e6-b2ff214d5d3c"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7bde9106-36fd-4b5a-b2df-afc1b3d5ca93"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="98362338-1306-4a0b-97ae-74b84b1c0453"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="fa42de7c-cb4d-4741-a832-7d213fe12ea6"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a1e78191-e8bc-4cac-bdd4-487772bb3267"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="92017896-d37c-4a09-ae56-7f96a6f73f9e"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4566a001-a64d-43c5-ae45-5c9410fd1ac0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98362338-1306-4a0b-97ae-74b84b1c0453"
+                LastKnownName="iExchangeEngine"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="138495f7-054c-46ce-bd8b-7ba4bf15ee43"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="e60a12c0-cd70-4db3-a197-5febfe001ee5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="796c2b64-85fc-416e-bdb9-fd045827d114"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fed54f4c-d8b8-418e-923e-794e16471470"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TransactionServerDesign.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+                LastKnownName="Agent"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="02d7be45-bf4a-499c-bd8f-c21102c01321"
+            name="QuotationSource"
+            isActor="false"
+            lifelineDisplayName="QuotationSource">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b276138d-9c4a-4a5f-a43f-5d971e0224fd"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="95fb48bb-eb75-47a5-9788-f478b293baec"
+            name="Agent"
+            isActor="false"
+            lifelineDisplayName="Agent">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="d6da02e0-6604-493c-a8cb-74143255c15e"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="796c2b64-85fc-416e-bdb9-fd045827d114"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="98362338-1306-4a0b-97ae-74b84b1c0453"
+            name="iExchangeEngine"
+            isActor="false"
+            lifelineDisplayName="iExchangeEngine">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="57f84a0c-ba11-4b75-a53f-595f07211e73"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="92017896-d37c-4a09-ae56-7f96a6f73f9e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="3d128356-659d-475f-b36a-69ea68346f44"
+            name="Quotation"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b276138d-9c4a-4a5f-a43f-5d971e0224fd"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1cc45ea6-8f3e-4e62-90ba-95250d14e9d6"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1af038fa-b884-494d-9b5a-dd58567d8514"
+            name="Check  Risk"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7896e115-4ee8-4e8b-9158-a2e50d9261f2"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a73d0e45-7043-4bc9-b07e-a962f0ed413c"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="0c78b3a5-eacc-4e77-9f25-0f66d023ea98"
+            name="Cut"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fd7f12ee-1cc3-4bed-8835-0e2bc5317005"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6550d3ae-cc7d-47c5-bd0f-9bbf4fbc7779"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="52a3a311-9e27-4f3e-bb19-e4215cff1c95"
+            name="Place Order"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="27a7c6cd-b82a-4c6c-84e6-b2ff214d5d3c"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7bde9106-36fd-4b5a-b2df-afc1b3d5ca93"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="TransactionServerDesign.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1241ee33-b4d8-421a-9940-72382f152fcf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fed54f4c-d8b8-418e-923e-794e16471470"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3e9651d7-60ff-4037-a5ed-23b62dd89203"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e60a12c0-cd70-4db3-a197-5febfe001ee5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a506b438-5d4f-4afe-88af-7fe853f7729d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e7287a4f-cd95-420e-ba9a-f233f50c2002"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7808cc4a-740c-4539-a34f-9c1ee895154c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cc525699-a803-4484-abfc-b462ab8e1cac"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8e0ca44f-64ce-4750-8dd8-12d326e4db36"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b5ba726f-e214-4efc-9fa1-7b93bc0da146"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="45c1188d-2877-4851-9dd9-fc84481ff380"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4579f1e7-dac0-4285-8bbe-8c492462c96b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1dfab9bc-375a-4b85-82a9-6355c31a420f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d513110f-cc19-4e1a-9b3d-2d0870bff2a0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7c5b6155-25f7-44e0-9306-1f86073d3e88"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="dadc05c8-c187-4a58-b28d-02ab405a36ba"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="00b5675b-2ddc-41f5-8c17-a90bc6ca45d9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f9dfb490-e8d4-4f55-a08a-17ba0dbf67e1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="19d9be08-f09e-404f-8504-28f46b1f0177"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a1e78191-e8bc-4cac-bdd4-487772bb3267"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2f817616-8201-4a71-836a-5d4dfb2ebaf2"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4566a001-a64d-43c5-ae45-5c9410fd1ac0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="e0bb851b-ba02-4971-b79d-8d986000c5e0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="583beda4-77b5-4bdc-bf07-da6e2454fb9f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0b36dd65-3265-475b-bf2d-1b16cd8f4529"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1a2c6f71-47f3-482e-83fb-a9632c83d0a5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

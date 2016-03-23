@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Fax>
+    <Setting>
+      <InternationAccessCode>11</InternationAccessCode>
+      <CountryCode>11</CountryCode>
+      <AreaCode>11</AreaCode>
+    </Setting>
+  </Fax>
+  
+  
+  <SMS>
+    <UserName>95866920</UserName>
+    <Password>s0d13b2taaa</Password>
+  </SMS>
+
+  <SMSTitle>
+    <MHL>PeaceTownGS</MHL>
+    <GEG>PeaceTownGSXYZ</GEG>
+    <PT>sss</PT>
+    <TST>DFDSF</TST>
+    <JKP>SDFSDF</JKP>
+    <DEM>ZZZ</DEM>
+  </SMSTitle>
+
+  <Statement>
+    <Use>statement</Use>
+    <statement>[dbo].[P_RptStatement_RC2]</statement>
+    <statement2>[dbo].[P_RptStatement2_RC2]</statement2>
+    <NeedNotify>0</NeedNotify>
+    <Time>
+      <Hour>17</Hour>
+      <Minute>40</Minute>
+    </Time>
+  </Statement>
+
+  <ResendTimes>
+    <EmailTimes>3</EmailTimes>
+    <FaxTimes>3</FaxTimes>
+    <SMSTimes>3</SMSTimes>
+  </ResendTimes>
+  
+  
+  <Print>
+    <Column key="Code" printable="true">Code</Column>
+    <Column key="CountryCode" printable="true">CountryCode</Column>
+    <Column key="AreaCode" printable="true">AreaCode</Column>
+    <Column key="Fax" printable="true">Fax</Column>
+    <Column key="Email" printable="true">Email</Column>
+    <Column key="Addr1" printable="true">Addr1</Column>
+    <Column key="Addr2" printable="true">Addr2</Column>
+    <Column key="Addr3" printable="true">Addr3</Column>
+    <Column key="Phone" printable="true">Phone</Column>
+    <Column key="CurrentSmtpCode" printable="true">SMTPServer</Column>
+    <Column key="StatementOption" printable="true">StatementOption</Column>
+    <Column key="OrderConfirmationOption" printable="true">OrderOption</Column>
+    <Column key="AlertOption" printable="true">AlertOption</Column>
+    <Column key="NotifyAlert" printable="true">NotifyAlert</Column>
+    <Column key="UpdateDateTime" printable="true">UpdateDateTime</Column>
+  </Print>
+</Settings>

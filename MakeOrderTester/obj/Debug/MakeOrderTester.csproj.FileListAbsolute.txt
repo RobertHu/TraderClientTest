@@ -1,0 +1,11 @@
+D:\VsProjects\MakeOrderTester\bin\Debug\MakeOrderTester.exe
+D:\VsProjects\MakeOrderTester\bin\Debug\MakeOrderTester.pdb
+D:\VsProjects\MakeOrderTester\obj\Debug\MakeOrderTester.csprojResolveAssemblyReference.cache
+D:\VsProjects\MakeOrderTester\obj\Debug\MakeOrderTester.exe
+D:\VsProjects\MakeOrderTester\obj\Debug\MakeOrderTester.pdb
+D:\VsProjects\MakeOrderTester\bin\Debug\order.txt
+D:\VsProjects\MakeOrderTester\bin\Debug\account.txt
+D:\VsProjects\MakeOrderTester\bin\Debug\iExchange.Common.dll
+D:\VsProjects\MakeOrderTester\bin\Debug\Framework.dll
+D:\VsProjects\MakeOrderTester\bin\Debug\Framework.pdb
+D:\VsProjects\MakeOrderTester\bin\Debug\MakeOrderTester.exe.config

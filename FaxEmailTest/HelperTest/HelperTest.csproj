@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC38FB3A-FA2F-4F1F-9787-F8A65F4E1829}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HelperTest</RootNamespace>
+    <AssemblyName>HelperTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FaxAndEmaill.Helper, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\FaxAndEmaill.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="LoggerHelper.cs" />
+    <Compile Include="PasswordInnerserviceTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingConfigTest.cs" />
+    <Compile Include="SMSTitleSettingTest.cs" />
+    <Compile Include="StatementInnerServiceTest.cs" />
+    <Compile Include="XmlHelperTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FaxFormat\Balance.Style.CHS.txt" />
+    <Content Include="FaxFormat\Balance.Style.CHT.txt" />
+    <Content Include="FaxFormat\Balance.Style.ENG.txt" />
+    <Content Include="FaxFormat\data.xml" />
+    <Content Include="FaxFormat\macro.xml" />
+    <Content Include="FaxFormat\New folder\ABC\Balance.Style.CHS.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Balance.Style.CHT.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Balance.Style.ENG.txt" />
+    <Content Include="FaxFormat\New folder\ABC\data.xml" />
+    <Content Include="FaxFormat\New folder\ABC\Order.Style.CHS.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Order.Style.CHT.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Order.Style.ENG.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Pwd.Style.CHS.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Pwd.Style.CHT.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Pwd.Style.ENG.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Risk.Style.CHS.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Risk.Style.CHT.txt" />
+    <Content Include="FaxFormat\New folder\ABC\Risk.Style.ENG.txt" />
+    <Content Include="FaxFormat\Order.Style.CHS.txt" />
+    <Content Include="FaxFormat\Order.Style.CHT.txt" />
+    <Content Include="FaxFormat\Order.Style.ENG.txt" />
+    <Content Include="FaxFormat\Pwd.Style.CHS.txt" />
+    <Content Include="FaxFormat\Pwd.Style.CHT.txt" />
+    <Content Include="FaxFormat\Pwd.Style.ENG.txt" />
+    <Content Include="FaxFormat\Risk.Style.CHS.txt" />
+    <Content Include="FaxFormat\Risk.Style.CHT.txt" />
+    <Content Include="FaxFormat\Risk.Style.ENG.txt" />
+    <Content Include="FaxFormat\Template.htm" />
+    <Content Include="FaxFormat\XYZ\Balance.Style.CHS.txt" />
+    <Content Include="FaxFormat\XYZ\Balance.Style.CHT.txt" />
+    <Content Include="FaxFormat\XYZ\Balance.Style.ENG.txt" />
+    <Content Include="FaxFormat\XYZ\data.xml" />
+    <Content Include="FaxFormat\XYZ\Order.Style.CHS.txt" />
+    <Content Include="FaxFormat\XYZ\Order.Style.CHT.txt" />
+    <Content Include="FaxFormat\XYZ\Order.Style.ENG.txt" />
+    <Content Include="FaxFormat\XYZ\Pwd.Style.CHS.txt" />
+    <Content Include="FaxFormat\XYZ\Pwd.Style.CHT.txt" />
+    <Content Include="FaxFormat\XYZ\Pwd.Style.ENG.txt" />
+    <Content Include="FaxFormat\XYZ\Risk.Style.CHS.txt" />
+    <Content Include="FaxFormat\XYZ\Risk.Style.CHT.txt" />
+    <Content Include="FaxFormat\XYZ\Risk.Style.ENG.txt" />
+    <Content Include="Lib\FaxAndEmail.Repository.dll" />
+    <Content Include="Lib\FaxAndEmail.V3Model.dll" />
+    <Content Include="Lib\FaxAndEmaill.Helper.dll" />
+    <Content Include="Lib\FaxAndEmailService.Common.dll" />
+    <Content Include="Lib\FluentNHibernate.dll" />
+    <Content Include="Lib\Iesi.Collections.dll" />
+    <Content Include="Lib\log4net.dll" />
+    <Content Include="Lib\NHibernate.dll" />
+    <Content Include="Setting.xml" />
+    <Content Include="SMSStyle\ABC\Balance.CHS.txt" />
+    <Content Include="SMSStyle\ABC\Balance.CHT.txt" />
+    <Content Include="SMSStyle\ABC\Balance.ENG.txt" />
+    <Content Include="SMSStyle\ABC\data.xml" />
+    <Content Include="SMSStyle\ABC\Order.CHS.txt" />
+    <Content Include="SMSStyle\ABC\Order.CHT.txt" />
+    <Content Include="SMSStyle\ABC\Order.ENG.txt" />
+    <Content Include="SMSStyle\ABC\Pwd.CHS.txt" />
+    <Content Include="SMSStyle\ABC\Pwd.CHT.txt" />
+    <Content Include="SMSStyle\ABC\Pwd.ENG.txt" />
+    <Content Include="SMSStyle\ABC\Risk.CHS.txt" />
+    <Content Include="SMSStyle\ABC\Risk.CHT.txt" />
+    <Content Include="SMSStyle\ABC\Risk.ENG.txt" />
+    <Content Include="SMSStyle\Balance.CHS.txt" />
+    <Content Include="SMSStyle\Balance.CHT.txt" />
+    <Content Include="SMSStyle\Balance.ENG.txt" />
+    <Content Include="SMSStyle\data.xml" />
+    <Content Include="SMSStyle\DEM\Balance.CHS.txt" />
+    <Content Include="SMSStyle\DEM\Balance.CHT.txt" />
+    <Content Include="SMSStyle\DEM\Balance.ENG.txt" />
+    <Content Include="SMSStyle\DEM\data.xml" />
+    <Content Include="SMSStyle\DEM\Order.CHS.txt" />
+    <Content Include="SMSStyle\DEM\Order.CHT.txt" />
+    <Content Include="SMSStyle\DEM\Order.ENG.txt" />
+    <Content Include="SMSStyle\DEM\Pwd.CHS.txt" />
+    <Content Include="SMSStyle\DEM\Pwd.CHT.txt" />
+    <Content Include="SMSStyle\DEM\Pwd.ENG.txt" />
+    <Content Include="SMSStyle\DEM\Risk.CHS.txt" />
+    <Content Include="SMSStyle\DEM\Risk.CHT.txt" />
+    <Content Include="SMSStyle\DEM\Risk.ENG.txt" />
+    <Content Include="SMSStyle\Order.CHS.txt" />
+    <Content Include="SMSStyle\Order.CHT.txt" />
+    <Content Include="SMSStyle\Order.ENG.txt" />
+    <Content Include="SMSStyle\Pwd.CHS.txt" />
+    <Content Include="SMSStyle\Pwd.CHT.txt" />
+    <Content Include="SMSStyle\Pwd.ENG.txt" />
+    <Content Include="SMSStyle\Risk.CHS.txt" />
+    <Content Include="SMSStyle\Risk.CHT.txt" />
+    <Content Include="SMSStyle\Risk.ENG.txt" />
+    <Content Include="SMSStyle\XYZ\Balance.CHS.txt" />
+    <Content Include="SMSStyle\XYZ\Balance.CHT.txt" />
+    <Content Include="SMSStyle\XYZ\Balance.ENG.txt" />
+    <Content Include="SMSStyle\XYZ\data.xml" />
+    <Content Include="SMSStyle\XYZ\Order.CHS.txt" />
+    <Content Include="SMSStyle\XYZ\Order.CHT.txt" />
+    <Content Include="SMSStyle\XYZ\Order.ENG.txt" />
+    <Content Include="SMSStyle\XYZ\Pwd.CHS.txt" />
+    <Content Include="SMSStyle\XYZ\Pwd.CHT.txt" />
+    <Content Include="SMSStyle\XYZ\Pwd.ENG.txt" />
+    <Content Include="SMSStyle\XYZ\Risk.CHS.txt" />
+    <Content Include="SMSStyle\XYZ\Risk.CHT.txt" />
+    <Content Include="SMSStyle\XYZ\Risk.ENG.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,8 @@
+﻿<Window x:Class="DjUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="700" Width="800" Loaded="Window_Loaded" WindowState="Maximized">
+    <Grid>
+        <WebBrowser Name="htmlControl"></WebBrowser>
+    </Grid>
+</Window>

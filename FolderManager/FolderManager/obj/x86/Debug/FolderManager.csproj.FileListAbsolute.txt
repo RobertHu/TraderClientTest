@@ -1,0 +1,6 @@
+D:\VsProjects\FolderManager\FolderManager\bin\Debug\FolderManager.exe.config
+D:\VsProjects\FolderManager\FolderManager\bin\Debug\FolderManager.exe
+D:\VsProjects\FolderManager\FolderManager\bin\Debug\FolderManager.pdb
+D:\VsProjects\FolderManager\FolderManager\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\FolderManager\FolderManager\obj\x86\Debug\FolderManager.exe
+D:\VsProjects\FolderManager\FolderManager\obj\x86\Debug\FolderManager.pdb

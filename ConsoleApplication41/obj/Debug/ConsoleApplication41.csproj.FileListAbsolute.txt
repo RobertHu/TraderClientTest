@@ -1,0 +1,8 @@
+D:\VsProjects\ConsoleApplication41\bin\Debug\ConsoleApplication41.exe.config
+D:\VsProjects\ConsoleApplication41\bin\Debug\ConsoleApplication41.exe
+D:\VsProjects\ConsoleApplication41\bin\Debug\ConsoleApplication41.pdb
+D:\VsProjects\ConsoleApplication41\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\VsProjects\ConsoleApplication41\bin\Debug\System.Threading.Tasks.Dataflow.xml
+D:\VsProjects\ConsoleApplication41\obj\Debug\ConsoleApplication41.csprojResolveAssemblyReference.cache
+D:\VsProjects\ConsoleApplication41\obj\Debug\ConsoleApplication41.exe
+D:\VsProjects\ConsoleApplication41\obj\Debug\ConsoleApplication41.pdb

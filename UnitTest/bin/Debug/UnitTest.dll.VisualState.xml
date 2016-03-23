@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1014]D:\VsProjects\UnitTest\bin\Debug\UnitTest.dll</TopNode>
+  <SelectedNode>[0-1003]UnitTest.DBDataTest.UpdateInstrumentDayOpenCloseHistoryTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1014]D:\VsProjects\UnitTest\bin\Debug\UnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1015]UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1000]UnitTest.DBDataTest" Expanded="true" />
+    <Node UniqueName="[0-1004]UnitTest.GenericDictionaryTest" Expanded="true" />
+    <Node UniqueName="[0-1016]UnitTest.OrderBLLTest" Expanded="true" />
+    <Node UniqueName="[0-1006]UnitTest.OrderBLLTest.PhysicalOrderTest" Expanded="true" />
+    <Node UniqueName="[0-1008]UnitTest.SettingTest" Expanded="true" />
+    <Node UniqueName="[0-1017]UnitTest.TraderServer" Expanded="true" />
+    <Node UniqueName="[0-1010]UnitTest.TraderServer.SystemParameterTest" Expanded="true" />
+    <Node UniqueName="[0-1012]UnitTest.XmlTest" Expanded="true" />
+  </Nodes>
+</VisualState>

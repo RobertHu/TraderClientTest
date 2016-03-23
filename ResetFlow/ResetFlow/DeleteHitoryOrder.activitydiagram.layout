@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 18, 19.875" name="CreateAndDeleteHitoryOrder">
+  <activityRootModelMoniker Id="1abd32ba-4ecd-4236-92c4-3a6a69ea9663" />
+  <nestedChildShapes>
+    <initialNodeShape Id="a066752a-f0ba-414a-9f6e-5b4ed2bfd23a" absoluteBounds="6.25, 0.75, 0.125, 0.125" customColor="89, 89, 89">
+      <initialNodeMoniker Id="7f824608-3de6-4a23-bb1a-2cd5baf99bac" LastKnownName="Initial1" />
+    </initialNodeShape>
+    <actionShape Id="b51e8c96-1436-4009-bcd5-d335899e08ae" absoluteBounds="5.125, 3, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="648d095e-eb17-4fc7-b289-847101bf5a3b" LastKnownName="找出Order所影响的PhysicalRequest" />
+    </actionShape>
+    <decisionNodeShape Id="129d8dd2-c19a-4bf3-af7c-962ba708b7ec" absoluteBounds="6.125, 1.75, 0.375, 0.375" customColor="185, 212, 238">
+      <decisionNodeMoniker Id="934a5e9d-1568-41fc-b12a-ce1692d603e9" LastKnownName="Decision1" />
+      <relativeChildShapes />
+    </decisionNodeShape>
+    <controlFlowConnector edgePoints="[(6.3125 : 0.875); (6.3125 : 1.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="f282bd64-1d68-4719-a6f6-dff66dda6ce9" />
+      <relativeChildShapes />
+      <nodes>
+        <initialNodeShapeMoniker Id="a066752a-f0ba-414a-9f6e-5b4ed2bfd23a" />
+        <decisionNodeShapeMoniker Id="129d8dd2-c19a-4bf3-af7c-962ba708b7ec" />
+      </nodes>
+    </controlFlowConnector>
+    <commentShape Id="7407a7b7-368d-441a-bbf7-b3c8a11583c7" absoluteBounds="4.5, 1.125, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="081aec69-b78c-4bdb-8154-ba6e3dc7b1b7" />
+      <relativeChildShapes />
+    </commentShape>
+    <controlFlowConnector edgePoints="[(6.3125 : 2.125); (6.3125 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="625c68dd-07d1-4fa6-8a82-8e2cc98f8cd0" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="5.9375, 2.3125, 0.30190244317054749, 0.14800345897674561" shapeFieldName="Guard" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <decisionNodeShapeMoniker Id="129d8dd2-c19a-4bf3-af7c-962ba708b7ec" />
+        <actionShapeMoniker Id="b51e8c96-1436-4009-bcd5-d335899e08ae" />
+      </nodes>
+    </controlFlowConnector>
+    <actionShape Id="9394f4f4-7dfe-4cbe-af70-8f8e9e3292bc" absoluteBounds="10.5, 3, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="9ee5da21-5424-4ace-a7a0-3697670cbe96" LastKnownName="得到所有受影响的开仓单，记为affectOrders       " />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(6.5 : 1.9375); (11.875 : 1.9375); (11.875 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="2dfb6fa5-441c-4b1e-949b-5076f255a080" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="9.125, 1.75, 0.26321974396705627, 0.14800345897674561" shapeFieldName="Guard" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <decisionNodeShapeMoniker Id="129d8dd2-c19a-4bf3-af7c-962ba708b7ec" />
+        <actionShapeMoniker Id="9394f4f4-7dfe-4cbe-af70-8f8e9e3292bc" />
+      </nodes>
+    </controlFlowConnector>
+    <commentConnector edgePoints="[(5.75 : 1.5); (6.2375 : 1.825)]" fixedFrom="NotFixed" fixedTo="NotFixed" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+      <relativeChildShapes />
+      <nodes>
+        <commentShapeMoniker Id="7407a7b7-368d-441a-bbf7-b3c8a11583c7" />
+        <decisionNodeShapeMoniker Id="129d8dd2-c19a-4bf3-af7c-962ba708b7ec" />
+      </nodes>
+    </commentConnector>
+    <actionShape Id="e4868cad-cbc9-4650-95ef-9af6bd016077" absoluteBounds="5.125, 5.5, 2.75, 0.75" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="94806bbb-f6cc-4359-8661-8cfca51ae1a7" LastKnownName="删除受影响的PhysicalRequestOrderRelation，DeliveryRequest，ScrapDeposit" />
+    </actionShape>
+    <actionShape Id="53b8581d-f436-414e-aad2-0aac95af35ed" absoluteBounds="5.125, 4.25, 2.75, 0.625" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="3f4e0a4b-ce2b-4468-9237-243a74ca51b9" LastKnownName="从account的balance上减去以下费用：1、ValuedPL   2、费用(commission， levy， physicalPaymentDiscount）  3、减去physicalRequest所产生的费用" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(6.5 : 3.5); (6.5 : 4.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="0d547dce-b116-4958-985d-5c2eca26be2f" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="b51e8c96-1436-4009-bcd5-d335899e08ae" />
+        <actionShapeMoniker Id="53b8581d-f436-414e-aad2-0aac95af35ed" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(6.5 : 4.875); (6.5 : 5.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="bc69f13f-0a2f-4961-8ed8-5e8664282e91" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="53b8581d-f436-414e-aad2-0aac95af35ed" />
+        <actionShapeMoniker Id="e4868cad-cbc9-4650-95ef-9af6bd016077" />
+      </nodes>
+    </controlFlowConnector>
+    <actionShape Id="42f7093d-cccf-4b81-9e45-28a4e15d9c58" absoluteBounds="10.5, 4.125, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="2af438f2-b95a-4f08-b4c4-a481d78b48a7" LastKnownName="for each  openOrder in affectOrders" />
+    </actionShape>
+    <actionShape Id="487a60c8-7bd6-45af-83c4-04abb4568328" absoluteBounds="10.5, 6.25, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="a6309d64-2e20-41fc-9c7f-e9062f360c8f" LastKnownName="将openOrder的如下值加回去：closedLot,  paybackPledge 和closedPhysicalValue" />
+    </actionShape>
+    <actionShape Id="04872062-2989-4257-af1c-c600f2c52696" absoluteBounds="5.125, 8.375, 2.75, 0.875" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="42846f9a-b7db-4ea3-9078-e179d98ebc78" LastKnownName="保存account的变化到文件，以及广播出去                       " />
+    </actionShape>
+    <actionShape Id="030dc30a-f2ff-4c94-8c0d-4e8c51b080c1" absoluteBounds="5.125, 6.875, 2.75, 0.75" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="e61606ac-2722-4b59-84d5-5a977b4c26f3" LastKnownName="删除与该order相关联的OrderRelation，以及该Order" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(6.5 : 6.25); (6.5 : 6.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="f41c476b-1b2c-4cf9-9e27-bfce18e00bf1" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="e4868cad-cbc9-4650-95ef-9af6bd016077" />
+        <actionShapeMoniker Id="030dc30a-f2ff-4c94-8c0d-4e8c51b080c1" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(6.5 : 7.625); (6.5 : 8.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="abf8c8e6-502e-4955-a6fd-b93044d3da75" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="030dc30a-f2ff-4c94-8c0d-4e8c51b080c1" />
+        <actionShapeMoniker Id="04872062-2989-4257-af1c-c600f2c52696" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(11.875 : 3.5); (11.875 : 4.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="f97c0cd5-55cb-489f-a616-c99d3e3ec142" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="9394f4f4-7dfe-4cbe-af70-8f8e9e3292bc" />
+        <actionShapeMoniker Id="42f7093d-cccf-4b81-9e45-28a4e15d9c58" />
+      </nodes>
+    </controlFlowConnector>
+    <mergeNodeShape Id="7727d694-b7bc-4e4f-9228-f856f8f96b81" absoluteBounds="11.75, 5.25, 0.375, 0.375" customColor="185, 212, 238">
+      <mergeNodeMoniker Id="56476b3f-8c8f-4d10-b0ab-702b60d8ebca" LastKnownName="Merge1" />
+      <relativeChildShapes />
+    </mergeNodeShape>
+    <commentShape Id="1363ff88-c1f4-497a-88e4-2b3b2c3f8a4e" absoluteBounds="10.625, 6.875, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="6ff8c719-8a21-41dc-b08f-2180cd1d63e4" />
+      <relativeChildShapes />
+    </commentShape>
+    <controlFlowConnector edgePoints="[(11.9375 : 4.625); (11.9375 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="93d9e54c-57bb-44cf-9bd1-63b5d6b8a5a0" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="42f7093d-cccf-4b81-9e45-28a4e15d9c58" />
+        <mergeNodeShapeMoniker Id="7727d694-b7bc-4e4f-9228-f856f8f96b81" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(11.9375 : 5.625); (11.9375 : 6.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="39ed9588-2594-48f8-b4ee-1f6d2abe934f" />
+      <relativeChildShapes />
+      <nodes>
+        <mergeNodeShapeMoniker Id="7727d694-b7bc-4e4f-9228-f856f8f96b81" />
+        <actionShapeMoniker Id="487a60c8-7bd6-45af-83c4-04abb4568328" />
+      </nodes>
+    </controlFlowConnector>
+    <decisionNodeShape Id="80063d03-e70d-481f-94f2-87c7af719a16" absoluteBounds="11.75, 7.375, 0.375, 0.375" customColor="185, 212, 238">
+      <decisionNodeMoniker Id="b5a0501e-b892-440d-8151-3f3f273d7a76" LastKnownName="Decision2" />
+      <relativeChildShapes />
+    </decisionNodeShape>
+    <commentConnector edgePoints="[(11.8125 : 7.25); (11.8125 : 7.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+      <relativeChildShapes />
+      <nodes>
+        <commentShapeMoniker Id="1363ff88-c1f4-497a-88e4-2b3b2c3f8a4e" />
+        <decisionNodeShapeMoniker Id="80063d03-e70d-481f-94f2-87c7af719a16" />
+      </nodes>
+    </commentConnector>
+    <controlFlowConnector edgePoints="[(12.0156245 : 7.4531245); (14.1942931998148 : 7.4531245); (14.1942931998148 : 5.4375); (12.125 : 5.4375)]" manuallyRouted="true" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="043904a1-5970-4a37-8b3a-7b716aad5dfd" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="13.125, 7.1250000000000009, 0.26321974396705627, 0.14800345897674561" shapeFieldName="Guard" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <decisionNodeShapeMoniker Id="80063d03-e70d-481f-94f2-87c7af719a16" />
+        <mergeNodeShapeMoniker Id="7727d694-b7bc-4e4f-9228-f856f8f96b81" />
+      </nodes>
+    </controlFlowConnector>
+    <actionShape Id="6662faf0-7f29-40b8-a5b1-e139cb15dfbe" absoluteBounds="10.5, 10.5, 2.75, 0.625" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="62615c98-6c88-40cf-82d2-63cac58a2f3d" LastKnownName="for each  tradeDay in (order.ExecuteTime to  account.LastTradeDay)" />
+    </actionShape>
+    <actionShape Id="31026a38-3e79-4fd0-bb70-7886003a039c" absoluteBounds="10.5, 8.125, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="07fb0227-8492-4b6d-acbb-372b06a52c8b" LastKnownName="找出该Order所返还的pledge和instalmentPledge，所对应的OpenOrders， 并将所有这些值从account减去" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(11.9375 : 7.75); (11.9375 : 8.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="ccdd593c-3482-4832-a3a1-3b9429aa9d8d" />
+      <relativeChildShapes />
+      <nodes>
+        <decisionNodeShapeMoniker Id="80063d03-e70d-481f-94f2-87c7af719a16" />
+        <actionShapeMoniker Id="31026a38-3e79-4fd0-bb70-7886003a039c" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(12.03125 : 6.75); (12.03125 : 7.46875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="0bf8e276-bb2c-48f6-8b6c-a658034a9850" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="487a60c8-7bd6-45af-83c4-04abb4568328" />
+        <decisionNodeShapeMoniker Id="80063d03-e70d-481f-94f2-87c7af719a16" />
+      </nodes>
+    </controlFlowConnector>
+    <actionShape Id="8b929c02-7737-40f9-8607-f3e10f3a7c29" absoluteBounds="10.5, 9.25, 2.75, 0.75" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="c085cfaf-3b20-4279-a143-31f4bf0df2bf" LastKnownName="删除受影响的PhysicalRequestOrderRelation，DeliveryRequest，ScrapDeposit1" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(11.875 : 8.625); (11.875 : 9.25)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="55abb9aa-5ace-400b-95a9-c9ef1a6b1627" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="31026a38-3e79-4fd0-bb70-7886003a039c" />
+        <actionShapeMoniker Id="8b929c02-7737-40f9-8607-f3e10f3a7c29" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(11.875 : 10); (11.875 : 10.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="3cc0810f-923e-4eb6-a66c-68cdb0fa688c" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="8b929c02-7737-40f9-8607-f3e10f3a7c29" />
+        <actionShapeMoniker Id="6662faf0-7f29-40b8-a5b1-e139cb15dfbe" />
+      </nodes>
+    </controlFlowConnector>
+    <mergeNodeShape Id="bfd11776-caa0-4975-9e95-1c5138a6404b" absoluteBounds="11.75, 11.625, 0.375, 0.375" customColor="185, 212, 238">
+      <mergeNodeMoniker Id="803bdfc2-3fa0-4141-bc18-ecde07fae0ea" LastKnownName="Merge2" />
+      <relativeChildShapes />
+    </mergeNodeShape>
+    <actionShape Id="66f4efb1-0442-4f68-b52a-94b84668aef9" absoluteBounds="10.5, 16.625, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="5fd27b6a-d2a1-4e8a-b2d1-0da1301b8b75" LastKnownName="产生右侧所示Xml节点，并调用相关存储过程                " />
+    </actionShape>
+    <actionShape Id="9adda7a0-d5a8-4207-be24-79a9e66a9696" absoluteBounds="10.5, 14.375, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="723c03d9-9610-4736-98a2-8cf77fd32bc7" LastKnownName="从account的balance上减去所有的affectedOrder的ValuedPL之和" />
+    </actionShape>
+    <actionShape Id="542563cf-2ad6-4c4a-86ed-5927007603f2" absoluteBounds="10.5, 12.5, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="2cbf43f5-3739-4c14-abf2-f3992985e1af" LastKnownName="重新计算tradeDay这天， 每个affectOrder的各种PL，以及order的Bill记录" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(11.9375 : 11.125); (11.9375 : 11.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="8c38f59b-265c-4ba7-ad8c-74dcbe7671db" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="6662faf0-7f29-40b8-a5b1-e139cb15dfbe" />
+        <mergeNodeShapeMoniker Id="bfd11776-caa0-4975-9e95-1c5138a6404b" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(11.9375 : 12); (11.9375 : 12.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="00c29360-da86-4316-a5dd-54433329d671" />
+      <relativeChildShapes />
+      <nodes>
+        <mergeNodeShapeMoniker Id="bfd11776-caa0-4975-9e95-1c5138a6404b" />
+        <actionShapeMoniker Id="542563cf-2ad6-4c4a-86ed-5927007603f2" />
+      </nodes>
+    </controlFlowConnector>
+    <decisionNodeShape Id="3993fcbc-96d4-4f20-bff2-ba725a5ee686" absoluteBounds="11.75, 13.625, 0.375, 0.375" customColor="185, 212, 238">
+      <decisionNodeMoniker Id="5c2cba39-fcb7-43fe-9178-0eb6cd205d9a" LastKnownName="Decision3" />
+      <relativeChildShapes />
+    </decisionNodeShape>
+    <commentShape Id="b81f97f8-a7ad-4727-b5ba-d9eaca423015" absoluteBounds="10, 13.25, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="16a5ac0c-2a99-4a03-82c7-e6bbd189c00d" />
+      <relativeChildShapes />
+    </commentShape>
+    <controlFlowConnector edgePoints="[(11.9375 : 13); (11.9375 : 13.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="94f0d3fa-b091-42ce-ae9a-e1e2d31437e2" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="542563cf-2ad6-4c4a-86ed-5927007603f2" />
+        <decisionNodeShapeMoniker Id="3993fcbc-96d4-4f20-bff2-ba725a5ee686" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(11.9375 : 14); (11.9375 : 14.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="cc758292-2a83-41d1-ab4d-d34583d7b1d2" />
+      <relativeChildShapes />
+      <nodes>
+        <decisionNodeShapeMoniker Id="3993fcbc-96d4-4f20-bff2-ba725a5ee686" />
+        <actionShapeMoniker Id="9adda7a0-d5a8-4207-be24-79a9e66a9696" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(12.062502 : 13.750002); (13.5 : 13.750002); (13.5 : 11.8125); (12.125 : 11.8125)]" manuallyRouted="true" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="97fb1a30-e61a-4e3a-bcc4-cc754fe32f3a" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="12.5, 13.5, 0.26321974396705627, 0.14800345897674561" shapeFieldName="Guard" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <decisionNodeShapeMoniker Id="3993fcbc-96d4-4f20-bff2-ba725a5ee686" />
+        <mergeNodeShapeMoniker Id="bfd11776-caa0-4975-9e95-1c5138a6404b" />
+      </nodes>
+    </controlFlowConnector>
+    <actionShape Id="bf57c506-7df8-495e-8a3d-8e3135a4dc80" absoluteBounds="10.5, 15.5, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="6734a427-0699-48f9-afc5-fddcf7836863" LastKnownName="删除与该order相关联的OrderRelation，以及该Order1" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(11.875 : 14.875); (11.875 : 15.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="8c843f6b-36a4-48de-b099-eaa20a952814" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="9adda7a0-d5a8-4207-be24-79a9e66a9696" />
+        <actionShapeMoniker Id="bf57c506-7df8-495e-8a3d-8e3135a4dc80" />
+      </nodes>
+    </controlFlowConnector>
+    <commentShape Id="c6797963-2a33-4043-bbff-8daaeff56f5c" absoluteBounds="14.375, 16.375, 3.375, 1.875" customColor="251, 247, 200">
+      <commentMoniker Id="842cbf47-44cd-4c77-8cc8-ca7a5a93bf29" />
+      <relativeChildShapes />
+    </commentShape>
+    <commentConnector edgePoints="[(14.375 : 16.875); (13.25 : 16.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+      <relativeChildShapes />
+      <nodes>
+        <commentShapeMoniker Id="c6797963-2a33-4043-bbff-8daaeff56f5c" />
+        <actionShapeMoniker Id="66f4efb1-0442-4f68-b52a-94b84668aef9" />
+      </nodes>
+    </commentConnector>
+    <controlFlowConnector edgePoints="[(11.875 : 16); (11.875 : 16.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="56ce098b-1178-4390-8bde-cd76faa090d5" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="bf57c506-7df8-495e-8a3d-8e3135a4dc80" />
+        <actionShapeMoniker Id="66f4efb1-0442-4f68-b52a-94b84668aef9" />
+      </nodes>
+    </controlFlowConnector>
+    <activityFinalNodeShape Id="655781ea-b37a-4e13-a6c5-31df4d60149a" absoluteBounds="7.875, 19.25, 0.125, 0.125" customColor="89, 89, 89">
+      <activityFinalNodeMoniker Id="f3ae2b06-828a-45b2-9251-48feca9e25d7" LastKnownName="ActivityFinal1" />
+    </activityFinalNodeShape>
+    <actionShape Id="93dfd565-59a8-47ae-b619-25c600cff781" absoluteBounds="10.5, 17.75, 2.75, 0.5" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="405bbf4c-cddf-41fb-a7bb-5c0fcea71ec0" LastKnownName="保存account的变化到文件，以及广播出去                    " />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(11.875 : 17.125); (11.875 : 17.75)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="368e08b0-a481-45fe-9e6e-dc668c88df76" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="66f4efb1-0442-4f68-b52a-94b84668aef9" />
+        <actionShapeMoniker Id="93dfd565-59a8-47ae-b619-25c600cff781" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(11.875 : 18.25); (11.875 : 19.3125); (8 : 19.3125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="44118e61-8145-4e2b-8bed-26f235edcec2" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="93dfd565-59a8-47ae-b619-25c600cff781" />
+        <activityFinalNodeShapeMoniker Id="655781ea-b37a-4e13-a6c5-31df4d60149a" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(6.46875 : 9.25); (6.46875 : 19.3125); (7.875 : 19.3125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="120669f5-aced-4c79-9f19-76e156501a5c" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="04872062-2989-4257-af1c-c600f2c52696" />
+        <activityFinalNodeShapeMoniker Id="655781ea-b37a-4e13-a6c5-31df4d60149a" />
+      </nodes>
+    </controlFlowConnector>
+    <commentConnector edgePoints="[(11.25 : 13.4375); (11.75 : 13.8125)]" fixedFrom="NotFixed" fixedTo="NotFixed" TargetRelationshipDomainClassId="217d6bd0-42ed-4e7f-ad2b-af3ef5142428" customColor="Black">
+      <relativeChildShapes />
+      <nodes>
+        <commentShapeMoniker Id="b81f97f8-a7ad-4727-b5ba-d9eaca423015" />
+        <decisionNodeShapeMoniker Id="3993fcbc-96d4-4f20-bff2-ba725a5ee686" />
+      </nodes>
+    </commentConnector>
+  </nestedChildShapes>
+</activityDiagram>

@@ -1,0 +1,12 @@
+D:\VsProjects\DemoTest\bin\Debug\DemoTest.exe
+D:\VsProjects\DemoTest\bin\Debug\DemoTest.pdb
+D:\VsProjects\DemoTest\obj\Debug\DemoTest.csprojResolveAssemblyReference.cache
+D:\VsProjects\DemoTest\obj\Debug\DemoTest.exe
+D:\VsProjects\DemoTest\obj\Debug\DemoTest.pdb
+D:\VsProjects\DemoTest\bin\Debug\Protocal.dll
+D:\VsProjects\DemoTest\bin\Debug\iExchange.Common.dll
+D:\VsProjects\DemoTest\bin\Debug\log4net.dll
+D:\VsProjects\DemoTest\bin\Debug\Framework.dll
+D:\VsProjects\DemoTest\bin\Debug\Protocal.pdb
+D:\VsProjects\DemoTest\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\DemoTest\bin\Debug\Framework.pdb

@@ -1,0 +1,8 @@
+﻿帳戶 : {AccountCode}
+日期 : {ExecuteTime}
+產品：{InstrumentDesc}
+買入：{Buy}
+沽出：{Sell}
+交易價：{ExecutePrice}
+類型：{Type}
+{Organization}

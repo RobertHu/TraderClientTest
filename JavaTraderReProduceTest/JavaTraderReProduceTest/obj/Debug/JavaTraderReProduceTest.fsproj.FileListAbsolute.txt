@@ -1,0 +1,9 @@
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\bin\Debug\JavaTraderReProduceTest.exe.config
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\bin\Debug\JavaTraderReProduceTest.XML
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\bin\Debug\JavaTraderReProduceTest.exe
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\bin\Debug\JavaTraderReProduceTest.pdb
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\bin\Debug\FSharp.Core.dll
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\bin\Debug\FSharp.Core.xml
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\obj\Debug\JavaTraderReProduceTest.fsprojResolveAssemblyReference.cache
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\obj\Debug\JavaTraderReProduceTest.exe
+D:\VsProjects\JavaTraderReProduceTest\JavaTraderReProduceTest\obj\Debug\JavaTraderReProduceTest.pdb

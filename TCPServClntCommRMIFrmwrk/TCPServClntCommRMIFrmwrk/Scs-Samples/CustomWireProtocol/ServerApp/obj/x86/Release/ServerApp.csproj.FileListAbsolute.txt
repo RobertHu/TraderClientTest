@@ -1,0 +1,9 @@
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\bin\Release\ServerApp.exe
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\bin\Release\ServerApp.pdb
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\bin\Release\CommonLib.dll
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\bin\Release\Scs.dll
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\bin\Release\CommonLib.pdb
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\bin\Release\Scs.xml
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\obj\x86\Release\ServerApp.exe
+D:\Halil\Özel\Makalelerim\Scs\Projects\Scs-Samples\CustomWireProtocol\ServerApp\ServerApp\obj\x86\Release\ServerApp.pdb

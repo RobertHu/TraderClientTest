@@ -1,0 +1,12 @@
+﻿<Account ID="4d0c8197-3a4a-4b21-9563-ff64c2e8e783">
+  <Transactions>
+    <Transaction PlacedByRiskMonitor="False" FreePlacingPreCheck="False" FreeLmtVariationCheck="False" ID="4f3a9dfd-d883-46c1-aaab-2da0a2951b08" Code="MHL150724SP00015" Type="0" AccountID="4d0c8197-3a4a-4b21-9563-ff64c2e8e783" InstrumentID="bed5ad89-9803-48b6-b52b-9a20d1e6ebeb" SubType="0" Phase="255" OrderType="0" ContractSize="0" BeginTime="2015-07-28 16:40:54" EndTime="2015-07-28 16:41:24" ExpireType="3" SubmitTime="2015-07-28 16:40:54" SubmitorID="d7998c50-9bac-4a82-9d88-819d3d7db876" InstrumentCategory="10">
+      <Orders>
+        <Order  InterestPerLot="0" StoragePerLot="0" ID="422ff078-42c9-4d93-9086-d1c22856aa16" IsOpen="True" IsBuy="True" Lot="1" OriginalLot="0" LotBalance="1" Code="MHL2015072400015" CommissionSum="0" LevySum="0" InterestPLValued="0" StoragePLValued="0" TradePLValued="0" InterestPLNotValued="0" StoragePLNotValued="0" TradePLNotValued="0" SetPrice="0.9652" SetPriceMaxMovePips="0" DQMaxMove="0" PlacedByRiskMonitor="False" Phase="255" TradeOption="0">
+          <OrderRelations />
+          <Bills />
+        </Order>
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>

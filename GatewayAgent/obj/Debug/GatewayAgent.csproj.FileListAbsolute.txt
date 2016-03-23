@@ -1,0 +1,13 @@
+D:\VsProjects\GatewayAgent\bin\Debug\GatewayAgent.exe.config
+D:\VsProjects\GatewayAgent\bin\Debug\GatewayAgent.exe
+D:\VsProjects\GatewayAgent\bin\Debug\GatewayAgent.pdb
+D:\VsProjects\GatewayAgent\bin\Debug\iExchange.Common.dll
+D:\VsProjects\GatewayAgent\bin\Debug\Protocal.dll
+D:\VsProjects\GatewayAgent\bin\Debug\Framework.dll
+D:\VsProjects\GatewayAgent\bin\Debug\log4net.dll
+D:\VsProjects\GatewayAgent\bin\Debug\iExchange.Common.pdb
+D:\VsProjects\GatewayAgent\bin\Debug\Protocal.pdb
+D:\VsProjects\GatewayAgent\bin\Debug\Framework.pdb
+D:\VsProjects\GatewayAgent\obj\Debug\GatewayAgent.csprojResolveAssemblyReference.cache
+D:\VsProjects\GatewayAgent\obj\Debug\GatewayAgent.exe
+D:\VsProjects\GatewayAgent\obj\Debug\GatewayAgent.pdb

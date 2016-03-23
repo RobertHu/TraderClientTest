@@ -1,0 +1,6 @@
+D:\VsProjects\TrainTicketLogin\TrainTicketLogin\TrainTicketLogin\Helper\bin\Debug\Helper.XML
+D:\VsProjects\TrainTicketLogin\TrainTicketLogin\TrainTicketLogin\Helper\bin\Debug\Helper.dll
+D:\VsProjects\TrainTicketLogin\TrainTicketLogin\TrainTicketLogin\Helper\bin\Debug\Helper.pdb
+D:\VsProjects\TrainTicketLogin\TrainTicketLogin\TrainTicketLogin\Helper\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TrainTicketLogin\TrainTicketLogin\TrainTicketLogin\Helper\obj\Debug\Helper.dll
+D:\VsProjects\TrainTicketLogin\TrainTicketLogin\TrainTicketLogin\Helper\obj\Debug\Helper.pdb

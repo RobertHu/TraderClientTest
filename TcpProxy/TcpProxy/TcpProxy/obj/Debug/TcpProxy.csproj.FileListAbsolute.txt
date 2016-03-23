@@ -1,0 +1,4 @@
+D:\VsProjects\TcpProxy\TcpProxy\TcpProxy\obj\Debug\TcpProxy.exe
+D:\VsProjects\TcpProxy\TcpProxy\TcpProxy\obj\Debug\TcpProxy.pdb
+D:\VsProjects\TcpProxy\TcpProxy\TcpProxy\bin\Debug\TcpProxy.exe
+D:\VsProjects\TcpProxy\TcpProxy\TcpProxy\bin\Debug\TcpProxy.pdb

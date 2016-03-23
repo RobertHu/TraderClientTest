@@ -1,0 +1,7 @@
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\MergeConfiguration.exe
+D:\VsProjects\EnterpriseLib\Blocks\bin\Debug\MergeConfiguration.pdb
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides.Console\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides.Console\obj\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.Console.Properties.Resources.resources
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides.Console\obj\Debug\Configuration.EnvironmentalOverrides.Console.csproj.GenerateResource.Cache
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides.Console\obj\Debug\MergeConfiguration.exe
+D:\VsProjects\EnterpriseLib\Blocks\Configuration\Src\EnvironmentalOverrides.Console\obj\Debug\MergeConfiguration.pdb

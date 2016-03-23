@@ -1,0 +1,11 @@
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\ResolveAssemblyReference.cache
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\MigraDoc.DocumentObjectModel.Resources.Messages.resources
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\Properties.Resources.resources
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\MigraDoc.DocumentObjectModel.Resources.Messages.de.resources
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\ResGen.read.1.tlog
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\ResGen.write.1.tlog
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\bin\Release\MigraDoc.DocumentObjectModel.xml
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\bin\Release\MigraDoc.DocumentObjectModel.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\bin\Release\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\VsProjects\PDFSharp-MigraDocFoundation-1_31\MigraDoc\code\MigraDoc.DocumentObjectModel\obj\Release\MigraDoc.DocumentObjectModel.dll

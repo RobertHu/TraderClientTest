@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<macros>
+  <Risk>
+    <macro>1,{AccountName}</macro>
+    <macro>2,{AccountCode}</macro>
+    <macro>3,{CurrencyCode}</macro>
+    <macro>4,{ChangeTime}</macro>
+    <macro>5,{Organization}</macro>
+    <macro>6,{Equity}</macro>
+    <macro>7,{Margin}</macro>
+    <macro>8,{TransactionCode}</macro>
+    <macro>-1,{Title}</macro>
+    <macro>-2,{Content}</macro>
+  </Risk>
+
+  <Balance>
+    <macro>1,{AccountName}</macro>
+    <macro>2,{AccountCode}</macro>
+    <macro>3,{CurrencyCode}</macro>
+    <macro>4,{Amount}</macro>
+    <macro>5,{ExecuteTime}</macro>
+    <macro>6,{Organization}</macro>
+    <macro>-1,{BalanceType}</macro>
+  </Balance>
+
+  <Password>
+    <macro>1,{AccountName}</macro>
+    <macro>2,{LoginName}</macro>
+    <macro>3,{Password}</macro>
+    <macro>4,{Organization}</macro>
+  </Password>
+
+  <Order>
+    <macro>1,{AccountName}</macro>
+    <macro>2,{AccountCode}</macro>
+    <macro>3,{OrderCode}</macro>
+    <macro>4,{InstrumentDesc}</macro>
+    <macro>5,{Buy}</macro>
+    <macro>6,{Sell}</macro>
+    <macro>7,{ExecutePrice}</macro>
+    <macro>8,{Commission}</macro>
+    <macro>9,{ExecuteTime}</macro>
+    <macro>10,{Organization}</macro>
+    <macro>-1,{Type}</macro>
+  </Order>
+
+  <Statement>
+  </Statement>
+</macros>

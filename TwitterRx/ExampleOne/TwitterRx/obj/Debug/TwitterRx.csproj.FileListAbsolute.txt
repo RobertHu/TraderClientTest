@@ -1,0 +1,4 @@
+D:\VsProjects\TwitterRx\ExampleOne\TwitterRx\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TwitterRx\ExampleOne\TwitterRx\obj\Debug\App.g.i.cs
+D:\VsProjects\TwitterRx\ExampleOne\TwitterRx\obj\Debug\MainPage.g.i.cs
+D:\VsProjects\TwitterRx\ExampleOne\TwitterRx\obj\Debug\TwitterRx.g.resources

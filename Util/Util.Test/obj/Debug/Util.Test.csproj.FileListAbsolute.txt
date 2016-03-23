@@ -1,0 +1,11 @@
+D:\VsProjects\Util\Util.Test\bin\Debug\Util.Test.dll
+D:\VsProjects\Util\Util.Test\bin\Debug\Util.Test.pdb
+D:\VsProjects\Util\Util.Test\bin\Debug\nunit.framework.dll
+D:\VsProjects\Util\Util.Test\bin\Debug\Rhino.Mocks.dll
+D:\VsProjects\Util\Util.Test\bin\Debug\nunit.framework.xml
+D:\VsProjects\Util\Util.Test\bin\Debug\Rhino.Mocks.xml
+D:\VsProjects\Util\Util.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\Util\Util.Test\obj\Debug\Util.Test.dll
+D:\VsProjects\Util\Util.Test\obj\Debug\Util.Test.pdb
+D:\VsProjects\Util\Util.Test\bin\Debug\Util.dll
+D:\VsProjects\Util\Util.Test\bin\Debug\Util.pdb

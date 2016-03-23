@@ -1,0 +1,6 @@
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\KRBTabControl\bin\Debug\KRBTabControl.dll
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\KRBTabControl\bin\Debug\KRBTabControl.pdb
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\KRBTabControl\obj\Debug\KRBTabControl.Resources.resources
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\KRBTabControl\obj\Debug\KRBTabControl.csproj.GenerateResource.Cache
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\KRBTabControl\obj\Debug\KRBTabControl.dll
+D:\VsProjects\RoslynCodeSearcher_sources4\RoslynCodeSearcher\KRBTabControl\obj\Debug\KRBTabControl.pdb

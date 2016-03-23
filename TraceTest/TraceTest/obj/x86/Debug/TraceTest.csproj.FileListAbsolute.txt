@@ -1,0 +1,6 @@
+D:\VsProjects\TraceTest\TraceTest\bin\Debug\TraceTest.exe.config
+D:\VsProjects\TraceTest\TraceTest\bin\Debug\TraceTest.exe
+D:\VsProjects\TraceTest\TraceTest\bin\Debug\TraceTest.pdb
+D:\VsProjects\TraceTest\TraceTest\obj\x86\Debug\TraceTest.exe
+D:\VsProjects\TraceTest\TraceTest\obj\x86\Debug\TraceTest.pdb
+D:\VsProjects\TraceTest\TraceTest\obj\x86\Debug\TraceTest.csprojResolveAssemblyReference.cache

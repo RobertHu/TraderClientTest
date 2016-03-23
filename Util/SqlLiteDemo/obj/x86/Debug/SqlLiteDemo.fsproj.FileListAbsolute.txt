@@ -1,0 +1,10 @@
+D:\VsProjects\Util\SqlLiteDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\Util\SqlLiteDemo\bin\Debug\SqlLiteDemo.XML
+D:\VsProjects\Util\SqlLiteDemo\bin\Debug\SqlLiteDemo.exe
+D:\VsProjects\Util\SqlLiteDemo\bin\Debug\SqlLiteDemo.pdb
+D:\VsProjects\Util\SqlLiteDemo\bin\Debug\System.Data.SQLite.dll
+D:\VsProjects\Util\SqlLiteDemo\bin\Debug\System.Data.SQLite.Linq.dll
+D:\VsProjects\Util\SqlLiteDemo\bin\Debug\System.Data.SQLite.pdb
+D:\VsProjects\Util\SqlLiteDemo\bin\Debug\System.Data.SQLite.Linq.pdb
+D:\VsProjects\Util\SqlLiteDemo\obj\x86\Debug\SqlLiteDemo.exe
+D:\VsProjects\Util\SqlLiteDemo\obj\x86\Debug\SqlLiteDemo.pdb

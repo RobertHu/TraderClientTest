@@ -1,0 +1,11 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Modules\FutureModule.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Modules\FutureModule.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\Views\RibbonView.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\Views\View.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\Views\RibbonView.g.cs
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\Views\View.g.cs
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\FutureModule_MarkupCompile.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\FutureModule.g.resources
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\FutureModule.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Presentation\FutureModule\obj\Debug\FutureModule.pdb

@@ -1,0 +1,4 @@
+D:\VsProjects\ConsoleApplication35\ConsoleApplication35\bin\Debug\ConsoleApplication35.exe
+D:\VsProjects\ConsoleApplication35\ConsoleApplication35\bin\Debug\ConsoleApplication35.pdb
+D:\VsProjects\ConsoleApplication35\ConsoleApplication35\obj\x86\Debug\ConsoleApplication35.exe
+D:\VsProjects\ConsoleApplication35\ConsoleApplication35\obj\x86\Debug\ConsoleApplication35.pdb

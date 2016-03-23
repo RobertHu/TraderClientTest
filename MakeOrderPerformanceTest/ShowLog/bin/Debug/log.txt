@@ -1,0 +1,345 @@
+Come from Fsharp
+2014-02-21 09:28:46 200 accounts make orders to StateServer, cost time: max=4200.0333, min=22.0028, average=1450.3641735
+2014-02-21 09:29:26 200 accounts make orders to StateServer, cost time: max=331.5421, min=19.0024, average=97.6399035
+2014-02-21 09:30:06 200 accounts make orders to StateServer, cost time: max=880.1117, min=21.0027, average=250.4292985
+2014-02-21 09:30:46 200 accounts make orders to StateServer, cost time: max=406.0515, min=20.5026, average=85.7183824999999
+2014-02-21 09:31:26 200 accounts make orders to StateServer, cost time: max=1634.2075, min=21.0026, average=366.0014745
+2014-02-21 09:32:06 200 accounts make orders to StateServer, cost time: max=422.5537, min=22.5029, average=72.9717649999999
+2014-02-21 09:32:46 200 accounts make orders to StateServer, cost time: max=214.5272, min=21.0027, average=62.2103955
+2014-02-21 09:33:26 200 accounts make orders to StateServer, cost time: max=180.0229, min=20.5026, average=61.0027505
+2014-02-21 09:34:06 200 accounts make orders to StateServer, cost time: max=137.5175, min=21.5027, average=52.6966945
+2014-02-21 09:34:46 200 accounts make orders to StateServer, cost time: max=214.0272, min=20.0025, average=62.2479055
+2014-02-21 09:35:26 200 accounts make orders to StateServer, cost time: max=159.5202, min=20.0025, average=44.6206685
+2014-02-21 09:36:06 200 accounts make orders to StateServer, cost time: max=166.5211, min=20.5026, average=59.0675045
+2014-02-21 09:36:46 200 accounts make orders to StateServer, cost time: max=229.5292, min=21.5027, average=55.347027
+2014-02-21 09:37:26 200 accounts make orders to StateServer, cost time: max=186.0236, min=18.0023, average=52.956725
+2014-02-21 09:38:06 200 accounts make orders to StateServer, cost time: max=196.0249, min=19.0024, average=56.682201
+2014-02-21 09:38:46 200 accounts make orders to StateServer, cost time: max=214.0272, min=19.5025, average=56.7897135
+2014-02-21 09:39:26 200 accounts make orders to StateServer, cost time: max=190.0241, min=21.5027, average=52.7692
+2014-02-21 09:40:06 200 accounts make orders to StateServer, cost time: max=219.0278, min=20.0026, average=63.0205045
+2014-02-21 09:40:46 200 accounts make orders to StateServer, cost time: max=252.5321, min=21.0026, average=53.0067325
+2014-02-21 09:41:26 200 accounts make orders to StateServer, cost time: max=182.5232, min=18.0023, average=51.971603
+2014-02-21 09:42:06 200 accounts make orders to StateServer, cost time: max=433.055, min=20.5026, average=74.1119065
+2014-02-21 09:42:46 200 accounts make orders to StateServer, cost time: max=229.5291, min=20.0026, average=54.374401
+2014-02-21 09:43:26 200 accounts make orders to StateServer, cost time: max=157.52, min=18.5023, average=51.171502
+2014-02-21 09:44:06 200 accounts make orders to StateServer, cost time: max=240.0305, min=21.0027, average=62.477932
+2014-02-21 09:44:46 200 accounts make orders to StateServer, cost time: max=279.0354, min=21.5027, average=51.6140525
+2014-02-21 09:45:26 200 accounts make orders to StateServer, cost time: max=253.0321, min=17.5023, average=45.770808
+2014-02-21 09:46:06 200 accounts make orders to StateServer, cost time: max=263.0334, min=20.0025, average=54.6244375
+2014-02-21 09:46:46 200 accounts make orders to StateServer, cost time: max=232.0295, min=20.5026, average=57.2397639999999
+2014-02-21 09:47:26 200 accounts make orders to StateServer, cost time: max=325.0413, min=19.0024, average=78.7124935000001
+2014-02-21 09:48:07 200 accounts make orders to StateServer, cost time: max=161.5205, min=19.5024, average=50.0913645
+2014-02-21 09:48:47 200 accounts make orders to StateServer, cost time: max=206.0262, min=19.0024, average=51.976601
+2014-02-21 09:49:27 200 accounts make orders to StateServer, cost time: max=213.0271, min=19.0024, average=60.930238
+2014-02-21 09:50:07 200 accounts make orders to StateServer, cost time: max=239.5304, min=18.5024, average=60.3901655
+2014-02-21 09:50:47 200 accounts make orders to StateServer, cost time: max=220.528, min=21.0027, average=48.591166
+2014-02-21 09:51:27 200 accounts make orders to StateServer, cost time: max=178.5227, min=21.0027, average=43.1654825
+2014-02-21 09:52:07 200 accounts make orders to StateServer, cost time: max=168.5214, min=19.5025, average=49.978843
+2014-02-21 09:52:47 200 accounts make orders to StateServer, cost time: max=275.535, min=18.5023, average=61.9253615
+2014-02-21 09:53:27 200 accounts make orders to StateServer, cost time: max=248.0315, min=19.5025, average=56.5621835
+2014-02-21 09:54:07 200 accounts make orders to StateServer, cost time: max=212.0269, min=20.5026, average=45.775813
+2014-02-21 09:54:47 200 accounts make orders to StateServer, cost time: max=468.5595, min=21.5028, average=88.9863
+2014-02-21 09:55:27 200 accounts make orders to StateServer, cost time: max=168.5214, min=19.0024, average=57.174765
+2014-02-21 09:56:07 200 accounts make orders to StateServer, cost time: max=245.0311, min=21.0027, average=59.2475285
+2014-02-21 09:56:47 200 accounts make orders to StateServer, cost time: max=166.5211, min=20.0026, average=46.528404
+2014-02-21 09:57:27 200 accounts make orders to StateServer, cost time: max=192.5244, min=18.0023, average=51.839078
+2014-02-21 09:58:07 200 accounts make orders to StateServer, cost time: max=236.03, min=23.0029, average=62.587942
+2014-02-21 09:58:47 200 accounts make orders to StateServer, cost time: max=669.585, min=19.0024, average=73.5993475
+2014-02-21 09:59:27 200 accounts make orders to StateServer, cost time: max=661.584, min=19.5025, average=80.5302265
+2014-02-21 10:00:07 200 accounts make orders to StateServer, cost time: max=186.0236, min=17.5023, average=45.035723
+2014-02-21 10:00:47 200 accounts make orders to StateServer, cost time: max=129.0164, min=19.5025, average=42.990459
+2014-02-21 10:01:27 200 accounts make orders to StateServer, cost time: max=156.5199, min=20.5026, average=45.8383245
+2014-02-21 10:02:07 200 accounts make orders to StateServer, cost time: max=194.0246, min=20.5026, average=45.0807285
+2014-02-21 10:02:47 200 accounts make orders to StateServer, cost time: max=224.5285, min=20.0026, average=45.6658025
+2014-02-21 10:03:27 200 accounts make orders to StateServer, cost time: max=232.5295, min=20.0025, average=54.26439
+2014-02-21 10:04:07 200 accounts make orders to StateServer, cost time: max=233.5296, min=21.5027, average=47.0059655
+2014-02-21 10:04:47 200 accounts make orders to StateServer, cost time: max=212.527, min=18.5023, average=51.214005
+2014-02-21 10:05:27 200 accounts make orders to StateServer, cost time: max=146.0186, min=20.0025, average=42.2978685
+2014-02-21 10:06:07 200 accounts make orders to StateServer, cost time: max=317.5403, min=20.5026, average=51.121487
+2014-02-21 10:06:47 200 accounts make orders to StateServer, cost time: max=210.0266, min=19.0024, average=43.365507
+2014-02-21 10:07:27 200 accounts make orders to StateServer, cost time: max=184.0234, min=19.5025, average=49.093736
+2014-02-21 10:08:07 200 accounts make orders to StateServer, cost time: max=202.5257, min=21.5027, average=47.6910605
+2014-02-21 10:08:47 200 accounts make orders to StateServer, cost time: max=168.5214, min=21.0026, average=46.985972
+2014-02-21 10:09:27 200 accounts make orders to StateServer, cost time: max=218.0277, min=20.0025, average=53.3367685
+2014-02-21 10:10:07 200 accounts make orders to StateServer, cost time: max=225.0286, min=19.5025, average=43.7955585
+2014-02-21 10:13:38 200 accounts make orders to TraderServer, cost time: max=275.535, min=15.0019, average=48.9162175
+2014-02-21 10:14:18 200 accounts make orders to TraderServer, cost time: max=205.5261, min=14.0017, average=45.5607875
+2014-02-21 10:14:58 200 accounts make orders to TraderServer, cost time: max=232.0295, min=14.0018, average=36.6346525
+2014-02-21 10:15:38 200 accounts make orders to TraderServer, cost time: max=152.5194, min=14.0018, average=37.7322925
+2014-02-21 10:16:18 200 accounts make orders to TraderServer, cost time: max=440.0559, min=14.5018, average=41.925325
+2014-02-21 10:16:58 200 accounts make orders to TraderServer, cost time: max=271.5345, min=15.5019, average=54.0818715
+2014-02-21 10:17:38 200 accounts make orders to TraderServer, cost time: max=228.529, min=16.5021, average=59.6375755
+2014-02-21 10:18:18 200 accounts make orders to TraderServer, cost time: max=301.5383, min=15.5019, average=42.570405
+2014-02-21 10:18:58 200 accounts make orders to TraderServer, cost time: max=1393.677, min=15.5019, average=160.762914
+2014-02-21 10:19:38 200 accounts make orders to TraderServer, cost time: max=882.612, min=16.5021, average=155.937301
+2014-02-21 10:20:18 200 accounts make orders to TraderServer, cost time: max=575.073, min=13.0017, average=88.5187475
+2014-02-21 10:20:58 200 accounts make orders to TraderServer, cost time: max=179.5228, min=14.5019, average=47.268495
+2014-02-21 10:21:38 200 accounts make orders to TraderServer, cost time: max=157.0199, min=17.0021, average=47.526038
+2014-02-21 10:22:18 200 accounts make orders to TraderServer, cost time: max=256.0325, min=6.0007, average=62.257906
+2014-02-21 10:22:58 200 accounts make orders to TraderServer, cost time: max=637.0809, min=15.0019, average=80.160177
+2014-02-21 10:23:38 200 accounts make orders to TraderServer, cost time: max=273.0347, min=13.5017, average=66.7384745
+2014-02-21 10:24:18 200 accounts make orders to TraderServer, cost time: max=201.0255, min=14.5019, average=43.5380285
+2014-02-21 10:24:58 200 accounts make orders to TraderServer, cost time: max=127.5162, min=15.0019, average=45.485776
+2014-02-21 10:25:38 200 accounts make orders to TraderServer, cost time: max=144.0183, min=15.0019, average=43.3955085
+2014-02-21 10:26:18 200 accounts make orders to TraderServer, cost time: max=171.0217, min=13.5017, average=42.950451
+2014-02-21 10:26:58 200 accounts make orders to TraderServer, cost time: max=153.5195, min=15.502, average=36.0170735
+2014-02-21 10:27:38 200 accounts make orders to TraderServer, cost time: max=456.0579, min=15.0019, average=50.3688965
+2014-02-21 10:28:18 200 accounts make orders to TraderServer, cost time: max=215.5274, min=16.002, average=41.575276
+2014-02-21 10:28:58 200 accounts make orders to TraderServer, cost time: max=154.5196, min=14.5019, average=47.7285605
+2014-02-21 10:29:38 200 accounts make orders to TraderServer, cost time: max=232.0295, min=15.502, average=43.9305805
+2014-02-21 10:30:18 200 accounts make orders to TraderServer, cost time: max=183.5233, min=16.002, average=42.900442
+2014-02-21 10:30:58 200 accounts make orders to TraderServer, cost time: max=111.5142, min=17.0021, average=37.1897235
+2014-02-21 10:31:38 200 accounts make orders to TraderServer, cost time: max=391.5498, min=15.0019, average=50.3363935
+2014-02-21 10:32:18 200 accounts make orders to TraderServer, cost time: max=549.5698, min=14.0017, average=95.907184
+2014-02-21 10:32:58 200 accounts make orders to TraderServer, cost time: max=220.0279, min=13.0017, average=53.4817915
+2014-02-21 10:33:38 200 accounts make orders to TraderServer, cost time: max=209.0266, min=16.002, average=49.893837
+2014-02-21 10:34:18 200 accounts make orders to TraderServer, cost time: max=126.016, min=14.5018, average=36.732159
+2014-02-21 10:34:58 200 accounts make orders to TraderServer, cost time: max=318.5404, min=15.0019, average=40.1375955
+2014-02-21 10:35:38 200 accounts make orders to TraderServer, cost time: max=169.5215, min=15.0019, average=39.2899925
+2014-02-21 10:36:18 200 accounts make orders to TraderServer, cost time: max=648.5824, min=15.0019, average=55.2595165
+2014-02-21 10:36:58 200 accounts make orders to TraderServer, cost time: max=179.0227, min=17.0021, average=44.7956885
+2014-02-21 10:37:38 200 accounts make orders to TraderServer, cost time: max=123.0156, min=14.5018, average=37.9448205
+2014-02-21 10:38:18 200 accounts make orders to TraderServer, cost time: max=283.536, min=13.5017, average=38.4823865
+2014-02-21 10:38:58 200 accounts make orders to TraderServer, cost time: max=130.0165, min=14.0018, average=39.2299855
+2014-02-21 10:39:38 200 accounts make orders to TraderServer, cost time: max=94.512, min=14.0018, average=36.3871205
+2014-02-21 10:40:18 200 accounts make orders to TraderServer, cost time: max=292.5371, min=16.002, average=42.252868
+2014-02-21 10:40:58 200 accounts make orders to TraderServer, cost time: max=148.0188, min=14.5018, average=41.175232
+2014-02-21 10:41:38 200 accounts make orders to TraderServer, cost time: max=151.0192, min=15.0019, average=39.8800635
+2014-02-21 10:42:18 200 accounts make orders to TraderServer, cost time: max=106.0134, min=14.5018, average=34.8644225
+2014-02-21 10:42:58 200 accounts make orders to TraderServer, cost time: max=643.0817, min=14.5018, average=60.690204
+2014-02-21 10:43:38 200 accounts make orders to TraderServer, cost time: max=297.5378, min=14.0018, average=51.3115195
+2014-02-21 10:44:18 200 accounts make orders to TraderServer, cost time: max=353.0448, min=13.5017, average=51.584054
+2014-02-21 10:44:58 200 accounts make orders to TraderServer, cost time: max=116.5148, min=14.5018, average=35.58452
+2014-02-21 10:45:38 200 accounts make orders to TraderServer, cost time: max=236.53, min=14.5018, average=37.1272135
+2014-02-21 10:46:18 200 accounts make orders to TraderServer, cost time: max=178.0226, min=14.5018, average=39.9400735
+2014-02-21 10:46:58 200 accounts make orders to TraderServer, cost time: max=234.5298, min=14.5019, average=49.53629
+2014-02-21 10:47:38 200 accounts make orders to TraderServer, cost time: max=224.0285, min=12.5016, average=45.775811
+2014-02-21 10:48:18 200 accounts make orders to TraderServer, cost time: max=261.0331, min=14.0018, average=42.192858
+2014-02-21 10:48:58 200 accounts make orders to TraderServer, cost time: max=250.0318, min=14.5018, average=51.3365145
+2014-02-21 10:49:38 200 accounts make orders to TraderServer, cost time: max=156.0199, min=14.5018, average=38.5399005
+2014-02-21 10:50:18 200 accounts make orders to TraderServer, cost time: max=247.5314, min=14.5018, average=47.0959785
+2014-02-21 10:50:58 200 accounts make orders to TraderServer, cost time: max=207.0263, min=13.5017, average=38.749921
+2014-02-21 10:51:38 200 accounts make orders to TraderServer, cost time: max=372.5473, min=14.5018, average=49.703808
+2014-02-21 10:52:18 200 accounts make orders to TraderServer, cost time: max=220.028, min=13.0016, average=41.1152145
+2014-02-21 10:52:58 200 accounts make orders to TraderServer, cost time: max=215.5273, min=15.502, average=42.940456
+2014-02-21 10:53:38 200 accounts make orders to TraderServer, cost time: max=161.0204, min=13.5017, average=40.6626665
+2014-02-21 10:54:18 200 accounts make orders to TraderServer, cost time: max=191.0243, min=13.0016, average=39.8850695
+2014-02-21 10:54:58 200 accounts make orders to TraderServer, cost time: max=134.5171, min=12.5016, average=37.422251
+2014-02-21 10:55:38 200 accounts make orders to TraderServer, cost time: max=178.5227, min=14.5018, average=46.673431
+2014-02-21 10:56:18 200 accounts make orders to TraderServer, cost time: max=165.521, min=13.5017, average=48.3036385
+2014-02-21 10:56:58 200 accounts make orders to TraderServer, cost time: max=687.0873, min=15.0019, average=78.815011
+2014-02-21 10:57:38 200 accounts make orders to TraderServer, cost time: max=128.5163, min=13.0016, average=39.2699895
+2014-02-21 10:58:18 200 accounts make orders to TraderServer, cost time: max=165.021, min=12.0016, average=39.9225675
+2014-02-21 10:58:58 200 accounts make orders to TraderServer, cost time: max=272.5346, min=15.0019, average=42.965456
+2014-02-21 10:59:38 200 accounts make orders to TraderServer, cost time: max=232.5295, min=14.0018, average=46.785938
+2014-02-21 11:00:18 200 accounts make orders to TraderServer, cost time: max=203.5259, min=13.5017, average=40.5401515
+2014-02-21 11:00:58 200 accounts make orders to TraderServer, cost time: max=258.5328, min=14.5018, average=41.9303285
+2014-02-21 11:01:38 200 accounts make orders to TraderServer, cost time: max=233.5297, min=13.5017, average=39.309994
+2014-02-21 11:02:18 200 accounts make orders to TraderServer, cost time: max=319.5405, min=13.5017, average=43.8680745
+2014-02-21 11:02:58 200 accounts make orders to TraderServer, cost time: max=250.5318, min=13.5017, average=44.228121
+2014-02-21 11:03:38 200 accounts make orders to TraderServer, cost time: max=289.0367, min=14.0018, average=41.9853305
+2014-02-21 11:04:18 200 accounts make orders to TraderServer, cost time: max=163.5208, min=14.5018, average=35.3469945
+2014-02-21 11:04:58 200 accounts make orders to TraderServer, cost time: max=195.5248, min=14.0018, average=42.1778605
+2014-02-21 11:05:38 200 accounts make orders to TraderServer, cost time: max=158.5201, min=13.5017, average=42.365377
+2014-02-21 11:06:18 200 accounts make orders to TraderServer, cost time: max=287.0365, min=13.5017, average=44.613165
+2014-02-21 11:06:58 200 accounts make orders to TraderServer, cost time: max=138.5176, min=12.5016, average=37.32724
+2014-02-21 11:07:38 200 accounts make orders to TraderServer, cost time: max=176.5224, min=14.5018, average=45.01322
+2014-02-21 11:08:18 200 accounts make orders to TraderServer, cost time: max=151.0192, min=15.5019, average=42.560404
+2014-02-21 11:08:58 200 accounts make orders to TraderServer, cost time: max=124.5158, min=15.0019, average=37.5622715
+2014-02-21 11:09:38 200 accounts make orders to TraderServer, cost time: max=250.0317, min=13.5017, average=36.2170965
+2014-02-21 11:10:18 200 accounts make orders to TraderServer, cost time: max=200.0254, min=15.0019, average=42.5904055
+2014-02-21 11:20:34 200 accounts make orders to MockOrder, cost time: max=34.5044, min=0, average=0.4700595
+2014-02-21 11:21:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:21:54 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:22:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:23:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:23:54 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0050005
+2014-02-21 11:24:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:25:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:25:54 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:26:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:27:14 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:27:54 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:28:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:29:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:29:54 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:30:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:31:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:31:54 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:32:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:33:14 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:33:54 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:34:34 200 accounts make orders to MockOrder, cost time: max=0.5, min=0, average=0.0025
+2014-02-21 11:35:14 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0050005
+2014-02-21 11:35:54 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:36:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:37:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:37:54 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:38:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:39:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:39:54 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0050005
+2014-02-21 11:40:34 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:41:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:41:54 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:42:34 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.005001
+2014-02-21 11:43:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:43:54 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.005001
+2014-02-21 11:44:34 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:45:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:45:54 200 accounts make orders to MockOrder, cost time: max=0.5, min=0, average=0.005
+2014-02-21 11:46:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:47:14 200 accounts make orders to MockOrder, cost time: max=0.5, min=0, average=0.005
+2014-02-21 11:47:54 200 accounts make orders to MockOrder, cost time: max=0.5, min=0, average=0.005
+2014-02-21 11:48:34 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:49:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:49:54 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:50:34 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:51:14 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:51:54 200 accounts make orders to MockOrder, cost time: max=0, min=0, average=0
+2014-02-21 11:52:34 200 accounts make orders to MockOrder, cost time: max=0.5001, min=0, average=0.0025005
+2014-02-21 11:58:11 200 accounts make orders to TraderServer, cost time: max=353.5449, min=14.5018, average=75.3295645, total=15065.9129
+2014-02-21 11:58:51 200 accounts make orders to TraderServer, cost time: max=180.5229, min=14.0018, average=46.3433815, total=9268.6763
+2014-02-21 11:59:31 200 accounts make orders to TraderServer, cost time: max=253.0321, min=14.0017, average=55.3895354999999, total=11077.9071
+2014-02-21 12:00:59 200 accounts make orders to TraderServer, cost time: max=231.0293, min=14.5019, average=45.990838, total=9198.1676
+2014-02-21 12:01:39 200 accounts make orders to TraderServer, cost time: max=276.5351, min=13.5017, average=50.2663845, total=10053.2769
+2014-02-21 12:02:19 200 accounts make orders to TraderServer, cost time: max=170.5216, min=13.5017, average=46.3383825, total=9267.6765
+2014-02-21 12:02:59 200 accounts make orders to TraderServer, cost time: max=202.0256, min=15.0019, average=51.346516, total=10269.3032
+2014-02-21 12:03:39 200 accounts make orders to TraderServer, cost time: max=218.5278, min=14.0017, average=49.8513295, total=9970.2659
+2014-02-21 12:04:19 200 accounts make orders to TraderServer, cost time: max=287.0365, min=14.0018, average=39.4675115, total=7893.5023
+2014-02-21 12:04:59 200 accounts make orders to TraderServer, cost time: max=136.0173, min=14.5018, average=40.100088, total=8020.0176
+2014-02-21 12:05:39 200 accounts make orders to TraderServer, cost time: max=144.5183, min=13.5017, average=40.6426585, total=8128.5317
+2014-02-21 12:06:19 200 accounts make orders to TraderServer, cost time: max=144.5184, min=13.5017, average=46.0908475, total=9218.1695
+2014-02-21 12:06:59 200 accounts make orders to TraderServer, cost time: max=304.0386, min=14.5018, average=60.0776295, total=12015.5259
+2014-02-21 12:07:39 200 accounts make orders to TraderServer, cost time: max=191.5244, min=13.0017, average=45.728305, total=9145.661
+2014-02-21 12:08:19 200 accounts make orders to TraderServer, cost time: max=367.5467, min=13.5017, average=55.549558, total=11109.9116
+2014-02-21 12:08:59 200 accounts make orders to TraderServer, cost time: max=327.5415, min=14.5018, average=52.0916115, total=10418.3223
+2014-02-21 12:09:39 200 accounts make orders to TraderServer, cost time: max=170.5216, min=13.0017, average=47.908584, total=9581.7168
+2014-02-21 12:10:19 200 accounts make orders to TraderServer, cost time: max=151.0191, min=15.0019, average=47.318508, total=9463.7016
+2014-02-21 12:10:59 200 accounts make orders to TraderServer, cost time: max=160.5204, min=14.0017, average=46.238369, total=9247.6738
+2014-02-21 12:11:39 200 accounts make orders to TraderServer, cost time: max=1071.136, min=12.5016, average=221.095576, total=44219.1152
+2014-02-21 12:12:19 200 accounts make orders to TraderServer, cost time: max=166.021, min=12.5016, average=41.347751, total=8269.5502
+2014-02-21 12:12:59 200 accounts make orders to TraderServer, cost time: max=267.534, min=13.5017, average=76.7472449999999, total=15349.449
+2014-02-21 12:13:39 200 accounts make orders to TraderServer, cost time: max=278.0354, min=14.5019, average=51.4690395, total=10293.8079
+2014-02-21 12:14:19 200 accounts make orders to TraderServer, cost time: max=211.0268, min=14.5018, average=66.645963, total=13329.1926
+2014-02-21 12:14:59 200 accounts make orders to TraderServer, cost time: max=164.5209, min=14.0017, average=48.1061105, total=9621.2221
+2014-02-21 12:15:39 200 accounts make orders to TraderServer, cost time: max=184.0234, min=14.0017, average=40.985203, total=8197.04059999999
+2014-02-21 12:16:19 200 accounts make orders to TraderServer, cost time: max=143.0182, min=13.0016, average=42.057845, total=8411.569
+2014-02-21 12:16:59 200 accounts make orders to TraderServer, cost time: max=147.0186, min=13.0016, average=41.045204, total=8209.0408
+2014-02-21 12:17:39 200 accounts make orders to TraderServer, cost time: max=154.0196, min=14.0018, average=48.431144, total=9686.2288
+2014-02-21 12:18:19 200 accounts make orders to TraderServer, cost time: max=229.5292, min=13.0017, average=52.166618, total=10433.3236
+2014-02-21 12:18:59 200 accounts make orders to TraderServer, cost time: max=134.017, min=13.0016, average=44.7381845, total=8947.63690000001
+2014-02-21 12:19:39 200 accounts make orders to TraderServer, cost time: max=593.0753, min=13.5017, average=57.904854, total=11580.9708
+2014-02-21 12:20:19 200 accounts make orders to TraderServer, cost time: max=237.5301, min=14.0018, average=53.466789, total=10693.3578
+2014-02-21 12:20:59 200 accounts make orders to TraderServer, cost time: max=1001.1272, min=16.002, average=218.317721, total=43663.5442
+2014-02-21 12:21:39 200 accounts make orders to TraderServer, cost time: max=334.5425, min=13.5017, average=47.606049, total=9521.2098
+2014-02-21 12:22:19 200 accounts make orders to TraderServer, cost time: max=380.0482, min=14.0017, average=50.918963, total=10183.7926
+2014-02-21 12:22:59 200 accounts make orders to TraderServer, cost time: max=135.0172, min=14.0018, average=39.3399955, total=7867.9991
+2014-02-21 12:23:39 200 accounts make orders to TraderServer, cost time: max=189.024, min=13.5017, average=41.8428145, total=8368.56290000001
+2014-02-21 12:24:19 200 accounts make orders to TraderServer, cost time: max=192.5244, min=14.5018, average=46.105854, total=9221.1708
+2014-02-21 12:24:59 200 accounts make orders to TraderServer, cost time: max=178.0227, min=13.5017, average=38.4623815, total=7692.47630000001
+2014-02-21 12:25:39 200 accounts make orders to TraderServer, cost time: max=196.5249, min=14.0018, average=49.7738165, total=9954.7633
+2014-02-21 12:26:19 200 accounts make orders to TraderServer, cost time: max=441.5561, min=14.0017, average=45.385766, total=9077.15320000001
+2014-02-21 12:26:59 200 accounts make orders to TraderServer, cost time: max=176.0224, min=14.5018, average=43.365504, total=8673.1008
+2014-02-21 12:27:39 200 accounts make orders to TraderServer, cost time: max=153.0194, min=14.0018, average=51.088989, total=10217.7978
+2014-02-21 12:28:19 200 accounts make orders to TraderServer, cost time: max=264.0335, min=13.0016, average=51.4615245, total=10292.3049
+2014-02-21 12:28:59 200 accounts make orders to TraderServer, cost time: max=177.5226, min=12.5016, average=51.521547, total=10304.3094
+2014-02-21 12:29:39 200 accounts make orders to TraderServer, cost time: max=153.0195, min=13.5018, average=42.30037, total=8460.074
+2014-02-21 12:30:19 200 accounts make orders to TraderServer, cost time: max=325.0413, min=14.5019, average=48.7061825, total=9741.2365
+2014-02-21 12:30:59 200 accounts make orders to TraderServer, cost time: max=142.5181, min=13.5017, average=43.2004865, total=8640.0973
+2014-02-21 12:31:39 200 accounts make orders to TraderServer, cost time: max=133.5169, min=14.0017, average=37.597277, total=7519.45540000001
+2014-02-21 12:32:19 200 accounts make orders to TraderServer, cost time: max=168.0213, min=12.5016, average=48.0010945, total=9600.2189
+2014-02-21 12:32:59 200 accounts make orders to TraderServer, cost time: max=206.0261, min=14.0018, average=45.4032625, total=9080.6525
+2014-02-21 12:33:39 200 accounts make orders to TraderServer, cost time: max=301.5382, min=13.5017, average=50.616433, total=10123.2866
+2014-02-21 12:34:19 200 accounts make orders to TraderServer, cost time: max=261.5332, min=13.5017, average=44.82819, total=8965.638
+2014-02-21 12:34:59 200 accounts make orders to TraderServer, cost time: max=235.5299, min=14.0017, average=46.798438, total=9359.6876
+2014-02-21 12:35:39 200 accounts make orders to TraderServer, cost time: max=145.5185, min=13.5017, average=37.9148165, total=7582.9633
+2014-02-21 12:36:19 200 accounts make orders to TraderServer, cost time: max=133.517, min=13.0016, average=35.381992, total=7076.3984
+2014-02-21 12:36:59 200 accounts make orders to TraderServer, cost time: max=1027.6305, min=13.5017, average=78.504976, total=15700.9952
+2014-02-21 12:37:39 200 accounts make orders to TraderServer, cost time: max=326.0414, min=13.0016, average=55.5495555, total=11109.9111
+2014-02-21 12:38:19 200 accounts make orders to TraderServer, cost time: max=131.5167, min=13.0017, average=42.050338, total=8410.06760000001
+2014-02-21 12:38:59 200 accounts make orders to TraderServer, cost time: max=285.5363, min=13.5017, average=55.407036, total=11081.4072
+2014-02-21 12:39:39 200 accounts make orders to TraderServer, cost time: max=320.0407, min=15.0019, average=53.939346, total=10787.8692
+2014-02-21 12:40:19 200 accounts make orders to TraderServer, cost time: max=197.5251, min=14.5019, average=41.077716, total=8215.5432
+2014-02-21 12:40:59 200 accounts make orders to TraderServer, cost time: max=161.0205, min=14.5018, average=42.7204235, total=8544.0847
+2014-02-21 12:41:39 200 accounts make orders to TraderServer, cost time: max=384.0488, min=15.5019, average=62.482938, total=12496.5876
+2014-02-21 12:42:19 200 accounts make orders to TraderServer, cost time: max=149.5189, min=13.5017, average=44.358134, total=8871.6268
+2014-02-21 12:42:59 200 accounts make orders to TraderServer, cost time: max=125.0159, min=14.0017, average=40.122593, total=8024.5186
+2014-02-21 12:43:39 200 accounts make orders to TraderServer, cost time: max=160.5204, min=13.5017, average=38.0723345, total=7614.4669
+2014-02-21 12:44:19 200 accounts make orders to TraderServer, cost time: max=237.5302, min=13.0017, average=46.5159025, total=9303.1805
+2014-02-21 12:44:59 200 accounts make orders to TraderServer, cost time: max=113.5144, min=13.5018, average=42.4653935, total=8493.0787
+2014-02-21 12:45:39 200 accounts make orders to TraderServer, cost time: max=253.5322, min=14.0018, average=45.8383195, total=9167.6639
+2014-02-21 12:46:19 200 accounts make orders to TraderServer, cost time: max=192.5244, min=13.5017, average=41.7853055, total=8357.0611
+2014-02-21 12:46:59 200 accounts make orders to TraderServer, cost time: max=313.0397, min=14.0018, average=55.1720015, total=11034.4003
+2014-02-21 12:47:39 200 accounts make orders to TraderServer, cost time: max=490.0622, min=14.5018, average=57.782338, total=11556.4676
+2014-02-21 12:48:19 200 accounts make orders to TraderServer, cost time: max=139.0177, min=13.0017, average=41.4002585, total=8280.0517
+2014-02-21 12:48:59 200 accounts make orders to TraderServer, cost time: max=439.0557, min=14.0018, average=62.5454420000001, total=12509.0884
+2014-02-21 12:49:39 200 accounts make orders to TraderServer, cost time: max=172.0218, min=14.0018, average=40.585148, total=8117.0296
+2014-02-21 12:50:19 200 accounts make orders to TraderServer, cost time: max=140.5179, min=13.5017, average=38.3673745, total=7673.4749
+2014-02-21 12:50:59 200 accounts make orders to TraderServer, cost time: max=252.5321, min=14.0018, average=50.9414685, total=10188.2937
+2014-02-21 12:51:39 200 accounts make orders to TraderServer, cost time: max=214.0272, min=15.002, average=50.4089055, total=10081.7811
+2014-02-21 12:52:19 200 accounts make orders to TraderServer, cost time: max=191.5243, min=15.502, average=45.3532605, total=9070.6521
+2014-02-21 12:52:59 200 accounts make orders to TraderServer, cost time: max=263.0334, min=15.5019, average=51.061487, total=10212.2974
+2014-02-21 12:53:39 200 accounts make orders to TraderServer, cost time: max=147.5188, min=15.5019, average=40.252612, total=8050.5224
+2014-02-21 12:54:19 200 accounts make orders to TraderServer, cost time: max=700.0889, min=15.0019, average=51.0714805, total=10214.2961
+2014-02-21 12:54:59 200 accounts make orders to TraderServer, cost time: max=244.5311, min=14.5018, average=52.041615, total=10408.323
+2014-02-21 12:55:39 200 accounts make orders to TraderServer, cost time: max=205.026, min=14.5019, average=45.1932385, total=9038.6477
+2014-02-21 12:56:19 200 accounts make orders to TraderServer, cost time: max=202.0256, min=14.5018, average=54.974482, total=10994.8964
+2014-02-21 12:56:59 200 accounts make orders to TraderServer, cost time: max=92.0117, min=14.5018, average=35.0219455, total=7004.3891
+2014-02-21 12:57:39 200 accounts make orders to TraderServer, cost time: max=143.0181, min=14.0018, average=45.6182935, total=9123.65870000001
+2014-02-21 12:58:19 200 accounts make orders to TraderServer, cost time: max=546.5694, min=14.5018, average=88.2362065, total=17647.2413
+2014-02-21 12:58:59 200 accounts make orders to TraderServer, cost time: max=224.0284, min=16.002, average=46.8934505, total=9378.6901
+2014-02-21 12:59:39 200 accounts make orders to TraderServer, cost time: max=171.0217, min=15.0019, average=41.5227745, total=8304.5549
+2014-02-21 13:00:19 200 accounts make orders to TraderServer, cost time: max=172.0218, min=14.0017, average=44.3756325, total=8875.1265
+2014-02-21 13:00:59 200 accounts make orders to TraderServer, cost time: max=509.5647, min=15.5019, average=63.7530975, total=12750.6195
+2014-02-21 13:01:39 200 accounts make orders to TraderServer, cost time: max=175.5222, min=14.0017, average=47.9235815, total=9584.71630000001
+2014-02-21 13:02:19 200 accounts make orders to TraderServer, cost time: max=266.0338, min=14.5018, average=42.2153595, total=8443.0719
+2014-02-21 13:02:59 200 accounts make orders to TraderServer, cost time: max=195.5248, min=14.5018, average=34.33686, total=6867.372
+2014-02-21 13:03:39 200 accounts make orders to TraderServer, cost time: max=133.0169, min=14.0018, average=43.3455035, total=8669.1007
+2014-02-21 13:04:19 200 accounts make orders to TraderServer, cost time: max=265.0336, min=15.0019, average=46.055846, total=9211.1692
+2014-02-21 13:04:59 200 accounts make orders to TraderServer, cost time: max=211.5269, min=12.5016, average=42.36038, total=8472.076
+2014-02-21 13:05:39 200 accounts make orders to TraderServer, cost time: max=189.5241, min=15.0019, average=41.747802, total=8349.5604
+2014-02-21 13:06:19 200 accounts make orders to TraderServer, cost time: max=140.5178, min=14.0018, average=39.4600145, total=7892.0029
+2014-02-21 13:06:59 200 accounts make orders to TraderServer, cost time: max=143.5182, min=14.5019, average=37.7797975, total=7555.9595
+2014-02-21 13:07:39 200 accounts make orders to TraderServer, cost time: max=539.5685, min=15.0019, average=114.672064, total=22934.4128
+2014-02-21 13:08:19 200 accounts make orders to TraderServer, cost time: max=186.0236, min=14.5019, average=42.0053315, total=8401.0663
+2014-02-21 13:08:59 200 accounts make orders to TraderServer, cost time: max=187.5238, min=14.5019, average=42.20036, total=8440.072
+2014-02-21 13:09:39 200 accounts make orders to TraderServer, cost time: max=246.0312, min=14.0018, average=40.10759, total=8021.518
+2014-02-21 13:10:19 200 accounts make orders to TraderServer, cost time: max=205.0261, min=14.0018, average=35.6970375, total=7139.4075
+2014-02-21 13:10:59 200 accounts make orders to TraderServer, cost time: max=151.0192, min=14.5018, average=40.4151305, total=8083.0261
+2014-02-21 13:11:39 200 accounts make orders to TraderServer, cost time: max=130.5166, min=14.5018, average=34.9044305, total=6980.8861
+2014-02-21 13:12:19 200 accounts make orders to TraderServer, cost time: max=125.5159, min=16.002, average=43.565526, total=8713.10520000001
+2014-02-21 13:12:59 200 accounts make orders to TraderServer, cost time: max=269.0342, min=13.5017, average=40.2826125, total=8056.5225
+2014-02-21 13:13:39 200 accounts make orders to TraderServer, cost time: max=303.0385, min=13.5017, average=46.505904, total=9301.1808
+2014-02-21 13:14:19 200 accounts make orders to TraderServer, cost time: max=230.5293, min=15.5019, average=42.4728905, total=8494.57810000001
+2014-02-21 13:14:59 200 accounts make orders to TraderServer, cost time: max=244.531, min=14.0017, average=45.428269, total=9085.6538
+2014-02-21 13:15:39 200 accounts make orders to TraderServer, cost time: max=271.0344, min=14.5018, average=44.3581275, total=8871.6255
+2014-02-21 13:16:19 200 accounts make orders to TraderServer, cost time: max=161.5206, min=14.0018, average=40.110096, total=8022.0192
+2014-02-21 13:16:59 200 accounts make orders to TraderServer, cost time: max=1047.6331, min=14.0018, average=64.8707345, total=12974.1469
+2014-02-21 13:17:39 200 accounts make orders to TraderServer, cost time: max=201.0255, min=13.5017, average=40.615154, total=8123.0308
+2014-02-21 13:18:19 200 accounts make orders to TraderServer, cost time: max=194.0246, min=15.0019, average=39.462507, total=7892.50140000001
+2014-02-21 13:18:59 200 accounts make orders to TraderServer, cost time: max=141.518, min=15.0019, average=41.850313, total=8370.0626
+2014-02-21 13:19:39 200 accounts make orders to TraderServer, cost time: max=303.5386, min=14.5018, average=46.3808935, total=9276.1787
+2014-02-21 13:20:19 200 accounts make orders to TraderServer, cost time: max=275.535, min=14.0018, average=49.563794, total=9912.75880000001
+2014-02-21 13:20:59 200 accounts make orders to TraderServer, cost time: max=306.5389, min=14.5019, average=55.9996075, total=11199.9215
+2014-02-21 13:21:39 200 accounts make orders to TraderServer, cost time: max=671.5853, min=13.0017, average=42.420388, total=8484.0776
+2014-02-21 13:22:19 199 accounts make orders to TraderServer, cost time: max=121.5154, min=14.0017, average=37.3967, total=7441.9433
+2014-02-21 13:22:59 199 accounts make orders to TraderServer, cost time: max=234.5297, min=14.0018, average=43.3648025125628, total=8629.5957
+2014-02-21 13:23:39 199 accounts make orders to TraderServer, cost time: max=150.019, min=13.5017, average=39.6005010050251, total=7880.4997
+2014-02-21 13:24:19 199 accounts make orders to TraderServer, cost time: max=197.5251, min=13.5017, average=46.4430819095478, total=9242.1733
+2014-02-21 13:24:59 199 accounts make orders to TraderServer, cost time: max=177.5226, min=12.5016, average=41.0881301507538, total=8176.5379
+2014-02-21 13:25:39 199 accounts make orders to TraderServer, cost time: max=131.5167, min=15.0019, average=36.5925879396985, total=7281.925
+2014-02-21 13:26:19 200 accounts make orders to TraderServer, cost time: max=167.0212, min=14.0018, average=39.342499, total=7868.4998
+2014-02-21 13:26:59 200 accounts make orders to TraderServer, cost time: max=204.526, min=14.5018, average=43.495524, total=8699.1048
+2014-02-21 13:27:39 200 accounts make orders to TraderServer, cost time: max=154.5196, min=13.0017, average=35.822047, total=7164.4094
+2014-02-21 13:28:19 200 accounts make orders to TraderServer, cost time: max=139.0176, min=13.5018, average=36.3721175, total=7274.4235
+2014-02-21 13:28:59 200 accounts make orders to TraderServer, cost time: max=134.5171, min=14.0017, average=38.332365, total=7666.473
+2014-02-21 13:29:39 200 accounts make orders to TraderServer, cost time: max=223.0283, min=15.0019, average=47.7935675, total=9558.7135
+2014-02-21 13:30:19 200 accounts make orders to TraderServer, cost time: max=209.0266, min=13.5017, average=38.362374, total=7672.4748
+2014-02-21 13:30:59 200 accounts make orders to TraderServer, cost time: max=146.5186, min=13.5017, average=38.0023245, total=7600.4649
+2014-02-21 13:31:39 198 accounts make orders to TraderServer, cost time: max=266.0337, min=15.0019, average=38.7625005050505, total=7674.9751
+2014-02-21 13:32:19 199 accounts make orders to TraderServer, cost time: max=219.0278, min=14.0018, average=37.6982547738694, total=7501.9527
+2014-02-21 13:32:59 199 accounts make orders to TraderServer, cost time: max=167.0213, min=13.5017, average=37.1655256281407, total=7395.9396
+2014-02-21 13:33:39 199 accounts make orders to TraderServer, cost time: max=213.027, min=12.5016, average=42.5807804020101, total=8473.5753
+2014-02-21 13:34:19 193 accounts make orders to TraderServer, cost time: max=310.0393, min=13.5017, average=52.1154305699482, total=10058.2781
+2014-02-21 13:34:59 198 accounts make orders to TraderServer, cost time: max=793.6008, min=14.0018, average=55.5247338383838, total=10993.8973
+2014-02-21 13:35:39 200 accounts make orders to TraderServer, cost time: max=109.0139, min=14.0017, average=32.8716725, total=6574.3345

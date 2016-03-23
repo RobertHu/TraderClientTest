@@ -1,0 +1,4 @@
+D:\VsProjects\ConsoleApplication16\ConsoleApplication16\bin\Debug\ConsoleApplication16.exe
+D:\VsProjects\ConsoleApplication16\ConsoleApplication16\bin\Debug\ConsoleApplication16.pdb
+D:\VsProjects\ConsoleApplication16\ConsoleApplication16\obj\x86\Debug\ConsoleApplication16.exe
+D:\VsProjects\ConsoleApplication16\ConsoleApplication16\obj\x86\Debug\ConsoleApplication16.pdb

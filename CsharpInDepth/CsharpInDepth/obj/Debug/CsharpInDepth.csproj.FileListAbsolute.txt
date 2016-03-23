@@ -1,0 +1,6 @@
+D:\VsProjects\CsharpInDepth\CsharpInDepth\bin\Debug\CsharpInDepth.exe.config
+D:\VsProjects\CsharpInDepth\CsharpInDepth\bin\Debug\CsharpInDepth.exe
+D:\VsProjects\CsharpInDepth\CsharpInDepth\bin\Debug\CsharpInDepth.pdb
+D:\VsProjects\CsharpInDepth\CsharpInDepth\obj\Debug\CsharpInDepth.csprojResolveAssemblyReference.cache
+D:\VsProjects\CsharpInDepth\CsharpInDepth\obj\Debug\CsharpInDepth.exe
+D:\VsProjects\CsharpInDepth\CsharpInDepth\obj\Debug\CsharpInDepth.pdb

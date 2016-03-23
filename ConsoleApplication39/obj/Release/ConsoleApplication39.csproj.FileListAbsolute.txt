@@ -1,0 +1,4 @@
+D:\VsProjects\ConsoleApplication39\bin\Release\ConsoleApplication39.exe
+D:\VsProjects\ConsoleApplication39\bin\Release\ConsoleApplication39.pdb
+D:\VsProjects\ConsoleApplication39\obj\Release\ConsoleApplication39.exe
+D:\VsProjects\ConsoleApplication39\obj\Release\ConsoleApplication39.pdb

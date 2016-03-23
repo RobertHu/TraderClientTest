@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Protocal.Physical" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Protocal.Physical" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/iExchange.Common" />
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Protocal" />
+  <xs:import schemaLocation="http://ws0210:8090/TransactionServer/Service/meta?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="PhysicalOrderData">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Protocal" base="q1:OrderData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DeliveryPart" nillable="true" type="tns:DeliveryPart" />
+          <xs:element minOccurs="0" name="InstalmentPart" nillable="true" type="tns:InstalmentPart" />
+          <xs:element minOccurs="0" name="PhysicalPaidAmount" type="xs:decimal" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="PhysicalTradeSide" type="q2:PhysicalTradeSide" />
+          <xs:element minOccurs="0" name="PhysicalValueMatureDay" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PhysicalOrderData" nillable="true" type="tns:PhysicalOrderData" />
+  <xs:complexType name="DeliveryPart">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DeliveryLockLot" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PhysicalRequestId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DeliveryPart" nillable="true" type="tns:DeliveryPart" />
+  <xs:complexType name="InstalmentPart">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DownPayment" type="xs:decimal" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="InstalmentFrequence" type="q3:InstalmentFrequence" />
+      <xs:element minOccurs="0" name="InstalmentPolicyId" type="ser:guid" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="InstalmentType" type="q4:InstalmentType" />
+      <xs:element minOccurs="0" name="Period" type="xs:int" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/iExchange.Common" minOccurs="0" name="RecalculateRateType" type="q5:RecalculateRateType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="InstalmentPart" nillable="true" type="tns:InstalmentPart" />
+  <xs:complexType name="ArrayOfOrderInstalmentData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OrderInstalmentData" nillable="true" type="tns:OrderInstalmentData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOrderInstalmentData" nillable="true" type="tns:ArrayOfOrderInstalmentData" />
+  <xs:complexType name="OrderInstalmentData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DebitInterest" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Interest" type="xs:decimal" />
+      <xs:element minOccurs="0" name="InterestRate" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OrderId" type="ser:guid" />
+      <xs:element minOccurs="0" name="PaidDateTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PaymentDateTimeOnPlan" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Principal" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Sequence" type="xs:int" />
+      <xs:element minOccurs="0" name="UpdatePersonId" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="UpdateTime" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OrderInstalmentData" nillable="true" type="tns:OrderInstalmentData" />
+</xs:schema>

@@ -1,0 +1,48 @@
+﻿<Account ID="" LastResetDay="">
+  <Balances>
+    <Balance CurrencyID = "" Value = "" TradeDay = "" />
+  </Balances>
+  <Instruments>
+    <Instrument ID="" LastResetDay=""  IsNormal="" Ask="" Bid="">
+      <ResetItems>
+        <ResetItem TradeDay="" ResetBalance="0" FloatingPL="" InterestPLNotValued="0" StoragePLNotValued="0" TradePLNotValued="0" Necessary="" />
+      </ResetItems>
+    </Instrument>
+  </Instruments>
+  <ResetOrders>
+    <Order ID="" IsBuy="True">
+      <Bills>
+        <Bill ID="" Value="" Type="12" TradeDay="" />
+        <Bill ID="" Value="" Type="13" TradeDay="" />
+        <Bill ID="" Value="" Type="14" TradeDay="" />
+        <Bill ID="" Value="" Type="15" TradeDay="" />
+      </Bills>
+    </Order>
+  </ResetOrders>
+  <Transactions>
+    <Transaction ID="">
+      <Orders>
+        <Order ID="" Phase="3">
+        </Order>
+      </Orders>
+    </Transaction>
+    <Transaction ID="">
+      <Orders>
+        <Order ID="">
+          <OrderRelations>
+            <OrderRelaiton ID="" OpenOrderId="" CloseOrderId="" ValueTime="" RateIn="" RateOut="" TargetDecimals="" />
+          </OrderRelations>
+        </Order>
+      </Orders>
+    </Transaction>
+    <Transaction ID="">
+      <Orders>
+        <Order ID="" PaidPledgeBalance="">
+          <InstalmentDetails>
+            <InstalmentDetail Sequence="" Interest=""  Principal=""  DebitInterest="" PaidDateTime="" UpdateTime="" />
+          </InstalmentDetails>
+        </Order>
+      </Orders>
+    </Transaction>
+  </Transactions>
+</Account>

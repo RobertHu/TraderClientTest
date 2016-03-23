@@ -1,0 +1,10 @@
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingExceptionsUsingTryCatch\bin\Debug\HandlingExceptionsUsingTryCatch.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingExceptionsUsingTryCatch\bin\Debug\HandlingExceptionsUsingTryCatch.pdb
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingExceptionsUsingTryCatch\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingExceptionsUsingTryCatch\obj\x86\Debug\HandlingExceptionsUsingTryCatch.exe
+C:\Users\barbers\Desktop\Downloads\TasksArticle1\HandlingExceptionsUsingTryCatch\obj\x86\Debug\HandlingExceptionsUsingTryCatch.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingExceptionsUsingTryCatch\bin\Debug\HandlingExceptionsUsingTryCatch.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingExceptionsUsingTryCatch\bin\Debug\HandlingExceptionsUsingTryCatch.pdb
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingExceptionsUsingTryCatch\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingExceptionsUsingTryCatch\obj\x86\Debug\HandlingExceptionsUsingTryCatch.exe
+D:\VsProjects\TasksArticle1\TasksArticle1\HandlingExceptionsUsingTryCatch\obj\x86\Debug\HandlingExceptionsUsingTryCatch.pdb

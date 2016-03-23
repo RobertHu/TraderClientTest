@@ -1,0 +1,40 @@
+﻿<Window x:Class="SimpleSample.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="400" Width="400"
+    xmlns:ac="clr-namespace:AdornedControl;assembly=AdornedControl"
+    xmlns:local="clr-namespace:SimpleSample"
+    >
+    
+    <StackPanel>
+        <Button Click="Button_Click">Start/Stop Waiting</Button>
+        <ac:AdornedControl Name="LoadingAdorner"
+		        >
+            <ac:AdornedControl.AdornerContent>
+                <local:LoadingWait></local:LoadingWait>
+            </ac:AdornedControl.AdornerContent>
+            
+            <ListBox Name="ListBox1">
+                <ListBoxItem>Item 1</ListBoxItem>
+                <ListBoxItem>Item 2</ListBoxItem>
+                <ListBoxItem>Item 3</ListBoxItem>
+                <ListBoxItem>Item 4</ListBoxItem>
+                <ListBoxItem>Item 5</ListBoxItem>
+                <ListBoxItem>Item 6</ListBoxItem>
+                <ListBoxItem>Item 7</ListBoxItem>
+                <ListBoxItem>Item 8</ListBoxItem>
+                <ListBoxItem>Item 9</ListBoxItem>
+                <ListBoxItem>Item 10</ListBoxItem>
+                <ListBoxItem>Item 12</ListBoxItem>
+                <ListBoxItem>Item 13</ListBoxItem>
+                <ListBoxItem>Item 14</ListBoxItem>
+                <ListBoxItem>Item 15</ListBoxItem>
+                <ListBoxItem>Item 16</ListBoxItem>
+                <ListBoxItem>Item 17</ListBoxItem>
+                <ListBoxItem>Item 18</ListBoxItem>
+                <ListBoxItem>Item 19</ListBoxItem>
+            </ListBox>
+        	
+	        </ac:AdornedControl>    
+    </StackPanel>
+</Window>

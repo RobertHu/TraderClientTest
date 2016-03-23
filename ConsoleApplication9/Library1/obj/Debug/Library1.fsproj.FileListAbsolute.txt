@@ -1,0 +1,5 @@
+D:\VsProjects\ConsoleApplication9\Library1\bin\Debug\Library1.XML
+D:\VsProjects\ConsoleApplication9\Library1\bin\Debug\Library1.dll
+D:\VsProjects\ConsoleApplication9\Library1\bin\Debug\Library1.pdb
+D:\VsProjects\ConsoleApplication9\Library1\obj\Debug\Library1.dll
+D:\VsProjects\ConsoleApplication9\Library1\obj\Debug\Library1.pdb

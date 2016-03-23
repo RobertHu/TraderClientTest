@@ -1,0 +1,8 @@
+D:\VsProjects\CallLua\CallLua\bin\Debug\CallLua.exe.config
+D:\VsProjects\CallLua\CallLua\bin\Debug\CallLua.exe
+D:\VsProjects\CallLua\CallLua\bin\Debug\CallLua.pdb
+D:\VsProjects\CallLua\CallLua\bin\Debug\lua51.dll
+D:\VsProjects\CallLua\CallLua\bin\Debug\LuaInterface.dll
+D:\VsProjects\CallLua\CallLua\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\CallLua\CallLua\obj\x86\Debug\CallLua.exe
+D:\VsProjects\CallLua\CallLua\obj\x86\Debug\CallLua.pdb

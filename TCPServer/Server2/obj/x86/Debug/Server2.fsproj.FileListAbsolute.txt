@@ -1,0 +1,6 @@
+D:\VsProjects\TCPServer\Server2\bin\Debug\Server2.XML
+D:\VsProjects\TCPServer\Server2\bin\Debug\Server2.exe
+D:\VsProjects\TCPServer\Server2\bin\Debug\Server2.pdb
+D:\VsProjects\TCPServer\Server2\obj\x86\Debug\Server2.exe
+D:\VsProjects\TCPServer\Server2\obj\x86\Debug\Server2.pdb
+D:\VsProjects\TCPServer\Server2\obj\x86\Debug\Server2.fsprojResolveAssemblyReference.cache

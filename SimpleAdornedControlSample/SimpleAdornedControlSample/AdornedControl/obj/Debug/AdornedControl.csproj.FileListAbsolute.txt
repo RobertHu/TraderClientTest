@@ -1,0 +1,5 @@
+D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\AdornedControl\bin\Debug\AdornedControl.dll
+D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\AdornedControl\bin\Debug\AdornedControl.pdb
+D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\AdornedControl\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\AdornedControl\obj\Debug\AdornedControl.dll
+D:\VsProjects\SimpleAdornedControlSample\SimpleAdornedControlSample\AdornedControl\obj\Debug\AdornedControl.pdb

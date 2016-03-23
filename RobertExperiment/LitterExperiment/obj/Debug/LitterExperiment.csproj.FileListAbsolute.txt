@@ -1,0 +1,7 @@
+D:\VsProjects\RobertExperiment\LitterExperiment\bin\Debug\LitterExperiment.dll
+D:\VsProjects\RobertExperiment\LitterExperiment\bin\Debug\LitterExperiment.pdb
+D:\VsProjects\RobertExperiment\LitterExperiment\bin\Debug\nunit.framework.dll
+D:\VsProjects\RobertExperiment\LitterExperiment\bin\Debug\nunit.framework.xml
+D:\VsProjects\RobertExperiment\LitterExperiment\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\RobertExperiment\LitterExperiment\obj\Debug\LitterExperiment.dll
+D:\VsProjects\RobertExperiment\LitterExperiment\obj\Debug\LitterExperiment.pdb

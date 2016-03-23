@@ -1,0 +1,13 @@
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.ResourceLibrary.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Bin\WPF.RealTime.ResourceLibrary.pdb
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\Aero\Aero.NormalColor.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\Aero\SharedDictionary.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\Luna\Luna.Metallic.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\Luna\SharedDictionary.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\Royale\Royale.NormalColor.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\Royale\SharedDictionary.baml
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\WPF.RealTime.ResourceLibrary_MarkupCompile.cache
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\WPF.RealTime.ResourceLibrary.g.resources
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\WPF.RealTime.ResourceLibrary.dll
+D:\VsProjects\WPFRealTime\WPFRealTime\Src\Framework\WPF.RealTime.ResourceLibrary\obj\Debug\WPF.RealTime.ResourceLibrary.pdb
